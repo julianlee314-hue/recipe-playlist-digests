@@ -298,6 +298,19 @@ def ing_pills(r: dict) -> str:
     return "".join(pills)
 
 
+
+def format_views(r: dict) -> str:
+    """Return HTML for view count, or empty if unavailable."""
+    vc = r.get("view_count")
+    if vc is None:
+        return ""
+    try:
+        n = int(vc)
+    except (TypeError, ValueError):
+        return ""
+    return f'<span class="views">{n:,} views</span>'
+
+
 def render_recipe(r: dict) -> str:
     thin = "true" if r["thin"] else "false"
     req = sorted({i["name"] for i in r["ingredients"] if i.get("required")})
@@ -319,6 +332,8 @@ def render_recipe(r: dict) -> str:
             '<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>\n'
             f'<ul class="tool-list">{tool_lis}</ul></details>\n'
         )
+    views_html = format_views(r)
+    chef_views = f" · {views_html}" if views_html else ""
     yt = ""
     if r.get("youtube"):
         yt = (
@@ -329,7 +344,7 @@ def render_recipe(r: dict) -> str:
         f'<article class="recipe" id="{E(r["id"])}" data-num="{r["num"]}" data-title="{E(r["title"])}" '
         f'data-thin="{thin}" data-req-ings="{data_req}" data-all-ings="{data_all}" data-tools="{data_tools}">\n'
         f'<div class="head"><div class="head-row"><h2>{r["num"]}. {E(r["title"])}</h2>{thin_badge}</div>\n'
-        f'<p class="chef">{E(r["meta"])}</p>\n'
+        f'<p class="chef">{E(r["meta"])}{chef_views}</p>\n'
         f"{yt}</div>\n"
         f'<div class="grid">\n'
         f'<div class="flags">{allergy_flags(r)}</div>\n'
@@ -358,7 +373,7 @@ def render_not_recipe(r: dict) -> str:
         f'<article class="not-recipe" id="{E(r["id"])}" data-num="{r["num"]}">\n'
         f'<div class="nr-row"><h3>{r["num"]}. {E(r["title"])}</h3>'
         f'<span class="nr-badge">Set aside</span></div>\n'
-        f'<p class="nr-meta">{E(r.get("channel") or "")}</p>\n'
+        f'<p class="nr-meta">{E(r.get("channel") or "")}{(" · " + format_views(r)) if format_views(r) else ""}</p>\n'
         f'<p class="nr-why">{E(why)}</p>\n'
         f'<p class="nr-links">{yt}</p>\n'
         f"</article>"
