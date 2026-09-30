@@ -473,6 +473,7 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 
 <nav class="toc">
 <h2>Table of contents</h2>
+<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#tools-db">All tools</a> · <a href="#recipes-part">Recipes</a> · <a href="#ingredients">Ingredient glossary</a></p>
 <ol>{toc}</ol>
 </nav>
 
@@ -488,22 +489,8 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 <div class="ency-grid">{ency_pantry}</div>
 </div>
 
-<section class="part" id="ingredients">
-<h2>Part 0b — Ingredients Database</h2>
-<p>Universal ingredient list — near-duplicates grouped, with recipe counts.</p>
-</section>
-<div class="ency-ings" id="ingredients-body">
-<p class="ency-intro">One entry per ingredient. Salted butter folds under butter; light soy under soy sauce. Click a card to filter recipes that require it — or that do not.</p>
-<div class="ing-controls">
-<input type="search" placeholder="Search ingredients…" data-ing-search aria-label="Search ingredients"/>
-<div class="ing-chips">{chips}</div>
-</div>
-<div class="ing-stats"><span data-ing-count>{n_ing} ingredients shown</span> · {n} recipes indexed</div>
-<div class="ing-db">{ing_cards}</div>
-</div>
-
 <section class="part" id="tools-db">
-<h2>Part 0c — Tools Database</h2>
+<h2>Part 0b — Tools</h2>
 <p>Every tool named on the cards, with counts.</p>
 </section>
 <div class="ency-tools-db" id="tools-db-body">
@@ -538,6 +525,20 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 </div>
 
 {recipes_html}
+
+<section class="part" id="ingredients">
+<h2>Glossary — Ingredients</h2>
+<p>Every ingredient, at the back of the book. Counts, required versus optional, and the recipes that use each one.</p>
+</section>
+<div class="ency-ings" id="ingredients-body">
+<p class="ency-intro">One entry per ingredient. Salted butter folds under butter; light soy under soy sauce. The number is how many cards use it.</p>
+<div class="ing-controls">
+<input type="search" placeholder="Search the glossary…" data-ing-search aria-label="Search ingredients"/>
+<div class="ing-chips">{chips}</div>
+</div>
+<div class="ing-stats"><span data-ing-count>{n_ing} ingredients shown</span> · {n} recipes indexed</div>
+<div class="ing-db">{ing_cards}</div>
+</div>
 
 </div>
 <script>
