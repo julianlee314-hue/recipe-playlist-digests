@@ -1,8 +1,8 @@
 {
   "title": "YouTube Recipes — Playlist Digests",
   "description": "YouTube Recipes playlist cards — searchable ingredients and tools.",
-  "source": "Julius Recipes playlist cards 1–20",
-  "recipe_count": 20,
+  "source": "Julius Recipes playlist cards 1–30",
+  "recipe_count": 30,
   "recipes": [
     {
       "num": 1,
@@ -2729,81 +2729,1711 @@
         "legumes_optional": [],
         "incomplete": false
       }
+    },
+    {
+      "num": 21,
+      "id": "21-mongolian-chicken",
+      "title": "Mongolian Chicken",
+      "channel": "iamneverfull",
+      "time": "30 min",
+      "serves": "serves 2",
+      "meta": "iamneverfull · 30 min · serves 2",
+      "youtube": "https://youtu.be/k88KnzlDP1Q",
+      "extras": [
+        "https://iamneverfull.com/mongolian-chicken/"
+      ],
+      "remember": [
+        "Sear the chicken so the sauce has something to grab.",
+        "Dashi is the restaurant taste. Bouillon works if you have no dashi.",
+        "Char the onion and scallion whites before the sauce goes in."
+      ],
+      "do": [
+        "16 oz boneless skinless thighs, bite size. 1 tbsp Shaoxing, ½ tsp salt, 1 tbsp cornstarch. 15 min.",
+        "Sauce: 1 tbsp dark soy, 1 tbsp light soy, 1 tsp dashi, 3 tbsp water, 1½ tbsp sugar.",
+        "Medium-high oil. Sear chicken about 5 min. Out.",
+        "Same pan: 1 onion in chunks and scallion whites, 2–3 min, a little char.",
+        "Chicken back in with the sauce until it coats. Scallion greens at the end. Rice if you want it."
+      ],
+      "watch": [
+        "No dashi and it tastes flatter. Use bouillon or skip it, but know the difference.",
+        "A crowded pan will not brown.",
+        "Peanuts or cashews are a tip, not the dish. Skip the peanuts."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 5
+      },
+      "reaction": "1.4 million views. People want the takeout chicken without the batter.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "variant": "boneless skinless thighs",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "shaoxing wine",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "dark",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "light",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "dashi",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "scallion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "rice",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "peanuts",
+          "variant": null,
+          "required": false,
+          "legume": true,
+          "peanut": true
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": true,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [
+          "peanuts"
+        ],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 22,
+      "id": "22-beef-pot-roast-with-gravy",
+      "title": "Beef Pot Roast with Gravy",
+      "channel": "Sara · Nutrient Matters",
+      "time": "about 3 hr 40 min",
+      "serves": "servings unknown",
+      "meta": "Sara · Nutrient Matters · about 3 hr 40 min · servings unknown",
+      "youtube": "https://youtu.be/2P3amMdDNqE",
+      "extras": [
+        "https://nutrient-matters.com/recipe/beef-pot-roast-with-gravy/"
+      ],
+      "remember": [
+        "Sear it. The gravy lives on that fond.",
+        "325°F, covered, about 3 hours.",
+        "Strain the liquid and press the onion and garlic before you make gravy."
+      ],
+      "do": [
+        "Oven 325°F. 2 lb bottom blade roast. Montreal seasoning, salt, pepper.",
+        "Dutch oven, 2 tbsp beef tallow. Sear 5–7 min a side. Out.",
+        "Spanish onion 4–6 min. 4–6 garlic cloves 30–60 sec. 1 tbsp tomato paste 2–3 min.",
+        "Whisk 1 tbsp brown sugar, 1 tbsp soy, 1 tbsp ketchup, 1 tbsp apple cider vinegar. Deglaze.",
+        "Beef back in. 2 cups beef broth, 2 cups chicken broth, rosemary, thyme, 2 bay leaves. Cover. About 3 hours. Carrots in for the last 45–60 min.",
+        "Strain. Roux: 4 tbsp butter and 4 tbsp flour, 2–3 min, then 4 cups of that liquid. ½ tsp white pepper and a little browning sauce. Half the liquid means half the roux."
+      ],
+      "watch": [
+        "Burn the fond and the gravy is bitter.",
+        "Wrong roux ratio and it is paste or water.",
+        "Carrots in at the start go soft. Later they keep a bite."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 4
+      },
+      "reaction": "4.9 million views. Sunday meat. The gravy is why they replay it.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "beef",
+          "variant": "bottom blade roast",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "montreal seasoning",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef tallow",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": "Spanish",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "tomato paste",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "brown",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": null,
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "ketchup",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "apple cider vinegar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef stock / bone broth",
+          "variant": "beef broth",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken broth",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "rosemary",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "thyme",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bay leaf",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "carrot",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "flour",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "white pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "browning sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "Dutch oven",
+          "required": true
+        },
+        {
+          "name": "sieve",
+          "required": true
+        },
+        {
+          "name": "saucepan",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 23,
+      "id": "23-wet-burrito",
+      "title": "Wet Burrito",
+      "channel": "Zhane Williams",
+      "time": "bake 20 min",
+      "serves": "servings unknown",
+      "meta": "Zhane Williams · bake 20 min · servings unknown",
+      "youtube": "https://youtu.be/PMLF4cm8WSI",
+      "extras": [
+        "Partial. Description plus the spoken steps. Cheese amounts and tortilla count are not given."
+      ],
+      "remember": [
+        "Drain the fat, then add water so the seasoning doesn’t clump.",
+        "Refried beans go in the beef, not on the side.",
+        "375°F until the cheese is bubbling, about 20 min."
+      ],
+      "do": [
+        "Brown 1 lb ground beef with 2 packs taco seasoning. Drain the fat. Add water. Amount of water unknown.",
+        "Stir in 1 can refried beans.",
+        "Large flour tortillas. Beef, Mexican-blend cheese, mozzarella. Roll. Counts unknown.",
+        "More cheese, 2 cans enchilada sauce, more cheese.",
+        "375°F, about 20 min.",
+        "Lettuce, tomato, onion, sour cream, jalapeño, taco sauce."
+      ],
+      "watch": [
+        "Dry seasoning clumps without the water.",
+        "Neat rolls are not the point. He says messy is fine.",
+        "Cheese and sauce amounts are a guess if you follow only this clip."
+      ],
+      "scores": {
+        "taste": 7,
+        "nutrition": 4,
+        "unique": 3
+      },
+      "reaction": "398k views. A saucy burrito, not a precise one.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "beef",
+          "variant": "ground",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "taco seasoning",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "refried beans",
+          "variant": null,
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "flour tortilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mexican-blend cheese",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mozzarella",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "enchilada sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "lettuce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "tomato",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sour cream",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "jalapeño",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "taco sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "refried beans"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 24,
+      "id": "24-mexican-beef-stew-guisado-de-res",
+      "title": "Mexican Beef Stew (Guisado de Res)",
+      "channel": "Love Kari Cooking",
+      "time": "about 2 hr",
+      "serves": "servings unknown",
+      "meta": "Love Kari Cooking · about 2 hr · servings unknown",
+      "youtube": "https://youtu.be/jU5g7tPiXto",
+      "extras": [],
+      "remember": [
+        "Flour on all sides, then brown in batches.",
+        "Covered, low, about 1½ hours before the vegetables.",
+        "Potatoes and carrot go in for the last 20 min."
+      ],
+      "do": [
+        "2 lb chuck, cut. ¼ tsp cumin, 1 tsp cayenne, 1 tsp garlic powder, 1 tsp black pepper, 1 tsp paprika, 1 tsp salt. Coat with ¼ cup flour.",
+        "Oil, medium. Brown in batches, about 4 min a batch. Don’t crowd. Oil amount unknown.",
+        "Same pan: ½ white onion and 3 garlic, about 1 min. ½ red pepper and 1 Roma tomato until it gives juice.",
+        "2 tbsp tomato paste, 4 cups beef broth, 2 tsp bouillon, ½ tsp oregano crushed in your hand. Boil.",
+        "Meat back in, 2 bay leaves. Cover, low, 1½ hours.",
+        "2 potatoes and 1 carrot. Cover 20 min more. Rice and cilantro if you want them."
+      ],
+      "watch": [
+        "One crowded batch and the meat steams.",
+        "Potatoes in early and they dissolve.",
+        "Oil amount is not written. Use enough to brown, not to fry."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 5
+      },
+      "reaction": "2.2 million views. A weeknight stew that still takes the long simmer.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "beef",
+          "variant": "chuck",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cumin",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cayenne",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "paprika",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "flour",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": "white",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bell pepper",
+          "variant": "red",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "tomato",
+          "variant": "Roma",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "tomato paste",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef stock / bone broth",
+          "variant": "beef broth",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bouillon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oregano",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bay leaf",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "potato",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "carrot",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "rice",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cilantro / coriander",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "knife",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 25,
+      "id": "25-homemade-hamburger-helper",
+      "title": "Homemade Hamburger Helper",
+      "channel": "Just Lexx",
+      "time": "about 15 min on the pasta",
+      "serves": "serves 4–6",
+      "meta": "Just Lexx · about 15 min on the pasta · serves 4–6",
+      "youtube": "https://youtu.be/LqJ4Ve0AdJ4",
+      "extras": [],
+      "remember": [
+        "Campanelle, so the meat sits in the curls.",
+        "Lid on for about 15 min. That cooks the pasta.",
+        "Cheese after the pasta, then lid again."
+      ],
+      "do": [
+        "1.5 lb ground beef or turkey with ¼ cup green pepper and ¼ cup onion. Brown.",
+        "Garlic powder, onion powder, all-purpose seasoning, to taste. 1 tbsp tomato paste. 1 cup tomato sauce.",
+        "2 cups chicken or beef broth. Optional pinch of bouillon. 1 cup heavy cream. 3 cups Campanelle.",
+        "Cover about 15 min.",
+        "1–2 cups shredded cheese. Cover until it melts."
+      ],
+      "watch": [
+        "A big bowl looks like less food than it is. The title says family of 4 for about $10.",
+        "Powder amounts are “to taste.” Don’t invent teaspoons.",
+        "Chicken broth and beef broth are both allowed. They will not taste the same."
+      ],
+      "scores": {
+        "taste": 7,
+        "nutrition": 4,
+        "unique": 3
+      },
+      "reaction": "1.6 million views. Boxed-helper flavor, one pot.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "beef",
+          "variant": "ground, or turkey",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bell pepper",
+          "variant": "green",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "all-purpose seasoning",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "tomato paste",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pizza / marinara sauce",
+          "variant": "tomato sauce",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken broth",
+          "variant": "or beef broth",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bouillon",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "heavy cream",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pasta",
+          "variant": "Campanelle",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cheese",
+          "variant": "shredded",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "pot",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 26,
+      "id": "26-shepherds-pie",
+      "title": "Shepherd’s Pie",
+      "channel": "Sara · Nutrient Matters",
+      "time": "55 min",
+      "serves": "11×8 dish",
+      "meta": "Sara · Nutrient Matters · 55 min · 11×8 dish",
+      "youtube": "https://youtu.be/6aY90Olkd5I",
+      "extras": [
+        "https://nutrient-matters.com/recipe/shepherds-pie/"
+      ],
+      "remember": [
+        "Cook the flour in the beef fat. That is the thickener.",
+        "Egg yolks in the mash so it bakes creamy and still holds.",
+        "Fork ridges and extra Pecorino. That is the crust."
+      ],
+      "do": [
+        "Brown 2 lb minced beef with salt and pepper. Yellow onion and 1½ cups shredded carrot, 2–3 min. 3–4 garlic cloves, 60 sec.",
+        "2 tbsp tomato paste. 3 tbsp flour, 2–3 min. Add 1–2 tbsp oil if the beef was lean.",
+        "1½ tbsp soy, 1 heaping tbsp ketchup, 1½ tbsp white vinegar. 2½ cups broth (or water plus bouillon: 1 beef cube and ½ chicken). Rosemary, ½ tsp thyme, ½ tsp allspice. Cover, simmer about 10 min. 1 cup frozen peas for the last 5.",
+        "Oven 400°F. Boil 2½–3 lb yellow potatoes 10–15 min. Dry them in the pot. Mash with 1 stick butter, ½ cup warm heavy cream, ¾ cup Pecorino, 2 tsp parsley, ½ tsp garlic powder, 2 egg yolks. One line on the blog says milk. Use the cream.",
+        "Beef in an 11×8 dish. Mash on top. Fork plus a little olive oil. Pepper and more Pecorino.",
+        "20–25 min. Broil 2–3 min. Rest 5."
+      ],
+      "watch": [
+        "Spreading the mash hard stirs up the meat. Pipe it if you can.",
+        "Lean beef and the flour burns. Add the oil.",
+        "Watery mince needs longer than 10 min. The blog’s readers hit this."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 5,
+        "unique": 4
+      },
+      "reaction": "3.8 million views. Winter pie. People come back for the crust, not the mince.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "beef",
+          "variant": "minced",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": "yellow",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "carrot",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "tomato paste",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "flour",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": null,
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "ketchup",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "white vinegar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef stock / bone broth",
+          "variant": "broth, or water plus bouillon",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bouillon",
+          "variant": "beef cube",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken bouillon",
+          "variant": "½ chicken",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "rosemary",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "thyme",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "allspice",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "peas",
+          "variant": "frozen",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "potato",
+          "variant": "yellow",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "heavy cream",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pecorino",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "parsley",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": "yolks",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": "olive",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "milk",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "pot",
+          "required": true
+        },
+        {
+          "name": "masher / ricer",
+          "required": true
+        },
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "fork",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        },
+        {
+          "name": "piping bag",
+          "required": false
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce",
+          "peas"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 27,
+      "id": "27-banana-water",
+      "title": "Banana Water",
+      "channel": "Jose.elcook",
+      "time": "time unknown",
+      "serves": "a pitcher",
+      "meta": "Jose.elcook · time unknown · a pitcher",
+      "youtube": "https://youtu.be/OVElVWCYbxA",
+      "extras": [
+        "Partial. YouTube description is empty. Amounts come from his matching caption and the audio."
+      ],
+      "remember": [
+        "4 bananas. He jokes “three.” Use four.",
+        "Both cans: evaporated milk and sweetened condensed milk.",
+        "2 cups water in the blend, then ice in the pitcher."
+      ],
+      "do": [
+        "Blender: 4 semi-ripe bananas, 2 tsp cinnamon, 1 can evaporated milk, 1 can sweetened condensed milk, 1 tsp vanilla, ¼ tsp salt, 2 cups water.",
+        "Blend.",
+        "Pitcher over ice. Cinnamon and banana slices on top. More cinnamon if you want it."
+      ],
+      "watch": [
+        "The on-camera “three bananas” is a joke.",
+        "Can sizes are “one can,” not ounces.",
+        "Extra cinnamon past 2 tsp is him tasting, not the written amount."
+      ],
+      "scores": {
+        "taste": 7,
+        "nutrition": 3,
+        "unique": 7
+      },
+      "reaction": "7.3 million views. People watch because the name sounds wrong. It is a sweet blended drink.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "banana",
+          "variant": "semi-ripe",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cinnamon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "evaporated milk",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sweetened condensed milk",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ice",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "blender",
+          "required": true
+        },
+        {
+          "name": "pitcher",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 28,
+      "id": "28-bulgogi-ground-beef",
+      "title": "Bulgogi Ground Beef",
+      "channel": "iamneverfull",
+      "time": "15 min",
+      "serves": "serves 2",
+      "meta": "iamneverfull · 15 min · serves 2",
+      "youtube": "https://youtu.be/xsIsxMoFOjY",
+      "extras": [
+        "https://iamneverfull.com/bulgogi-ground-beef-recipe/"
+      ],
+      "remember": [
+        "Garlic and ginger in the oil first.",
+        "Dark soy and light soy together.",
+        "Cook until the sauce coats the beef."
+      ],
+      "do": [
+        "Medium oil. 3 garlic cloves and 1 tbsp grated ginger until they smell done.",
+        "1 lb ground beef. Break it up. Mostly browned.",
+        "1 tbsp dark soy, 2 tbsp light soy, 1 tbsp Shaoxing, 1 tsp sesame oil, 1½ tbsp brown sugar. Cook until thick.",
+        "Rice. Sesame, scallion, and a fried egg if you want them."
+      ],
+      "watch": [
+        "Skip the garlic and ginger and it is just sweet soy beef.",
+        "No Shaoxing: a splash of water is his substitute. The smell changes.",
+        "Pull it early and the sauce is soup. Pull it late and it is dry."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 5
+      },
+      "reaction": "482k views. Weeknight bulgogi. No marinade wait.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ginger",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef",
+          "variant": "ground",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "dark",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "light",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "shaoxing wine",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "brown",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "rice",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame seeds",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "scallion",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": "fried",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 29,
+      "id": "29-bourbon-chicken",
+      "title": "Bourbon Chicken",
+      "channel": "Foodiligence",
+      "time": "time unknown",
+      "serves": "2 lb thighs",
+      "meta": "Foodiligence · time unknown · 2 lb thighs",
+      "youtube": "https://youtu.be/FhIQLQ02zvs",
+      "extras": [
+        "The title says bourbon. The ingredient list has none."
+      ],
+      "remember": [
+        "Brown both sides. Do not cook the thighs through yet.",
+        "Reduce the sauce by half, then the slurry.",
+        "Scrape the fond. That is the flavor."
+      ],
+      "do": [
+        "Sauce: ⅓ cup soy, 1 tbsp hoisin, 1 tbsp ketchup, ½ cup apple juice, ¼ cup water, 1 tbsp apple cider vinegar, ⅓ cup light brown sugar, 1 inch ginger grated, 3 garlic cloves.",
+        "2 lb thighs. 1 tsp onion powder, 1 tsp garlic powder, 1 tsp paprika, black pepper. Pepper amount unknown.",
+        "Skillet, 1 tbsp oil. Brown both sides. Out.",
+        "Sauce in. Scrape. Reduce by half. 1 tbsp cornstarch in water. Water amount for the slurry unknown.",
+        "Chicken back in until cooked through."
+      ],
+      "watch": [
+        "Slurry before the reduction and the thickness is wrong.",
+        "No fond scrape and it is just sweet soy.",
+        "Don’t add bourbon to “fix” the title. It is not in his list."
+      ],
+      "scores": {
+        "taste": 7,
+        "nutrition": 5,
+        "unique": 4
+      },
+      "reaction": "1.1 million views. Mall-food chicken. The missing bourbon is the comment section.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "soy sauce",
+          "variant": null,
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "hoisin",
+          "variant": null,
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "ketchup",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "apple juice",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "apple cider vinegar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "light brown",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ginger",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken",
+          "variant": "thighs",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "paprika",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "skillet / pan",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce",
+          "hoisin"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 30,
+      "id": "30-japanese-hamburger-steak",
+      "title": "Japanese Hamburger Steak",
+      "channel": "Rina Takagi",
+      "time": "time unknown",
+      "serves": "serves unknown",
+      "meta": "Rina Takagi · time unknown · serves unknown",
+      "youtube": "https://youtu.be/mSZbnKUrI6o",
+      "extras": [
+        "Thin card. Empty description. No spoken amounts. What follows is what the frames show."
+      ],
+      "remember": [
+        "Cook the onion before it goes into the meat.",
+        "Two ground meats, mixed by hand.",
+        "A dent in each patty, and an ice cube in the dent while it fries."
+      ],
+      "do": [
+        "Slice onion. Sauté in a pan with spray oil until soft.",
+        "Mix that onion with two ground meats. A white base is in the bowl first. Not labeled. Amounts unknown.",
+        "Thick patties. About seven on the tray in the video. Not a rule.",
+        "Pan-fry in oil. Indent the center. Ice cube in the indent.",
+        "Brown. Dark sauce on the plate. Sauce ingredients unknown."
+      ],
+      "watch": [
+        "There are no weights. Do not scale this from the clip.",
+        "The sauce is not recoverable.",
+        "Don’t assume egg, milk, or panko. The white base is unlabeled."
+      ],
+      "scores": {
+        "taste": null,
+        "nutrition": null,
+        "unique": 6
+      },
+      "reaction": "15.7 million views. People stay for the ice cube. The recipe is not in the text.",
+      "thin": true,
+      "ingredients": [
+        {
+          "name": "onion",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": "spray",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef",
+          "variant": "two ground meats, unlabeled",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ice",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "knife",
+          "required": true
+        },
+        {
+          "name": "cutting board",
+          "required": true
+        },
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "oil spray",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "spatula",
+          "required": true
+        },
+        {
+          "name": "baking sheet",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": true
+      }
     }
   ],
   "ingredients": [
     {
-      "name": "sugar",
-      "variants": [
-        "brown",
-        "powdered",
-        "rock",
-        "white"
-      ],
-      "recipes_required": [
-        {
-          "id": "03-brown-butter-banana-bread-cookie-bars",
-          "title": "Brown Butter Banana Bread Cookie Bars",
-          "num": 3
-        },
-        {
-          "id": "06-fried-apple-hand-pies",
-          "title": "Fried Apple Hand Pies",
-          "num": 6
-        },
-        {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
-        },
-        {
-          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
-          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
-          "num": 10
-        },
-        {
-          "id": "12-egg-drop-soup",
-          "title": "Egg Drop Soup",
-          "num": 12
-        },
-        {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
-        },
-        {
-          "id": "18-burnt-basque-cheesecake",
-          "title": "Burnt Basque Cheesecake",
-          "num": 18
-        }
-      ],
-      "recipes_optional": [
-        {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
-        },
-        {
-          "id": "08-vanilla-burnt-basque-cheesecake",
-          "title": "Vanilla Burnt Basque Cheesecake",
-          "num": 8
-        },
-        {
-          "id": "19-offensive-banana-bread",
-          "title": "Offensive Banana Bread",
-          "num": 19
-        }
-      ],
-      "legume": false,
-      "peanut": false,
-      "category": "Pantry Staples",
-      "count": 10
-    },
-    {
       "name": "oil",
       "variants": [
         "high-smoke",
-        "neutral"
+        "neutral",
+        "olive",
+        "spray"
       ],
       "recipes_required": [
         {
@@ -2845,9 +4475,127 @@
           "id": "14-fried-cherry-hand-pies",
           "title": "Fried Cherry Hand Pies",
           "num": 14
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        },
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Oils & Fats",
+      "count": 15
+    },
+    {
+      "name": "sugar",
+      "variants": [
+        "brown",
+        "light brown",
+        "powdered",
+        "rock",
+        "white"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        },
         {
           "id": "19-offensive-banana-bread",
           "title": "Offensive Banana Bread",
@@ -2856,8 +4604,8 @@
       ],
       "legume": false,
       "peanut": false,
-      "category": "Oils & Fats",
-      "count": 9
+      "category": "Pantry Staples",
+      "count": 14
     },
     {
       "name": "salt",
@@ -2899,6 +4647,31 @@
           "id": "16-cheesy-baked-ziti",
           "title": "Cheesy Baked Ziti",
           "num": 16
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
         }
       ],
       "recipes_optional": [
@@ -2911,31 +4684,35 @@
       "legume": false,
       "peanut": false,
       "category": "Spices",
-      "count": 8
+      "count": 13
     },
     {
-      "name": "egg",
-      "variants": [],
+      "name": "onion",
+      "variants": [
+        "Spanish",
+        "white",
+        "yellow"
+      ],
       "recipes_required": [
         {
-          "id": "03-brown-butter-banana-bread-cookie-bars",
-          "title": "Brown Butter Banana Bread Cookie Bars",
-          "num": 3
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
         },
         {
-          "id": "06-fried-apple-hand-pies",
-          "title": "Fried Apple Hand Pies",
-          "num": 6
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
         },
         {
-          "id": "12-egg-drop-soup",
-          "title": "Egg Drop Soup",
-          "num": 12
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
         },
         {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
         },
         {
           "id": "16-cheesy-baked-ziti",
@@ -2943,22 +4720,47 @@
           "num": 16
         },
         {
-          "id": "18-burnt-basque-cheesecake",
-          "title": "Burnt Basque Cheesecake",
-          "num": 18
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
       "recipes_optional": [
         {
-          "id": "08-vanilla-burnt-basque-cheesecake",
-          "title": "Vanilla Burnt Basque Cheesecake",
-          "num": 8
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
         }
       ],
       "legume": false,
       "peanut": false,
       "category": "Aromatics & Produce",
-      "count": 7
+      "count": 12
     },
     {
       "name": "water",
@@ -2990,6 +4792,26 @@
           "id": "16-cheesy-baked-ziti",
           "title": "Cheesy Baked Ziti",
           "num": 16
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [
@@ -3007,7 +4829,307 @@
       "legume": false,
       "peanut": false,
       "category": "Pantry Staples",
-      "count": 7
+      "count": 11
+    },
+    {
+      "name": "beef",
+      "variants": [
+        "bottom blade roast",
+        "chuck",
+        "chuck roast 2–3 lb",
+        "ground",
+        "ground sirloin",
+        "ground, or turkey",
+        "mince",
+        "minced",
+        "two ground meats, unlabeled"
+      ],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 10
+    },
+    {
+      "name": "egg",
+      "variants": [
+        "fried",
+        "yolks"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 9
+    },
+    {
+      "name": "garlic",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 9
+    },
+    {
+      "name": "soy sauce",
+      "variants": [
+        "dark",
+        "light",
+        "light works but pale"
+      ],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [],
+      "legume": true,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 9
+    },
+    {
+      "name": "black pepper",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 8
     },
     {
       "name": "butter",
@@ -3043,6 +5165,16 @@
           "id": "15-italian-stromboli",
           "title": "Italian Stromboli",
           "num": 15
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
       "recipes_optional": [
@@ -3055,15 +5187,17 @@
       "legume": false,
       "peanut": false,
       "category": "Dairy",
-      "count": 6
+      "count": 8
     },
     {
       "name": "chicken",
       "variants": [
         "boneless skin-on thighs",
+        "boneless skinless thighs",
         "breast",
         "feet",
         "skin-on thighs",
+        "thighs",
         "whole"
       ],
       "recipes_required": [
@@ -3091,6 +5225,16 @@
           "id": "12-egg-drop-soup",
           "title": "Egg Drop Soup",
           "num": 12
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [
@@ -3103,7 +5247,7 @@
       "legume": false,
       "peanut": false,
       "category": "Proteins",
-      "count": 6
+      "count": 8
     },
     {
       "name": "cornstarch",
@@ -3138,13 +5282,23 @@
           "id": "18-burnt-basque-cheesecake",
           "title": "Burnt Basque Cheesecake",
           "num": 18
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
       "category": "Starches & Grains",
-      "count": 6
+      "count": 8
     },
     {
       "name": "half-and-half / cream",
@@ -3177,6 +5331,16 @@
           "id": "20-caramel-apple-pie-ice-cream",
           "title": "Caramel Apple Pie Ice Cream",
           "num": 20
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
       "recipes_optional": [
@@ -3189,7 +5353,7 @@
       "legume": false,
       "peanut": false,
       "category": "Dairy",
-      "count": 6
+      "count": 8
     },
     {
       "name": "vanilla",
@@ -3221,6 +5385,11 @@
           "id": "20-caramel-apple-pie-ice-cream",
           "title": "Caramel Apple Pie Ice Cream",
           "num": 20
+        },
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
         }
       ],
       "recipes_optional": [
@@ -3233,10 +5402,10 @@
       "legume": false,
       "peanut": false,
       "category": "Pantry Staples",
-      "count": 6
+      "count": 7
     },
     {
-      "name": "onion",
+      "name": "carrot",
       "variants": [],
       "recipes_required": [
         {
@@ -3245,10 +5414,83 @@
           "num": 1
         },
         {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
         },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 6
+    },
+    {
+      "name": "flour",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 6
+    },
+    {
+      "name": "scallion",
+      "variants": [],
+      "recipes_required": [
         {
           "id": "04-crispy-salt-pepper-chicken-thighs",
           "title": "Crispy Salt & Pepper Chicken Thighs",
@@ -3260,48 +5502,32 @@
           "num": 10
         },
         {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Aromatics & Produce",
-      "count": 5
-    },
-    {
-      "name": "black pepper",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "01-vegetable-teriyaki-noodles",
-          "title": "Vegetable Teriyaki Noodles",
-          "num": 1
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
         },
         {
-          "id": "05-one-pan-chicken-alfredo",
-          "title": "One-Pan Chicken Alfredo",
-          "num": 5
-        },
-        {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
         }
       ],
       "recipes_optional": [
         {
-          "id": "04-crispy-salt-pepper-chicken-thighs",
-          "title": "Crispy Salt & Pepper Chicken Thighs",
-          "num": 4
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
         }
       ],
       "legume": false,
       "peanut": false,
-      "category": "Spices",
-      "count": 4
+      "category": "Aromatics & Produce",
+      "count": 6
     },
     {
       "name": "cinnamon",
@@ -3328,43 +5554,158 @@
           "id": "20-caramel-apple-pie-ice-cream",
           "title": "Caramel Apple Pie Ice Cream",
           "num": 20
+        },
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
       "category": "Spices",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "garlic",
+      "name": "garlic powder",
       "variants": [],
       "recipes_required": [
         {
-          "id": "01-vegetable-teriyaki-noodles",
-          "title": "Vegetable Teriyaki Noodles",
-          "num": 1
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
         },
         {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
         },
         {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         },
         {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 5
+    },
+    {
+      "name": "ginger",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
       "category": "Aromatics & Produce",
+      "count": 5
+    },
+    {
+      "name": "beef stock / bone broth",
+      "variants": [
+        "beef broth",
+        "broth, or water plus bouillon"
+      ],
+      "recipes_required": [
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 4
+    },
+    {
+      "name": "milk",
+      "variants": [
+        "Fairlife or regular"
+      ],
+      "recipes_required": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
       "count": 4
     },
     {
@@ -3403,13 +5744,44 @@
       "count": 4
     },
     {
-      "name": "scallion",
+      "name": "rice",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 4
+    },
+    {
+      "name": "sesame oil",
       "variants": [],
       "recipes_required": [
         {
-          "id": "04-crispy-salt-pepper-chicken-thighs",
-          "title": "Crispy Salt & Pepper Chicken Thighs",
-          "num": 4
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
         },
         {
           "id": "10-vietnamese-chicken-noodle-soup-ph-g",
@@ -3420,47 +5792,37 @@
           "id": "12-egg-drop-soup",
           "title": "Egg Drop Soup",
           "num": 12
-        }
-      ],
-      "recipes_optional": [
+        },
         {
-          "id": "17-sticky-gochujang-chicken",
-          "title": "Sticky Gochujang Chicken",
-          "num": 17
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
         }
       ],
+      "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Aromatics & Produce",
+      "category": "Oils & Fats",
       "count": 4
     },
     {
-      "name": "soy sauce",
-      "variants": [
-        "dark",
-        "light",
-        "light works but pale"
-      ],
+      "name": "shaoxing wine",
+      "variants": [],
       "recipes_required": [
-        {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
-        },
-        {
-          "id": "04-crispy-salt-pepper-chicken-thighs",
-          "title": "Crispy Salt & Pepper Chicken Thighs",
-          "num": 4
-        },
-        {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
-        },
         {
           "id": "12-egg-drop-soup",
           "title": "Egg Drop Soup",
           "num": 12
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
         }
       ],
       "recipes_optional": [
@@ -3470,7 +5832,38 @@
           "num": 2
         }
       ],
-      "legume": true,
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 4
+    },
+    {
+      "name": "tomato paste",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
       "peanut": false,
       "category": "Sauces & Condiments",
       "count": 4
@@ -3502,38 +5895,66 @@
       "count": 3
     },
     {
-      "name": "beef",
+      "name": "banana",
       "variants": [
-        "chuck roast 2–3 lb",
-        "ground sirloin",
-        "mince"
+        "semi-ripe",
+        "½ cup / 120g mashed"
       ],
       "recipes_required": [
         {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
         },
         {
-          "id": "09-smoked-chuck-roast",
-          "title": "Smoked Chuck Roast",
-          "num": 9
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
         },
         {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Proteins",
+      "category": "Aromatics & Produce",
       "count": 3
     },
     {
-      "name": "carrot",
+      "name": "bay leaf",
       "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 3
+    },
+    {
+      "name": "bell pepper",
+      "variants": [
+        "green",
+        "red"
+      ],
       "recipes_required": [
         {
           "id": "01-vegetable-teriyaki-noodles",
@@ -3541,16 +5962,71 @@
           "num": 1
         },
         {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 3
+    },
+    {
+      "name": "bouillon",
+      "variants": [
+        "beef cube"
+      ],
+      "recipes_required": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
         }
       ],
       "recipes_optional": [
         {
-          "id": "11-1950s-minimum-wage-dinner",
-          "title": "1950s Minimum Wage Dinner",
-          "num": 11
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 3
+    },
+    {
+      "name": "cilantro / coriander",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
         }
       ],
       "legume": false,
@@ -3585,77 +6061,49 @@
       "count": 3
     },
     {
-      "name": "flour",
+      "name": "ketchup",
       "variants": [],
       "recipes_required": [
         {
-          "id": "03-brown-butter-banana-bread-cookie-bars",
-          "title": "Brown Butter Banana Bread Cookie Bars",
-          "num": 3
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
         },
         {
-          "id": "06-fried-apple-hand-pies",
-          "title": "Fried Apple Hand Pies",
-          "num": 6
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         },
         {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Starches & Grains",
+      "category": "Sauces & Condiments",
       "count": 3
     },
     {
-      "name": "ginger",
+      "name": "mozzarella",
       "variants": [],
       "recipes_required": [
         {
-          "id": "04-crispy-salt-pepper-chicken-thighs",
-          "title": "Crispy Salt & Pepper Chicken Thighs",
-          "num": 4
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
         },
         {
-          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
-          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
-          "num": 10
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
         },
         {
-          "id": "12-egg-drop-soup",
-          "title": "Egg Drop Soup",
-          "num": 12
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Aromatics & Produce",
-      "count": 3
-    },
-    {
-      "name": "milk",
-      "variants": [
-        "Fairlife or regular"
-      ],
-      "recipes_required": [
-        {
-          "id": "06-fried-apple-hand-pies",
-          "title": "Fried Apple Hand Pies",
-          "num": 6
-        },
-        {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
-        },
-        {
-          "id": "20-caramel-apple-pie-ice-cream",
-          "title": "Caramel Apple Pie Ice Cream",
-          "num": 20
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
         }
       ],
       "recipes_optional": [],
@@ -3665,29 +6113,148 @@
       "count": 3
     },
     {
-      "name": "sesame oil",
-      "variants": [],
+      "name": "parsley",
+      "variants": [
+        "dried"
+      ],
       "recipes_required": [
         {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
         },
         {
-          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
-          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
-          "num": 10
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 3
+    },
+    {
+      "name": "pasta",
+      "variants": [
+        "Campanelle",
+        "fettuccine",
+        "ziti"
+      ],
+      "recipes_required": [
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
         },
         {
-          "id": "12-egg-drop-soup",
-          "title": "Egg Drop Soup",
-          "num": 12
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Oils & Fats",
+      "category": "Starches & Grains",
+      "count": 3
+    },
+    {
+      "name": "pizza / marinara sauce",
+      "variants": [
+        "marinara",
+        "pizza sauce",
+        "tomato sauce"
+      ],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 3
+    },
+    {
+      "name": "potato",
+      "variants": [
+        "yellow"
+      ],
+      "recipes_required": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 3
+    },
+    {
+      "name": "sesame seeds",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Nuts & Seeds",
       "count": 3
     },
     {
@@ -3712,26 +6279,24 @@
       "count": 2
     },
     {
-      "name": "banana",
-      "variants": [
-        "½ cup / 120g mashed"
-      ],
+      "name": "apple cider vinegar",
+      "variants": [],
       "recipes_required": [
         {
-          "id": "03-brown-butter-banana-bread-cookie-bars",
-          "title": "Brown Butter Banana Bread Cookie Bars",
-          "num": 3
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
         },
         {
-          "id": "19-offensive-banana-bread",
-          "title": "Offensive Banana Bread",
-          "num": 19
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Aromatics & Produce",
+      "category": "Sauces & Condiments",
       "count": 2
     },
     {
@@ -3753,6 +6318,53 @@
       "legume": false,
       "peanut": false,
       "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "chicken bouillon",
+      "variants": [
+        "½ chicken"
+      ],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 2
+    },
+    {
+      "name": "chicken broth",
+      "variants": [
+        "or beef broth"
+      ],
+      "recipes_required": [
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
       "count": 2
     },
     {
@@ -3801,27 +6413,6 @@
       "count": 2
     },
     {
-      "name": "cilantro / coriander",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
-        },
-        {
-          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
-          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
-          "num": 10
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Aromatics & Produce",
-      "count": 2
-    },
-    {
       "name": "cream cheese",
       "variants": [],
       "recipes_required": [
@@ -3866,6 +6457,72 @@
       "count": 2
     },
     {
+      "name": "hoisin",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [],
+      "legume": true,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 2
+    },
+    {
+      "name": "ice",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 2
+    },
+    {
+      "name": "lettuce",
+      "variants": [
+        "gem"
+      ],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
       "name": "lime",
       "variants": [],
       "recipes_required": [
@@ -3905,27 +6562,6 @@
       "legume": false,
       "peanut": false,
       "category": "Pantry Staples",
-      "count": 2
-    },
-    {
-      "name": "mozzarella",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "15-italian-stromboli",
-          "title": "Italian Stromboli",
-          "num": 15
-        },
-        {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Dairy",
       "count": 2
     },
     {
@@ -3973,6 +6609,48 @@
       "count": 2
     },
     {
+      "name": "onion powder",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "paprika",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
       "name": "parmesan",
       "variants": [],
       "recipes_required": [
@@ -3994,120 +6672,159 @@
       "count": 2
     },
     {
-      "name": "parsley",
+      "name": "peanuts",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        }
+      ],
+      "legume": true,
+      "peanut": true,
+      "category": "Nuts & Seeds",
+      "count": 2
+    },
+    {
+      "name": "rosemary",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "thyme",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "tomato",
       "variants": [
-        "dried"
+        "Roma"
       ],
       "recipes_required": [
         {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
-        }
-      ],
-      "recipes_optional": [
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
         {
-          "id": "15-italian-stromboli",
-          "title": "Italian Stromboli",
-          "num": 15
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
         }
       ],
+      "recipes_optional": [],
       "legume": false,
       "peanut": false,
       "category": "Aromatics & Produce",
       "count": 2
     },
     {
-      "name": "pasta",
-      "variants": [
-        "fettuccine",
-        "ziti"
-      ],
-      "recipes_required": [
-        {
-          "id": "05-one-pan-chicken-alfredo",
-          "title": "One-Pan Chicken Alfredo",
-          "num": 5
-        },
-        {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Starches & Grains",
-      "count": 2
-    },
-    {
-      "name": "pizza / marinara sauce",
-      "variants": [
-        "marinara",
-        "pizza sauce"
-      ],
-      "recipes_required": [
-        {
-          "id": "15-italian-stromboli",
-          "title": "Italian Stromboli",
-          "num": 15
-        },
-        {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Sauces & Condiments",
-      "count": 2
-    },
-    {
-      "name": "sesame seeds",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "01-vegetable-teriyaki-noodles",
-          "title": "Vegetable Teriyaki Noodles",
-          "num": 1
-        }
-      ],
-      "recipes_optional": [
-        {
-          "id": "17-sticky-gochujang-chicken",
-          "title": "Sticky Gochujang Chicken",
-          "num": 17
-        }
-      ],
-      "legume": false,
-      "peanut": false,
-      "category": "Nuts & Seeds",
-      "count": 2
-    },
-    {
-      "name": "shaoxing wine",
+      "name": "white pepper",
       "variants": [],
       "recipes_required": [
         {
           "id": "12-egg-drop-soup",
           "title": "Egg Drop Soup",
           "num": 12
-        }
-      ],
-      "recipes_optional": [
+        },
         {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
         }
       ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "all-purpose seasoning",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "allspice",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "apple juice",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        }
+      ],
+      "recipes_optional": [],
       "legume": false,
       "peanut": false,
       "category": "Pantry Staples",
-      "count": 2
+      "count": 1
     },
     {
       "name": "bacon",
@@ -4144,35 +6861,19 @@
       "count": 1
     },
     {
-      "name": "bay leaf",
+      "name": "beef tallow",
       "variants": [],
       "recipes_required": [
         {
-          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
-          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
-          "num": 10
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Spices",
-      "count": 1
-    },
-    {
-      "name": "beef stock / bone broth",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "09-smoked-chuck-roast",
-          "title": "Smoked Chuck Roast",
-          "num": 9
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Proteins",
+      "category": "Oils & Fats",
       "count": 1
     },
     {
@@ -4192,22 +6893,6 @@
       "count": 1
     },
     {
-      "name": "bell pepper",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "01-vegetable-teriyaki-noodles",
-          "title": "Vegetable Teriyaki Noodles",
-          "num": 1
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Spices",
-      "count": 1
-    },
-    {
       "name": "bread",
       "variants": [],
       "recipes_required": [],
@@ -4221,6 +6906,22 @@
       "legume": false,
       "peanut": false,
       "category": "Starches & Grains",
+      "count": 1
+    },
+    {
+      "name": "browning sauce",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
       "count": 1
     },
     {
@@ -4242,6 +6943,40 @@
       "count": 1
     },
     {
+      "name": "cayenne",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "cheese",
+      "variants": [
+        "shredded"
+      ],
+      "recipes_required": [
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
       "name": "cherry",
       "variants": [],
       "recipes_required": [
@@ -4255,22 +6990,6 @@
       "legume": false,
       "peanut": false,
       "category": "Aromatics & Produce",
-      "count": 1
-    },
-    {
-      "name": "chicken bouillon",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
-          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
-          "num": 10
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Proteins",
       "count": 1
     },
     {
@@ -4324,6 +7043,38 @@
       "count": 1
     },
     {
+      "name": "cumin",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "dashi",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 1
+    },
+    {
       "name": "dried scallops",
       "variants": [],
       "recipes_required": [],
@@ -4340,19 +7091,51 @@
       "count": 1
     },
     {
-      "name": "garlic powder",
+      "name": "enchilada sauce",
       "variants": [],
-      "recipes_required": [],
-      "recipes_optional": [
+      "recipes_required": [
         {
-          "id": "15-italian-stromboli",
-          "title": "Italian Stromboli",
-          "num": 15
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
         }
       ],
+      "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Spices",
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "evaporated milk",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
+      "name": "flour tortilla",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
       "count": 1
     },
     {
@@ -4420,22 +7203,6 @@
       "count": 1
     },
     {
-      "name": "hoisin",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
-        }
-      ],
-      "recipes_optional": [],
-      "legume": false,
-      "peanut": false,
-      "category": "Sauces & Condiments",
-      "count": 1
-    },
-    {
       "name": "hot sauce",
       "variants": [],
       "recipes_required": [],
@@ -4500,6 +7267,22 @@
       "count": 1
     },
     {
+      "name": "jalapeño",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
       "name": "lemon",
       "variants": [],
       "recipes_required": [
@@ -4532,21 +7315,19 @@
       "count": 1
     },
     {
-      "name": "lettuce",
-      "variants": [
-        "gem"
-      ],
+      "name": "mexican-blend cheese",
+      "variants": [],
       "recipes_required": [
         {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Aromatics & Produce",
+      "category": "Dairy",
       "count": 1
     },
     {
@@ -4566,6 +7347,38 @@
       "count": 1
     },
     {
+      "name": "montreal seasoning",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "oregano",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
       "name": "oyster sauce",
       "variants": [],
       "recipes_required": [
@@ -4582,19 +7395,37 @@
       "count": 1
     },
     {
-      "name": "peanuts",
-      "variants": [],
-      "recipes_required": [],
-      "recipes_optional": [
+      "name": "peas",
+      "variants": [
+        "frozen"
+      ],
+      "recipes_required": [
         {
-          "id": "01-vegetable-teriyaki-noodles",
-          "title": "Vegetable Teriyaki Noodles",
-          "num": 1
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
+      "recipes_optional": [],
       "legume": true,
-      "peanut": true,
-      "category": "Nuts & Seeds",
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "pecorino",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
       "count": 1
     },
     {
@@ -4630,22 +7461,6 @@
       "count": 1
     },
     {
-      "name": "potato",
-      "variants": [],
-      "recipes_required": [],
-      "recipes_optional": [
-        {
-          "id": "11-1950s-minimum-wage-dinner",
-          "title": "1950s Minimum Wage Dinner",
-          "num": 11
-        }
-      ],
-      "legume": false,
-      "peanut": false,
-      "category": "Aromatics & Produce",
-      "count": 1
-    },
-    {
       "name": "potato starch",
       "variants": [],
       "recipes_required": [
@@ -4678,6 +7493,22 @@
       "count": 1
     },
     {
+      "name": "refried beans",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": true,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
       "name": "refrigerated pizza crust",
       "variants": [],
       "recipes_required": [
@@ -4691,22 +7522,6 @@
       "legume": false,
       "peanut": false,
       "category": "Sauces & Condiments",
-      "count": 1
-    },
-    {
-      "name": "rice",
-      "variants": [],
-      "recipes_required": [],
-      "recipes_optional": [
-        {
-          "id": "17-sticky-gochujang-chicken",
-          "title": "Sticky Gochujang Chicken",
-          "num": 17
-        }
-      ],
-      "legume": false,
-      "peanut": false,
-      "category": "Starches & Grains",
       "count": 1
     },
     {
@@ -4758,6 +7573,22 @@
       "count": 1
     },
     {
+      "name": "sour cream",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
       "name": "star anise",
       "variants": [],
       "recipes_required": [
@@ -4806,6 +7637,54 @@
       "count": 1
     },
     {
+      "name": "sweetened condensed milk",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
+      "name": "taco sauce",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "taco seasoning",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
       "name": "teriyaki sauce",
       "variants": [],
       "recipes_required": [
@@ -4822,23 +7701,94 @@
       "count": 1
     },
     {
-      "name": "white pepper",
+      "name": "white vinegar",
       "variants": [],
       "recipes_required": [
         {
-          "id": "12-egg-drop-soup",
-          "title": "Egg Drop Soup",
-          "num": 12
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
       "recipes_optional": [],
       "legume": false,
       "peanut": false,
-      "category": "Spices",
+      "category": "Sauces & Condiments",
       "count": 1
     }
   ],
   "tools": [
+    {
+      "name": "skillet / pan",
+      "recipes": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        },
+        {
+          "id": "28-bulgogi-ground-beef",
+          "title": "Bulgogi Ground Beef",
+          "num": 28
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        },
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
+        }
+      ],
+      "count": 13
+    },
     {
       "name": "bowl",
       "recipes": [
@@ -4881,9 +7831,24 @@
           "id": "19-offensive-banana-bread",
           "title": "Offensive Banana Bread",
           "num": 19
+        },
+        {
+          "id": "21-mongolian-chicken",
+          "title": "Mongolian Chicken",
+          "num": 21
+        },
+        {
+          "id": "29-bourbon-chicken",
+          "title": "Bourbon Chicken",
+          "num": 29
+        },
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
         }
       ],
-      "count": 8
+      "count": 11
     },
     {
       "name": "oven",
@@ -4922,9 +7887,24 @@
           "id": "19-offensive-banana-bread",
           "title": "Offensive Banana Bread",
           "num": 19
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
-      "count": 7
+      "count": 10
     },
     {
       "name": "pot",
@@ -4958,45 +7938,19 @@
           "id": "16-cheesy-baked-ziti",
           "title": "Cheesy Baked Ziti",
           "num": 16
+        },
+        {
+          "id": "25-homemade-hamburger-helper",
+          "title": "Homemade Hamburger Helper",
+          "num": 25
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
-      "count": 6
-    },
-    {
-      "name": "skillet / pan",
-      "recipes": [
-        {
-          "id": "01-vegetable-teriyaki-noodles",
-          "title": "Vegetable Teriyaki Noodles",
-          "num": 1
-        },
-        {
-          "id": "02-one-pan-mongolian-beef-noodles",
-          "title": "One-Pan Mongolian Beef Noodles",
-          "num": 2
-        },
-        {
-          "id": "04-crispy-salt-pepper-chicken-thighs",
-          "title": "Crispy Salt & Pepper Chicken Thighs",
-          "num": 4
-        },
-        {
-          "id": "05-one-pan-chicken-alfredo",
-          "title": "One-Pan Chicken Alfredo",
-          "num": 5
-        },
-        {
-          "id": "11-1950s-minimum-wage-dinner",
-          "title": "1950s Minimum Wage Dinner",
-          "num": 11
-        },
-        {
-          "id": "16-cheesy-baked-ziti",
-          "title": "Cheesy Baked Ziti",
-          "num": 16
-        }
-      ],
-      "count": 6
+      "count": 8
     },
     {
       "name": "baking pan / tin",
@@ -5025,9 +7979,19 @@
           "id": "19-offensive-banana-bread",
           "title": "Offensive Banana Bread",
           "num": 19
+        },
+        {
+          "id": "23-wet-burrito",
+          "title": "Wet Burrito",
+          "num": 23
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
         }
       ],
-      "count": 5
+      "count": 7
     },
     {
       "name": "knife",
@@ -5056,9 +8020,66 @@
           "id": "20-caramel-apple-pie-ice-cream",
           "title": "Caramel Apple Pie Ice Cream",
           "num": 20
+        },
+        {
+          "id": "24-mexican-beef-stew-guisado-de-res",
+          "title": "Mexican Beef Stew (Guisado de Res)",
+          "num": 24
+        },
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
         }
       ],
-      "count": 5
+      "count": 7
+    },
+    {
+      "name": "saucepan",
+      "recipes": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "fork",
+      "recipes": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "count": 3
     },
     {
       "name": "parchment",
@@ -5082,38 +8103,17 @@
       "count": 3
     },
     {
-      "name": "saucepan",
+      "name": "baking sheet",
       "recipes": [
         {
-          "id": "03-brown-butter-banana-bread-cookie-bars",
-          "title": "Brown Butter Banana Bread Cookie Bars",
-          "num": 3
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
         },
         {
-          "id": "06-fried-apple-hand-pies",
-          "title": "Fried Apple Hand Pies",
-          "num": 6
-        },
-        {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "fork",
-      "recipes": [
-        {
-          "id": "06-fried-apple-hand-pies",
-          "title": "Fried Apple Hand Pies",
-          "num": 6
-        },
-        {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
         }
       ],
       "count": 2
@@ -5151,6 +8151,22 @@
       "count": 2
     },
     {
+      "name": "sieve",
+      "recipes": [
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
+        }
+      ],
+      "count": 2
+    },
+    {
       "name": "thermometer",
       "recipes": [
         {
@@ -5167,45 +8183,12 @@
       "count": 2
     },
     {
-      "name": "air fryer",
+      "name": "Dutch oven",
       "recipes": [
         {
-          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
-          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
-          "num": 7
-        }
-      ],
-      "count": 1
-    },
-    {
-      "name": "baking sheet",
-      "recipes": [
-        {
-          "id": "15-italian-stromboli",
-          "title": "Italian Stromboli",
-          "num": 15
-        }
-      ],
-      "count": 1
-    },
-    {
-      "name": "cooling rack",
-      "recipes": [
-        {
-          "id": "14-fried-cherry-hand-pies",
-          "title": "Fried Cherry Hand Pies",
-          "num": 14
-        }
-      ],
-      "count": 1
-    },
-    {
-      "name": "crockpot / slow cooker",
-      "recipes": [
-        {
-          "id": "09-smoked-chuck-roast",
-          "title": "Smoked Chuck Roast",
-          "num": 9
+          "id": "22-beef-pot-roast-with-gravy",
+          "title": "Beef Pot Roast with Gravy",
+          "num": 22
         }
       ],
       "count": 1
@@ -5244,6 +8227,83 @@
       "count": 1
     },
     {
+      "name": "air fryer",
+      "recipes": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "blender",
+      "recipes": [
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "cooling rack",
+      "recipes": [
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "crockpot / slow cooker",
+      "recipes": [
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "cutting board",
+      "recipes": [
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "masher / ricer",
+      "recipes": [
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "oil spray",
+      "recipes": [
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
+        }
+      ],
+      "count": 1
+    },
+    {
       "name": "pastry brush",
       "recipes": [
         {
@@ -5255,23 +8315,34 @@
       "count": 1
     },
     {
+      "name": "piping bag",
+      "recipes": [
+        {
+          "id": "26-shepherds-pie",
+          "title": "Shepherd’s Pie",
+          "num": 26
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "pitcher",
+      "recipes": [
+        {
+          "id": "27-banana-water",
+          "title": "Banana Water",
+          "num": 27
+        }
+      ],
+      "count": 1
+    },
+    {
       "name": "plate",
       "recipes": [
         {
           "id": "13-easy-cr-me-caramel",
           "title": "Easy Crème Caramel",
           "num": 13
-        }
-      ],
-      "count": 1
-    },
-    {
-      "name": "sieve",
-      "recipes": [
-        {
-          "id": "18-burnt-basque-cheesecake",
-          "title": "Burnt Basque Cheesecake",
-          "num": 18
         }
       ],
       "count": 1
@@ -5294,6 +8365,17 @@
           "id": "09-smoked-chuck-roast",
           "title": "Smoked Chuck Roast",
           "num": 9
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "spatula",
+      "recipes": [
+        {
+          "id": "30-japanese-hamburger-steak",
+          "title": "Japanese Hamburger Steak",
+          "num": 30
         }
       ],
       "count": 1

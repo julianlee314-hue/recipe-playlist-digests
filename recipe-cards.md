@@ -3,7 +3,7 @@ Source: Julius “Recipes” playlist (471 videos)
 Format: Remember / Do / Watch + scores
 Batch size: 5
 
-Progress: 1–20 named (through playlist index 23; unavailable slots 9, 11, 22)
+Progress: 1–30 named (through playlist index 35; unavailable 9, 11, 22, 28, 32)
 
 ---
 
@@ -602,5 +602,329 @@ No peanuts. No legumes.
 
 ---
 
+
+## 21. Mongolian Chicken
+iamneverfull · 30 min · serves 2
+https://youtu.be/k88KnzlDP1Q
+https://iamneverfull.com/mongolian-chicken/
+
+**Remember**
+- Sear the chicken so the sauce has something to grab.
+- Dashi is the restaurant taste. Bouillon works if you have no dashi.
+- Char the onion and scallion whites before the sauce goes in.
+
+**Do**
+1. 16 oz boneless skinless thighs, bite size. 1 tbsp Shaoxing, ½ tsp salt, 1 tbsp cornstarch. 15 min.
+2. Sauce: 1 tbsp dark soy, 1 tbsp light soy, 1 tsp dashi, 3 tbsp water, 1½ tbsp sugar.
+3. Medium-high oil. Sear chicken about 5 min. Out.
+4. Same pan: 1 onion in chunks and scallion whites, 2–3 min, a little char.
+5. Chicken back in with the sauce until it coats. Scallion greens at the end. Rice if you want it.
+
+**Watch**
+- No dashi and it tastes flatter. Use bouillon or skip it, but know the difference.
+- A crowded pan will not brown.
+- Peanuts or cashews are a tip, not the dish. Skip the peanuts.
+
+**Tools** (hide)
+- Frying pan, two bowls.
+
+Taste 8 · Nutrition 6 · Unique 5
+1.4 million views. People want the takeout chicken without the batter.
+
+Legume: dark soy and light soy. Peanuts optional. Skip them.
+
+---
+
+## 22. Beef Pot Roast with Gravy
+Sara · Nutrient Matters · about 3 hr 40 min · servings unknown
+https://youtu.be/2P3amMdDNqE
+https://nutrient-matters.com/recipe/beef-pot-roast-with-gravy/
+
+**Remember**
+- Sear it. The gravy lives on that fond.
+- 325°F, covered, about 3 hours.
+- Strain the liquid and press the onion and garlic before you make gravy.
+
+**Do**
+1. Oven 325°F. 2 lb bottom blade roast. Montreal seasoning, salt, pepper.
+2. Dutch oven, 2 tbsp beef tallow. Sear 5–7 min a side. Out.
+3. Spanish onion 4–6 min. 4–6 garlic cloves 30–60 sec. 1 tbsp tomato paste 2–3 min.
+4. Whisk 1 tbsp brown sugar, 1 tbsp soy, 1 tbsp ketchup, 1 tbsp apple cider vinegar. Deglaze.
+5. Beef back in. 2 cups beef broth, 2 cups chicken broth, rosemary, thyme, 2 bay leaves. Cover. About 3 hours. Carrots in for the last 45–60 min.
+6. Strain. Roux: 4 tbsp butter and 4 tbsp flour, 2–3 min, then 4 cups of that liquid. ½ tsp white pepper and a little browning sauce. Half the liquid means half the roux.
+
+**Watch**
+- Burn the fond and the gravy is bitter.
+- Wrong roux ratio and it is paste or water.
+- Carrots in at the start go soft. Later they keep a bite.
+
+**Tools** (hide)
+- Dutch oven, sieve, small saucepan. Instant Pot and slow cooker are blog variants, not this card.
+
+Taste 8 · Nutrition 6 · Unique 4
+4.9 million views. Sunday meat. The gravy is why they replay it.
+
+Legume: soy sauce. No peanuts. No beans or peas.
+
+---
+
+## 23. Wet Burrito
+Zhane Williams · bake 20 min · servings unknown
+https://youtu.be/PMLF4cm8WSI
+
+Partial. Description plus the spoken steps. Cheese amounts and tortilla count are not given.
+
+**Remember**
+- Drain the fat, then add water so the seasoning doesn’t clump.
+- Refried beans go in the beef, not on the side.
+- 375°F until the cheese is bubbling, about 20 min.
+
+**Do**
+1. Brown 1 lb ground beef with 2 packs taco seasoning. Drain the fat. Add water. Amount of water unknown.
+2. Stir in 1 can refried beans.
+3. Large flour tortillas. Beef, Mexican-blend cheese, mozzarella. Roll. Counts unknown.
+4. More cheese, 2 cans enchilada sauce, more cheese.
+5. 375°F, about 20 min.
+6. Lettuce, tomato, onion, sour cream, jalapeño, taco sauce.
+
+**Watch**
+- Dry seasoning clumps without the water.
+- Neat rolls are not the point. He says messy is fine.
+- Cheese and sauce amounts are a guess if you follow only this clip.
+
+**Tools** (hide)
+- Skillet, baking dish, oven.
+
+Taste 7 · Nutrition 4 · Unique 3
+398k views. A saucy burrito, not a precise one.
+
+Legume: refried beans. Required. No peanuts called out. Taco-seasoning packets can hide soy. Check the label.
+
+---
+
+## 24. Mexican Beef Stew (Guisado de Res)
+Love Kari Cooking · about 2 hr · servings unknown
+https://youtu.be/jU5g7tPiXto
+
+**Remember**
+- Flour on all sides, then brown in batches.
+- Covered, low, about 1½ hours before the vegetables.
+- Potatoes and carrot go in for the last 20 min.
+
+**Do**
+1. 2 lb chuck, cut. ¼ tsp cumin, 1 tsp cayenne, 1 tsp garlic powder, 1 tsp black pepper, 1 tsp paprika, 1 tsp salt. Coat with ¼ cup flour.
+2. Oil, medium. Brown in batches, about 4 min a batch. Don’t crowd. Oil amount unknown.
+3. Same pan: ½ white onion and 3 garlic, about 1 min. ½ red pepper and 1 Roma tomato until it gives juice.
+4. 2 tbsp tomato paste, 4 cups beef broth, 2 tsp bouillon, ½ tsp oregano crushed in your hand. Boil.
+5. Meat back in, 2 bay leaves. Cover, low, 1½ hours.
+6. 2 potatoes and 1 carrot. Cover 20 min more. Rice and cilantro if you want them.
+
+**Watch**
+- One crowded batch and the meat steams.
+- Potatoes in early and they dissolve.
+- Oil amount is not written. Use enough to brown, not to fry.
+
+**Tools** (hide)
+- Lidded pan, knife.
+
+Taste 8 · Nutrition 6 · Unique 5
+2.2 million views. A weeknight stew that still takes the long simmer.
+
+No peanuts. No legumes.
+
+---
+
+## 25. Homemade Hamburger Helper
+Just Lexx · about 15 min on the pasta · serves 4–6
+https://youtu.be/LqJ4Ve0AdJ4
+
+**Remember**
+- Campanelle, so the meat sits in the curls.
+- Lid on for about 15 min. That cooks the pasta.
+- Cheese after the pasta, then lid again.
+
+**Do**
+1. 1.5 lb ground beef or turkey with ¼ cup green pepper and ¼ cup onion. Brown.
+2. Garlic powder, onion powder, all-purpose seasoning, to taste. 1 tbsp tomato paste. 1 cup tomato sauce.
+3. 2 cups chicken or beef broth. Optional pinch of bouillon. 1 cup heavy cream. 3 cups Campanelle.
+4. Cover about 15 min.
+5. 1–2 cups shredded cheese. Cover until it melts.
+
+**Watch**
+- A big bowl looks like less food than it is. The title says family of 4 for about $10.
+- Powder amounts are “to taste.” Don’t invent teaspoons.
+- Chicken broth and beef broth are both allowed. They will not taste the same.
+
+**Tools** (hide)
+- Lidded pot.
+
+Taste 7 · Nutrition 4 · Unique 3
+1.6 million views. Boxed-helper flavor, one pot.
+
+No peanuts. No legumes.
+
+---
+
+## 26. Shepherd’s Pie
+Sara · Nutrient Matters · 55 min · 11×8 dish
+https://youtu.be/6aY90Olkd5I
+https://nutrient-matters.com/recipe/shepherds-pie/
+
+**Remember**
+- Cook the flour in the beef fat. That is the thickener.
+- Egg yolks in the mash so it bakes creamy and still holds.
+- Fork ridges and extra Pecorino. That is the crust.
+
+**Do**
+1. Brown 2 lb minced beef with salt and pepper. Yellow onion and 1½ cups shredded carrot, 2–3 min. 3–4 garlic cloves, 60 sec.
+2. 2 tbsp tomato paste. 3 tbsp flour, 2–3 min. Add 1–2 tbsp oil if the beef was lean.
+3. 1½ tbsp soy, 1 heaping tbsp ketchup, 1½ tbsp white vinegar. 2½ cups broth (or water plus bouillon: 1 beef cube and ½ chicken). Rosemary, ½ tsp thyme, ½ tsp allspice. Cover, simmer about 10 min. 1 cup frozen peas for the last 5.
+4. Oven 400°F. Boil 2½–3 lb yellow potatoes 10–15 min. Dry them in the pot. Mash with 1 stick butter, ½ cup warm heavy cream, ¾ cup Pecorino, 2 tsp parsley, ½ tsp garlic powder, 2 egg yolks. One line on the blog says milk. Use the cream.
+5. Beef in an 11×8 dish. Mash on top. Fork plus a little olive oil. Pepper and more Pecorino.
+6. 20–25 min. Broil 2–3 min. Rest 5.
+
+**Watch**
+- Spreading the mash hard stirs up the meat. Pipe it if you can.
+- Lean beef and the flour burns. Add the oil.
+- Watery mince needs longer than 10 min. The blog’s readers hit this.
+
+**Tools** (hide)
+- Deep pan, pot, masher or ricer, 11×8 baking dish, fork. Piping bag optional.
+
+Taste 8 · Nutrition 5 · Unique 4
+3.8 million views. Winter pie. People come back for the crust, not the mince.
+
+Legumes: soy sauce, and frozen peas. Both required. No peanuts.
+
+---
+
+## 27. Banana Water
+Jose.elcook · time unknown · a pitcher
+https://youtu.be/OVElVWCYbxA
+
+Partial. YouTube description is empty. Amounts come from his matching caption and the audio.
+
+**Remember**
+- 4 bananas. He jokes “three.” Use four.
+- Both cans: evaporated milk and sweetened condensed milk.
+- 2 cups water in the blend, then ice in the pitcher.
+
+**Do**
+1. Blender: 4 semi-ripe bananas, 2 tsp cinnamon, 1 can evaporated milk, 1 can sweetened condensed milk, 1 tsp vanilla, ¼ tsp salt, 2 cups water.
+2. Blend.
+3. Pitcher over ice. Cinnamon and banana slices on top. More cinnamon if you want it.
+
+**Watch**
+- The on-camera “three bananas” is a joke.
+- Can sizes are “one can,” not ounces.
+- Extra cinnamon past 2 tsp is him tasting, not the written amount.
+
+**Tools** (hide)
+- Blender, pitcher.
+
+Taste 7 · Nutrition 3 · Unique 7
+7.3 million views. People watch because the name sounds wrong. It is a sweet blended drink.
+
+No peanuts. No legumes.
+
+---
+
+## 28. Bulgogi Ground Beef
+iamneverfull · 15 min · serves 2
+https://youtu.be/xsIsxMoFOjY
+https://iamneverfull.com/bulgogi-ground-beef-recipe/
+
+**Remember**
+- Garlic and ginger in the oil first.
+- Dark soy and light soy together.
+- Cook until the sauce coats the beef.
+
+**Do**
+1. Medium oil. 3 garlic cloves and 1 tbsp grated ginger until they smell done.
+2. 1 lb ground beef. Break it up. Mostly browned.
+3. 1 tbsp dark soy, 2 tbsp light soy, 1 tbsp Shaoxing, 1 tsp sesame oil, 1½ tbsp brown sugar. Cook until thick.
+4. Rice. Sesame, scallion, and a fried egg if you want them.
+
+**Watch**
+- Skip the garlic and ginger and it is just sweet soy beef.
+- No Shaoxing: a splash of water is his substitute. The smell changes.
+- Pull it early and the sauce is soup. Pull it late and it is dry.
+
+**Tools** (hide)
+- Frying pan.
+
+Taste 8 · Nutrition 6 · Unique 5
+482k views. Weeknight bulgogi. No marinade wait.
+
+Legume: dark soy and light soy. No peanuts.
+
+---
+
+## 29. Bourbon Chicken
+Foodiligence · time unknown · 2 lb thighs
+https://youtu.be/FhIQLQ02zvs
+
+The title says bourbon. The ingredient list has none.
+
+**Remember**
+- Brown both sides. Do not cook the thighs through yet.
+- Reduce the sauce by half, then the slurry.
+- Scrape the fond. That is the flavor.
+
+**Do**
+1. Sauce: ⅓ cup soy, 1 tbsp hoisin, 1 tbsp ketchup, ½ cup apple juice, ¼ cup water, 1 tbsp apple cider vinegar, ⅓ cup light brown sugar, 1 inch ginger grated, 3 garlic cloves.
+2. 2 lb thighs. 1 tsp onion powder, 1 tsp garlic powder, 1 tsp paprika, black pepper. Pepper amount unknown.
+3. Skillet, 1 tbsp oil. Brown both sides. Out.
+4. Sauce in. Scrape. Reduce by half. 1 tbsp cornstarch in water. Water amount for the slurry unknown.
+5. Chicken back in until cooked through.
+
+**Watch**
+- Slurry before the reduction and the thickness is wrong.
+- No fond scrape and it is just sweet soy.
+- Don’t add bourbon to “fix” the title. It is not in his list.
+
+**Tools** (hide)
+- Bowl, skillet.
+
+Taste 7 · Nutrition 5 · Unique 4
+1.1 million views. Mall-food chicken. The missing bourbon is the comment section.
+
+Legume: soy sauce and hoisin. No peanuts.
+
+---
+
+## 30. Japanese Hamburger Steak
+Rina Takagi · time unknown · serves unknown
+https://youtu.be/mSZbnKUrI6o
+
+Thin card. Empty description. No spoken amounts. What follows is what the frames show.
+
+**Remember**
+- Cook the onion before it goes into the meat.
+- Two ground meats, mixed by hand.
+- A dent in each patty, and an ice cube in the dent while it fries.
+
+**Do**
+1. Slice onion. Sauté in a pan with spray oil until soft.
+2. Mix that onion with two ground meats. A white base is in the bowl first. Not labeled. Amounts unknown.
+3. Thick patties. About seven on the tray in the video. Not a rule.
+4. Pan-fry in oil. Indent the center. Ice cube in the indent.
+5. Brown. Dark sauce on the plate. Sauce ingredients unknown.
+
+**Watch**
+- There are no weights. Do not scale this from the clip.
+- The sauce is not recoverable.
+- Don’t assume egg, milk, or panko. The white base is unlabeled.
+
+**Tools** (hide)
+- Knife, board, frying pan, oil spray, bowl, spatula, sheet tray.
+
+Taste — · Nutrition — · Unique 6
+15.7 million views. People stay for the ice cube. The recipe is not in the text.
+
+No peanuts seen. Soy in the sauce is unknown.
+
+---
+
 ## Queue (next)
-Say next for 21–30. Start at playlist index 24. Unavailable so far: 9, 11, 22.
+Say next for 31–40. Start at playlist index 36. Unavailable so far: 9, 11, 22, 28, 32.
