@@ -7,6 +7,8 @@ import json
 import re
 from pathlib import Path
 
+from item_icons import item_icon, item_icon_css
+
 ROOT = Path(__file__).resolve().parent
 E = htmlmod.escape
 
@@ -342,9 +344,10 @@ def render_ing_card(ing: dict) -> str:
         or "—"
     )
     nreq = len(ing["recipes_required"])
+    icon = item_icon(name, category=cat, kind="ingredient", size=48)
     return (
         f'<article class="ing-card" data-cat="{E(cat)}" data-name="{E(name)}" data-note="{E(note)}" data-kind="ingredient">\n'
-        f'<div class="top"><h4>{E(name)}{legume_span}{peanut_span}</h4><span class="ing-badge">{E(cat)}</span></div>\n'
+        f'<div class="top"><div class="top-name">{icon}<h4>{E(name)}{legume_span}{peanut_span}</h4></div><span class="ing-badge">{E(cat)}</span></div>\n'
         f'<p class="note">{E(note)}</p>\n'
         f'<div class="meta">In {ing["count"]} recipe(s) · required in {nreq}</div>\n'
         f'<div class="links"><strong>Requires:</strong> {req_links}</div>\n'
@@ -360,9 +363,10 @@ def render_tool_card(tool: dict) -> str:
     name = tool["name"]
     note = f"Named on {tool['count']} recipe card(s)."
     links = ", ".join(f'<a href="#{E(x["id"])}">{E(x["title"])}</a>' for x in tool["recipes"])
+    icon = item_icon(name, category="Tools", kind="tool", size=48)
     return (
         f'<article class="ing-card tool-db-card" data-cat="Tools" data-name="{E(name)}" data-note="Named tool" data-kind="tool">\n'
-        f'<div class="top"><h4>{E(name)}</h4><span class="ing-badge">Tools</span></div>\n'
+        f'<div class="top"><div class="top-name">{icon}<h4>{E(name)}</h4></div><span class="ing-badge">Tools</span></div>\n'
         f'<p class="note">{E(note)}</p>\n'
         f'<div class="meta">In {tool["count"]} recipe(s)</div>\n'
         f'<div class="links">{links}</div>\n'
@@ -390,12 +394,12 @@ def build_html(data: dict) -> str:
     equip = [t for t in data["tools"] if t["count"] >= 2][:14]
     pantry = data["ingredients"][:12]
     ency_equip = "".join(
-        f'<article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div>'
+        f'<article class="ency-card"><div class="ency-glyph" aria-hidden="true">{item_icon(t["name"], category="Tools", kind="tool", size=64)}</div>'
         f'<div class="body"><h4>{E(t["name"])}</h4><p>Named on {t["count"]} recipe(s).</p></div></article>'
         for t in equip
     )
     ency_pantry = "".join(
-        f'<article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div>'
+        f'<article class="ency-card"><div class="ency-glyph" aria-hidden="true">{item_icon(i["name"], category=i.get("category"), kind="ingredient", size=64)}</div>'
         f'<div class="body"><h4>{E(i["name"])}</h4><p>In {i["count"]} recipe(s).</p></div></article>'
         for i in pantry
     )
@@ -410,6 +414,7 @@ def build_html(data: dict) -> str:
         "Sauces & Condiments",
         "Spices",
         "Starches & Grains",
+        "Legumes",
     ]
     # keep only cats that exist
     present = {i["category"] for i in data["ingredients"]}
@@ -443,6 +448,8 @@ def build_html(data: dict) -> str:
 <title>YouTube Recipes — Playlist Digests</title>
 <style>
 {css}
+{item_icon_css()}
+.ing-card .top-name{{display:flex;align-items:center;gap:.45rem}}
 </style>
 </head>
 <body>
