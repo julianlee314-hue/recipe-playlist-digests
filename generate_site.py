@@ -300,7 +300,7 @@ def ing_pills(r: dict) -> str:
 
 
 def format_views(r: dict) -> str:
-    """Return HTML for view count, or empty if unavailable."""
+    """Return HTML for view count linked to YouTube, or empty if unavailable."""
     vc = r.get("view_count")
     if vc is None:
         return ""
@@ -308,7 +308,16 @@ def format_views(r: dict) -> str:
         n = int(vc)
     except (TypeError, ValueError):
         return ""
-    return f'<span class="views">{n:,} views</span>'
+    label = f"{n:,} views"
+    as_of = r.get("views_as_of")
+    as_of_html = f' <span class="muted">(as of {E(str(as_of))})</span>' if as_of else ""
+    yt = r.get("youtube")
+    if yt:
+        return (
+            f'<a class="views" href="{E(yt)}" target="_blank" rel="noopener">{label}</a>'
+            f"{as_of_html}"
+        )
+    return f'<span class="views">{label}</span>{as_of_html}'
 
 
 def render_recipe(r: dict) -> str:
@@ -369,11 +378,18 @@ def render_not_recipe(r: dict) -> str:
         yt = (
             f'<a class="yt" href="{E(r["youtube"])}" target="_blank" rel="noopener">Watch on YouTube</a>'
         )
+    views_html = format_views(r)
+    meta_bits = []
+    if r.get("channel"):
+        meta_bits.append(E(r["channel"]))
+    if views_html:
+        meta_bits.append(views_html)
+    meta = " · ".join(meta_bits)
     return (
         f'<article class="not-recipe" id="{E(r["id"])}" data-num="{r["num"]}">\n'
         f'<div class="nr-row"><h3>{r["num"]}. {E(r["title"])}</h3>'
         f'<span class="nr-badge">Set aside</span></div>\n'
-        f'<p class="nr-meta">{E(r.get("channel") or "")}{(" · " + format_views(r)) if format_views(r) else ""}</p>\n'
+        f'<p class="nr-meta">{meta}</p>\n'
         f'<p class="nr-why">{E(why)}</p>\n'
         f'<p class="nr-links">{yt}</p>\n'
         f"</article>"
