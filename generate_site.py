@@ -196,6 +196,14 @@ def guess_category(name: str) -> str:
         )
     ):
         return "Spices"
+    if any(x in n for x in ("lentil", "bean", "chickpea", "tofu", "edamame")):
+        return "Legumes"
+    if any(x in n for x in ("tuna", "rib")):
+        return "Proteins"
+    if any(x in n for x in ("mustard", "relish", "caper", "verjuice")):
+        return "Sauces & Condiments"
+    if "cornflake" in n:
+        return "Starches & Grains"
     if any(x in n for x in ("peanut", "almond", "sesame seed", "chia", "cashew", "coconut")):
         return "Nuts & Seeds"
     if any(

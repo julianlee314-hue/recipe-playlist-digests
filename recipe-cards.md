@@ -3,7 +3,7 @@ Source: Julius “Recipes” playlist (471 videos)
 Format: Remember / Do / Watch + scores
 Batch size: 5
 
-Progress: 1–50 named (through playlist index 55). Unavailable still 9, 11, 22, 28, 32.
+Progress: 1–74 named. Card 50 is playlist index 56 (that honey-lemon short was already in). Cards 51–62 are indices 57–68. Cards 63–74 are indices 69–80. Unavailable still 9, 11, 22, 28, 32. Next card is 75, playlist index 81.
 
 ---
 
@@ -1559,5 +1559,756 @@ Legume: soy sauce. Mirin is rice wine, not soy. No peanuts.
 
 ---
 
+
+## 51. Crazy Puffs
+Cookshow with Trevor · 500°F for 15 min · servings unknown
+https://youtu.be/sBEKRwCdnN0
+
+Partial. No amounts. The bake and the butter finish are spoken.
+
+**Remember**
+- Pizza dough in a muffin pan.
+- 500°F for 15 minutes.
+- Seasoned melted butter slathered on after they come out.
+
+**Do**
+1. Dough in the cups. A dab of pizza sauce, cheese, pepperoni, more cheese. Amounts unknown.
+2. Bake 500°F, 15 min.
+3. Melted butter with garlic powder, salt, sugar, and Italian seasoning. Amounts unknown. Slather.
+
+**Watch**
+- Skipping the butter. He treats that as the whole point.
+- Guessing teaspoons. None are written.
+- “Chemical X” is a joke, not an ingredient.
+
+**Tools** (hide)
+- Muffin pan, oven, bowl.
+
+Taste 7 · Nutrition 3 · Unique 5
+21.6 million views. Pizza cups. The butter is the recipe.
+
+No peanuts. No legumes.
+
+---
+
+## 52. Taco Boats
+Girl Gone Grilling · about 10 min in the oven · one package of boats
+https://youtu.be/smQ3RMfKjUc
+
+Partial. Two seasonings are on camera and never named. Can sizes are not said.
+
+**Remember**
+- Black beans are in the filling. A legume. Skip the dish if you are avoiding them.
+- Drain the beef after it browns.
+- 350°F for about 10 minutes, until the cheese melts. Grill or oven.
+
+**Do**
+1. Soft mini tortilla bowls in a baking pan. One package.
+2. Oil, half a diced white onion, until translucent. 1 lb lean ground beef. Two seasonings, names unknown. Brown. Drain.
+3. 1 can red enchilada sauce, 1 can black beans rinsed, 1 can diced jalapeños. Can sizes unknown. Simmer a couple of minutes.
+4. Fill the boats. Cheese, whatever kind, amount unknown. 350°F about 10 min.
+5. Shredded lettuce and jalapeño sour cream.
+
+**Watch**
+- The two seasonings are not in the audio. Don’t invent a packet.
+- Skipping the drain and the boats go greasy.
+- Enchilada sauce can hide soy, by brand. Not named as soy.
+
+**Tools** (hide)
+- Baking pan, skillet, oven or pellet grill.
+
+Taste 7 · Nutrition 5 · Unique 4
+7.4 million views. Tortilla bowls. The spice blend is the missing line.
+
+Legume: black beans. No peanuts.
+
+---
+
+## 53. Perfect Chicken Breast
+Olivia Yi · about 8 min plus a rest · serves 2
+https://youtu.be/q84O2Ud6Prw
+https://olivia-yi.com/perfectly-cooked-chicken-breasts/
+
+**Remember**
+- Pound the breasts even.
+- Pan hot before the oil.
+- Pull at 160–162°F. Rest 5–10 minutes.
+
+**Do**
+1. 2 breasts. Parchment or a bag. Even thickness. A thick one can be split.
+2. Season both sides: 1 tsp salt, ¼ tsp pepper, 2 tsp garlic powder, 2 tsp onion powder, 2 tsp paprika.
+3. Hot pan, 2 tbsp avocado oil or another high-smoke oil. About 3–4 min a side, until golden. Don’t move them early.
+4. 2 tbsp butter. When it foams, baste. Garlic or thyme is optional. Amounts unknown.
+5. Off at 160–162°F. Rest before you slice.
+
+**Watch**
+- Uneven meat and one end dries out.
+- Slice it hot and the juice runs.
+- A cold pan and you get no crust.
+
+**Tools** (hide)
+- Skillet, thermometer, mallet or rolling pin, parchment.
+
+Taste 7 · Nutrition 7 · Unique 3
+3.1 million views. A breast that stays juicy. The thermometer is the method.
+
+No peanuts. No legumes.
+
+---
+
+## 54. Chef’s Chicken Thighs
+Danny Kim · sear, then 350°F for 5 min · 4 thighs
+https://youtu.be/8R720y597Zs
+
+Partial. Almost no amounts. Four thighs are on screen.
+
+**Remember**
+- Lime juice to clean the chicken, then salt, pepper, allspice, a little nutmeg.
+- Sear skin-side down. Drain the fat.
+- Guava jelly, red wine, a little jus, a tiny bit of stock. Oven 350°F for 5 minutes.
+
+**Do**
+1. 4 skin-on thighs. Lime wash. Season. Amounts unknown.
+2. Sear skin down in oil. Drain the extra fat. Flip.
+3. Ginger, green seasoning, thyme, a couple of bay leaves, guava jelly, mushrooms. Red wine. A little chicken jus and a tiny bit of stock. Amounts unknown.
+4. 350°F, 5 min.
+5. Plate with cashews, ginger, lime zest, crispy shallots, brown butter, scallion.
+
+**Watch**
+- Leaving the rendered fat in the pan. He pours it off.
+- Guessing the wine and the jelly. They are not measured.
+- Cashews are a tree nut, not peanut. Skip them if you want. They are the garnish.
+
+**Tools** (hide)
+- Sauté pan, oven.
+
+Taste 8 · Nutrition 5 · Unique 7
+2.1 million views. Caribbean pan sauce on four thighs. The quantities are the gap.
+
+No peanuts. Cashews on the plate. No legumes named.
+
+---
+
+## 55. Lady Gaga’s Sandwich
+Domenic’s Kitchen · assembly · 1 large sub
+https://youtu.be/CLY8LDfLr8A
+
+Partial. No amounts. This is an Italian cold-cut sub, not a chopped cheese.
+
+**Remember**
+- Capicola, two salamis, and mortadella.
+- Iceberg shredded and tossed with pepperoncini and a creamy dressing before it goes on.
+- Mustard on the bread.
+
+**Do**
+1. Long roll. Yellow mustard.
+2. Capicola, two kinds of salami, mortadella, white sliced cheese. The cheese name is not spoken.
+3. Shred iceberg. Toss with pepperoncini and mayo or a creamy dressing. Amounts unknown.
+4. Lettuce on, tomato slices, close it.
+
+**Watch**
+- Too much dressing and the roll goes soggy.
+- Calling it a chopped cheese. That is a different sandwich.
+- Mayo can hide soy, by brand. Not named as soy.
+
+**Tools** (hide)
+- Knife, bowl, cutting board.
+
+Taste 7 · Nutrition 4 · Unique 5
+1.5 million views. A deli stack. The dressed lettuce is the move.
+
+No peanuts. No legumes named.
+
+---
+
+## 56. Medieval Bokenade
+Tasting History with Max Miller · a few hours · servings unknown
+https://youtu.be/jq-D_73TfLI
+https://www.tastinghistory.com/recipes/bokenade
+
+The short was blocked. Amounts are from his Bokenade page, the dish this tavern clip belongs to.
+
+**Remember**
+- Meat on the bone, covered, about an hour. Then strain the broth.
+- Herbs and spices simmer another 1–2 hours. Top up the liquid.
+- Egg yolks and verjuice go in off the heat, at the end. Don’t boil it again.
+
+**Do**
+1. 3–4 lb beef, goat, or chicken, with bones. Water or broth to cover. Boil, then simmer about 1 hour. Skim. Pull the meat, cut it, strain the broth.
+2. Meat and broth back in. A small handful of parsley, a few sage leaves, a few sprigs of hyssop or about 1 tsp dried. ½ tsp mace, ⅛ tsp cloves. Covered, 1–2 hours.
+3. Off the heat. Cool a little. Temper 4 egg yolks with about ½ cup hot broth. Whisk in ½ tsp ginger, a pinch of saffron, 1 tsp salt.
+4. Stir that in with ½ cup verjuice. If you have no verjuice: equal parts grape juice and red wine vinegar.
+
+**Watch**
+- A hard reheat after the yolks and they scramble.
+- Letting the second simmer run dry.
+- Skipping the verjuice. The sour is the point.
+
+**Tools** (hide)
+- Large pot, strainer, whisk.
+
+Taste 6 · Nutrition 5 · Unique 9
+A medieval tavern stew. Thickened with yolks, not a roux.
+
+No peanuts. No legumes.
+
+---
+
+## 57. No-Water Chicken Soup
+The Chef and the Baker RVA · time unknown · servings unknown
+https://youtu.be/WaGAR7Kx5js
+
+Thin card. The video was blocked and there is no written recipe. Do not borrow another creator’s no-water soup.
+
+**Remember**
+- The title says no water, chicken soup. That is all that is verified.
+- Ingredients, times, and the pot are unknown.
+- Another viral no-water soup is not this one.
+
+**Do**
+1. No usable method.
+
+**Watch**
+- Cooking someone else’s no-water soup and calling it this short.
+- Adding water because every other soup does. His version is unverified.
+- Assuming legumes or peanuts. Unknown, not absent.
+
+**Tools** (hide)
+- Unknown.
+
+Taste — · Nutrition — · Unique —
+A viral soup with no surviving text.
+
+Legumes unknown. Peanuts unknown.
+
+---
+
+## 58. Chopped Cheese Loaded Fries
+Legend's Cooking · fries 20–23 min · serves 2
+https://youtu.be/fGqjSQTfMO8
+
+**Remember**
+- Onions caramelize in bone broth, not oil.
+- Patties pressed thin. 3–4 minutes on the first side.
+- Fries at 400°F, shaken every 8 minutes.
+
+**Do**
+1. Sauce: blend 170 g nonfat Greek yogurt, 113 g 2% cottage cheese, 65 g sugar-free ketchup, 25 g Dijon, 20 g pickle juice, 4 g nutritional yeast, ½ tsp paprika, ¼ tsp salt, ¼ tsp pepper.
+2. 750 g russet potatoes, crinkle-cut, washed, dried. Air fryer 400°F, 20–23 min. Shake every 8 min. Toss with avocado oil spray, salt, garlic powder.
+3. 150 g white onion to light brown. Salt and 50 g chicken bone broth. No oil. Set aside.
+4. 16 oz 96/4 beef into 3 balls. Press flat. Salt, garlic powder, 10 g mustard, and some onion on each. 3–4 min, then 2–3 min. 3 slices 2% American. Cover to melt. Chop.
+5. Bowl: fries, chopped beef, 70 g sauce, leftover onion, 100 g tomato, 100 g red onion, 100 g dill pickle, sesame seeds.
+
+**Watch**
+- Fries you never shake.
+- Cheese that never melts under a lid before you chop.
+- A sauce you only stir. He blends it smooth.
+
+**Tools** (hide)
+- Air fryer, pan, blender, lid.
+
+Taste 7 · Nutrition 8 · Unique 5
+His label is 615 calories, 58 g protein, for two. Chopped cheese on fries.
+
+No peanuts. No legumes. Nutritional yeast is not soy.
+
+---
+
+## 59. Cheesy Beef Dipping Burritos
+Legend's Cooking · air fry 4 min · 8 burritos
+https://youtu.be/ekJCheTGDpo
+
+**Remember**
+- Freeze the mozzarella sticks before you cut them.
+- Broth in two goes: 90 g, then 30 g after the cheese.
+- 400°F for 4 minutes.
+
+**Do**
+1. Sauce, then chill it: 170 g nonfat Greek yogurt, 113 g 2% cottage cheese, 113 g Taco Bell Fire sauce, 8 g taco seasoning.
+2. Unwrap 8 light mozzarella sticks and freeze them. Halve them lengthwise once frozen.
+3. Brown 16 oz 96/4 beef. Pan about 7/10. Add 1 packet taco seasoning and 90 g reduced-sodium chicken broth.
+4. Lower the heat. 56 g 2% Mexican cheese, 2 Light Laughing Cow wedges, 6 g nutritional yeast. Then 30 g more broth.
+5. 8 low-carb tortillas. Each gets an eighth of the beef and the mozzarella. Fold. Spray. Air fry 400°F, 4 min. Dip.
+
+**Watch**
+- Soft sticks and the cheese squishes out of place.
+- Sauce served warm. He chills it so it thickens.
+- Taco seasoning can hide soy, by brand. Not named as soy.
+
+**Tools** (hide)
+- Air fryer, pan, blender, freezer.
+
+Taste 7 · Nutrition 8 · Unique 5
+His label is 190 calories and 24 g protein each. Eight of them.
+
+No peanuts. No legumes named.
+
+---
+
+## 60. Bang Bang Chicken Tenders
+Legend's Cooking · time unknown · 3 tenders a portion
+https://youtu.be/FpM8ybyL9s0
+
+Partial. The ingredient list is full. The cook steps are not. Don’t invent an air-fry time.
+
+**Remember**
+- 800 g chicken, 400 g 0% yogurt, 200 g cornflakes.
+- The sauce is 2 tbsp soy sauce. That is soy.
+- His label is 334 calories and 45 g protein per 3 tenders. How long they cook is not written.
+
+**Do**
+1. Chicken, amount of salt and pepper unknown. Spices written: 1 tbsp paprika, 1 tsp garlic powder.
+2. Wet coat: 400 g 0% yogurt and 1 tbsp sriracha.
+3. Crust: 200 g cornflakes.
+4. Sauce: 2 tbsp soy sauce, 1 tbsp honey, 2 tbsp sugar-free ketchup, 1 tsp garlic powder.
+5. The cooking method is not in the text. Stop there.
+
+**Watch**
+- Inventing 400°F because his other shorts use an air fryer. This one doesn’t say.
+- Sriracha can hide soy, by brand. The soy sauce already counts.
+- Salt and pepper with no amount.
+
+**Tools** (hide)
+- Not named.
+
+Taste 7 · Nutrition 7 · Unique 4
+Under 10k views. Cornflake tenders. The missing page is the cook.
+
+Legume: soy sauce. No peanuts.
+
+---
+
+## 61. Smoke Ribs on a Grill
+Sasha Grey · time unknown · servings unknown
+https://youtu.be/i8-DbDiSl4w
+
+Thin card. Empty description. No captions. Don’t borrow a generic rib rub.
+
+**Remember**
+- The title is ribs on a grill. That is all.
+- Rub, wood, temperature, and time are unknown.
+- A 3-2-1 from somewhere else is not this video.
+
+**Do**
+1. No usable method.
+
+**Watch**
+- Filling in a famous rib schedule.
+- Assuming a sweet rub or a mop. Not written.
+- Assuming peanuts or legumes. Unknown.
+
+**Tools** (hide)
+- A grill. Nothing else is named.
+
+Taste — · Nutrition — · Unique —
+317k views. A holiday short with no recipe text.
+
+Legumes unknown. Peanuts unknown.
+
+---
+
+## 62. Dean Martin’s Sandwich
+Domenic’s Kitchen · time unknown · 2 thin steaks
+https://youtu.be/BSbZCezgVMg
+
+Partial. No amounts and no timers. Steak pizzaiola on a roll.
+
+**Remember**
+- Two thin steaks, seared, then simmered in the sauce.
+- Green peppers in that sauce.
+- Smoked provolone, melted. He uses a torch.
+
+**Do**
+1. Salt and pepper the steaks. Sear in oil. Amounts and times unknown.
+2. Sliced green peppers and minced garlic in the pan. A splash from a bottle to deglaze. What is in the bottle is not named.
+3. Tomato sauce and dried herbs. Steak back in to simmer.
+4. On a long roll. Smoked provolone. Melt it. Close.
+
+**Watch**
+- A thin steak left while you build a long sauce. It will be past done.
+- Guessing wine or vinegar for the deglaze.
+- Skipping the melt. The cheese is the top of the sandwich.
+
+**Tools** (hide)
+- Skillet, knife, kitchen torch.
+
+Taste 8 · Nutrition 5 · Unique 6
+1.4 million views. Pizzaiola on a roll. The bottle is unlabeled.
+
+No peanuts. No legumes named. Tomato sauce can hide soy, by brand.
+
+---
+
+## 63. High-Protein Crunchwraps
+Noah Perlo · about 1 hr for the batch · about 18 wraps
+https://youtu.be/r63GWtv_eSc
+
+Partial. Weights for the beef, wraps, sour cream, and cheese are in the video. Spice amounts and the fold are not.
+
+**Remember**
+- 2.7 kg of 96% lean beef. This is a week of wraps, not dinner for two.
+- 18 large low-carb wraps and 18 small ones. La Banderita.
+- His label is about 380 calories and 37 g protein each. That is his math.
+
+**Do**
+1. Season and cook the beef with salt, pepper, garlic powder, chili powder, and cumin. Amounts unknown.
+2. 4 tomatoes, 1 large romaine, 36 tbsp light sour cream (2¼ cups), 4½ cups part-skim cheese blend.
+3. Assemble between a large wrap and a small one. How he folds and toasts is not written.
+
+**Watch**
+- Treating “20” from the voiceover as the count. The written line is about 18.
+- Guessing the spice teaspoons.
+- Guessing a toast time.
+
+**Tools** (hide)
+- A big pan. The press or skillet for the fold is not named.
+
+Taste 6 · Nutrition 8 · Unique 4
+13.7 million views. Meal-prep math. The fold is the missing page.
+
+No peanuts. No legumes listed.
+
+---
+
+## 64. High-Protein Lasagna
+Ethan Paff · about 1 hr in the oven · 8, 10, or 12 servings
+https://youtu.be/ZlsrmJvk9f4
+
+**Remember**
+- Cottage cheese is the filling, not a tub of ricotta. Blend it if you want it smooth.
+- Tent the foil so the cheese does not stick.
+- Rest 15 minutes before you cut.
+
+**Do**
+1. Sauce: three 15 oz cans tomato sauce plus ½ can water. 1 tsp salt, 1 tsp garlic powder, 2 tsp onion powder, 1 tsp pepper, about 2½ tsp oregano, about 5 tsp basil. Not an Italian-seasoning blend.
+2. Brown 2 lb 93/7 beef with 1 tsp salt. Finish with 2 garlic and 1 shallot. Into the sauce.
+3. Dice even: 1 zucchini, 2 carrots, 1 red pepper. ½ cup mushrooms first, so they give up water, then the rest. Into the sauce.
+4. Cheese mix: two 16 oz tubs 2% cottage cheese, 2 tbsp cornstarch, 2 eggs, about 1 tbsp parsley, about 1 cup mozzarella, about ½ cup Parmesan.
+5. 12 oz oven-ready noodles in a 9×13. Layers of sauce, cheese mix, noodles. Top with the rest of 1 lb mozzarella and 5.25 oz Parmesan.
+6. 400°F, foil tent 30 min, uncover 15, then 450°F for 5–10. Rest 15.
+
+**Watch**
+- Italian seasoning instead of the separate oregano and basil.
+- Flat foil and the cheese welds to it.
+- Cut it hot and the slices fall.
+
+**Tools** (hide)
+- Pot, pan, 9×13, foil, scale if you use his grams.
+
+Taste 8 · Nutrition 7 · Unique 5
+789k views. Lasagna he built for the protein number. The cottage cheese is the swap.
+
+No peanuts. No legumes.
+
+---
+
+## 65. Red Lentil Wraps
+Broccoli Mum · time unknown · servings unknown
+https://youtu.be/ckAIUnnh7oU
+
+Thin card. Empty description. No usable amounts. The title says one ingredient: red lentils.
+
+**Remember**
+- This is lentils. A legume. Do not treat it as required.
+- Water and any other ingredient are not in the text.
+- No steps survived.
+
+**Do**
+1. No usable method.
+
+**Watch**
+- Cooking a random lentil-wrap blog and calling it this video.
+- Assuming it is only lentils. Water is likely. Not written.
+- Skipping the legume warning.
+
+**Tools** (hide)
+- Unknown.
+
+Taste — · Nutrition — · Unique 5
+356k views. A one-ingredient claim. The recipe text is missing.
+
+Legume: red lentils. That is the dish. Skip it. No peanuts in the text.
+
+---
+
+## 66. Not a recipe
+ByEduMema0562_GP · 1 min 35 sec
+https://youtu.be/iOO2zwc0iI8
+
+This playlist slot is a slowed Macarena and a news edit. There is no food.
+
+**Remember**
+- Do not cook from this.
+- Title on the playlist is the song, not a dish.
+- Skip it when you count recipes.
+
+**Do**
+1. Nothing.
+
+**Watch**
+- Inventing a meal because it sits in the Recipes list.
+
+**Tools** (hide)
+- None.
+
+Taste — · Nutrition — · Unique —
+A music clip. Leave it.
+
+No peanuts. No legumes.
+
+---
+
+## 67. Rice-Cooker Oyakodon
+Japanese Cooking Channel · one rice cycle plus 15 min · serves 1
+https://youtu.be/rxL3ISxqxrQ
+https://misosoup.site/rice-cooker-hack-oyakodon-style-mixed-rice/
+
+**Remember**
+- Fill the cooker no more than halfway. Models run hot or cold.
+- The marinade goes in with the chicken. Do not leave it in the bowl.
+- Egg goes on after the rice finishes. Keep-warm about 15 minutes.
+
+**Do**
+1. 150 g rice, washed. 140 g thigh or breast, cut. Marinade: 2 tsp soy, 2 tsp sake, 2 tsp mirin, 1 tsp sugar.
+2. 70 g onion, sliced.
+3. Sauce in the pot: 180 ml water, 1 tbsp plus 1 tsp soy, 1 tbsp sake, 1 tbsp mirin, 2 tsp sugar, ½ tsp dashi. Stir the rice in.
+4. Onion, then chicken and all the marinade. White-rice setting.
+5. 2 beaten eggs poured over at the end. Keep-warm about 15 min. Fluff. 10 g mitsuba or scallion.
+
+**Watch**
+- A full pot and the cycle fails.
+- This is mixed rice, not the egg-on-rice bowl from a donburi pan.
+- Pull it the second the rice beeps and the egg stays raw.
+
+**Tools** (hide)
+- Rice cooker, bowl.
+
+Taste 7 · Nutrition 6 · Unique 6
+640k views. Oyakodon for people who will not stand at the stove.
+
+Legume: soy sauce. No peanuts.
+
+---
+
+## 68. One-Egg Banana Pan Cake
+cooking kisy · about 25 min · servings unknown
+https://youtu.be/9dqlqEyBKro
+
+Partial. Amounts are from on-screen text. The video is in Spanish. No oven.
+
+**Remember**
+- Caramel first, medium-low: butter and sugar, then the bananas.
+- The batter cooks covered, very low, 15–20 minutes.
+- Flip. Five more minutes.
+
+**Do**
+1. 20 g butter and 20 g sugar. Caramelize. 2 bananas or plantains.
+2. Batter: 1 egg, 50 g sugar, 8 g vanilla sugar, 50 ml oil, 100 ml milk, 130 g flour, 20 g cocoa, 8 g baking powder.
+3. Cover. Very low, 15–20 min. Flip. 5 min.
+
+**Watch**
+- High heat and the bottom burns before the middle sets.
+- The three pitfalls people name are not in the text. Watch the heat.
+- Plantain and banana are both written. They will not taste the same.
+
+**Tools** (hide)
+- Lidded pan.
+
+Taste 7 · Nutrition 3 · Unique 6
+About 7 million views. A stove cake. One egg is the hook.
+
+No peanuts. No legumes.
+
+---
+
+## 69. Beef and Onion Stir-Fry
+Cook! Stacey Cook · time unknown · serves 4
+https://youtu.be/wJ_vNUSQMZg
+
+**Remember**
+- Slice the beef against the grain.
+- Mix the seasonings, then add the oil and sesame oil.
+- Onions stay crunchy. The cornstarch is already on the beef. Finish with plain water, not another slurry.
+
+**Do**
+1. 190 g onion in strips. 4 scallions, whites and greens apart, 2-inch pieces. ¼ tsp salt and ¼ tsp sugar for the onion. 4 garlic cloves.
+2. 480 g beef. Marinade: 2 tsp soy, 2¼ tsp dark soy, ¾ tsp oyster, ¾ tsp sugar, 1½ tsp baking soda, 4½ tsp cornstarch. Then 3 tsp oil and 1½ tsp sesame oil.
+3. Hot pan. Onion and scallion whites, brief. Out.
+4. 3 tbsp oil. Beef in a single layer. Sear, then flip. Garlic. At about 70% , 1½ tbsp cooking wine at the edge of the pan. 3 tsp dark soy, 1½ tsp oyster, ⅓ cup water. Pepper. Onions back.
+
+**Watch**
+- Oil into the meat before the soy is mixed through.
+- Onions cooked until soft. She wants crunch.
+- A second starch slurry. She already starched the beef.
+
+**Tools** (hide)
+- Knife, pan.
+
+Taste 8 · Nutrition 6 · Unique 5
+16.9 million views. The velvet beef. Water at the end, not more cornstarch.
+
+Legume: soy sauce and dark soy. Oyster sauce often has soy. No peanuts.
+
+---
+
+## 70. Beef and Broccoli
+Derek Chen · about 30 min · servings unknown
+https://youtu.be/BKutdsvJqEo
+
+**Remember**
+- Flank against the grain.
+- Leave the beef alone for 1–2 minutes so it sears.
+- Broccoli gets 45 seconds in salted water. That is all.
+
+**Do**
+1. 1 lb flank. ¼ tsp baking soda, 3 tbsp Shaoxing, 1 tsp light soy, 1 tsp oyster, ½ tsp salt, ½ tsp sugar, 1 tbsp cornstarch, 1 tbsp oil.
+2. Sauce: ⅓ cup beef broth, 1½ tbsp light soy, 1 tsp dark soy, 1 tbsp oyster, 1 tsp sesame oil, 1 tbsp sugar, ¼ tsp white pepper.
+3. Blanch 1 head broccoli 45 seconds.
+4. Ripping-hot wok, 3 tbsp oil. Beef in one layer. Wait, then stir. 3–4 min total. Out.
+5. More oil, 3 garlic and 1 tsp ginger, a few seconds. 2 tbsp Shaoxing. Beef, broccoli, sauce. Slurry: 1½ tbsp cornstarch and 3 tbsp water. Sesame seeds. Rice.
+
+**Watch**
+- Stir the beef the second it hits and you get no crust.
+- Broccoli left in the boil and it is olive drab.
+- The oil total on the list is 5 tbsp. The steps use 3, then more. Don’t drown it.
+
+**Tools** (hide)
+- Wok.
+
+Taste 8 · Nutrition 6 · Unique 4
+893k views. The weeknight beef and broccoli with a real sear.
+
+Legume: light soy and dark soy. No peanuts.
+
+---
+
+## 71. Movie Theater Popcorn
+Half-Ass Movie Podcast · time unknown · one big bowl
+https://youtu.be/w3wgQ0m6y_o
+
+Partial. The method is spoken. Almost nothing is weighed. He does not want peanut oil.
+
+**Remember**
+- Heat below medium. Not high.
+- Four kernels first. When those pop, add the rest, just enough to cover the bottom.
+- A bowl waiting, and a glass lid so you can see.
+
+**Do**
+1. Coconut oil to cover the bottom of a heavy pot. Melt it.
+2. Four test kernels. When they pop, kernels in a single loose layer. Yellow popcorn. Orville is fine.
+3. Flavacol to taste. He says it should taste like salt, not a salt lick. Swirl.
+4. Shake once it starts. Dump when the pops thin out.
+5. A dash of salt, and a colored topping oil if you want the movie look. Soy in that oil is unknown. Skip it if you are avoiding soy.
+
+**Watch**
+- High heat and it scorches.
+- A heavy hand of Flavacol.
+- An opaque lid and you miss the moment.
+
+**Tools** (hide)
+- Heavy pot, glass lid, big bowl.
+
+Taste 7 · Nutrition 2 · Unique 5
+About 2.1 million views. Home popcorn that smells like a lobby.
+
+No peanuts. He rejects peanut oil. Topping oil may be soy. Unknown.
+
+---
+
+## 72. Copycat Perfect Protein Bars
+Colleen Forton · about 7 min plus 1 hr chill · about 6 bars a flavor
+https://youtu.be/o-dIyREwowA
+https://colleenshealthylife.com/copycat-perfect-protein-bars/
+
+**Remember**
+- Peanut butter is in the chocolate-peanut bars and in the caramel drizzle. Skip both.
+- The brownie uses chocolate hazelnut spread. The caramel dough uses cashew butter. Those two doughs have no peanut.
+- If the nut butter is not drippy, leave out the coconut flour. Chill 1 hour before you slice.
+
+**Do**
+1. Brownie, no peanut: ½ cup chocolate hazelnut spread, 6 tbsp chocolate protein, 3 tbsp almond flour, 1 tbsp cacao, 3 tbsp date syrup, ⅓ cup mini chips.
+2. Caramel dough, no peanut: ½ cup cashew butter, 6 tbsp vanilla protein, 3 tbsp almond flour, 1 tbsp coconut flour only if the butter is drippy, 3 tbsp honey, 1 tsp vanilla, 3 medjool dates chopped in.
+3. Press in a parchment loaf tin. Fridge 1 hour. Slice.
+4. Do not make her drizzle. It is 2–3 tbsp peanut butter with coconut oil and maple.
+
+**Watch**
+- The peanut-butter flavor. It is half a cup of peanut butter.
+- Runny nut butter and the bars will not hold. Add 1–2 tbsp coconut flour, not a cup of it. All coconut flour dries them out.
+- Slice warm and they smear.
+
+**Tools** (hide)
+- Loaf tin, parchment.
+
+Taste 7 · Nutrition 6 · Unique 4
+1.1 million views. Candy-bar texture. Two flavors are safe. One is not.
+
+Peanut: required in the peanut-butter bars and the drizzle. Skip those. Hazelnut and cashew doughs are the ones to make. No soy. No beans or lentils.
+
+---
+
+## 73. The Only Tuna Salad
+Chef Jean-Pierre · 30 min · serves 6
+https://youtu.be/7yl4K979AHM
+https://chefjeanpierre.com/salad-recipes/the-only-way-to-make-tuna-salad/
+
+**Remember**
+- Drain the tuna hard. Solid, in water.
+- Do not dump in all the dressing. Add until it holds.
+- It is packed into hollow tomatoes. Do not freeze it.
+
+**Do**
+1. Two 12 oz cans solid tuna in water, drained, broken up.
+2. Dressing: 1½ cups mayo, 1 tbsp Dijon, 2 tbsp yogurt, 2 tbsp sour cream.
+3. Fold in 2 tbsp capers, 1 small shallot, 1 garlic, 1 tbsp dill, 1 tsp hot sauce, salt, pepper.
+4. Then the tuna, then 1 celery stalk, ½ small bell pepper, ½ small fennel if you want it, a handful of chopped almonds.
+5. More dressing only if it needs it. 6 hollow tomatoes. Pack. Serve cold.
+
+**Watch**
+- Wet tuna and the salad weeps.
+- All 1½ cups of dressing and it is soup.
+- The freezer. Mayo splits. Chickpeas are a comment suggestion, not this recipe. Don’t add them.
+
+**Tools** (hide)
+- Knives, spatula, bowl.
+
+Taste 7 · Nutrition 6 · Unique 4
+893k views. Tuna in a tomato. Almonds, not peanuts.
+
+No peanuts. Almonds are in it. No legumes in the recipe.
+
+---
+
+## 74. New York Deli Tuna Salad
+Sip and Feast · 10 min plus overnight · serves 4
+https://youtu.be/4iH4cuFlaRk
+https://www.sipandfeast.com/new-york-deli-tuna-salad/
+
+**Remember**
+- Mix it with your hands.
+- Overnight in the fridge, then pour off the water that collected.
+- Thick mayo. He wants Hellmann’s, not Miracle Whip.
+
+**Do**
+1. Four 5 oz cans solid tuna in water, drained well.
+2. ½ cup onion, ½ cup celery, 1 tsp celery salt, 2 tbsp sweet relish, 1 tbsp soy sauce. Sit 10 minutes.
+3. 1¼ cups mayo, more later if it needs it. Salt and pepper.
+4. Cover. Fridge overnight. Next day, drain the water. Add mayo only if it is dry.
+5. Melt, if you want it: rye, tomato, American or Swiss.
+
+**Watch**
+- Eat it the same day and it is wet.
+- Cans that still hold water.
+- Duke’s or Miracle Whip if you are chasing his deli taste. He says they are the wrong mayo.
+
+**Tools** (hide)
+- Bowl, your hands, plastic wrap.
+
+Taste 8 · Nutrition 5 · Unique 4
+3.8 million views. The overnight drain is the whole trick.
+
+Legume: 1 tbsp soy sauce. No peanuts.
+
+---
+
 ## Queue (next)
-Say next for 51–60. Start at playlist index 56. Unavailable so far: 9, 11, 22, 28, 32.
+Next card is 75, playlist index 81. Unavailable still 9, 11, 22, 28, 32.
