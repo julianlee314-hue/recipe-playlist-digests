@@ -9,8 +9,23 @@ from pathlib import Path
 
 from item_icons import item_icon, item_icon_css
 
+
 ROOT = Path(__file__).resolve().parent
 E = htmlmod.escape
+
+CATEGORY_FILE = ROOT / "categories.json"
+
+
+def load_categories() -> dict:
+    """Card-number -> category display name. Missing nums stay uncategorized."""
+    if not CATEGORY_FILE.exists():
+        return {"order": [], "by_num": {}}
+    return json.loads(CATEGORY_FILE.read_text())
+
+
+def cat_slug(name: str) -> str:
+    s = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return f"cat-{s}"
 
 
 def rebuild_indexes(data: dict) -> None:
@@ -476,7 +491,70 @@ def build_html(data: dict) -> str:
         for t in data["tools"]
     )
 
-    recipes_html = "\n".join(render_recipe(r) for r in recipes)
+    cats_data = load_categories()
+    cat_order = list(cats_data.get("order") or [])
+    by_num = {str(k): v for k, v in (cats_data.get("by_num") or {}).items()}
+    # Count from mapping (source of truth), not from guesswork
+    cat_counts: dict[str, int] = {c: 0 for c in cat_order}
+    for _n, cname in by_num.items():
+        if cname in cat_counts:
+            cat_counts[cname] += 1
+        else:
+            cat_counts[cname] = cat_counts.get(cname, 0) + 1
+            if cname not in cat_order:
+                cat_order.append(cname)
+
+    recipes_by_cat: dict[str, list] = {c: [] for c in cat_order}
+    uncategorized: list = []
+    for r in recipes:
+        cname = by_num.get(str(r["num"]))
+        if cname:
+            if cname not in recipes_by_cat:
+                recipes_by_cat[cname] = []
+                if cname not in cat_order:
+                    cat_order.append(cname)
+            recipes_by_cat[cname].append(r)
+        else:
+            uncategorized.append(r)
+
+    cat_label_links = "".join(
+        f'<a class="cat-label" href="#{E(cat_slug(c))}">{E(c)}'
+        f'<span class="cat-n">{cat_counts.get(c, len(recipes_by_cat.get(c, [])))}</span></a>'
+        for c in cat_order
+        if recipes_by_cat.get(c)
+    )
+    if uncategorized:
+        cat_label_links += (
+            f'<a class="cat-label" href="#cat-uncategorized">Uncategorized'
+            f'<span class="cat-n">{len(uncategorized)}</span></a>'
+        )
+
+    recipe_chunks: list[str] = []
+    for c in cat_order:
+        group = recipes_by_cat.get(c) or []
+        if not group:
+            continue
+        # Preserve card numbers; sort by num within category
+        group = sorted(group, key=lambda x: x["num"])
+        body = "\n".join(render_recipe(r) for r in group)
+        n = cat_counts.get(c, len(group))
+        recipe_chunks.append(
+            f'<section class="recipe-cat" id="{E(cat_slug(c))}" data-cat="{E(c)}">\n'
+            f'<h3 class="cat-heading"><a href="#{E(cat_slug(c))}">{E(c)}</a>'
+            f'<span class="cat-n">{n}</span></h3>\n'
+            f"{body}\n"
+            f"</section>"
+        )
+    if uncategorized:
+        body = "\n".join(render_recipe(r) for r in sorted(uncategorized, key=lambda x: x["num"]))
+        recipe_chunks.append(
+            f'<section class="recipe-cat" id="cat-uncategorized" data-cat="Uncategorized">\n'
+            f'<h3 class="cat-heading"><a href="#cat-uncategorized">Uncategorized</a>'
+            f'<span class="cat-n">{len(uncategorized)}</span></h3>\n'
+            f"{body}\n"
+            f"</section>"
+        )
+    recipes_html = "\n".join(recipe_chunks)
     not_recipes_html = "\n".join(render_not_recipe(r) for r in set_aside)
 
     return f"""<!DOCTYPE html>
@@ -484,7 +562,7 @@ def build_html(data: dict) -> str:
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>YouTube Recipes — Playlist Digests</title>
+<title>Recipes Worth Rewatching — Playlist Digests</title>
 <style>
 {css}
 {item_icon_css()}
@@ -519,12 +597,17 @@ def build_html(data: dict) -> str:
   <circle class="hc-bubble hc-b3" cx="58" cy="68" r="1.4" fill="#fbf3e6" opacity=".4"/>
 </svg>
 <div class="badge">Playlist Digests · Cards 1–{n_total}</div>
-<h1>YouTube Recipes</h1>
-<p class="sub">Searchable ingredients &amp; tools · peanut-aware · printed-cookbook warm</p>
-<div class="sermon">
-<p>Every card keeps Remember / Do / Watch, taste scores, and a reaction line. Peanuts are never required; soy sauce counts as soy. Tutorials follow the recipes; the full tools glossary is at the back.</p>
+<h1>Recipes Worth Rewatching</h1>
+<p class="sub">Searchable ingredients &amp; tools · peanut-aware · warm evening feast</p>
+<div class="cover-search">
+<label for="filter-text">Search recipes</label>
+<input type="search" id="filter-text" placeholder="Search recipe text…" autocomplete="off"/>
 </div>
-<p class="legal">YouTube Recipes playlist cards — searchable ingredients and tools. · {n_recipes} recipes · {n_aside} set aside · {n_ing} ingredients · {n_tool} tools</p>
+<nav class="cat-labels" aria-label="Recipe categories">{cat_label_links}</nav>
+<div class="sermon">
+<p>Every card keeps Remember / Do / Watch, taste scores, and a reaction line. Peanuts are never required; soy sauce counts as soy. Recipes are grouped by kind below; tutorials follow; the Tool Glossary is at the back.</p>
+</div>
+<p class="legal">Recipes Worth Rewatching — playlist digests with searchable ingredients and tools. · {n_recipes} recipes · {n_aside} set aside · {n_ing} ingredients · {n_tool} tools</p>
 </header>
 
 <nav class="toc">
@@ -547,7 +630,7 @@ def build_html(data: dict) -> str:
 
 <section class="part" id="recipes-part">
 <h2>Recipes</h2>
-<p>Thin cards stay visible and labeled. Quantities are never invented. {n_recipes} cooking recipes ({n_aside} tutorials set aside after this section).</p>
+<p>Thin cards stay visible and labeled. Quantities are never invented. {n_recipes} cooking recipes grouped by category ({n_aside} tutorials set aside after this section).</p>
 </section>
 
 <div class="filter-bar" id="recipe-filter">
@@ -558,8 +641,6 @@ def build_html(data: dict) -> str:
 <select id="filter-ing"><option value="">— any —</option>{ing_opts}</select></div>
 <div><label for="filter-tool">Tool</label>
 <select id="filter-tool"><option value="">— any —</option>{tool_opts}</select></div>
-<div style="flex:1"><label for="filter-text">Text search</label>
-<input type="search" id="filter-text" placeholder="Search recipe text…"/></div>
 <button type="button" id="filter-apply">Apply</button>
 <button type="button" class="ghost" id="filter-clear">Clear</button>
 </div>
@@ -611,6 +692,7 @@ def build_html(data: dict) -> str:
 </body>
 </html>
 """
+
 
 
 def main():
