@@ -3,7 +3,7 @@ Source: Julius “Recipes” playlist (471 videos)
 Format: Remember / Do / Watch + scores
 Batch size: 5
 
-Progress: 1–30 named (through playlist index 35; unavailable 9, 11, 22, 28, 32)
+Progress: 1–50 named (through playlist index 55). Unavailable still 9, 11, 22, 28, 32.
 
 ---
 
@@ -926,5 +926,638 @@ No peanuts seen. Soy in the sauce is unknown.
 
 ---
 
+
+## 31. Persian Koobideh Kebab
+Sara · Nutrient Matters · 30 min prep + 15 min cook · servings unknown
+https://youtu.be/cfzgF3MPB4w
+https://nutrient-matters.com/recipe/koobideh-kabob/
+
+**Remember**
+- Squeeze the onion dry. Knead until the meat films the bowl.
+- About 100 g ovals on metal skewers. Fridge 1 hour.
+- Direct fire, grates off. Turn every 10–30 seconds. Brush with saffron butter.
+
+**Do**
+1. Saffron water: ½ tsp saffron ground with sugar (sugar amount not listed) and 1 cup hot water.
+2. 1 large onion, grated and squeezed. 2 tsp salt, 1 tsp pepper, 1 tsp sumac, 1 tbsp ghee, 2 tbsp saffron water, 2 lb 80/20 beef. Knead.
+3. Skewers. Fridge 1 hour.
+4. Grill over direct fire, turning often, about 6–8 min.
+5. Butter: ½ stick butter, ¼ cup saffron water, juice of ¼ lemon, pinch of salt. Brush. Basmati and grilled vegetables.
+
+**Watch**
+- Wet onion and the kebab slips off the skewer.
+- Leave it sitting and one side burns.
+- Skip the butter and it is dry.
+
+**Tools** (hide)
+- Grater, cloth, bowl, metal skewers, grill, brush.
+
+Taste 8 · Nutrition 6 · Unique 7
+9 million views. The knead and the fire are the whole recipe.
+
+No peanuts. No legumes.
+
+---
+
+## 32. Healthy Butter Chicken
+amateurprochef · under 40 min · serves 4
+https://youtu.be/OYlHX6HL18Y
+https://amateurprochef.com/2026/05/10/healthy-butter-chicken-2/
+
+**Remember**
+- Blend the sauce smooth.
+- Yogurt goes in on low heat or it curdles.
+- Kasoori methi at the end. That is the smell.
+
+**Do**
+1. 800 g chicken breast. At least 30 min: ¾ cup 0% Greek yogurt, 1 tbsp lemon, 1 tbsp ginger-garlic paste, 2 tsp Kashmiri chili, ½ tsp turmeric, 1 tsp garam masala, 1 tsp cumin, 1 tsp coriander, 1 tsp salt.
+2. Air fryer or pan, 380°F, 12–14 min.
+3. 1 onion, 1 tbsp butter, 2 tsp oil. Another 1 tbsp ginger-garlic. One 398 mL can diced tomatoes. 1½ tsp Kashmiri chili, 1 tsp garam masala, 1 tsp coriander. Blend. Thin with ½ cup water.
+4. Low heat. Stir in 1 cup yogurt. Chicken in. 3–5 min with garam masala and 1 tbsp kasoori methi. ½ tsp honey only if you want it.
+
+**Watch**
+- Yogurt on a hard boil and it splits.
+- Leave it chunky. He blends it.
+- Skip the methi and it tastes like tomato chicken.
+
+**Tools** (hide)
+- Bowl, air fryer or pan, blender.
+
+Taste 7 · Nutrition 8 · Unique 5
+237k views. Butter chicken with yogurt instead of a pint of cream.
+
+No peanuts. No legumes.
+
+---
+
+## 33. Jollibee Burger Steak
+Derek Chen · time unknown · about 2–3 patties from 1 lb
+https://youtu.be/XaE_IaxVnS0
+
+**Remember**
+- Soak the panko in evaporated milk for 5 minutes.
+- Cook the flour in the butter before the stock.
+- Gravy simmers 8–10 minutes. Rice under it.
+
+**Do**
+1. ⅓ cup panko in ⅓ cup evaporated milk, 5 min. 1 lb beef, ½ onion, 4 garlic, 1 tbsp soy, 1 tbsp Worcestershire, 1 tsp salt, 1 tsp pepper, 1 egg. About 6 oz patties, flattened.
+2. About 1 tbsp oil. 3–5 min a side.
+3. 4 tbsp butter, 3½ cups cremini. 4 tbsp flour, cooked out. 3½ cups beef stock, 8–10 min. 1 tbsp soy, 1 tbsp Worcestershire, salt and pepper.
+4. Rice, patty, gravy, mushrooms.
+
+**Watch**
+- Dry panko and the patty is dense.
+- Raw flour taste if you rush the roux.
+- A short simmer and the gravy is thin.
+
+**Tools** (hide)
+- Bowl, skillet.
+
+Taste 8 · Nutrition 5 · Unique 6
+932k views. The mushroom gravy is why people save it.
+
+Legume: soy sauce, twice. Worcestershire can hide soy. Check the bottle. No peanuts.
+
+---
+
+## 34. Smoked Stuffed Peppers
+Zach Rodriguez · filling 30 min + about 20 min in the heat · 4 peppers
+https://youtu.be/uqC8e96x0BU
+https://cocinarodriguez.com/stuffed-peppers/
+
+Partial. The blog was hard to read in full. Times below are what came through. Cheese amount is not listed.
+
+**Remember**
+- Simmer until the rice and potato have taken the liquid.
+- Cook the beer 2 minutes so the alcohol goes.
+- 400°F about 20 min, until the pepper is soft and the cheddar has melted.
+
+**Do**
+1. Brown 1½ lb beef. 1 white onion, 1 jalapeño, 3 garlic.
+2. 2 tsp salt, 2 tsp pepper, 1 tsp each cumin, coriander, smoked paprika, thyme. 2 tbsp tomato paste.
+3. 1 russet, ½-inch cubes, and 1 cup beer. 2 min.
+4. 15 oz crushed tomatoes, 1 cup wild rice, 2 cups beef stock. Simmer about 30 min until absorbed.
+5. 4 peppers, halved, on a wire rack. Stuff. Cheddar on top. Amount unknown. Oven or smoker, 400°F, about 20 min.
+6. Sour cream, bacon bits, chives if you want them. Amounts unknown.
+
+**Watch**
+- Pull the filling while it is still soupy.
+- Skip the beer cook-off and it tastes raw.
+- Pull the peppers early and the cheese is just warm.
+
+**Tools** (hide)
+- Skillet, wire rack, oven or smoker.
+
+Taste 8 · Nutrition 6 · Unique 6
+482k views. Stuffed peppers with a smoke. Cheese weight is the gap.
+
+No peanuts. No legumes.
+
+---
+
+## 35. Pepper Steak
+Cooking Con Claudia · marinade 30 min · servings unknown
+https://youtu.be/gmTxIqEkQfk
+
+**Remember**
+- Slice the flank thin. Marinade at least 30 minutes.
+- Save about 1 cup of the meat juices. That is the sauce.
+- Cornstarch at the end, not the start.
+
+**Do**
+1. ¼ cup soy, 1 tbsp rice vinegar, 1 tbsp hoisin, 1 tbsp Maggi Jugo or Worcestershire, 1½ tbsp honey, 2 tsp hot sesame oil, 1½ tsp black pepper, ½–1 tsp chili flakes, 2 garlic, grated ginger. Ginger amount not listed.
+2. 1½ lb flank, thin. At least 30 min, overnight if you can.
+3. Wok. Cook the meat. Hold back about 1 cup of juices. Brown the rest. Out.
+4. 3 peppers and 1 onion, about 5 min.
+5. Meat and juices back. Slurry: 1 tbsp cornstarch and 2 tbsp water. Thicken. Wok oil amount unknown.
+
+**Watch**
+- No marinade and it is just stir-fry.
+- Throw the juices out and the sauce is thin.
+- Leave the peppers until they collapse.
+
+**Tools** (hide)
+- Bowl, wok, grater.
+
+Taste 8 · Nutrition 6 · Unique 4
+95k views on the short. A longer video exists. This card follows the short’s list.
+
+Legumes: soy sauce and hoisin. No peanuts.
+
+---
+
+## 36. Budget Chicken Rice Bowl
+Justin Bishop · time unknown · serves 4–5
+https://youtu.be/PeoT3oOh-9Q
+
+Partial. A rotisserie chicken and rice. Dry-rice amount is not given. He says under $10.
+
+**Remember**
+- Keep the chicken juices. They go in the bowl.
+- Crisp the skin and put it back on top.
+- Dark soy through the rice, not just on the chicken.
+
+**Do**
+1. One rotisserie chicken. Crisp the skin. Shred the meat. Save the juices.
+2. Boil 1 head of broccoli, then chop it.
+3. 2 cups cooked white rice. Dry amount unknown.
+4. Mix rice, about 2 tbsp dark soy, the juices, broccoli, most of the scallions, black pepper, and the chicken.
+5. Top with the crisp skin and the rest of the scallions. Pepper amount unknown.
+
+**Watch**
+- Dump the juices and it is dry rice.
+- Throw the skin away. That is the crunch.
+- Chop the broccoli to dust before it boils and it turns to mush.
+
+**Tools** (hide)
+- Sheet pan, oven, pot, bowl.
+
+Taste 6 · Nutrition 7 · Unique 3
+2.8 million views. A grocery-chicken bowl. The juices are the trick.
+
+Legume: dark soy. No peanuts.
+
+---
+
+## 37. Lemon Brûlée
+Ed Cudlipp · chill 6 hr · 6 shells from 3 lemons
+https://youtu.be/bKViPvxoHe0
+
+**Remember**
+- Unwaxed lemons. You eat the shell’s neighbor, the zest.
+- Simmer cream and sugar until it coats a spoon.
+- Chill at least 6 hours. Torch the brown sugar until it is hard.
+
+**Do**
+1. Halve 3 lemons. Sieve the flesh, about 110 ml.
+2. 500 ml whipping cream, 120 g white sugar, zest of a fourth lemon. Simmer until it coats a spoon.
+3. Fill the shells. Chill 6 hours or overnight.
+4. Brown sugar on top. Amount not listed. Torch until hard.
+
+**Watch**
+- Waxed lemons and the zest tastes like wax.
+- Pull the cream early and it will not set.
+- Serve before the sugar sheet is hard.
+
+**Tools** (hide)
+- Sieve, saucepan, fridge, kitchen torch.
+
+Taste 8 · Nutrition 3 · Unique 8
+1.8 million views. Posset in the lemon it came from.
+
+No peanuts. No legumes.
+
+---
+
+## 38. Easy Beef Stew
+Kitchen Uproar · sear plus 2½ hr · servings unknown
+https://youtu.be/pNR7D1_NbMs
+
+Partial. On-screen list plus the spoken steps. Tomato paste, potato count, and salt amounts are not fully written.
+
+**Remember**
+- Brown the chuck first.
+- Flour, then stock, no lumps.
+- Potatoes and carrots go in for the last 30 minutes, after 2½ hours.
+
+**Do**
+1. 2 lb chuck. Salt and pepper. Amounts not on the card. Oil, amount unknown. Sear 3–4 min. Out.
+2. 2 celery, ½ onion, about 2 min. Tomato paste, amount unknown, 2 min. 2 tbsp flour, 1 min.
+3. 32 oz beef stock, no clumps. Meat back in with 1 bunch thyme. Boil, then low 2½ hours.
+4. 2 carrots and potatoes. Potato count unknown. 30 min more.
+
+**Watch**
+- Skip the sear and the stew is gray.
+- Dump the stock on raw flour and it clumps.
+- Potatoes at the start and they dissolve.
+
+**Tools** (hide)
+- Pot, knife.
+
+Taste 7 · Nutrition 6 · Unique 3
+1.8 million views. A plain stew. The late vegetables are the only trick.
+
+No peanuts. No legumes in what is written.
+
+---
+
+## 39. Cookie Dough Overnight Oats
+Love Kari Cooking · overnight · one jar, keeps 4 days
+https://youtu.be/llhe7MYvKWo
+
+**Remember**
+- Everything is per jar. Stir. No cooking.
+- Overnight in the fridge, or it is just milk and oats.
+- Four days, then it is done.
+
+**Do**
+1. 1 cup rolled oats, 1 tsp chia, 1 cup almond milk, ½ tbsp vanilla, ⅓ cup Greek yogurt, 1 tbsp almond butter, a squirt of honey (amount not given), ⅓ cup chocolate chips.
+2. Stir. Fridge overnight.
+3. Eat cold or microwave.
+
+**Watch**
+- Eat it the same night and the oats are raw.
+- Keep it past 4 days.
+- This is almond butter, not peanut. Do not swap in peanut butter.
+
+**Tools** (hide)
+- Jar, fridge.
+
+Taste 6 · Nutrition 7 · Unique 3
+2.8 million views. Breakfast that waits. The cookie part is the chips and the honey.
+
+No peanuts. Almond butter is the nut. No soy, peas, or beans.
+
+---
+
+## 40. Taco Bell–Style Grilled Cheese Burritos
+Aussie Fitness · time unknown · 10 burritos
+https://youtu.be/8anFCcZ_GIg
+
+His label: 663 calories, 55 g protein each, if you hit the weights. A scale matters.
+
+**Remember**
+- 120 g rice and 150 g beef in every burrito.
+- Chipotle paste is 2–4 tsp in the whole beef pot. Taste it.
+- The light cheese and yogurt are what his macros assume.
+
+**Do**
+1. Rice: 400 g uncooked, 150 g passata, 150 g tomato paste, 750 ml beef broth, 4 garlic, 1½ tsp chicken stock powder, 1 tsp pepper, 1 tsp onion powder, ½ tsp cumin.
+2. Beef: 1.5 kg mince, ½ onion, 1 packet taco seasoning, 2–4 tsp chipotle paste, 100 g tomato paste, 100 g passata, cilantro, ½ lime.
+3. Each Mission Carb Balance tortilla: 120 g rice, 150 g beef, 35 g nacho cheese, 45 g low-fat Greek yogurt or sour cream, 30 g light sriracha mayo, cilantro, 25 g light cheddar.
+4. How hard he grills the outside is not written. A skillet if you want the crust.
+
+**Watch**
+- Eyeball the fill and the protein number is a lie.
+- The whole 4 tsp of chipotle if you don’t like heat.
+- Full-fat swaps and his calorie line no longer holds.
+
+**Tools** (hide)
+- Pot, pan, scale.
+
+Taste 7 · Nutrition 7 · Unique 5
+2.5 million views. Meal-prep burritos. The grams are the recipe.
+
+No peanuts listed. No soy sauce. Taco seasoning can hide soy. Check the packet.
+
+---
+
+
+## 41. High-Protein Chocolate Chia Pudding
+James White · time unknown · about 3 jars
+https://youtu.be/fwdC3iLqunw
+
+Thin card. No written amounts. He says each pot is about 400 calories and 30 g protein. That is his claim, not a measured recipe.
+
+**Remember**
+- Blend it smooth before it goes in the fridge.
+- Chia goes in after the blend. Stir it.
+- It only becomes mousse once it is cold.
+
+**Do**
+1. Blender: dates, cocoa, Greek yogurt, chocolate whey, milk, a pinch of sea salt, vanilla. Amounts unknown.
+2. Pour into about 3 jars. Stir in chia seeds.
+3. Fridge until thick. Top with raspberries, coconut, dark chocolate.
+
+**Watch**
+- Skip the fridge and it stays a drink.
+- Skip the dates and he says it will not taste like much.
+- No grams. Do not pretend a ratio.
+
+**Tools** (hide)
+- Personal blender, jars, spoon.
+
+Taste 6 · Nutrition 8 · Unique 4
+7 million views. A snack he sells as dessert. The numbers are spoken, not written.
+
+No peanuts. No legumes. Chia is a seed. Whey is dairy.
+
+---
+
+## 42. Honey Garlic Chicken
+Kyle Carillet · about 15 min · servings unknown
+https://youtu.be/LMfok9im2Nc
+
+**Remember**
+- Sear the thighs through, about 10–12 min, golden.
+- Garlic in the middle of the pan for about 30 seconds before the sauce.
+- Simmer 3–4 min until the sauce thickens, then flip to coat.
+
+**Do**
+1. 6 boneless skinless thighs. Salt, pepper, garlic powder. Amounts of those three unknown.
+2. Medium-high until cooked through, about 10–12 min.
+3. 5 minced garlic cloves in the center, about 30 sec.
+4. Sauce: 1 tbsp soy, 2 tbsp rice vinegar, 1 tbsp chili garlic sauce, and honey written as “1/3 Honey.” Unit not spelled. Do not guess cups vs a third of a cup.
+5. Simmer 3–4 min. Flip. Rice and a vegetable.
+
+**Watch**
+- Sauce before the garlic smells done and the garlic stays raw.
+- A short simmer stays thin.
+- The honey line is ambiguous. Measure only what you can read.
+
+**Tools** (hide)
+- Skillet.
+
+Taste 7 · Nutrition 6 · Unique 3
+2.2 million views. Fast honey garlic. The honey amount is the weak line.
+
+Legume: soy sauce. Chili garlic sauce may also have soy. Check the jar. No peanuts.
+
+---
+
+## 43. Spam Musubi Bento
+momo foods · time unknown · one bento
+https://youtu.be/KugssCulBlk
+
+Thin card. Three components, names only. No amounts. No steps.
+
+**Remember**
+- The box is three things: spam musubi, pork rolls, banana bread.
+- Musubi: nori, white rice, mayo, egg, Spam, soy, mirin.
+- Pork rolls: pork belly, enoki, garlic chives, Japanese BBQ sauce. Bread: pancake mix, banana, milk, honey, chocolate chips.
+
+**Do**
+1. No usable steps or weights.
+
+**Watch**
+- Building a musubi from a different site and calling it this video.
+- Assuming a musubi mold. He never names one.
+- Japanese BBQ sauce is often soy. Not confirmed on the bottle.
+
+**Tools** (hide)
+- Unknown.
+
+Taste — · Nutrition — · Unique 5
+77 million views. The 5 a.m. bento is the video. The recipe is not in the text.
+
+Legumes: soy sauce listed. BBQ sauce soy unknown. No peanuts.
+
+---
+
+## 44. Honey Garlic Crispy Chicken
+The Crystal Cookbook · 30 min · serves 2
+https://youtu.be/GJHh7UH4luE
+https://thecrystalcookbook.com/honey-garlic-crispy-chicken-quick-and-easy/
+
+**Remember**
+- Skin on. Pat it dry.
+- A light coat of cornstarch. Shake off the extra.
+- Low-medium, skin down, until crisp and 165°F. Then dump the fry oil before the glaze.
+
+**Do**
+1. 4 boneless skin-on thighs, about 500 g. Marinade at least 15 min: 1½ tbsp soy, 1 tbsp oyster sauce, 1 tsp garlic powder, ¼ tsp salt, pepper.
+2. ¼ cup cornstarch, light. ¼ cup oil. Skin down 4–5 min a side, low-medium, to 165°F.
+3. Chicken out. Pour off the oil.
+4. 2 tbsp butter and 1 whole bulb of garlic, minced, until it smells done. 1 tbsp honey and 1 tbsp soy. Simmer. Coat the chicken. Parsley if you want it.
+
+**Watch**
+- Too much starch clumps.
+- A hot pan burns the skin. People in the comments did this.
+- Leave the fry oil in and the glaze is greasy.
+
+**Tools** (hide)
+- Pan, bowl, paper towels.
+
+Taste 8 · Nutrition 5 · Unique 4
+9.3 million views. Crispy skin, whole head of garlic. That is the clip.
+
+Legume: soy sauce. Oyster sauce often has soy. No peanuts.
+
+---
+
+## 45. Creamy Cajun Chicken
+Genio Ng · 30 min · serves 3
+https://youtu.be/DilFtvNGchI
+https://cookingwithgenius.com/creamy-cajun-chicken/
+
+**Remember**
+- Cornstarch, then shake it off. Sear golden.
+- The broth should hit the browned bits.
+- Taste before you add salt. Cajun mix and Parmesan are already salty.
+
+**Do**
+1. 3 thighs. Salt, pepper, cornstarch. Amount of starch unknown. Oil, amount unknown. Skin down about 4 min a side. Set aside.
+2. 2 tbsp butter. 1 chopped onion and 4 garlic until soft. 1 tbsp Cajun seasoning, 1 tsp paprika, 1 tsp chili flakes, 1 tsp Italian seasoning, 30 sec.
+3. ½ cup chicken broth and ½ cup heavy cream. Thicken. 1 cup Parmesan and juice of ½ lemon.
+4. Chicken back in. Baste. A handful of spinach is listed. When it goes in is not written.
+5. Rice. Chives and more chili flake.
+
+**Watch**
+- Extra salt on top of a salty Cajun blend.
+- Freeze the cream sauce and it splits.
+- It thickens as it sits. Loosen with a splash of broth or cream.
+
+**Tools** (hide)
+- Pan, tongs.
+
+Taste 8 · Nutrition 5 · Unique 4
+1.4 million views. Creamy chicken people already know how to want.
+
+No peanuts. No legumes listed.
+
+---
+
+## 46. Vietnamese Lemongrass Chicken
+Genio Ng · 25 min plus at least 1 hr marinade · serves 3
+https://youtu.be/ivcjY_u3LJc
+https://cookingwithgenius.com/vietnamese-lemongrass-chicken/
+
+**Remember**
+- Fresh lemongrass, the white part, minced fine.
+- Overnight in the fridge if you can. One hour is the minimum.
+- Don’t crowd the pan. You want char, not steam. Rest 2–3 min before you slice.
+
+**Do**
+1. 6 boneless thighs, about 750–900 g.
+2. Marinade: 2 tbsp minced lemongrass, 2 tbsp shallot, 6 garlic, 1½ tsp ginger, 3 tbsp oyster sauce, 1½ tbsp soy, 1 tbsp fish sauce, 1½ tbsp honey, 1½ tbsp brown sugar, 1½ tbsp oil. At least 1 hour, overnight better.
+3. Nuoc cham: ¼ cup warm water, 2½ tbsp sugar, 2 tbsp fish sauce, 2 tbsp lime, 3 garlic, 2 bird’s eye chilies.
+4. Medium skillet or grill pan, 5–6 min a side. Leftover marinade in for the last minute.
+5. Rice, pickles, cucumber, the sauce.
+
+**Watch**
+- No marinade and it is just grilled chicken.
+- Dried lemongrass will not smell like this.
+- Slice it hot and the juice runs out.
+
+**Tools** (hide)
+- Bowl, skillet or grill pan.
+
+Taste 8 · Nutrition 6 · Unique 5
+1.5 million views. A second lemongrass chicken on the list. This one is pan, not air fryer, and it has soy.
+
+Legume: soy sauce. Oyster sauce often has soy. Peanuts are not in this version. A wrap-bar note on the blog mentions them as optional. Skip them.
+
+---
+
+## 47. Beef Bourguignon
+Pinch of Mint · 1½–3 hr · serves 4–6
+https://youtu.be/dQPO7VAXgAY
+https://www.pinchofmint.com/post/classic-beef-bourguignon-red-wine-braised-beef-stew
+
+**Remember**
+- Sear the beef in batches. Deep brown.
+- Tomato paste, then flour, a minute or two each.
+- Mushrooms and shallots are browned on their own, then 20 min in the stew.
+
+**Do**
+1. 1 kg chuck or brisket, 4–5 cm cubes. Salt and pepper.
+2. 30 ml olive oil. Crisp 300 g bacon lardons. Sear the beef in batches with 20 g butter.
+3. 2 onions, 4 carrots, 2 garlic. 40–45 g tomato paste, 1–2 min. 30 g flour, 1–2 min.
+4. Beef and bacon back in. 750 ml red wine, 300 ml beef stock, thyme, 2 bay leaves. Stovetop 1½–2 hr, or 160°C fan for 2–3 hr.
+5. Brown 200 g button mushrooms. Caramelize 6 halved shallots cut side down, with oil and 20 g butter. Into the stew 20 min. Parsley.
+6. Mash, bread, or buttered pasta.
+
+**Watch**
+- The sauce gets too thick. A splash of water.
+- Crowded beef steams.
+- Mushrooms dumped in raw and they stay pale.
+
+**Tools** (hide)
+- Dutch oven, frying pan, lid.
+
+Taste 9 · Nutrition 5 · Unique 4
+4 million views. The short version of a long stew. People stay for the separate shallots.
+
+No peanuts. No legumes.
+
+---
+
+## 48. BBQ Chicken Garlic Bread Pizza
+Drew Cooks · time unknown · one loaf
+https://youtu.be/vP4uGg-yKPg
+
+Partial. Empty description. Amounts are from the captions.
+
+**Remember**
+- Start the frozen garlic bread only until the butter melts and it is just golden. Not done.
+- Don’t put toppings on it while it is still frozen.
+- A light coat of BBQ sauce, then cheese, then chicken.
+
+**Do**
+1. Store-bought frozen garlic bread on a foil sheet. Partial bake per the package, stopped early.
+2. About 2 cups cooked shredded chicken, or 1 cup if you want less, with about ¼ cup BBQ sauce.
+3. Light BBQ on the bread. Mozzarella. Diced red onion, as much as you want. The chicken. More mozzarella. Shredded gouda. Amounts of cheese unknown.
+4. Bake until the cheese melts. Parsley if you want it. BBQ brand not named.
+
+**Watch**
+- Fully bake the bread first and the crust dies.
+- Top it frozen and the cheese slides.
+- One cup of chicken looks bare if you wanted it loaded. He uses about two.
+
+**Tools** (hide)
+- Foil-lined sheet, bowl, oven.
+
+Taste 7 · Nutrition 4 · Unique 4
+133k views. Garlic bread used as a pizza base. The loaf does half the work.
+
+No peanuts. BBQ sauce often has soy. Not confirmed for his bottle.
+
+---
+
+## 49. Caramelized Onion Chicken Pasta
+Jalalsamfit · about 1 hr · serves 6
+https://youtu.be/vAzMBfiVDaY
+
+His macros: about 638 calories and 58 g protein a serving. Use them as his label, not a lab test.
+
+**Remember**
+- Onions covered, 45 min at 190°C, until they go golden.
+- Dairy goes into the dish while it is still hot. Stir the whole time.
+- Chicken gets a broil at the end so it crisps.
+
+**Do**
+1. 1200 g boneless thighs, cubed. 2 tsp salt, 4 tsp spicy Italian seasoning, 3 tsp parsley, 4 tsp garlic powder, 4 tsp paprika, 6 tsp olive oil. Set aside.
+2. 200 g red onion and 200 g white onion, sliced. 100 g chopped sun-dried tomato. 1 tsp salt, 3 tsp Italian seasoning, 2 tsp paprika. A spray of avocado oil. A whole garlic bulb, top cut, in the middle. Foil. 45 min at 190°C / 380°F.
+3. Squeeze the garlic. While hot: parsley, 20–25 g dark soy, 90–100 g Parmesan, 400–450 g evaporated milk or milk, 120 g light cream cheese. Stir smooth.
+4. Fold in 350 g cooked spaghetti or linguine.
+5. Chicken on a sheet, 18 min at 200°C / 400°F, then broil 5 min. Serve on the pasta.
+
+**Watch**
+- Cold dish plus cream cheese and it stays lumpy.
+- No foil, or no halfway look, and the onions dry out.
+- Skip the broil and the chicken stays pale.
+
+**Tools** (hide)
+- Oven dish, foil, sheet pan, pasta pot, broiler.
+
+Taste 8 · Nutrition 7 · Unique 6
+1.9 million views. High-protein pasta with a long onion bake. The soy is small and dark.
+
+Legume: dark soy sauce. No peanuts.
+
+---
+
+## 50. Honey Lemon Garlic Chicken
+Genio Ng · 30 min · serves 2
+https://youtu.be/UuAmxw66NAA
+https://cookingwithgenius.com/honey-lemon-garlic-chicken/
+
+**Remember**
+- Dry the skin. A light cornstarch coat only.
+- About 7 min a side. Don’t crowd.
+- Simmer the sauce until it is a glaze, then baste.
+
+**Do**
+1. 2 skin-on boneless thighs. Salt, pepper, cornstarch. Starch amount unknown. Shake off the extra.
+2. Medium-high oil. Skin down about 7 min a side. Oil amount unknown. Set aside.
+3. 3 tbsp butter, 5 garlic cloves, about 1 min.
+4. 2 tbsp soy, 2 tbsp mirin, 2 tbsp honey, juice of 1 lemon, ½ tbsp zest, ½ tsp paprika, ½ tsp chili flakes, ½ tsp black pepper. Thicken.
+5. Chicken back in. Baste. Rice. Sesame and chives.
+
+**Watch**
+- Too much starch and it is batter, not a crust.
+- A short simmer stays watery.
+- A crowded pan will not crisp.
+
+**Tools** (hide)
+- Pan.
+
+Taste 8 · Nutrition 5 · Unique 4
+2.9 million views. The lemon is what separates it from the other honey-garlic clips.
+
+Legume: soy sauce. Mirin is rice wine, not soy. No peanuts.
+
+---
+
 ## Queue (next)
-Say next for 31–40. Start at playlist index 36. Unavailable so far: 9, 11, 22, 28, 32.
+Say next for 51–60. Start at playlist index 56. Unavailable so far: 9, 11, 22, 28, 32.

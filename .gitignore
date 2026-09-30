@@ -2,3 +2,4 @@ _parsed.json
 _css.txt
 _js.txt
 .DS_Store
+__pycache__/

@@ -1,6 +1,6 @@
 # Recipe Playlist Digests
 
-Static cookbook site for Julius’s YouTube Recipes playlist cards (1–30).
+Static cookbook site for Julius’s YouTube Recipes playlist cards (1–50).
 
 - `index.html` — single-page site (station map, searchable ingredients/tools, recipe articles)
 - `recipes.json` — data source
