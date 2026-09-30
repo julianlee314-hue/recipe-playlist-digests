@@ -344,14 +344,13 @@ def render_ing_card(ing: dict) -> str:
         or "—"
     )
     nreq = len(ing["recipes_required"])
-    icon = item_icon(name, category=cat, kind="ingredient", size=48)
     return (
         f'<article class="ing-card" data-cat="{E(cat)}" data-name="{E(name)}" data-note="{E(note)}" data-kind="ingredient">\n'
-        f'<div class="top"><div class="top-name">{icon}<h4>{E(name)}{legume_span}{peanut_span}</h4></div><span class="ing-badge">{E(cat)}</span></div>\n'
-        f'<p class="note">{E(note)}</p>\n'
-        f'<div class="meta">In {ing["count"]} recipe(s) · required in {nreq}</div>\n'
+        f'<div class="top"><h4>{E(name)}{legume_span}{peanut_span}</h4><span class="ing-badge">{E(cat)}</span></div>\n'
+        f'<div class="meta">In {ing["count"]} · required in {nreq}</div>\n'
+        f'<details class="which"><summary>Which recipes</summary>\n'
         f'<div class="links"><strong>Requires:</strong> {req_links}</div>\n'
-        f'<div class="links"><strong>Optional / incomplete:</strong> {opt_links}</div>\n'
+        f'<div class="links"><strong>Optional:</strong> {opt_links}</div></details>\n'
         f'<div class="card-actions">\n'
         f'<button type="button" class="mini" data-filter-req="{E(name)}">Show recipes that need this</button>\n'
         f'<button type="button" class="mini ghost" data-filter-not="{E(name)}">Show recipes that do not</button>\n'
@@ -367,9 +366,8 @@ def render_tool_card(tool: dict) -> str:
     return (
         f'<article class="ing-card tool-db-card" data-cat="Tools" data-name="{E(name)}" data-note="Named tool" data-kind="tool">\n'
         f'<div class="top"><div class="top-name">{icon}<h4>{E(name)}</h4></div><span class="ing-badge">Tools</span></div>\n'
-        f'<p class="note">{E(note)}</p>\n'
         f'<div class="meta">In {tool["count"]} recipe(s)</div>\n'
-        f'<div class="links">{links}</div>\n'
+        f'<details class="which"><summary>Which recipes</summary><div class="links">{links}</div></details>\n'
         f'<div class="card-actions">\n'
         f'<button type="button" class="mini" data-filter-tool-req="{E(name)}">Show recipes that need this</button>\n'
         f'<button type="button" class="mini ghost" data-filter-tool-not="{E(name)}">Show recipes that do not</button>\n'
@@ -399,8 +397,7 @@ def build_html(data: dict) -> str:
         for t in equip
     )
     ency_pantry = "".join(
-        f'<article class="ency-card"><div class="ency-glyph" aria-hidden="true">{item_icon(i["name"], category=i.get("category"), kind="ingredient", size=64)}</div>'
-        f'<div class="body"><h4>{E(i["name"])}</h4><p>In {i["count"]} recipe(s).</p></div></article>'
+        f'<article class="ency-card ency-text"><div class="body"><h4>{E(i["name"])}</h4><p>In {i["count"]} recipe(s).</p></div></article>'
         for i in pantry
     )
 
@@ -450,6 +447,17 @@ def build_html(data: dict) -> str:
 {css}
 {item_icon_css()}
 .ing-card .top-name{{display:flex;align-items:center;gap:.45rem}}
+#ingredients-body .ing-db{{grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:.4rem;padding:.25rem 1rem .75rem}}
+#ingredients-body .ing-card{{padding:.4rem .55rem .45rem;gap:.15rem}}
+#ingredients-body .ing-card .note{{display:none}}
+#ingredients-body .ing-card .meta,#ingredients-body .ing-card .links{{font-size:.72rem}}
+#ingredients-body .ing-card h4{{font-size:.84rem;line-height:1.2}}
+#ingredients-body .ing-card .card-actions{{display:flex;flex-wrap:wrap;gap:.25rem}}
+#ingredients-body .ing-card .mini{{font-size:.68rem;padding:.15rem .35rem}}
+#ingredients-body details.which{{font-size:.72rem}}
+#ingredients-body details.which summary{{cursor:pointer;color:#3f7a66}}
+.ency-card.ency-text{{display:block}}
+#tools-db-body .ing-db{{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.55rem}}
 </style>
 </head>
 <body>
