@@ -20,6 +20,8 @@ def rebuild_indexes(data: dict) -> None:
     tool_map: dict[str, dict] = {}
 
     for r in data["recipes"]:
+        if r.get("not_recipe"):
+            continue
         ref = {"id": r["id"], "title": r["title"], "num": r["num"]}
         seen_ing_req: set[str] = set()
         seen_ing_opt: set[str] = set()
@@ -320,6 +322,25 @@ def render_recipe(r: dict) -> str:
     )
 
 
+
+def render_not_recipe(r: dict) -> str:
+    why = r.get("not_recipe_why") or (r.get("remember") or ["Set aside — not a cooking recipe."])[0]
+    yt = ""
+    if r.get("youtube"):
+        yt = (
+            f'<a class="yt" href="{E(r["youtube"])}" target="_blank" rel="noopener">Watch on YouTube</a>'
+        )
+    return (
+        f'<article class="not-recipe" id="{E(r["id"])}" data-num="{r["num"]}">\n'
+        f'<div class="nr-row"><h3>{r["num"]}. {E(r["title"])}</h3>'
+        f'<span class="nr-badge">Set aside</span></div>\n'
+        f'<p class="nr-meta">{E(r.get("channel") or "")}</p>\n'
+        f'<p class="nr-why">{E(why)}</p>\n'
+        f'<p class="nr-links">{yt}</p>\n'
+        f"</article>"
+    )
+
+
 def render_ing_card(ing: dict) -> str:
     name = ing["name"]
     cat = ing["category"]
@@ -380,15 +401,22 @@ def render_tool_card(tool: dict) -> str:
 def build_html(data: dict) -> str:
     css = (ROOT / "_css.txt").read_text()
     js = (ROOT / "_js.txt").read_text()
-    n = data["recipe_count"]
+    all_cards = data["recipes"]
+    recipes = [r for r in all_cards if not r.get("not_recipe")]
+    set_aside = [r for r in all_cards if r.get("not_recipe")]
+    n_total = len(all_cards)
+    n_recipes = len(recipes)
+    n_aside = len(set_aside)
     n_ing = len(data["ingredients"])
     n_tool = len(data["tools"])
+    # Keep recipe_count as total cards for badge range; site text uses split counts.
+    n = data["recipe_count"]
 
     toc = "".join(
         f'<li><a href="#{E(r["id"])}">{r["num"]}. {E(r["title"])}'
         + (" <em>(thin)</em>" if r["thin"] else "")
         + "</a></li>"
-        for r in data["recipes"]
+        for r in recipes
     )
 
     equip = [t for t in data["tools"] if t["count"] >= 2][:14]
@@ -438,7 +466,8 @@ def build_html(data: dict) -> str:
         for t in data["tools"]
     )
 
-    recipes_html = "\n".join(render_recipe(r) for r in data["recipes"])
+    recipes_html = "\n".join(render_recipe(r) for r in recipes)
+    not_recipes_html = "\n".join(render_not_recipe(r) for r in set_aside)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -460,20 +489,21 @@ def build_html(data: dict) -> str:
 <circle cx="60" cy="60" r="50" fill="none" stroke="#c9a227" stroke-width="3"/>
 <text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#fbf3e6" font-weight="700">JL</text>
 </svg>
-<div class="badge">Playlist Digests · Cards 1–{n}</div>
+<div class="badge">Playlist Digests · Cards 1–{n_total}</div>
 <h1>YouTube Recipes</h1>
 <p class="sub">Searchable ingredients &amp; tools · peanut-aware · printed-cookbook warm</p>
 <div class="sermon">
 <p>Station map first: tools, then pantry. Every card keeps Remember / Do / Watch,
 taste scores, and a reaction line. Tools stay in the DOM but collapse by default.
-Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
+Peanuts are never marked required. Soy sauce counts as soy (legume flag).
+Tutorials and non-recipes are set aside below the recipe cards for review.</p>
 </div>
-<p class="legal">YouTube Recipes playlist cards — searchable ingredients and tools. · {n} recipes · {n_ing} ingredients · {n_tool} tools</p>
+<p class="legal">YouTube Recipes playlist cards — searchable ingredients and tools. · {n_recipes} recipes · {n_aside} set aside · {n_ing} ingredients · {n_tool} tools</p>
 </header>
 
 <nav class="toc">
 <h2>Table of contents</h2>
-<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#tools-db">All tools</a> · <a href="#recipes-part">Recipes</a> · <a href="#ingredients">Ingredient glossary</a></p>
+<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#tools-db">All tools</a> · <a href="#recipes-part">Recipes</a> · <a href="#not-recipes">Tutorials &amp; other</a> · <a href="#ingredients">Ingredient glossary</a></p>
 <ol>{toc}</ol>
 </nav>
 
@@ -505,7 +535,7 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 
 <section class="part" id="recipes-part">
 <h2>Part 1 — Recipe Cards</h2>
-<p>Thin cards stay visible and labeled. Quantities are never invented.</p>
+<p>Thin cards stay visible and labeled. Quantities are never invented. {n_recipes} cooking recipes below ({n_aside} tutorials and non-recipes are set aside).</p>
 </section>
 
 <div class="filter-bar" id="recipe-filter">
@@ -526,6 +556,14 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 
 {recipes_html}
 
+<section class="part" id="not-recipes">
+<h2>Tutorials &amp; other</h2>
+<p>Not cooking recipes — kept on the page with their card numbers for review. They do not count in recipe search.</p>
+</section>
+<div class="not-recipes-body" id="not-recipes-body">
+{not_recipes_html}
+</div>
+
 <section class="part" id="ingredients">
 <h2>Glossary — Ingredients</h2>
 <p>Every ingredient, at the back of the book. Counts, required versus optional, and the recipes that use each one.</p>
@@ -536,7 +574,7 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 <input type="search" placeholder="Search the glossary…" data-ing-search aria-label="Search ingredients"/>
 <div class="ing-chips">{chips}</div>
 </div>
-<div class="ing-stats"><span data-ing-count>{n_ing} ingredients shown</span> · {n} recipes indexed</div>
+<div class="ing-stats"><span data-ing-count>{n_ing} ingredients shown</span> · {n_recipes} recipes indexed</div>
 <div class="ing-db">{ing_cards}</div>
 </div>
 
@@ -549,13 +587,16 @@ Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
 """
 
 
+
 def main():
     path = ROOT / "recipes.json"
     data = json.loads(path.read_text())
     rebuild_indexes(data)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     (ROOT / "index.html").write_text(build_html(data))
-    print(f"recipes={data['recipe_count']} ingredients={len(data['ingredients'])} tools={len(data['tools'])}")
+    n_aside = sum(1 for r in data["recipes"] if r.get("not_recipe"))
+    n_real = data["recipe_count"] - n_aside
+    print(f"recipes={n_real} set_aside={n_aside} total={data['recipe_count']} ingredients={len(data['ingredients'])} tools={len(data['tools'])}")
 
 
 if __name__ == "__main__":

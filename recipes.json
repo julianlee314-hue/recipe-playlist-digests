@@ -9549,7 +9549,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": false
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Slowed Macarena / news edit — no food"
     },
     {
       "num": 67,
@@ -11310,7 +11312,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": true
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Sandwich flex video with no usable recipe text"
     },
     {
       "num": 81,
@@ -12583,7 +12587,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": true
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Physique day-of-eating vlog, not a recipe"
     },
     {
       "num": 90,
@@ -15039,7 +15045,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": false
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Latte art pour tutorial"
     },
     {
       "num": 107,
@@ -20678,7 +20686,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": false
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Rotisserie chicken shredding demo — no recipe"
     },
     {
       "num": 141,
@@ -21164,7 +21174,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": false
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Knife sharpening technique, not cooking"
     },
     {
       "num": 146,
@@ -21231,7 +21243,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": false
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Sear technique demo only — no full steak recipe"
     },
     {
       "num": 147,
@@ -23206,7 +23220,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": true
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Bulking diet / macros day-in-the-life, not a recipe"
     },
     {
       "num": 159,
@@ -23689,7 +23705,9 @@
         "legumes_required": [],
         "legumes_optional": [],
         "incomplete": true
-      }
+      },
+      "not_recipe": true,
+      "not_recipe_why": "Spice-rack essentials talk, not a dish"
     },
     {
       "num": 163,
@@ -27953,11 +27971,6 @@
           "num": 138
         },
         {
-          "id": "140-how-to-pull-a-rotisserie-chicken",
-          "title": "How to Pull a Rotisserie Chicken: Shredded Chicken Made Easy!",
-          "num": 140
-        },
-        {
           "id": "148-tastiest-high-protein-chicken-shawarma",
           "title": "TASTIEST High Protein Chicken Shawarma",
           "num": 148
@@ -28033,7 +28046,7 @@
       "legume": false,
       "peanut": false,
       "category": "Proteins",
-      "count": 56
+      "count": 55
     },
     {
       "name": "sugar",
@@ -37284,33 +37297,6 @@
       "count": 3
     },
     {
-      "name": "steak",
-      "variants": [],
-      "recipes_required": [
-        {
-          "id": "146-sous-vide-basics-steak-searing",
-          "title": "Sous Vide Basics: STEAK SEARING!",
-          "num": 146
-        }
-      ],
-      "recipes_optional": [
-        {
-          "id": "11-1950s-minimum-wage-dinner",
-          "title": "1950s Minimum Wage Dinner",
-          "num": 11
-        },
-        {
-          "id": "76-steak-frites-nyc-obsession",
-          "title": "Steak Frites NYC Obsession",
-          "num": 76
-        }
-      ],
-      "legume": false,
-      "peanut": false,
-      "category": "Proteins",
-      "count": 3
-    },
-    {
       "name": "turmeric",
       "variants": [
         "1 tsp"
@@ -38209,6 +38195,27 @@
       "legume": false,
       "peanut": false,
       "category": "Sauces & Condiments",
+      "count": 2
+    },
+    {
+      "name": "steak",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        },
+        {
+          "id": "76-steak-frites-nyc-obsession",
+          "title": "Steak Frites NYC Obsession",
+          "num": 76
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
       "count": 2
     },
     {
@@ -40255,11 +40262,6 @@
           "num": 144
         },
         {
-          "id": "146-sous-vide-basics-steak-searing",
-          "title": "Sous Vide Basics: STEAK SEARING!",
-          "num": 146
-        },
-        {
           "id": "148-tastiest-high-protein-chicken-shawarma",
           "title": "TASTIEST High Protein Chicken Shawarma",
           "num": 148
@@ -40345,7 +40347,7 @@
           "num": 173
         }
       ],
-      "count": 80
+      "count": 79
     },
     {
       "name": "bowl",
@@ -42518,32 +42520,6 @@
       "count": 4
     },
     {
-      "name": "grill",
-      "recipes": [
-        {
-          "id": "31-persian-koobideh-kebab",
-          "title": "Persian Koobideh Kebab",
-          "num": 31
-        },
-        {
-          "id": "52-taco-boats",
-          "title": "Taco Boats",
-          "num": 52
-        },
-        {
-          "id": "61-smoke-ribs-on-a-grill",
-          "title": "Smoke Ribs on a Grill",
-          "num": 61
-        },
-        {
-          "id": "146-sous-vide-basics-steak-searing",
-          "title": "Sous Vide Basics: STEAK SEARING!",
-          "num": 146
-        }
-      ],
-      "count": 4
-    },
-    {
       "name": "masher / ricer",
       "recipes": [
         {
@@ -42680,6 +42656,27 @@
           "id": "149-this-is-the-only-way-i-can-enjoy-my-burgers",
           "title": "This is the only way I can enjoy my burgers",
           "num": 149
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "grill",
+      "recipes": [
+        {
+          "id": "31-persian-koobideh-kebab",
+          "title": "Persian Koobideh Kebab",
+          "num": 31
+        },
+        {
+          "id": "52-taco-boats",
+          "title": "Taco Boats",
+          "num": 52
+        },
+        {
+          "id": "61-smoke-ribs-on-a-grill",
+          "title": "Smoke Ribs on a Grill",
+          "num": 61
         }
       ],
       "count": 3
@@ -42950,34 +42947,12 @@
       "count": 1
     },
     {
-      "name": "flamethrower",
-      "recipes": [
-        {
-          "id": "146-sous-vide-basics-steak-searing",
-          "title": "Sous Vide Basics: STEAK SEARING!",
-          "num": 146
-        }
-      ],
-      "count": 1
-    },
-    {
       "name": "food processor",
       "recipes": [
         {
           "id": "142-power-protein-brownies",
           "title": "Power Protein Brownies",
           "num": 142
-        }
-      ],
-      "count": 1
-    },
-    {
-      "name": "heat gun",
-      "recipes": [
-        {
-          "id": "146-sous-vide-basics-steak-searing",
-          "title": "Sous Vide Basics: STEAK SEARING!",
-          "num": 146
         }
       ],
       "count": 1

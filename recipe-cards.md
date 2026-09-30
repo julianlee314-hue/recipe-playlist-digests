@@ -3,7 +3,7 @@ Source: Julius “Recipes” playlist (471 videos)
 Format: Remember / Do / Watch + scores
 Batch size: 5
 
-Progress: 1–174 named. Card 50 is playlist index 56 (that honey-lemon short was already in). Cards 51–62 are indices 57–68. Cards 63–74 are indices 69–80. Cards 75–174 are indices 81–180. Unavailable still 9, 11, 22, 28, 32. Next card is 175, playlist index 181.
+Progress: 1–174 named. Card 50 is playlist index 56 (that honey-lemon short was already in). Cards 51–62 are indices 57–68. Cards 63–74 are indices 69–80. Cards 75–174 are indices 81–181. Unavailable still 9, 11, 22, 28, 32. Set aside (not recipes): 66, 80, 89, 106, 140, 145, 146, 158, 162. Next card is 175, playlist index 182.
 
 ---
 
@@ -2032,6 +2032,8 @@ Legume: red lentils. That is the dish. Skip it. No peanuts in the text.
 ---
 
 ## 66. Not a recipe
+**SET ASIDE — not a recipe.** Slowed Macarena / news edit — no food
+
 ByEduMema0562_GP · 1 min 35 sec
 https://youtu.be/iOO2zwc0iI8
 
@@ -2458,6 +2460,8 @@ No peanuts. Legumes: black beans, milk. All required.
 
 ---
 ## 80. Just Another Sandwich Video
+**SET ASIDE — not a recipe.** Sandwich flex video with no usable recipe text
+
 Old's Cool Kevmo · 56s video · serves unknown
 https://youtu.be/shOhK7-nD4I
 
@@ -2722,6 +2726,8 @@ No peanuts. No legumes.
 
 ---
 ## 89. What I Eat Every Day to Be Lean 220lbs
+**SET ASIDE — not a recipe.** Physique day-of-eating vlog, not a recipe
+
 Paul Imperiale · 41s video · n/a
 https://youtu.be/swQfT1_lupM
 
@@ -3218,6 +3224,8 @@ No peanuts. Legume: soy sauce.
 
 ---
 ## 106. Latte Art Tutorial - Rosetta
+**SET ASIDE — not a recipe.** Latte art pour tutorial
+
 Chris Lin4.0 · 30 sec · n/a
 https://youtu.be/PcUZ83fZXdM
 
@@ -4217,6 +4225,8 @@ No peanuts confirmed. No legumes confirmed. Incomplete.
 
 ---
 ## 140. How to Pull a Rotisserie Chicken: Shredded Chicken Made Easy!
+**SET ASIDE — not a recipe.** Rotisserie chicken shredding demo — no recipe
+
 myCountyMarket · unknown · unknown
 https://youtu.be/aGxAzdRlpGI
 
@@ -4365,6 +4375,8 @@ No peanuts. No legumes.
 
 ---
 ## 145. How to Sharpen a Knife with a Whetstone
+**SET ASIDE — not a recipe.** Knife sharpening technique, not cooking
+
 TheRenderQ · about 5 min soak plus sharpening · unknown
 https://youtu.be/h6faatE8b9Q
 
@@ -4392,6 +4404,8 @@ No peanuts. No legumes.
 
 ---
 ## 146. Sous Vide Basics: STEAK SEARING!
+**SET ASIDE — not a recipe.** Sear technique demo only — no full steak recipe
+
 Sous Vide Everything · unknown · unknown
 https://youtu.be/JK4P37UwfU8
 
@@ -4747,6 +4761,8 @@ No peanuts. No legumes.
 
 ---
 ## 158. My Bulking Diet for Gaining Total Body Muscle
+**SET ASIDE — not a recipe.** Bulking diet / macros day-in-the-life, not a recipe
+
 Joe Delaney · about 10 min video · serves unknown
 https://youtu.be/c5AdqNG5jBo
 
@@ -4862,6 +4878,8 @@ No peanuts. Legume: soy sauce.
 
 ---
 ## 162. The ONLY 10 Spices You Need
+**SET ASIDE — not a recipe.** Spice-rack essentials talk, not a dish
+
 Brian Lagerstrom · about 12 min video · serves n/a
 https://youtu.be/KYEssBzcTA8
 
