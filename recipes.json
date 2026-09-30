@@ -1,0 +1,5324 @@
+{
+  "title": "YouTube Recipes — Playlist Digests",
+  "description": "YouTube Recipes playlist cards — searchable ingredients and tools.",
+  "source": "Julius Recipes playlist cards 1–20",
+  "recipe_count": 20,
+  "recipes": [
+    {
+      "num": 1,
+      "id": "01-vegetable-teriyaki-noodles",
+      "title": "Vegetable Teriyaki Noodles",
+      "channel": "My Ginger Garlic Kitchen",
+      "time": "~20 min",
+      "serves": "serves 4",
+      "meta": "My Ginger Garlic Kitchen · ~20 min · serves 4",
+      "youtube": "https://youtu.be/R4SqKmbsiZY",
+      "extras": [],
+      "remember": [
+        "Cook noodles first. Oil them so they don’t glue.",
+        "Veg stays crunchy. Don’t stew them.",
+        "Sauce last. 50g bottled teriyaki is the whole sauce."
+      ],
+      "do": [
+        "Boil noodles. Drain. Rinse cold. Toss with 2 tsp oil.",
+        "Hot pan, 2 tbsp oil, garlic 1 min.",
+        "Add sliced onion, carrot, peppers, mushrooms, broccoli + pepper + chili flake. Stir until just tender.",
+        "50g teriyaki. Coat. Add noodles. Toss. Salt + optional hot sauce.",
+        "Sesame. Peanuts only if you want them."
+      ],
+      "watch": [
+        "Soft veg = cafeteria noodles.",
+        "Salt before tasting the teriyaki and you’ll oversalt.",
+        "Peanuts are garnish, not required."
+      ],
+      "scores": {
+        "taste": 6,
+        "nutrition": 7,
+        "unique": 3
+      },
+      "reaction": "Fine weeknight bowl. Nobody talks about it the next day.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "noodles",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "carrot",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bell pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mushroom",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "broccoli",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chili flake",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "teriyaki sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame seeds",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "hot sauce",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "peanuts",
+          "variant": null,
+          "required": false,
+          "legume": true,
+          "peanut": true
+        }
+      ],
+      "tools": [
+        {
+          "name": "pot",
+          "required": true
+        },
+        {
+          "name": "skillet / pan",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": true,
+        "legumes_required": [],
+        "legumes_optional": [
+          "peanuts"
+        ],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 2,
+      "id": "02-one-pan-mongolian-beef-noodles",
+      "title": "One-Pan Mongolian Beef Noodles",
+      "channel": "RecipeTin Eats",
+      "time": "15 min",
+      "serves": "serves 4",
+      "meta": "RecipeTin Eats · 15 min · serves 4",
+      "youtube": "https://youtu.be/k9X6K6nvrbY",
+      "extras": [],
+      "remember": [
+        "Instant noodle cakes, uncooked. Throw the seasoning packet.",
+        "Sauce first, water second, noodles last.",
+        "Broccoli small or it stays raw."
+      ],
+      "do": [
+        "Mix sauce: 2 tbsp dark soy, 3 tbsp hoisin, 2 tbsp mirin (or Shaoxing + 2 tsp sugar), ¼ tsp five-spice, 2 tsp sesame oil.",
+        "Hot deep pan, 2 tbsp oil. Onion + 2 garlic, 30 sec.",
+        "500g beef mince. Brown. Pour in sauce. Coat.",
+        "5 cups small broccoli. Stir.",
+        "2¼ cups water. Simmer. Break 4 noodle cakes in half. Push in.",
+        "30 sec, flip, 30 sec, then untangle. 2–3 min until sauce is gone."
+      ],
+      "watch": [
+        "Boiling the noodles separately ruins the point.",
+        "Big broccoli florets stay hard.",
+        "Light soy works but the color goes pale."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 5
+      },
+      "reaction": "People eat the whole pan. Then they look for the recipe.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "soy sauce",
+          "variant": "dark",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "hoisin",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mirin",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "five-spice",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef",
+          "variant": "mince",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "broccoli",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "noodles",
+          "variant": "instant cakes",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "light works but pale",
+          "required": false,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "shaoxing wine",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [
+          "soy sauce"
+        ],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 3,
+      "id": "03-brown-butter-banana-bread-cookie-bars",
+      "title": "Brown Butter Banana Bread Cookie Bars",
+      "channel": "Well Made by Kiley",
+      "time": "8×8 pan",
+      "serves": "",
+      "meta": "Well Made by Kiley · 8×8 pan",
+      "youtube": "https://youtu.be/gHDC9C0HnIg",
+      "extras": [
+        "Full grams live on her site (recipe card is JS-gated). Method below is the part that matters."
+      ],
+      "remember": [
+        "Brown the butter until amber and nutty. Cool 15–20 min.",
+        "Exactly ½ cup (120g) mashed ripe banana. Not “a banana.”",
+        "8×8 pan. 9×9 makes thin sad bars."
+      ],
+      "do": [
+        "Brown salted butter. Cool.",
+        "Beat in brown sugar + white sugar.",
+        "Banana + egg + vanilla.",
+        "Flour + cornstarch + leavening + salt + cinnamon. Don’t overmix.",
+        "Fold chocolate chips / wafers. 8×8 pan.",
+        "Bake until edges set and center is just soft. Cool before cutting."
+      ],
+      "watch": [
+        "Hot brown butter scrambles the mix.",
+        "Extra banana = cakey, not bar.",
+        "Cutting hot = collapse."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 3,
+        "unique": 6
+      },
+      "reaction": "People say “why is this better than banana bread.” Because it’s a cookie.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "butter",
+          "variant": "salted / browned",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "brown",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "white",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "banana",
+          "variant": "½ cup / 120g mashed",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "flour",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "baking powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cinnamon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chocolate chips",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "saucepan",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 4,
+      "id": "04-crispy-salt-pepper-chicken-thighs",
+      "title": "Crispy Salt & Pepper Chicken Thighs",
+      "channel": "Xiao Li’s Kitchen",
+      "time": "~50 min with marinade",
+      "serves": "500g",
+      "meta": "Xiao Li’s Kitchen · ~50 min with marinade · 500g",
+      "youtube": "https://youtu.be/J_croDE-LtI",
+      "extras": [],
+      "remember": [
+        "Beer soak 10 min. Don’t rinse after.",
+        "Cornstarch + oil seal before the pan.",
+        "Skin down. Don’t touch for 3–4 min."
+      ],
+      "do": [
+        "Boneless skin-on thighs. Tap with knife back.",
+        "Cover with 330ml beer. 10 min. Drip off. No rinse.",
+        "Marinate 30 min: ginger, scallion whites, ½ onion, 1 tbsp light soy, 1 tbsp oyster, 1 tsp 椒盐 / salt-and-pepper mix.",
+        "Dump the aromatics. Toss chicken with 1 tbsp cornstarch + 1 tbsp oil.",
+        "Medium-low pan, 2 tbsp oil. Skin down. 3–4 min still. Flip. Cook through.",
+        "No 椒盐? 1 tsp salt + ½ tsp pepper + pinch five-spice."
+      ],
+      "watch": [
+        "Moving the skin early tears it.",
+        "High heat burns the coat before the meat is done.",
+        "Rinsing after beer washes off the tenderizing."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 7
+      },
+      "reaction": "People argue about the beer. Then they make it again.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "variant": "boneless skin-on thighs",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beer",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ginger",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "scallion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "light",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "oyster sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt-and-pepper mix",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "five-spice",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "knife",
+          "required": true
+        },
+        {
+          "name": "skillet / pan",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 5,
+      "id": "05-one-pan-chicken-alfredo",
+      "title": "One-Pan Chicken Alfredo",
+      "channel": "Steel Pan Guy",
+      "time": "~20 min",
+      "serves": "",
+      "meta": "Steel Pan Guy · ~20 min",
+      "youtube": "https://youtu.be/BatIAXoxKhk",
+      "extras": [
+        "American fond Alfredo. Not Roman."
+      ],
+      "remember": [
+        "Chicken is for the brown bits. Sauce lives on those bits.",
+        "Cream on the fond. Cold butter + cheese off heat.",
+        "Pinch of nutmeg in every white sauce."
+      ],
+      "do": [
+        "Preheat stainless. Water droplet should dance. Tiny bit of high-smoke oil on the chicken, not a slick in the pan.",
+        "Salt-and-pepper chicken breast. Sear ~2 min a side. Don’t rip it off early. Rest it out.",
+        "Pour cream (half-and-half or heavy) onto the fond. Scrape. Pinch nutmeg.",
+        "Cook fettuccine. Save a splash of pasta water.",
+        "Off heat: cold butter (~4 tbsp) then handfuls of Parmigiano (Romano if you have it). Toss pasta + sliced chicken. Loosen with pasta water if tight."
+      ],
+      "watch": [
+        "Cheese on a raging burner = grainy sauce.",
+        "No fond = bland cream.",
+        "This is not authentic Alfredo. People in the comments will tell you."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 4,
+        "unique": 4
+      },
+      "reaction": "7.9 million views. Half the comments are “that’s not Alfredo.” The other half made it for dinner.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "variant": "breast",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": "high-smoke",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "nutmeg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pasta",
+          "variant": "fettuccine",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": "cold",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "parmesan",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": "pasta water",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "pot",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 6,
+      "id": "06-fried-apple-hand-pies",
+      "title": "Fried Apple Hand Pies",
+      "channel": "Well Made by Kiley",
+      "time": "~2 hr 20 min",
+      "serves": "11–13 pies",
+      "meta": "Well Made by Kiley · ~2 hr 20 min · 11–13 pies",
+      "youtube": "https://youtu.be/r5Tmse4kndw",
+      "extras": [
+        "https://www.wellmadebykiley.com/blog/fried-apple-hand-pies"
+      ],
+      "remember": [
+        "Cool the filling all the way. Warm filling leaks.",
+        "Cold dough. Fork the seam, then fold the edge in.",
+        "Oil 360–370°F. Use a thermometer."
+      ],
+      "do": [
+        "Filling: 58g butter, 4 diced apples, 110g brown sugar, 60g maple, cinnamon, pinch salt. ~10 min. Slurry 11g cornstarch + 1½ tbsp water, 1–2 min. Vanilla off heat. Cool.",
+        "Dough: 420g flour, 12g sugar, 8g baking powder (blog writes “2”), 6g salt. Cut in 170g cold butter. 7 oz cold half-and-half + 1 cold egg. Disc. Chill 30 min.",
+        "Roll. Cut ~4½\" rounds. Heaping tablespoon filling. Egg-wash the edge. Fold, fork, fold the edge in. Chill.",
+        "~2\" oil. Fry ~2 min a side. Glaze warm: 120g powdered sugar, 58g browned butter, 80g maple, 1 tbsp milk, vanilla, pinch salt.",
+        "Oven instead: 400°F, 22–25 min, egg wash, a vent slit."
+      ],
+      "watch": [
+        "More than a heaping tablespoon will not seal.",
+        "Kneading makes a tough crust.",
+        "Once frying, hold about 350–365°F. Low = greasy. High = brown outside, raw inside."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 2,
+        "unique": 5
+      },
+      "reaction": "79k views. People call them a favorite. Fried, not baked, is the reason.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "butter",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "apple",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "brown",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "maple syrup",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cinnamon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "flour",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "baking powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": "cold",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "half-and-half",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "powdered",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": "browned",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "milk",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "saucepan",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "rolling pin",
+          "required": true
+        },
+        {
+          "name": "round cutter",
+          "required": true
+        },
+        {
+          "name": "fork",
+          "required": true
+        },
+        {
+          "name": "pot",
+          "required": true
+        },
+        {
+          "name": "thermometer",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 7,
+      "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+      "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+      "channel": "Karen Law",
+      "time": "under 30 min",
+      "serves": "serves 2",
+      "meta": "Karen Law · under 30 min · serves 2",
+      "youtube": "https://youtu.be/oU4Hv2L-9r8",
+      "extras": [
+        "https://daigasikfaan.co/air-fryer-vietnamese-lemongrass-chicken/"
+      ],
+      "remember": [
+        "Skin-on thighs. Breast dries in the air fryer.",
+        "Rinse the noodles cold so they stay bouncy.",
+        "Taste the nuoc cham before it hits the bowl."
+      ],
+      "do": [
+        "Marinade on 4 deboned skin-on thighs: 1 minced lemongrass, 3 tbsp fish sauce, 2 tbsp sugar, 1 tbsp light soy, 1 tbsp garlic, ½ tbsp cornstarch, juice of ½ lime.",
+        "Nuoc cham: 4 tbsp fish sauce, 2 tbsp brown sugar, 1 tbsp garlic, 1 bird’s eye chili, juice of 1 lime, ⅓ cup warm water.",
+        "Rice vermicelli per the package, then rinse cold. Amount not listed. One nest a person.",
+        "Air fry skin down, 185°C (365°F), 13–15 min. Flip halfway.",
+        "Slice over noodles with julienned cucumber and carrot, gem lettuce, coriander. Drizzle sauce."
+      ],
+      "watch": [
+        "Breast, same time, goes dry.",
+        "Skip the rinse and the noodles glue.",
+        "Don’t store it mixed. Chicken, noodles, and veg apart, up to 3 days. Fresh sauce when you eat."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 7,
+        "unique": 6
+      },
+      "reaction": "47k views. Quiet comments. A weeknight bowl people finish.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "variant": "skin-on thighs",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "lemongrass",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "fish sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "light",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "lime",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "brown",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chili",
+          "variant": "bird's eye",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "noodles",
+          "variant": "rice vermicelli",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cucumber",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "carrot",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "lettuce",
+          "variant": "gem",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cilantro / coriander",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "air fryer",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "knife",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 8,
+      "id": "08-vanilla-burnt-basque-cheesecake",
+      "title": "Vanilla Burnt Basque Cheesecake",
+      "channel": "Notorious Foodie",
+      "time": "time unknown",
+      "serves": "8 slices, 9.5\" tin",
+      "meta": "Notorious Foodie · time unknown · 8 slices, 9.5\" tin",
+      "youtube": "https://youtu.be/_t8spHjFW9M",
+      "extras": [
+        "Paid recipe: https://notoriousfoodie.substack.com/p/burnt-basque-cheesecake-a-recipe",
+        "Thin card. Description empty. No captions. Weights are behind the paywall. Do not use his other Basque post. That one is an 8\" tin and a different recipe."
+      ],
+      "remember": [
+        "No biscuit base. High heat. The top should go dark.",
+        "Centre is still jiggly when it comes out.",
+        "It sinks in the middle. Rest it before you cut."
+      ],
+      "do": [
+        "Room-temp ingredients so it blends smooth.",
+        "Parchment up the sides so it can rise and look rough.",
+        "Fresh vanilla beans if you have them. Amount not in the free text.",
+        "Bake hot until the top is charred, not tan. Temp and time: unknown.",
+        "Cool until it settles, then slice."
+      ],
+      "watch": [
+        "Pale top plus a long bake kills the gooey middle.",
+        "Cutting hot and it slumps.",
+        "No parchment and it sticks and can’t rise."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 3,
+        "unique": 7
+      },
+      "reaction": "About 2 million views on the Short. People want the dark top. The grams live on the paid post.",
+      "thin": true,
+      "ingredients": [
+        {
+          "name": "cream cheese",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": "beans",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "heavy cream",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "parchment",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": true
+      }
+    },
+    {
+      "num": 9,
+      "id": "09-smoked-chuck-roast",
+      "title": "Smoked Chuck Roast",
+      "channel": "jackieh",
+      "time": "smoke 3 hr + crockpot 3–4 hr",
+      "serves": "2–3 lb",
+      "meta": "jackieh · smoke 3 hr + crockpot 3–4 hr · 2–3 lb",
+      "youtube": "https://youtu.be/1GNM2FCi02E",
+      "extras": [
+        "Recipe is the video description. No blog."
+      ],
+      "remember": [
+        "Smoke at 225°F for 3 hours. Flip once.",
+        "Then broth halfway up the meat. Crockpot on high, 3–4 hours. Flip once.",
+        "Store it in some of the liquid or it dries."
+      ],
+      "do": [
+        "Coat a 2–3 lb boneless chuck with oil and a steak rub. He uses Black & Tan by Fire & Smoke.",
+        "Smoke 225°F, 3 hours, flip halfway.",
+        "Crockpot on high. Add 1–2 cups bone broth or beef stock, about halfway up.",
+        "3–4 hours, flip halfway.",
+        "Cut big chunks, then split with a fork. Don’t shred the whole roast into strings."
+      ],
+      "watch": [
+        "A full shred goes stringy.",
+        "A dry container tomorrow means you left the liquid behind.",
+        "Too little broth and it never half-covers."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 4
+      },
+      "reaction": "2.8 million views. The method is the whole recipe. People make it because the steps are short.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "beef",
+          "variant": "chuck roast 2–3 lb",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "steak rub",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef stock / bone broth",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "smoker",
+          "required": true
+        },
+        {
+          "name": "crockpot / slow cooker",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 10,
+      "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+      "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+      "channel": "Julia Vuong",
+      "time": "20 min pressure + 10 min release",
+      "serves": "serves 4",
+      "meta": "Julia Vuong · 20 min pressure + 10 min release · serves 4",
+      "youtube": "https://youtu.be/4J4Pcd7mcX8",
+      "extras": [
+        "YouTube description empty. Card from her Instant Pot post: https://instantpot.com/blogs/recipes/vietnamese-chicken-noodle-soup"
+      ],
+      "remember": [
+        "Bone-in chicken. That’s the broth.",
+        "Char the onion and ginger. Toast the spices.",
+        "Go light on fish sauce. It darkens the soup. More bouillon if you want savor."
+      ],
+      "do": [
+        "Char 1 large onion, quartered, and sliced ginger. Toast 5 star anise, 5 cloves, 2 bay leaves, 1 cinnamon stick, 5 peppercorns.",
+        "Instant Pot: those, a whole chicken, 8 cups water, 1½ tbsp chicken bouillon, 1½ tbsp rock sugar. High pressure 20 min. Natural release 10. Skim.",
+        "2 tbsp fish sauce, tasted, not dumped.",
+        "Sauce: 3 tbsp neutral oil, minced ginger and 2 tbsp scallion, 30 seconds. ½ tsp garlic salt. 1 tsp sesame oil.",
+        "24 oz rice noodles, cooked to the package. Bowl with broth, chicken, sliced onion, cilantro, lime, and the sauce."
+      ],
+      "watch": [
+        "Too much fish sauce turns the broth dark.",
+        "Skip the char and the toast and it tastes like plain chicken water.",
+        "Leave the scum and the bowl looks gray."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 7,
+        "unique": 6
+      },
+      "reaction": "399k views. Fast phở, not a six-hour pot. The bones still did the work.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ginger",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "star anise",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cloves",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bay leaf",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cinnamon",
+          "variant": "stick",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "peppercorn",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken",
+          "variant": "whole",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken bouillon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "rock",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "fish sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": "neutral",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "scallion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "noodles",
+          "variant": "rice",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cilantro / coriander",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "lime",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "Instant Pot / pressure cooker",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 11,
+      "id": "11-1950s-minimum-wage-dinner",
+      "title": "1950s Minimum Wage Dinner",
+      "channel": "Joseph Franca",
+      "time": "57s video",
+      "serves": "serves unknown",
+      "meta": "Joseph Franca · 57s video · serves unknown",
+      "youtube": "https://youtu.be/1sdyoeQww-Q",
+      "extras": [
+        "Thin card. Empty description. No captions. Do not invent a method."
+      ],
+      "remember": [
+        "This is a cost bit, not a recipe.",
+        "Named foods: steak, potato, carrot, bread and butter, two scoops of ice cream. Amounts unknown.",
+        "Bacon is in the thumbnail only. Amount unknown."
+      ],
+      "do": [
+        "No usable steps."
+      ],
+      "watch": [
+        "Treating the cent prices as quantities.",
+        "Filling in a steak method he never gave.",
+        "Counting bacon as required. It is only in the picture."
+      ],
+      "scores": {
+        "taste": null,
+        "nutrition": null,
+        "unique": 4
+      },
+      "reaction": "11 million views. People argue about the wage, not the plate.",
+      "thin": true,
+      "ingredients": [
+        {
+          "name": "steak",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "potato",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "carrot",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bread",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ice cream",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "bacon",
+          "variant": "thumbnail only",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "skillet / pan",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": true
+      }
+    },
+    {
+      "num": 12,
+      "id": "12-egg-drop-soup",
+      "title": "Egg Drop Soup",
+      "channel": "Jujumao",
+      "time": "stock 1–2 hr",
+      "serves": "serves unknown",
+      "meta": "Jujumao · stock 1–2 hr · serves unknown",
+      "youtube": "https://youtu.be/tZoscy6Fc0M",
+      "extras": [],
+      "remember": [
+        "Blanch the chicken and the feet. Throw that water out.",
+        "Gentle simmer, then strain.",
+        "Flick the eggs forward. Do not dump them."
+      ],
+      "do": [
+        "Blanch 1 kg chicken feet and 1 whole chicken with a thumb of sliced ginger and 2 tbsp Shaoxing, 5–10 min. Discard the liquid. Rinse the scum.",
+        "Soak 3/4 cup dried mushrooms, and 1/2 cup dried scallops if you want them, 15–30 min.",
+        "Clean pot: chicken, 3 smashed ginger pieces, 1 cup chopped green onion, 1 medium radish, the mushroom liquid, 1–2 tbsp Shaoxing, water to cover. Simmer 1–2 hr. Strain.",
+        "Season: fish sauce, 2 tsp white pepper, 1 tsp sugar, 2 tbsp sesame oil, 1/4 cup light soy, salt. Thicken with potato starch. Start at 1/2 cup starch in a little water.",
+        "Stream in 6 beaten eggs, flicking. Sliced scallions."
+      ],
+      "watch": [
+        "Skip the blanch and the stock stays cloudy.",
+        "Too much slurry and it turns glue.",
+        "Eggs dumped in become clumps, not ribbons."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 6,
+        "unique": 7
+      },
+      "reaction": "6.9 million views. People put it on when they feel sick. The stock is the point.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "chicken",
+          "variant": "feet",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken",
+          "variant": "whole",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ginger",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "shaoxing wine",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mushroom",
+          "variant": "dried",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "scallion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "radish",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "fish sauce",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "white pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "soy sauce",
+          "variant": "light",
+          "required": true,
+          "legume": true,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "potato starch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "dried scallops",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "pot",
+          "required": true
+        },
+        {
+          "name": "strainer",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [
+          "soy sauce"
+        ],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 13,
+      "id": "13-easy-cr-me-caramel",
+      "title": "Easy Crème Caramel",
+      "channel": "Wild Cookbook",
+      "time": "53s video",
+      "serves": "serves unknown",
+      "meta": "Wild Cookbook · 53s video · serves unknown",
+      "youtube": "https://youtu.be/888nCYgoZOg",
+      "extras": [
+        "Thin card. Empty description. No captions. No creator recipe. Do not borrow another flan."
+      ],
+      "remember": [
+        "It is crème caramel. That is all the text gives.",
+        "Weights, temperature, and time are unknown.",
+        "The thumbnail is a rectangular mold, sliced."
+      ],
+      "do": [
+        "No usable steps from this creator."
+      ],
+      "watch": [
+        "Cooking a different site’s flan and calling it this video.",
+        "Guessing the caramel ratio.",
+        "Guessing a water bath. He never said one."
+      ],
+      "scores": {
+        "taste": null,
+        "nutrition": null,
+        "unique": 3
+      },
+      "reaction": "17.8 million views. The clip is the dessert. The recipe is not in the text.",
+      "thin": true,
+      "ingredients": [],
+      "tools": [
+        {
+          "name": "plate",
+          "required": true
+        },
+        {
+          "name": "knife",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": true
+      }
+    },
+    {
+      "num": 14,
+      "id": "14-fried-cherry-hand-pies",
+      "title": "Fried Cherry Hand Pies",
+      "channel": "Well Made by Kiley",
+      "time": "~2 hr 5 min",
+      "serves": "11–13 pies",
+      "meta": "Well Made by Kiley · ~2 hr 5 min · 11–13 pies",
+      "youtube": "https://youtu.be/d-AnxjwbiFk",
+      "extras": [
+        "Same dough family as her apple hand pies."
+      ],
+      "remember": [
+        "Filling thick and cold before it goes in.",
+        "Cold dough. Do not knead it.",
+        "Oil at 360–370°F."
+      ],
+      "do": [
+        "Filling: 530g cherries, 100g sugar, juice of 1/2 lemon, pinch of salt, 6–8 min. Slurry 12g cornstarch plus 1½ tbsp water, 1–2 min. 1 tsp vanilla. Chill.",
+        "Dough: 420g flour, 12g sugar, 1 tsp baking powder, 6g salt, 170g cold salted butter, 7 oz cold half-and-half, 1 cold egg. Chill 30 min.",
+        "Cut 4½\" rounds. Heaping tablespoon. Egg-wash the edge. Fork. Fold the edge in.",
+        "Fry about 2 min a side. Glaze: 120g powdered sugar, 2 tbsp milk, 1 tsp vanilla, pinch of salt.",
+        "Oven instead: 400°F, 22–25 min, egg wash, a vent slit."
+      ],
+      "watch": [
+        "Overfill and it leaks.",
+        "A weak fork seal leaks.",
+        "Oil too cool is greasy. Too hot browns before the middle cooks."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 2,
+        "unique": 5
+      },
+      "reaction": "108k views. Same crust as the apple pies. Cherries are the swap.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "cherry",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "lemon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "flour",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "baking powder",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": "cold salted",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "half-and-half",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "powdered",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "milk",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "saucepan",
+          "required": true
+        },
+        {
+          "name": "rolling pin",
+          "required": true
+        },
+        {
+          "name": "round cutter",
+          "required": true
+        },
+        {
+          "name": "fork",
+          "required": true
+        },
+        {
+          "name": "pot",
+          "required": true
+        },
+        {
+          "name": "thermometer",
+          "required": true
+        },
+        {
+          "name": "slotted spoon",
+          "required": true
+        },
+        {
+          "name": "cooling rack",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 15,
+      "id": "15-italian-stromboli",
+      "title": "Italian Stromboli",
+      "channel": "Carman Wilken",
+      "time": "~30 min",
+      "serves": "serves 8",
+      "meta": "Carman Wilken · ~30 min · serves 8",
+      "youtube": "https://youtu.be/ziwKFRa3plc",
+      "extras": [],
+      "remember": [
+        "Leave a border. Pinch every seam. Seam side down.",
+        "Cut slits so steam can leave.",
+        "Rest 5 min or the cheese runs out."
+      ],
+      "do": [
+        "One refrigerated crust, about 13 oz. Spread 1/4 cup pizza sauce, not the whole jar.",
+        "Layer 1/4 lb ham, 1/4 lb salami, 1/4 lb pepperoni, 3 cups grated mozzarella, 1 tsp Italian seasoning.",
+        "Roll, pinch, seam down. Slits on top.",
+        "Brush 2 tbsp melted butter, garlic powder, dried parsley. The last two have no amount.",
+        "400°F, about 20 min. Rest 5. Rest of the sauce for dipping."
+      ],
+      "watch": [
+        "Open seams and the filling escapes.",
+        "Cut it hot and it is a puddle.",
+        "Stretch the dough thin and it tears."
+      ],
+      "scores": {
+        "taste": 7,
+        "nutrition": 4,
+        "unique": 3
+      },
+      "reaction": "3.7 million views. The deli counter did the hard part.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "refrigerated pizza crust",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pizza / marinara sauce",
+          "variant": "pizza sauce",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ham",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salami",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pepperoni",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mozzarella",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "italian seasoning",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "butter",
+          "variant": "melted",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic powder",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "parsley",
+          "variant": "dried",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "baking sheet",
+          "required": true
+        },
+        {
+          "name": "parchment",
+          "required": true
+        },
+        {
+          "name": "pastry brush",
+          "required": true
+        },
+        {
+          "name": "knife",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 16,
+      "id": "16-cheesy-baked-ziti",
+      "title": "Cheesy Baked Ziti",
+      "channel": "Allrecipes",
+      "time": "Nicole’s Best Baked Ziti",
+      "serves": "1 hr 25 min + 10 min rest · serves 8",
+      "meta": "Allrecipes · Nicole’s Best Baked Ziti · 1 hr 25 min + 10 min rest · serves 8",
+      "youtube": "https://youtu.be/uV92qpSSY9Y",
+      "extras": [],
+      "remember": [
+        "Boil the pasta 1–2 min short of the package.",
+        "Ricotta is its own layer. Do not stir it through.",
+        "Stand 10 min before you scoop."
+      ],
+      "do": [
+        "Oven 375°F. Grease a 9×13. Boil 16 oz ziti with 1 tbsp kosher salt, about 8 min.",
+        "Brown ¾ lb Italian sausage and ¾ lb ground sirloin. Add 1 small onion, 2 garlic cloves, salt, pepper, ¼ tsp chili flake, 3–5 min.",
+        "Two 24 oz jars marinara, plus ¼ cup water shaken in each jar. Simmer 10 min. Toss the pasta with a little sauce.",
+        "Ricotta mix: 15 oz whole-milk ricotta, ½ cup Parmesan, 1 egg, 1 tbsp parsley, 1 tbsp basil, remaining salt and pepper.",
+        "Layer sauce, pasta, sauce, ricotta, mozzarella, the rest of the pasta and sauce and cheese, last ¼ cup Parmesan. Bake 25–30 min. Rest 10."
+      ],
+      "watch": [
+        "Pasta cooked all the way on the stove goes mushy in the oven.",
+        "Skip the jar rinse and the sauce comes up short.",
+        "Serve it straight from the oven and the layers fall apart."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 5,
+        "unique": 3
+      },
+      "reaction": "292k views. A tray people already know. The layering is why this version.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "pasta",
+          "variant": "ziti",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "salt",
+          "variant": "kosher",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "italian sausage",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "beef",
+          "variant": "ground sirloin",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "onion",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "garlic",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "black pepper",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chili flake",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "pizza / marinara sauce",
+          "variant": "marinara",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "ricotta",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "parmesan",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "parsley",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "basil",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "mozzarella",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "pot",
+          "required": true
+        },
+        {
+          "name": "skillet / pan",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 17,
+      "id": "17-sticky-gochujang-chicken",
+      "title": "Sticky Gochujang Chicken",
+      "channel": "iamneverfull",
+      "time": "36s video",
+      "serves": "serves unknown",
+      "meta": "iamneverfull · 36s video · serves unknown",
+      "youtube": "https://youtu.be/WzzAdXsCaKk",
+      "extras": [
+        "Thin card. Empty description. Captions blocked. His other gochujang posts are different recipes. Do not merge them."
+      ],
+      "remember": [
+        "Title and thumbnail: sticky gochujang chicken, rice, sesame, scallion. Amounts unknown.",
+        "Do not use the air-fryer post on his site. Not confirmed as this short.",
+        "Soy is likely in gochujang recipes. Not confirmed in this text."
+      ],
+      "do": [
+        "No usable steps from this video."
+      ],
+      "watch": [
+        "Cooking a sibling recipe and calling it this clip.",
+        "Assuming an air fryer. Not confirmed.",
+        "Assuming it is soy-free. Unknown."
+      ],
+      "scores": {
+        "taste": null,
+        "nutrition": null,
+        "unique": 5
+      },
+      "reaction": "1.3 million views. The glaze is the hook. The grams are not on this clip.",
+      "thin": true,
+      "ingredients": [
+        {
+          "name": "gochujang",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chicken",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "rice",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sesame seeds",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "scallion",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": true
+      }
+    },
+    {
+      "num": 18,
+      "id": "18-burnt-basque-cheesecake",
+      "title": "Burnt Basque Cheesecake",
+      "channel": "Mai Cookbook",
+      "time": "30 min bake + at least 2 hr rest",
+      "serves": "serves 6",
+      "meta": "Mai Cookbook · 30 min bake + at least 2 hr rest · serves 6",
+      "youtube": "https://youtu.be/jB32_Fy7l1Y",
+      "extras": [
+        "Use her written recipe. She says the old video amounts differ."
+      ],
+      "remember": [
+        "6×3 inch tin. High heat. The top should darken.",
+        "Leave it in the tin at least 2 hours. A hot unmold collapses it.",
+        "Updated weights only."
+      ],
+      "do": [
+        "Heat the oven to 240°C. Crumpled parchment in a 6×3\" tin.",
+        "400g cream cheese and 120g sugar, smooth. 3 eggs, one at a time. ½ tsp vanilla and 200ml heavy cream. Sift in 20g cornstarch.",
+        "Pour. Tap out bubbles. Bake 30 min at 220–240°C, lower rack.",
+        "Rest in the tin at least 2 hours. Fridge overnight if you want it firmer."
+      ],
+      "watch": [
+        "The video’s old quantities do not match the post.",
+        "Unmold it hot and it slumps.",
+        "Too dark: drop toward 220°C. More cornstarch or 5 more minutes if you want it firmer."
+      ],
+      "scores": {
+        "taste": 8,
+        "nutrition": 3,
+        "unique": 6
+      },
+      "reaction": "2.9 million views. Dark top, soft middle. This one has the grams. The earlier Notorious Foodie short does not.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "cream cheese",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "egg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "heavy cream",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cornstarch",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "parchment",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "sieve",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    },
+    {
+      "num": 19,
+      "id": "19-offensive-banana-bread",
+      "title": "Offensive Banana Bread",
+      "channel": "Jose.elcook",
+      "time": "45–50 min bake",
+      "serves": "serves unknown",
+      "meta": "Jose.elcook · 45–50 min bake · serves unknown",
+      "youtube": "https://youtu.be/e2B1_DNpsV4",
+      "extras": [
+        "Partial. Captions only. Most amounts are missing. The egg count in the audio is not trustworthy."
+      ],
+      "remember": [
+        "Sugar and water caramel under whole bananas, then batter on top.",
+        "3 mashed bananas in the batter. Other amounts unknown.",
+        "350°F, 45–50 min, until a toothpick is clean. Add the dry slowly."
+      ],
+      "do": [
+        "Lay bananas flat in the pan. Caramelize sugar and water. Pour it over. Amounts unknown.",
+        "Batter: 3 mashed bananas, some brown sugar, some oil, Greek yogurt. Egg count unknown.",
+        "Dry ingredients are not named. Add them slowly.",
+        "Mini chocolate chips. He does not add nuts.",
+        "350°F, 45–50 min."
+      ],
+      "watch": [
+        "Overmixing the dry makes it tough.",
+        "Pulling it before the toothpick is clean.",
+        "Adding nuts. He skips them."
+      ],
+      "scores": {
+        "taste": 7,
+        "nutrition": 3,
+        "unique": 6
+      },
+      "reaction": "6.6 million views. The title is the bait. The caramel layer is the idea.",
+      "thin": true,
+      "ingredients": [
+        {
+          "name": "banana",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "water",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "sugar",
+          "variant": "brown",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "oil",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "greek yogurt",
+          "variant": null,
+          "required": false,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "chocolate chips",
+          "variant": "mini",
+          "required": false,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "baking pan / tin",
+          "required": true
+        },
+        {
+          "name": "bowl",
+          "required": true
+        },
+        {
+          "name": "oven",
+          "required": true
+        },
+        {
+          "name": "toothpick",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": true
+      }
+    },
+    {
+      "num": 20,
+      "id": "20-caramel-apple-pie-ice-cream",
+      "title": "Caramel Apple Pie Ice Cream",
+      "channel": "Sara J Sweets",
+      "time": "Ninja Creami",
+      "serves": "serves unknown",
+      "meta": "Sara J Sweets · Ninja Creami · serves unknown",
+      "youtube": "https://youtu.be/IDDMCFMpugE",
+      "extras": [
+        "Ingredients are in the description. Freeze time and which Creami cycle are not."
+      ],
+      "remember": [
+        "Fairlife is the protein trick. Regular milk works and drops the protein.",
+        "Caramel and spice go in the base. Apple is a mix-in.",
+        "Do not invent a spin setting. She did not write one."
+      ],
+      "do": [
+        "Base: 2½ cups Fairlife or regular milk, 3 tbsp Torani zero-calorie caramel, ¼ tsp cinnamon, ⅛ tsp nutmeg.",
+        "Mix-in: ¼ cup chopped apple, 1 tbsp maple syrup, ½ tsp vanilla, ½ tsp cinnamon, ¼ tsp nutmeg, 1 tbsp heavy cream.",
+        "Freeze in a Creami pint. Button and time: unknown."
+      ],
+      "watch": [
+        "Swapping the milk and expecting the same protein.",
+        "Stirring the apple mix into the base. It is separate.",
+        "Guessing a respin. Not in the text."
+      ],
+      "scores": {
+        "taste": 6,
+        "nutrition": 6,
+        "unique": 5
+      },
+      "reaction": "56k views. A pint, not a churn. The machine does the work.",
+      "thin": false,
+      "ingredients": [
+        {
+          "name": "milk",
+          "variant": "Fairlife or regular",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "caramel syrup",
+          "variant": "Torani zero-cal",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "cinnamon",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "nutmeg",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "apple",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "maple syrup",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "vanilla",
+          "variant": null,
+          "required": true,
+          "legume": false,
+          "peanut": false
+        },
+        {
+          "name": "half-and-half / cream",
+          "variant": "heavy cream",
+          "required": true,
+          "legume": false,
+          "peanut": false
+        }
+      ],
+      "tools": [
+        {
+          "name": "Ninja Creami",
+          "required": true
+        },
+        {
+          "name": "Ninja Creami pint",
+          "required": true
+        },
+        {
+          "name": "knife",
+          "required": true
+        }
+      ],
+      "allergy": {
+        "peanut_required": false,
+        "peanut_optional": false,
+        "legumes_required": [],
+        "legumes_optional": [],
+        "incomplete": false
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "sugar",
+      "variants": [
+        "brown",
+        "powdered",
+        "rock",
+        "white"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        },
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 10
+    },
+    {
+      "name": "oil",
+      "variants": [
+        "high-smoke",
+        "neutral"
+      ],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Oils & Fats",
+      "count": 9
+    },
+    {
+      "name": "salt",
+      "variants": [
+        "kosher"
+      ],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 8
+    },
+    {
+      "name": "egg",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 7
+    },
+    {
+      "name": "water",
+      "variants": [
+        "pasta water"
+      ],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 7
+    },
+    {
+      "name": "butter",
+      "variants": [
+        "browned",
+        "cold",
+        "cold salted",
+        "melted",
+        "salted / browned"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 6
+    },
+    {
+      "name": "chicken",
+      "variants": [
+        "boneless skin-on thighs",
+        "breast",
+        "feet",
+        "skin-on thighs",
+        "whole"
+      ],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 6
+    },
+    {
+      "name": "cornstarch",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 6
+    },
+    {
+      "name": "half-and-half / cream",
+      "variants": [
+        "half-and-half",
+        "heavy cream"
+      ],
+      "recipes_required": [
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 6
+    },
+    {
+      "name": "vanilla",
+      "variants": [
+        "beans"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 6
+    },
+    {
+      "name": "onion",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 5
+    },
+    {
+      "name": "black pepper",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 4
+    },
+    {
+      "name": "cinnamon",
+      "variants": [
+        "stick"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 4
+    },
+    {
+      "name": "garlic",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 4
+    },
+    {
+      "name": "noodles",
+      "variants": [
+        "instant cakes",
+        "rice",
+        "rice vermicelli"
+      ],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 4
+    },
+    {
+      "name": "scallion",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 4
+    },
+    {
+      "name": "soy sauce",
+      "variants": [
+        "dark",
+        "light",
+        "light works but pale"
+      ],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        }
+      ],
+      "legume": true,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 4
+    },
+    {
+      "name": "baking powder",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 3
+    },
+    {
+      "name": "beef",
+      "variants": [
+        "chuck roast 2–3 lb",
+        "ground sirloin",
+        "mince"
+      ],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 3
+    },
+    {
+      "name": "carrot",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 3
+    },
+    {
+      "name": "fish sauce",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 3
+    },
+    {
+      "name": "flour",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 3
+    },
+    {
+      "name": "ginger",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 3
+    },
+    {
+      "name": "milk",
+      "variants": [
+        "Fairlife or regular"
+      ],
+      "recipes_required": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 3
+    },
+    {
+      "name": "sesame oil",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Oils & Fats",
+      "count": 3
+    },
+    {
+      "name": "apple",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "banana",
+      "variants": [
+        "½ cup / 120g mashed"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "broccoli",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "chili flake",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "chocolate chips",
+      "variants": [
+        "mini"
+      ],
+      "recipes_required": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 2
+    },
+    {
+      "name": "cilantro / coriander",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "cream cheese",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 2
+    },
+    {
+      "name": "five-spice",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "lime",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "maple syrup",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 2
+    },
+    {
+      "name": "mozzarella",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 2
+    },
+    {
+      "name": "mushroom",
+      "variants": [
+        "dried"
+      ],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "nutmeg",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 2
+    },
+    {
+      "name": "parmesan",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 2
+    },
+    {
+      "name": "parsley",
+      "variants": [
+        "dried"
+      ],
+      "recipes_required": [
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 2
+    },
+    {
+      "name": "pasta",
+      "variants": [
+        "fettuccine",
+        "ziti"
+      ],
+      "recipes_required": [
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 2
+    },
+    {
+      "name": "pizza / marinara sauce",
+      "variants": [
+        "marinara",
+        "pizza sauce"
+      ],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 2
+    },
+    {
+      "name": "sesame seeds",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Nuts & Seeds",
+      "count": 2
+    },
+    {
+      "name": "shaoxing wine",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 2
+    },
+    {
+      "name": "bacon",
+      "variants": [
+        "thumbnail only"
+      ],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "basil",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "bay leaf",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "beef stock / bone broth",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "beer",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Pantry Staples",
+      "count": 1
+    },
+    {
+      "name": "bell pepper",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "bread",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 1
+    },
+    {
+      "name": "caramel syrup",
+      "variants": [
+        "Torani zero-cal"
+      ],
+      "recipes_required": [
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "cherry",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "chicken bouillon",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "chili",
+      "variants": [
+        "bird's eye"
+      ],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "cloves",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "cucumber",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "dried scallops",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "garlic powder",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "garlic salt",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "gochujang",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "greek yogurt",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
+      "name": "ham",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "hoisin",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "hot sauce",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "ice cream",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
+      "name": "italian sausage",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "italian seasoning",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "lemon",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "lemongrass",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "lettuce",
+      "variants": [
+        "gem"
+      ],
+      "recipes_required": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "mirin",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "oyster sauce",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "peanuts",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        }
+      ],
+      "legume": true,
+      "peanut": true,
+      "category": "Nuts & Seeds",
+      "count": 1
+    },
+    {
+      "name": "peppercorn",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "pepperoni",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "potato",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "potato starch",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 1
+    },
+    {
+      "name": "radish",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Aromatics & Produce",
+      "count": 1
+    },
+    {
+      "name": "refrigerated pizza crust",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "rice",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "17-sticky-gochujang-chicken",
+          "title": "Sticky Gochujang Chicken",
+          "num": 17
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Starches & Grains",
+      "count": 1
+    },
+    {
+      "name": "ricotta",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Dairy",
+      "count": 1
+    },
+    {
+      "name": "salami",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "salt-and-pepper mix",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "star anise",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    },
+    {
+      "name": "steak",
+      "variants": [],
+      "recipes_required": [],
+      "recipes_optional": [
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        }
+      ],
+      "legume": false,
+      "peanut": false,
+      "category": "Proteins",
+      "count": 1
+    },
+    {
+      "name": "steak rub",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "teriyaki sauce",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Sauces & Condiments",
+      "count": 1
+    },
+    {
+      "name": "white pepper",
+      "variants": [],
+      "recipes_required": [
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "recipes_optional": [],
+      "legume": false,
+      "peanut": false,
+      "category": "Spices",
+      "count": 1
+    }
+  ],
+  "tools": [
+    {
+      "name": "bowl",
+      "recipes": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "count": 8
+    },
+    {
+      "name": "oven",
+      "recipes": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        },
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "count": 7
+    },
+    {
+      "name": "pot",
+      "recipes": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "count": 6
+    },
+    {
+      "name": "skillet / pan",
+      "recipes": [
+        {
+          "id": "01-vegetable-teriyaki-noodles",
+          "title": "Vegetable Teriyaki Noodles",
+          "num": 1
+        },
+        {
+          "id": "02-one-pan-mongolian-beef-noodles",
+          "title": "One-Pan Mongolian Beef Noodles",
+          "num": 2
+        },
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "05-one-pan-chicken-alfredo",
+          "title": "One-Pan Chicken Alfredo",
+          "num": 5
+        },
+        {
+          "id": "11-1950s-minimum-wage-dinner",
+          "title": "1950s Minimum Wage Dinner",
+          "num": 11
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        }
+      ],
+      "count": 6
+    },
+    {
+      "name": "baking pan / tin",
+      "recipes": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        },
+        {
+          "id": "16-cheesy-baked-ziti",
+          "title": "Cheesy Baked Ziti",
+          "num": 16
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        },
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "count": 5
+    },
+    {
+      "name": "knife",
+      "recipes": [
+        {
+          "id": "04-crispy-salt-pepper-chicken-thighs",
+          "title": "Crispy Salt & Pepper Chicken Thighs",
+          "num": 4
+        },
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        },
+        {
+          "id": "13-easy-cr-me-caramel",
+          "title": "Easy Crème Caramel",
+          "num": 13
+        },
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        },
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "count": 5
+    },
+    {
+      "name": "parchment",
+      "recipes": [
+        {
+          "id": "08-vanilla-burnt-basque-cheesecake",
+          "title": "Vanilla Burnt Basque Cheesecake",
+          "num": 8
+        },
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        },
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "saucepan",
+      "recipes": [
+        {
+          "id": "03-brown-butter-banana-bread-cookie-bars",
+          "title": "Brown Butter Banana Bread Cookie Bars",
+          "num": 3
+        },
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "fork",
+      "recipes": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "rolling pin",
+      "recipes": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "round cutter",
+      "recipes": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "thermometer",
+      "recipes": [
+        {
+          "id": "06-fried-apple-hand-pies",
+          "title": "Fried Apple Hand Pies",
+          "num": 6
+        },
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "air fryer",
+      "recipes": [
+        {
+          "id": "07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl",
+          "title": "Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl",
+          "num": 7
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "baking sheet",
+      "recipes": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "cooling rack",
+      "recipes": [
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "crockpot / slow cooker",
+      "recipes": [
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "Instant Pot / pressure cooker",
+      "recipes": [
+        {
+          "id": "10-vietnamese-chicken-noodle-soup-ph-g",
+          "title": "Vietnamese Chicken Noodle Soup (Phở Gà)",
+          "num": 10
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "Ninja Creami",
+      "recipes": [
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "Ninja Creami pint",
+      "recipes": [
+        {
+          "id": "20-caramel-apple-pie-ice-cream",
+          "title": "Caramel Apple Pie Ice Cream",
+          "num": 20
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "pastry brush",
+      "recipes": [
+        {
+          "id": "15-italian-stromboli",
+          "title": "Italian Stromboli",
+          "num": 15
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "plate",
+      "recipes": [
+        {
+          "id": "13-easy-cr-me-caramel",
+          "title": "Easy Crème Caramel",
+          "num": 13
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "sieve",
+      "recipes": [
+        {
+          "id": "18-burnt-basque-cheesecake",
+          "title": "Burnt Basque Cheesecake",
+          "num": 18
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "slotted spoon",
+      "recipes": [
+        {
+          "id": "14-fried-cherry-hand-pies",
+          "title": "Fried Cherry Hand Pies",
+          "num": 14
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "smoker",
+      "recipes": [
+        {
+          "id": "09-smoked-chuck-roast",
+          "title": "Smoked Chuck Roast",
+          "num": 9
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "strainer",
+      "recipes": [
+        {
+          "id": "12-egg-drop-soup",
+          "title": "Egg Drop Soup",
+          "num": 12
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "toothpick",
+      "recipes": [
+        {
+          "id": "19-offensive-banana-bread",
+          "title": "Offensive Banana Bread",
+          "num": 19
+        }
+      ],
+      "count": 1
+    }
+  ]
+}

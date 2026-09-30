@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>YouTube Recipes — Playlist Digests</title>
+<style>
+
+:root{--cream:#fbf3e6;--paper:#fff9f0;--accent:#1a6b5c;--accent-deep:#0f3f38;--deep:#1a2a28;--gold:#c9a227;--sage:#4a5e4a}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;background:radial-gradient(ellipse at top,#12352f 0%,#0a1816 60%),#0a1816;color:var(--deep);line-height:1.55}
+.wrap{max-width:920px;margin:0 auto;padding:2rem 1.25rem 4rem}
+.cover{background:linear-gradient(160deg,var(--cream),#e8f0e8 50%,#d4e8e2);border:8px double var(--accent);border-radius:8px;padding:2.5rem 2rem;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.45);margin-bottom:2rem}
+.cover .badge{display:inline-block;background:var(--accent-deep);color:var(--gold);letter-spacing:.12em;text-transform:uppercase;font-size:.72rem;padding:.35rem .8rem;border-radius:999px;margin-bottom:1rem}
+.cover h1{margin:.5rem 0 .5rem;font-size:clamp(1.85rem,5vw,2.75rem);color:var(--accent);line-height:1.1}
+.cover .sub{font-style:italic;opacity:.85;margin:0 0 1.25rem}
+.cover .sermon{text-align:left;max-width:40rem;margin:0 auto;background:rgba(255,255,255,.35);padding:1rem 1.25rem;border-left:4px solid var(--accent)}
+.legal{font-size:.78rem;opacity:.8;margin-top:1rem;font-style:italic}
+.mono{display:block;margin:0 auto .75rem}
+nav.toc{background:var(--paper);border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:2rem;border:1px solid #c5d9d2}
+nav.toc h2{margin:0 0 .75rem;color:var(--accent);font-size:1.25rem}
+nav.toc ol{margin:0;padding-left:1.25rem;columns:2;gap:1.5rem}
+@media(max-width:640px){nav.toc ol{columns:1}}
+nav.toc a{color:var(--deep);text-decoration:none;border-bottom:1px dotted var(--accent)}
+nav.toc a:hover{color:var(--accent)}
+nav.toc em{color:#8a5a20;font-size:.85em}
+.part{background:linear-gradient(90deg,var(--accent-deep),var(--accent));color:var(--gold);padding:1.5rem;border-radius:10px;margin:2.5rem 0 1.5rem;border:2px solid var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.part h2{margin:0 0 .4rem;font-size:clamp(1.4rem,3vw,1.9rem);color:var(--gold)}
+.part p{margin:0;color:var(--cream);font-style:italic}
+.filter-bar{background:var(--paper);border:1px solid #c5d9d2;border-radius:10px;padding:1rem 1.25rem;margin-bottom:1.5rem;display:grid;gap:.75rem}
+.filter-bar label{font-size:.85rem;color:var(--sage);font-weight:bold;display:block;margin-bottom:.25rem}
+.filter-row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:end}
+.filter-bar select,.filter-bar input[type=search]{padding:.55rem .75rem;border:1px solid #b7cfc6;border-radius:8px;font:inherit;background:#fff;min-width:160px}
+.filter-bar button{padding:.55rem 1rem;border-radius:8px;border:none;cursor:pointer;background:var(--accent);color:#fff;font:inherit}
+.filter-bar button.ghost{background:#fff;color:var(--accent);border:1px solid var(--accent)}
+.filter-status{font-size:.9rem;color:#5a6e5a}
+article.recipe{background:var(--paper);border-radius:10px;overflow:hidden;margin-bottom:.5rem;border:1px solid #c5d9d2;box-shadow:0 12px 30px rgba(0,0,0,.25)}
+article.recipe.hidden{display:none}
+article.recipe .head{background:linear-gradient(90deg,var(--accent-deep),#1f7a6a);color:var(--cream);padding:1.25rem 1.5rem .85rem}
+.head-row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+article.recipe .head h2{margin:0;color:var(--gold);font-size:clamp(1.3rem,3vw,1.65rem)}
+.thin-badge{background:#8a5a20;color:#fff8e8;font-size:.68rem;letter-spacing:.06em;padding:.2rem .55rem;border-radius:999px;text-transform:uppercase}
+article.recipe .chef{margin:.55rem 0 0;font-style:italic;opacity:.95}
+.head-links{margin:.4rem 0 0}
+.yt{color:var(--gold)}
+.grid{padding:1.25rem 1.5rem 1.5rem}
+.flags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem}
+.flag{font-size:.72rem;letter-spacing:.03em;text-transform:uppercase;padding:.25rem .55rem;border-radius:999px;background:#e8f0e8;color:#2a4a40}
+.flag.peanut{background:#5a1010;color:#ffe8e8}
+.flag.legume{background:#5a4010;color:#fff3d0}
+.flag.warn{background:#6a5020;color:#fff8e0}
+.flag.ok{background:#d8eee6;color:#1a4a3c}
+.ing-pills{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.75rem}
+.pill{font-size:.78rem;background:#eef6f2;border:1px solid #b7cfc6;border-radius:999px;padding:.2rem .55rem;color:#2a4a40}
+.pill.opt{opacity:.75;border-style:dashed}
+h3{color:var(--accent);margin:1rem 0 .4rem;font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase}
+ol.steps,ul{margin:0;padding-left:1.2rem}
+ol.steps li,ul li{margin-bottom:.45rem}
+.empty{font-style:italic;color:#6a7a6a}
+.extra{font-size:.9rem;color:#5a6a5a;font-style:italic}
+.tools-hide{margin:1rem 0;background:#f0f7f4;border:1px dashed #9bbfb3;border-radius:8px;padding:.5rem .9rem}
+.tools-hide summary{cursor:pointer;color:var(--accent);font-weight:bold;letter-spacing:.04em;text-transform:uppercase;font-size:.9rem}
+.tools-hide .muted{font-weight:normal;text-transform:none;letter-spacing:0;color:#6a7a6a;font-size:.8rem}
+.tool-list{margin:.5rem 0 0}
+.scores{margin-top:1rem;color:var(--accent-deep)}
+.reaction{font-style:italic;color:#4a5e4a;margin:.4rem 0 0}
+.back-top{text-align:center;margin:0 0 2rem}
+.back-top a{color:var(--gold);font-size:.9rem}
+.ency-intro{padding:0 1.5rem;color:#5a6e5a;font-style:italic}
+.ency-equip,.ency-ings,.ency-tools-db{background:var(--paper);border-radius:10px;border:1px solid #c5d9d2;margin-bottom:1.5rem;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.2);padding-bottom:1rem}
+.ency-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;padding:.25rem 1.5rem 1rem}
+.ency-card{background:#fffdf8;border:1px solid #c5d9d2;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.ency-glyph{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;font-size:3rem;background:linear-gradient(160deg,#e8f5f0,#d4e8e2)}
+.ency-card .body{padding:.85rem 1rem 1.1rem}
+.ency-card h4{margin:0 0 .4rem;color:var(--deep);font-size:1.05rem}
+.ency-card p{margin:0;font-size:.9rem;color:#5a3a28}
+.ency-sub{margin:1.25rem 1.5rem .75rem;color:var(--accent);font-size:1.15rem;letter-spacing:.04em;text-transform:uppercase;border-bottom:2px solid #c5d9d2;padding-bottom:.35rem}
+.ing-controls{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;padding:.5rem 1.5rem 1rem}
+.ing-controls input[type=search]{flex:1 1 220px;min-width:180px;padding:.65rem .9rem;border:1px solid #b7cfc6;border-radius:8px;font-size:1rem;background:#fff}
+.ing-chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.ing-chip{border:1px solid #b7cfc6;background:#eef6f2;color:#2a4a40;border-radius:999px;padding:.35rem .75rem;font-size:.82rem;cursor:pointer}
+.ing-chip.active,.ing-chip:hover{background:var(--accent);color:#fff;border-color:transparent}
+.ing-stats{padding:0 1.5rem .5rem;color:#5a6e5a;font-size:.9rem}
+.ing-db{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;padding:.25rem 1.5rem 1rem}
+.ing-card{background:#fffdf8;border:1px solid #c5d9d2;border-radius:10px;padding:.9rem 1rem 1rem;display:flex;flex-direction:column;gap:.35rem}
+.ing-card.hidden{display:none}
+.ing-card .top{display:flex;justify-content:space-between;gap:.5rem;align-items:flex-start}
+.ing-card h4{margin:0;font-size:1.02rem;color:var(--deep)}
+.ing-badge{flex:0 0 auto;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;background:#d8eee6;color:#1a4a3c;border-radius:999px;padding:.2rem .5rem;white-space:nowrap}
+.ing-card .note{margin:0;font-size:.88rem;color:#5a3a28;line-height:1.4}
+.ing-card .meta{font-size:.8rem;color:#6a7a6a}
+.ing-card .links{font-size:.82rem;line-height:1.45}
+.ing-card .links a{color:var(--accent)}
+.card-actions{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.35rem}
+.mini{font-size:.72rem;padding:.3rem .55rem;border-radius:6px;cursor:pointer;border:none;background:var(--accent);color:#fff;font-family:inherit}
+.mini.ghost{background:#fff;color:var(--accent);border:1px solid var(--accent)}
+footer.book{text-align:center;color:#a8c4b8;font-size:.9rem;padding:1rem}
+
+</style>
+</head>
+<body>
+<div class="wrap" id="top">
+<header class="cover">
+<svg class="mono" viewBox="0 0 120 120" aria-hidden="true" width="72" height="72">
+<circle cx="60" cy="60" r="56" fill="#0f3f38"/>
+<circle cx="60" cy="60" r="50" fill="none" stroke="#c9a227" stroke-width="3"/>
+<text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#fbf3e6" font-weight="700">JL</text>
+</svg>
+<div class="badge">Playlist Digests · Cards 1–20</div>
+<h1>YouTube Recipes</h1>
+<p class="sub">Searchable ingredients &amp; tools · peanut-aware · printed-cookbook warm</p>
+<div class="sermon">
+<p>Station map first: tools, then pantry. Every card keeps Remember / Do / Watch,
+taste scores, and a reaction line. Tools stay in the DOM but collapse by default.
+Peanuts are never marked required. Soy sauce counts as soy (legume flag).</p>
+</div>
+<p class="legal">YouTube Recipes playlist cards — searchable ingredients and tools. · 20 recipes · 89 ingredients · 26 tools</p>
+</header>
+
+<nav class="toc">
+<h2>Table of contents</h2>
+<ol><li><a href="#01-vegetable-teriyaki-noodles">1. Vegetable Teriyaki Noodles</a></li><li><a href="#02-one-pan-mongolian-beef-noodles">2. One-Pan Mongolian Beef Noodles</a></li><li><a href="#03-brown-butter-banana-bread-cookie-bars">3. Brown Butter Banana Bread Cookie Bars</a></li><li><a href="#04-crispy-salt-pepper-chicken-thighs">4. Crispy Salt &amp; Pepper Chicken Thighs</a></li><li><a href="#05-one-pan-chicken-alfredo">5. One-Pan Chicken Alfredo</a></li><li><a href="#06-fried-apple-hand-pies">6. Fried Apple Hand Pies</a></li><li><a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">7. Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></li><li><a href="#08-vanilla-burnt-basque-cheesecake">8. Vanilla Burnt Basque Cheesecake <em>(thin)</em></a></li><li><a href="#09-smoked-chuck-roast">9. Smoked Chuck Roast</a></li><li><a href="#10-vietnamese-chicken-noodle-soup-ph-g">10. Vietnamese Chicken Noodle Soup (Phở Gà)</a></li><li><a href="#11-1950s-minimum-wage-dinner">11. 1950s Minimum Wage Dinner <em>(thin)</em></a></li><li><a href="#12-egg-drop-soup">12. Egg Drop Soup</a></li><li><a href="#13-easy-cr-me-caramel">13. Easy Crème Caramel <em>(thin)</em></a></li><li><a href="#14-fried-cherry-hand-pies">14. Fried Cherry Hand Pies</a></li><li><a href="#15-italian-stromboli">15. Italian Stromboli</a></li><li><a href="#16-cheesy-baked-ziti">16. Cheesy Baked Ziti</a></li><li><a href="#17-sticky-gochujang-chicken">17. Sticky Gochujang Chicken <em>(thin)</em></a></li><li><a href="#18-burnt-basque-cheesecake">18. Burnt Basque Cheesecake</a></li><li><a href="#19-offensive-banana-bread">19. Offensive Banana Bread <em>(thin)</em></a></li><li><a href="#20-caramel-apple-pie-ice-cream">20. Caramel Apple Pie Ice Cream</a></li></ol>
+</nav>
+
+<section class="part" id="equipment">
+<h2>Part 0a — Station Map</h2>
+<p>Full station map — tools first, then the pantry heroes that show up again and again.</p>
+</section>
+<div class="ency-equip" id="equipment-body">
+<p class="ency-intro">No fake food photos. Monogram marks the book; encyclopedia cards track gear and staples from the playlist cards.</p>
+<h3 class="ency-sub">Equipment</h3>
+<div class="ency-grid"><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>bowl</h4><p>Named on 8 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>oven</h4><p>Named on 7 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>pot</h4><p>Named on 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>skillet / pan</h4><p>Named on 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>baking pan / tin</h4><p>Named on 5 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>knife</h4><p>Named on 5 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>parchment</h4><p>Named on 3 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>saucepan</h4><p>Named on 3 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>fork</h4><p>Named on 2 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>rolling pin</h4><p>Named on 2 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>round cutter</h4><p>Named on 2 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🔧</div><div class="body"><h4>thermometer</h4><p>Named on 2 recipe(s).</p></div></article></div>
+<h3 class="ency-sub">Pantry Heroes</h3>
+<div class="ency-grid"><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>sugar</h4><p>In 10 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>oil</h4><p>In 9 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>salt</h4><p>In 8 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>egg</h4><p>In 7 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>water</h4><p>In 7 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>butter</h4><p>In 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>chicken</h4><p>In 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>cornstarch</h4><p>In 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>half-and-half / cream</h4><p>In 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>vanilla</h4><p>In 6 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>onion</h4><p>In 5 recipe(s).</p></div></article><article class="ency-card"><div class="ency-glyph" aria-hidden="true">🫙</div><div class="body"><h4>black pepper</h4><p>In 4 recipe(s).</p></div></article></div>
+</div>
+
+<section class="part" id="ingredients">
+<h2>Part 0b — Ingredients Database</h2>
+<p>Universal ingredient list — near-duplicates grouped, with recipe counts.</p>
+</section>
+<div class="ency-ings" id="ingredients-body">
+<p class="ency-intro">One entry per ingredient. Salted butter folds under butter; light soy under soy sauce. Click a card to filter recipes that require it — or that do not.</p>
+<div class="ing-controls">
+<input type="search" placeholder="Search ingredients…" data-ing-search aria-label="Search ingredients"/>
+<div class="ing-chips"><button type="button" class="ing-chip active" data-ing-chip="all">All</button><button type="button" class="ing-chip" data-ing-chip="Aromatics &amp; Produce">Aromatics &amp; Produce</button><button type="button" class="ing-chip" data-ing-chip="Dairy">Dairy</button><button type="button" class="ing-chip" data-ing-chip="Nuts &amp; Seeds">Nuts &amp; Seeds</button><button type="button" class="ing-chip" data-ing-chip="Oils &amp; Fats">Oils &amp; Fats</button><button type="button" class="ing-chip" data-ing-chip="Pantry Staples">Pantry Staples</button><button type="button" class="ing-chip" data-ing-chip="Proteins">Proteins</button><button type="button" class="ing-chip" data-ing-chip="Sauces &amp; Condiments">Sauces &amp; Condiments</button><button type="button" class="ing-chip" data-ing-chip="Spices">Spices</button><button type="button" class="ing-chip" data-ing-chip="Starches &amp; Grains">Starches &amp; Grains</button></div>
+</div>
+<div class="ing-stats"><span data-ing-count>89 ingredients shown</span> · 20 recipes indexed</div>
+<div class="ing-db"><article class="ing-card" data-cat="Pantry Staples" data-name="sugar" data-note="Variants grouped: brown, powdered, rock, white. Seen across 10 card(s)." data-kind="ingredient">
+<div class="top"><h4>sugar</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Variants grouped: brown, powdered, rock, white. Seen across 10 card(s).</p>
+<div class="meta">In 10 recipe(s) · required in 7</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a>, <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="sugar">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="sugar">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Oils &amp; Fats" data-name="oil" data-note="Variants grouped: high-smoke, neutral. Seen across 9 card(s)." data-kind="ingredient">
+<div class="top"><h4>oil</h4><span class="ing-badge">Oils &amp; Fats</span></div>
+<p class="note">Variants grouped: high-smoke, neutral. Seen across 9 card(s).</p>
+<div class="meta">In 9 recipe(s) · required in 8</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#09-smoked-chuck-roast">Smoked Chuck Roast</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="oil">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="oil">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="salt" data-note="Variants grouped: kosher. Seen across 8 card(s)." data-kind="ingredient">
+<div class="top"><h4>salt</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Variants grouped: kosher. Seen across 8 card(s).</p>
+<div class="meta">In 8 recipe(s) · required in 7</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="salt">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="salt">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="egg" data-note="Seen across 7 card(s)." data-kind="ingredient">
+<div class="top"><h4>egg</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 7 card(s).</p>
+<div class="meta">In 7 recipe(s) · required in 6</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="egg">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="egg">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Pantry Staples" data-name="water" data-note="Variants grouped: pasta water. Seen across 7 card(s)." data-kind="ingredient">
+<div class="top"><h4>water</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Variants grouped: pasta water. Seen across 7 card(s).</p>
+<div class="meta">In 7 recipe(s) · required in 5</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="water">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="water">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="butter" data-note="Variants grouped: browned, cold, cold salted, melted, salted / browned. Seen across 6 card(s)." data-kind="ingredient">
+<div class="top"><h4>butter</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Variants grouped: browned, cold, cold salted, melted, salted / browned. Seen across 6 card(s).</p>
+<div class="meta">In 6 recipe(s) · required in 5</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="butter">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="butter">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="chicken" data-note="Variants grouped: boneless skin-on thighs, breast, feet, skin-on thighs, whole. Seen across 6 card(s)." data-kind="ingredient">
+<div class="top"><h4>chicken</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Variants grouped: boneless skin-on thighs, breast, feet, skin-on thighs, whole. Seen across 6 card(s).</p>
+<div class="meta">In 6 recipe(s) · required in 5</div>
+<div class="links"><strong>Requires:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#17-sticky-gochujang-chicken">Sticky Gochujang Chicken</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="chicken">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="chicken">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="cornstarch" data-note="Seen across 6 card(s)." data-kind="ingredient">
+<div class="top"><h4>cornstarch</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Seen across 6 card(s).</p>
+<div class="meta">In 6 recipe(s) · required in 6</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cornstarch">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cornstarch">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="half-and-half / cream" data-note="Variants grouped: half-and-half, heavy cream. Seen across 6 card(s)." data-kind="ingredient">
+<div class="top"><h4>half-and-half / cream</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Variants grouped: half-and-half, heavy cream. Seen across 6 card(s).</p>
+<div class="meta">In 6 recipe(s) · required in 5</div>
+<div class="links"><strong>Requires:</strong> <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="half-and-half / cream">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="half-and-half / cream">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Pantry Staples" data-name="vanilla" data-note="Variants grouped: beans. Seen across 6 card(s)." data-kind="ingredient">
+<div class="top"><h4>vanilla</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Variants grouped: beans. Seen across 6 card(s).</p>
+<div class="meta">In 6 recipe(s) · required in 5</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="vanilla">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="vanilla">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="onion" data-note="Seen across 5 card(s)." data-kind="ingredient">
+<div class="top"><h4>onion</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 5 card(s).</p>
+<div class="meta">In 5 recipe(s) · required in 5</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="onion">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="onion">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="black pepper" data-note="Seen across 4 card(s)." data-kind="ingredient">
+<div class="top"><h4>black pepper</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 4 card(s).</p>
+<div class="meta">In 4 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="black pepper">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="black pepper">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="cinnamon" data-note="Variants grouped: stick. Seen across 4 card(s)." data-kind="ingredient">
+<div class="top"><h4>cinnamon</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Variants grouped: stick. Seen across 4 card(s).</p>
+<div class="meta">In 4 recipe(s) · required in 4</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cinnamon">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cinnamon">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="garlic" data-note="Seen across 4 card(s)." data-kind="ingredient">
+<div class="top"><h4>garlic</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 4 card(s).</p>
+<div class="meta">In 4 recipe(s) · required in 4</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="garlic">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="garlic">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="noodles" data-note="Variants grouped: instant cakes, rice, rice vermicelli. Seen across 4 card(s)." data-kind="ingredient">
+<div class="top"><h4>noodles</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Variants grouped: instant cakes, rice, rice vermicelli. Seen across 4 card(s).</p>
+<div class="meta">In 4 recipe(s) · required in 4</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="noodles">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="noodles">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="scallion" data-note="Seen across 4 card(s)." data-kind="ingredient">
+<div class="top"><h4>scallion</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 4 card(s).</p>
+<div class="meta">In 4 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#17-sticky-gochujang-chicken">Sticky Gochujang Chicken</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="scallion">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="scallion">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="soy sauce" data-note="Variants grouped: dark, light, light works but pale. LEGUME flag (soy/beans/peas/lentils/chickpeas/tofu). Seen across 4 card(s)." data-kind="ingredient">
+<div class="top"><h4>soy sauce <span class="flag legume">LEGUME</span></h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Variants grouped: dark, light, light works but pale. LEGUME flag (soy/beans/peas/lentils/chickpeas/tofu). Seen across 4 card(s).</p>
+<div class="meta">In 4 recipe(s) · required in 4</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="soy sauce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="soy sauce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="baking powder" data-note="Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>baking powder</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="baking powder">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="baking powder">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="beef" data-note="Variants grouped: chuck roast 2–3 lb, ground sirloin, mince. Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>beef</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Variants grouped: chuck roast 2–3 lb, ground sirloin, mince. Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#09-smoked-chuck-roast">Smoked Chuck Roast</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="beef">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="beef">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="carrot" data-note="Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>carrot</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="carrot">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="carrot">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="fish sauce" data-note="Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>fish sauce</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="fish sauce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="fish sauce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="flour" data-note="Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>flour</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="flour">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="flour">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="ginger" data-note="Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>ginger</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="ginger">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="ginger">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="milk" data-note="Variants grouped: Fairlife or regular. Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>milk</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Variants grouped: Fairlife or regular. Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="milk">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="milk">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Oils &amp; Fats" data-name="sesame oil" data-note="Seen across 3 card(s)." data-kind="ingredient">
+<div class="top"><h4>sesame oil</h4><span class="ing-badge">Oils &amp; Fats</span></div>
+<p class="note">Seen across 3 card(s).</p>
+<div class="meta">In 3 recipe(s) · required in 3</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="sesame oil">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="sesame oil">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="apple" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>apple</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="apple">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="apple">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="banana" data-note="Variants grouped: ½ cup / 120g mashed. Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>banana</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Variants grouped: ½ cup / 120g mashed. Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="banana">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="banana">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="broccoli" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>broccoli</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="broccoli">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="broccoli">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="chili flake" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>chili flake</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="chili flake">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="chili flake">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Pantry Staples" data-name="chocolate chips" data-note="Variants grouped: mini. Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>chocolate chips</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Variants grouped: mini. Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="chocolate chips">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="chocolate chips">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="cilantro / coriander" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>cilantro / coriander</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cilantro / coriander">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cilantro / coriander">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="cream cheese" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>cream cheese</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cream cheese">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cream cheese">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="five-spice" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>five-spice</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="five-spice">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="five-spice">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="lime" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>lime</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="lime">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="lime">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Pantry Staples" data-name="maple syrup" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>maple syrup</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="maple syrup">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="maple syrup">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="mozzarella" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>mozzarella</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="mozzarella">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="mozzarella">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="mushroom" data-note="Variants grouped: dried. Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>mushroom</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Variants grouped: dried. Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="mushroom">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="mushroom">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="nutmeg" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>nutmeg</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="nutmeg">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="nutmeg">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="parmesan" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>parmesan</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="parmesan">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="parmesan">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="parsley" data-note="Variants grouped: dried. Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>parsley</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Variants grouped: dried. Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="parsley">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="parsley">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="pasta" data-note="Variants grouped: fettuccine, ziti. Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>pasta</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Variants grouped: fettuccine, ziti. Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="pasta">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="pasta">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="pizza / marinara sauce" data-note="Variants grouped: marinara, pizza sauce. Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>pizza / marinara sauce</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Variants grouped: marinara, pizza sauce. Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 2</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="pizza / marinara sauce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="pizza / marinara sauce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Nuts &amp; Seeds" data-name="sesame seeds" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>sesame seeds</h4><span class="ing-badge">Nuts &amp; Seeds</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#17-sticky-gochujang-chicken">Sticky Gochujang Chicken</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="sesame seeds">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="sesame seeds">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Pantry Staples" data-name="shaoxing wine" data-note="Seen across 2 card(s)." data-kind="ingredient">
+<div class="top"><h4>shaoxing wine</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Seen across 2 card(s).</p>
+<div class="meta">In 2 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="shaoxing wine">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="shaoxing wine">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="bacon" data-note="Variants grouped: thumbnail only. Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>bacon</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Variants grouped: thumbnail only. Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="bacon">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="bacon">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="basil" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>basil</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="basil">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="basil">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="bay leaf" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>bay leaf</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="bay leaf">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="bay leaf">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="beef stock / bone broth" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>beef stock / bone broth</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#09-smoked-chuck-roast">Smoked Chuck Roast</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="beef stock / bone broth">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="beef stock / bone broth">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Pantry Staples" data-name="beer" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>beer</h4><span class="ing-badge">Pantry Staples</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="beer">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="beer">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="bell pepper" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>bell pepper</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="bell pepper">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="bell pepper">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="bread" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>bread</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="bread">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="bread">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="caramel syrup" data-note="Variants grouped: Torani zero-cal. Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>caramel syrup</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Variants grouped: Torani zero-cal. Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="caramel syrup">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="caramel syrup">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="cherry" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>cherry</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cherry">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cherry">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="chicken bouillon" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>chicken bouillon</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="chicken bouillon">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="chicken bouillon">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="chili" data-note="Variants grouped: bird&#x27;s eye. Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>chili</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Variants grouped: bird&#x27;s eye. Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="chili">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="chili">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="cloves" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>cloves</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cloves">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cloves">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="cucumber" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>cucumber</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="cucumber">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="cucumber">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="dried scallops" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>dried scallops</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="dried scallops">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="dried scallops">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="garlic powder" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>garlic powder</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="garlic powder">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="garlic powder">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="garlic salt" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>garlic salt</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="garlic salt">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="garlic salt">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="gochujang" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>gochujang</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#17-sticky-gochujang-chicken">Sticky Gochujang Chicken</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="gochujang">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="gochujang">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="greek yogurt" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>greek yogurt</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="greek yogurt">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="greek yogurt">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="ham" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>ham</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="ham">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="ham">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="hoisin" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>hoisin</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="hoisin">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="hoisin">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="hot sauce" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>hot sauce</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="hot sauce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="hot sauce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="ice cream" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>ice cream</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="ice cream">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="ice cream">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="italian sausage" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>italian sausage</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="italian sausage">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="italian sausage">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="italian seasoning" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>italian seasoning</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="italian seasoning">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="italian seasoning">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="lemon" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>lemon</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="lemon">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="lemon">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="lemongrass" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>lemongrass</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="lemongrass">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="lemongrass">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="lettuce" data-note="Variants grouped: gem. Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>lettuce</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Variants grouped: gem. Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="lettuce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="lettuce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="mirin" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>mirin</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="mirin">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="mirin">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="oyster sauce" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>oyster sauce</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="oyster sauce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="oyster sauce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Nuts &amp; Seeds" data-name="peanuts" data-note="PEANUT — never marked required (allergy). Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>peanuts <span class="flag peanut">PEANUT</span></h4><span class="ing-badge">Nuts &amp; Seeds</span></div>
+<p class="note">PEANUT — never marked required (allergy). Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="peanuts">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="peanuts">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="peppercorn" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>peppercorn</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="peppercorn">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="peppercorn">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="pepperoni" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>pepperoni</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="pepperoni">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="pepperoni">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="potato" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>potato</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="potato">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="potato">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="potato starch" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>potato starch</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="potato starch">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="potato starch">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Aromatics &amp; Produce" data-name="radish" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>radish</h4><span class="ing-badge">Aromatics &amp; Produce</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="radish">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="radish">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="refrigerated pizza crust" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>refrigerated pizza crust</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="refrigerated pizza crust">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="refrigerated pizza crust">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Starches &amp; Grains" data-name="rice" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>rice</h4><span class="ing-badge">Starches &amp; Grains</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#17-sticky-gochujang-chicken">Sticky Gochujang Chicken</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="rice">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="rice">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Dairy" data-name="ricotta" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>ricotta</h4><span class="ing-badge">Dairy</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="ricotta">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="ricotta">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="salami" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>salami</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#15-italian-stromboli">Italian Stromboli</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="salami">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="salami">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="salt-and-pepper mix" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>salt-and-pepper mix</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="salt-and-pepper mix">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="salt-and-pepper mix">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="star anise" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>star anise</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="star anise">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="star anise">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Proteins" data-name="steak" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>steak</h4><span class="ing-badge">Proteins</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 0</div>
+<div class="links"><strong>Requires:</strong> —</div>
+<div class="links"><strong>Optional / incomplete:</strong> <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="steak">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="steak">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="steak rub" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>steak rub</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#09-smoked-chuck-roast">Smoked Chuck Roast</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="steak rub">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="steak rub">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Sauces &amp; Condiments" data-name="teriyaki sauce" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>teriyaki sauce</h4><span class="ing-badge">Sauces &amp; Condiments</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="teriyaki sauce">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="teriyaki sauce">Show recipes that do not</button>
+</div></article><article class="ing-card" data-cat="Spices" data-name="white pepper" data-note="Seen across 1 card(s)." data-kind="ingredient">
+<div class="top"><h4>white pepper</h4><span class="ing-badge">Spices</span></div>
+<p class="note">Seen across 1 card(s).</p>
+<div class="meta">In 1 recipe(s) · required in 1</div>
+<div class="links"><strong>Requires:</strong> <a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+
+<div class="card-actions">
+<button type="button" class="mini" data-filter-req="white pepper">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-not="white pepper">Show recipes that do not</button>
+</div></article></div>
+</div>
+
+<section class="part" id="tools-db">
+<h2>Part 0c — Tools Database</h2>
+<p>Every tool named on the cards, with counts.</p>
+</section>
+<div class="ency-tools-db" id="tools-db-body">
+<p class="ency-intro">Filter recipes by gear you have — or skip recipes that need a smoker, Creami, or Instant Pot.</p>
+<div class="ing-controls">
+<input type="search" placeholder="Search tools…" data-ing-search aria-label="Search tools"/>
+<div class="ing-chips"><button type="button" class="ing-chip active" data-ing-chip="all">All</button></div>
+</div>
+<div class="ing-stats"><span data-ing-count>26 tools shown</span></div>
+<div class="ing-db"><article class="ing-card tool-db-card" data-cat="Tools" data-name="bowl" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>bowl</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 8 recipe card(s).</p>
+<div class="meta">In 8 recipe(s)</div>
+<div class="links"><a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a>, <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="bowl">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="bowl">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="oven" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>oven</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 7 recipe card(s).</p>
+<div class="meta">In 7 recipe(s)</div>
+<div class="links"><a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a>, <a href="#15-italian-stromboli">Italian Stromboli</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a>, <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="oven">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="oven">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="pot" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>pot</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 6 recipe card(s).</p>
+<div class="meta">In 6 recipe(s)</div>
+<div class="links"><a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#12-egg-drop-soup">Egg Drop Soup</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="pot">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="pot">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="skillet / pan" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>skillet / pan</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 6 recipe card(s).</p>
+<div class="meta">In 6 recipe(s)</div>
+<div class="links"><a href="#01-vegetable-teriyaki-noodles">Vegetable Teriyaki Noodles</a>, <a href="#02-one-pan-mongolian-beef-noodles">One-Pan Mongolian Beef Noodles</a>, <a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#05-one-pan-chicken-alfredo">One-Pan Chicken Alfredo</a>, <a href="#11-1950s-minimum-wage-dinner">1950s Minimum Wage Dinner</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="skillet / pan">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="skillet / pan">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="baking pan / tin" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>baking pan / tin</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 5 recipe card(s).</p>
+<div class="meta">In 5 recipe(s)</div>
+<div class="links"><a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a>, <a href="#16-cheesy-baked-ziti">Cheesy Baked Ziti</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a>, <a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="baking pan / tin">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="baking pan / tin">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="knife" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>knife</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 5 recipe card(s).</p>
+<div class="meta">In 5 recipe(s)</div>
+<div class="links"><a href="#04-crispy-salt-pepper-chicken-thighs">Crispy Salt &amp; Pepper Chicken Thighs</a>, <a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a>, <a href="#13-easy-cr-me-caramel">Easy Crème Caramel</a>, <a href="#15-italian-stromboli">Italian Stromboli</a>, <a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="knife">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="knife">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="parchment" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>parchment</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 3 recipe card(s).</p>
+<div class="meta">In 3 recipe(s)</div>
+<div class="links"><a href="#08-vanilla-burnt-basque-cheesecake">Vanilla Burnt Basque Cheesecake</a>, <a href="#15-italian-stromboli">Italian Stromboli</a>, <a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="parchment">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="parchment">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="saucepan" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>saucepan</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 3 recipe card(s).</p>
+<div class="meta">In 3 recipe(s)</div>
+<div class="links"><a href="#03-brown-butter-banana-bread-cookie-bars">Brown Butter Banana Bread Cookie Bars</a>, <a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="saucepan">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="saucepan">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="fork" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>fork</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 2 recipe card(s).</p>
+<div class="meta">In 2 recipe(s)</div>
+<div class="links"><a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="fork">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="fork">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="rolling pin" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>rolling pin</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 2 recipe card(s).</p>
+<div class="meta">In 2 recipe(s)</div>
+<div class="links"><a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="rolling pin">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="rolling pin">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="round cutter" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>round cutter</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 2 recipe card(s).</p>
+<div class="meta">In 2 recipe(s)</div>
+<div class="links"><a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="round cutter">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="round cutter">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="thermometer" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>thermometer</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 2 recipe card(s).</p>
+<div class="meta">In 2 recipe(s)</div>
+<div class="links"><a href="#06-fried-apple-hand-pies">Fried Apple Hand Pies</a>, <a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="thermometer">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="thermometer">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="air fryer" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>air fryer</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl">Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="air fryer">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="air fryer">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="baking sheet" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>baking sheet</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#15-italian-stromboli">Italian Stromboli</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="baking sheet">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="baking sheet">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="cooling rack" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>cooling rack</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="cooling rack">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="cooling rack">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="crockpot / slow cooker" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>crockpot / slow cooker</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#09-smoked-chuck-roast">Smoked Chuck Roast</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="crockpot / slow cooker">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="crockpot / slow cooker">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="Instant Pot / pressure cooker" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>Instant Pot / pressure cooker</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#10-vietnamese-chicken-noodle-soup-ph-g">Vietnamese Chicken Noodle Soup (Phở Gà)</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="Instant Pot / pressure cooker">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="Instant Pot / pressure cooker">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="Ninja Creami" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>Ninja Creami</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="Ninja Creami">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="Ninja Creami">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="Ninja Creami pint" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>Ninja Creami pint</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#20-caramel-apple-pie-ice-cream">Caramel Apple Pie Ice Cream</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="Ninja Creami pint">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="Ninja Creami pint">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="pastry brush" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>pastry brush</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#15-italian-stromboli">Italian Stromboli</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="pastry brush">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="pastry brush">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="plate" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>plate</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#13-easy-cr-me-caramel">Easy Crème Caramel</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="plate">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="plate">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="sieve" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>sieve</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#18-burnt-basque-cheesecake">Burnt Basque Cheesecake</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="sieve">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="sieve">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="slotted spoon" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>slotted spoon</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#14-fried-cherry-hand-pies">Fried Cherry Hand Pies</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="slotted spoon">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="slotted spoon">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="smoker" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>smoker</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#09-smoked-chuck-roast">Smoked Chuck Roast</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="smoker">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="smoker">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="strainer" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>strainer</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#12-egg-drop-soup">Egg Drop Soup</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="strainer">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="strainer">Show recipes that do not</button>
+</div></article><article class="ing-card tool-db-card" data-cat="Tools" data-name="toothpick" data-note="Named tool" data-kind="tool">
+<div class="top"><h4>toothpick</h4><span class="ing-badge">Tools</span></div>
+<p class="note">Named on 1 recipe card(s).</p>
+<div class="meta">In 1 recipe(s)</div>
+<div class="links"><a href="#19-offensive-banana-bread">Offensive Banana Bread</a></div>
+<div class="card-actions">
+<button type="button" class="mini" data-filter-tool-req="toothpick">Show recipes that need this</button>
+<button type="button" class="mini ghost" data-filter-tool-not="toothpick">Show recipes that do not</button>
+</div></article></div>
+</div>
+
+<section class="part" id="recipes-part">
+<h2>Part 1 — Recipe Cards</h2>
+<p>Thin cards stay visible and labeled. Quantities are never invented.</p>
+</section>
+
+<div class="filter-bar" id="recipe-filter">
+<div class="filter-row">
+<div><label for="filter-mode">Match</label>
+<select id="filter-mode"><option value="require">Requires</option><option value="not">Does not require</option></select></div>
+<div><label for="filter-ing">Ingredient</label>
+<select id="filter-ing"><option value="">— any —</option><option value="sugar">sugar (10)</option><option value="oil">oil (9)</option><option value="salt">salt (8)</option><option value="egg">egg (7)</option><option value="water">water (7)</option><option value="butter">butter (6)</option><option value="chicken">chicken (6)</option><option value="cornstarch">cornstarch (6)</option><option value="half-and-half / cream">half-and-half / cream (6)</option><option value="vanilla">vanilla (6)</option><option value="onion">onion (5)</option><option value="black pepper">black pepper (4)</option><option value="cinnamon">cinnamon (4)</option><option value="garlic">garlic (4)</option><option value="noodles">noodles (4)</option><option value="scallion">scallion (4)</option><option value="soy sauce">soy sauce (4)</option><option value="baking powder">baking powder (3)</option><option value="beef">beef (3)</option><option value="carrot">carrot (3)</option><option value="fish sauce">fish sauce (3)</option><option value="flour">flour (3)</option><option value="ginger">ginger (3)</option><option value="milk">milk (3)</option><option value="sesame oil">sesame oil (3)</option><option value="apple">apple (2)</option><option value="banana">banana (2)</option><option value="broccoli">broccoli (2)</option><option value="chili flake">chili flake (2)</option><option value="chocolate chips">chocolate chips (2)</option><option value="cilantro / coriander">cilantro / coriander (2)</option><option value="cream cheese">cream cheese (2)</option><option value="five-spice">five-spice (2)</option><option value="lime">lime (2)</option><option value="maple syrup">maple syrup (2)</option><option value="mozzarella">mozzarella (2)</option><option value="mushroom">mushroom (2)</option><option value="nutmeg">nutmeg (2)</option><option value="parmesan">parmesan (2)</option><option value="parsley">parsley (2)</option><option value="pasta">pasta (2)</option><option value="pizza / marinara sauce">pizza / marinara sauce (2)</option><option value="sesame seeds">sesame seeds (2)</option><option value="shaoxing wine">shaoxing wine (2)</option><option value="bacon">bacon (1)</option><option value="basil">basil (1)</option><option value="bay leaf">bay leaf (1)</option><option value="beef stock / bone broth">beef stock / bone broth (1)</option><option value="beer">beer (1)</option><option value="bell pepper">bell pepper (1)</option><option value="bread">bread (1)</option><option value="caramel syrup">caramel syrup (1)</option><option value="cherry">cherry (1)</option><option value="chicken bouillon">chicken bouillon (1)</option><option value="chili">chili (1)</option><option value="cloves">cloves (1)</option><option value="cucumber">cucumber (1)</option><option value="dried scallops">dried scallops (1)</option><option value="garlic powder">garlic powder (1)</option><option value="garlic salt">garlic salt (1)</option><option value="gochujang">gochujang (1)</option><option value="greek yogurt">greek yogurt (1)</option><option value="ham">ham (1)</option><option value="hoisin">hoisin (1)</option><option value="hot sauce">hot sauce (1)</option><option value="ice cream">ice cream (1)</option><option value="italian sausage">italian sausage (1)</option><option value="italian seasoning">italian seasoning (1)</option><option value="lemon">lemon (1)</option><option value="lemongrass">lemongrass (1)</option><option value="lettuce">lettuce (1)</option><option value="mirin">mirin (1)</option><option value="oyster sauce">oyster sauce (1)</option><option value="peanuts">peanuts (1)</option><option value="peppercorn">peppercorn (1)</option><option value="pepperoni">pepperoni (1)</option><option value="potato">potato (1)</option><option value="potato starch">potato starch (1)</option><option value="radish">radish (1)</option><option value="refrigerated pizza crust">refrigerated pizza crust (1)</option><option value="rice">rice (1)</option><option value="ricotta">ricotta (1)</option><option value="salami">salami (1)</option><option value="salt-and-pepper mix">salt-and-pepper mix (1)</option><option value="star anise">star anise (1)</option><option value="steak">steak (1)</option><option value="steak rub">steak rub (1)</option><option value="teriyaki sauce">teriyaki sauce (1)</option><option value="white pepper">white pepper (1)</option></select></div>
+<div><label for="filter-tool">Tool</label>
+<select id="filter-tool"><option value="">— any —</option><option value="bowl">bowl (8)</option><option value="oven">oven (7)</option><option value="pot">pot (6)</option><option value="skillet / pan">skillet / pan (6)</option><option value="baking pan / tin">baking pan / tin (5)</option><option value="knife">knife (5)</option><option value="parchment">parchment (3)</option><option value="saucepan">saucepan (3)</option><option value="fork">fork (2)</option><option value="rolling pin">rolling pin (2)</option><option value="round cutter">round cutter (2)</option><option value="thermometer">thermometer (2)</option><option value="air fryer">air fryer (1)</option><option value="baking sheet">baking sheet (1)</option><option value="cooling rack">cooling rack (1)</option><option value="crockpot / slow cooker">crockpot / slow cooker (1)</option><option value="Instant Pot / pressure cooker">Instant Pot / pressure cooker (1)</option><option value="Ninja Creami">Ninja Creami (1)</option><option value="Ninja Creami pint">Ninja Creami pint (1)</option><option value="pastry brush">pastry brush (1)</option><option value="plate">plate (1)</option><option value="sieve">sieve (1)</option><option value="slotted spoon">slotted spoon (1)</option><option value="smoker">smoker (1)</option><option value="strainer">strainer (1)</option><option value="toothpick">toothpick (1)</option></select></div>
+<div style="flex:1"><label for="filter-text">Text search</label>
+<input type="search" id="filter-text" placeholder="Search recipe text…"/></div>
+<button type="button" id="filter-apply">Apply</button>
+<button type="button" class="ghost" id="filter-clear">Clear</button>
+</div>
+<div class="filter-status" id="filter-status"></div>
+</div>
+
+<article class="recipe" id="01-vegetable-teriyaki-noodles" data-num="1" data-title="Vegetable Teriyaki Noodles" data-thin="false" data-req-ings="bell pepper||black pepper||broccoli||carrot||chili flake||garlic||mushroom||noodles||oil||onion||salt||sesame seeds||teriyaki sauce" data-all-ings="bell pepper||black pepper||broccoli||carrot||chili flake||garlic||hot sauce||mushroom||noodles||oil||onion||peanuts||salt||sesame seeds||teriyaki sauce" data-tools="pot||skillet / pan">
+<div class="head"><div class="head-row"><h2>1. Vegetable Teriyaki Noodles</h2></div>
+<p class="chef">My Ginger Garlic Kitchen · ~20 min · serves 4</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/R4SqKmbsiZY" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag peanut">Peanuts optional — never required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">noodles</span><span class="pill req">oil</span><span class="pill req">garlic</span><span class="pill req">onion</span><span class="pill req">carrot</span><span class="pill req">bell pepper</span><span class="pill req">mushroom</span><span class="pill req">broccoli</span><span class="pill req">black pepper</span><span class="pill req">chili flake</span><span class="pill req">teriyaki sauce</span><span class="pill req">salt</span><span class="pill req">sesame seeds</span><span class="pill opt">hot sauce *</span><span class="pill opt">peanuts * ⚠</span></div>
+
+<h3>Remember</h3><ul><li>Cook noodles first. Oil them so they don’t glue.</li><li>Veg stays crunchy. Don’t stew them.</li><li>Sauce last. 50g bottled teriyaki is the whole sauce.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Boil noodles. Drain. Rinse cold. Toss with 2 tsp oil.</li><li>Hot pan, 2 tbsp oil, garlic 1 min.</li><li>Add sliced onion, carrot, peppers, mushrooms, broccoli + pepper + chili flake. Stir until just tender.</li><li>50g teriyaki. Coat. Add noodles. Toss. Salt + optional hot sauce.</li><li>Sesame. Peanuts only if you want them.</li></ol>
+<h3>Watch</h3><ul><li>Soft veg = cafeteria noodles.</li><li>Salt before tasting the teriyaki and you’ll oversalt.</li><li>Peanuts are garnish, not required.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>pot</li><li>skillet / pan</li></ul></details>
+<div class="scores"><strong>Taste 6 · Nutrition 7 · Unique 3</strong></div>
+<p class="reaction">Fine weeknight bowl. Nobody talks about it the next day.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="02-one-pan-mongolian-beef-noodles" data-num="2" data-title="One-Pan Mongolian Beef Noodles" data-thin="false" data-req-ings="beef||broccoli||five-spice||garlic||hoisin||mirin||noodles||oil||onion||sesame oil||soy sauce||water" data-all-ings="beef||broccoli||five-spice||garlic||hoisin||mirin||noodles||oil||onion||sesame oil||shaoxing wine||soy sauce||sugar||water" data-tools="skillet / pan">
+<div class="head"><div class="head-row"><h2>2. One-Pan Mongolian Beef Noodles</h2></div>
+<p class="chef">RecipeTin Eats · 15 min · serves 4</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/k9X6K6nvrbY" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag legume">Legume: soy sauce</span></div>
+<div class="ing-pills"><span class="pill req">soy sauce ⚠</span><span class="pill req">hoisin</span><span class="pill req">mirin</span><span class="pill req">five-spice</span><span class="pill req">sesame oil</span><span class="pill req">oil</span><span class="pill req">onion</span><span class="pill req">garlic</span><span class="pill req">beef</span><span class="pill req">broccoli</span><span class="pill req">water</span><span class="pill req">noodles</span><span class="pill opt">soy sauce * ⚠</span><span class="pill opt">shaoxing wine *</span><span class="pill opt">sugar *</span></div>
+
+<h3>Remember</h3><ul><li>Instant noodle cakes, uncooked. Throw the seasoning packet.</li><li>Sauce first, water second, noodles last.</li><li>Broccoli small or it stays raw.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Mix sauce: 2 tbsp dark soy, 3 tbsp hoisin, 2 tbsp mirin (or Shaoxing + 2 tsp sugar), ¼ tsp five-spice, 2 tsp sesame oil.</li><li>Hot deep pan, 2 tbsp oil. Onion + 2 garlic, 30 sec.</li><li>500g beef mince. Brown. Pour in sauce. Coat.</li><li>5 cups small broccoli. Stir.</li><li>2¼ cups water. Simmer. Break 4 noodle cakes in half. Push in.</li><li>30 sec, flip, 30 sec, then untangle. 2–3 min until sauce is gone.</li></ol>
+<h3>Watch</h3><ul><li>Boiling the noodles separately ruins the point.</li><li>Big broccoli florets stay hard.</li><li>Light soy works but the color goes pale.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>skillet / pan</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 6 · Unique 5</strong></div>
+<p class="reaction">People eat the whole pan. Then they look for the recipe.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="03-brown-butter-banana-bread-cookie-bars" data-num="3" data-title="Brown Butter Banana Bread Cookie Bars" data-thin="false" data-req-ings="baking powder||banana||butter||chocolate chips||cinnamon||cornstarch||egg||flour||salt||sugar||vanilla" data-all-ings="baking powder||banana||butter||chocolate chips||cinnamon||cornstarch||egg||flour||salt||sugar||vanilla" data-tools="baking pan / tin||bowl||oven||saucepan">
+<div class="head"><div class="head-row"><h2>3. Brown Butter Banana Bread Cookie Bars</h2></div>
+<p class="chef">Well Made by Kiley · 8×8 pan</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/gHDC9C0HnIg" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">butter</span><span class="pill req">sugar</span><span class="pill req">sugar</span><span class="pill req">banana</span><span class="pill req">egg</span><span class="pill req">vanilla</span><span class="pill req">flour</span><span class="pill req">cornstarch</span><span class="pill req">baking powder</span><span class="pill req">salt</span><span class="pill req">cinnamon</span><span class="pill req">chocolate chips</span></div>
+<p class="extra">Full grams live on her site (recipe card is JS-gated). Method below is the part that matters.</p>
+<h3>Remember</h3><ul><li>Brown the butter until amber and nutty. Cool 15–20 min.</li><li>Exactly ½ cup (120g) mashed ripe banana. Not “a banana.”</li><li>8×8 pan. 9×9 makes thin sad bars.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Brown salted butter. Cool.</li><li>Beat in brown sugar + white sugar.</li><li>Banana + egg + vanilla.</li><li>Flour + cornstarch + leavening + salt + cinnamon. Don’t overmix.</li><li>Fold chocolate chips / wafers. 8×8 pan.</li><li>Bake until edges set and center is just soft. Cool before cutting.</li></ol>
+<h3>Watch</h3><ul><li>Hot brown butter scrambles the mix.</li><li>Extra banana = cakey, not bar.</li><li>Cutting hot = collapse.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>saucepan</li><li>bowl</li><li>baking pan / tin</li><li>oven</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 3 · Unique 6</strong></div>
+<p class="reaction">People say “why is this better than banana bread.” Because it’s a cookie.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="04-crispy-salt-pepper-chicken-thighs" data-num="4" data-title="Crispy Salt &amp; Pepper Chicken Thighs" data-thin="false" data-req-ings="beer||chicken||cornstarch||ginger||oil||onion||oyster sauce||salt-and-pepper mix||scallion||soy sauce" data-all-ings="beer||black pepper||chicken||cornstarch||five-spice||ginger||oil||onion||oyster sauce||salt||salt-and-pepper mix||scallion||soy sauce" data-tools="knife||skillet / pan">
+<div class="head"><div class="head-row"><h2>4. Crispy Salt &amp; Pepper Chicken Thighs</h2></div>
+<p class="chef">Xiao Li’s Kitchen · ~50 min with marinade · 500g</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/J_croDE-LtI" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag legume">Legume: soy sauce</span></div>
+<div class="ing-pills"><span class="pill req">chicken</span><span class="pill req">beer</span><span class="pill req">ginger</span><span class="pill req">scallion</span><span class="pill req">onion</span><span class="pill req">soy sauce ⚠</span><span class="pill req">oyster sauce</span><span class="pill req">salt-and-pepper mix</span><span class="pill req">cornstarch</span><span class="pill req">oil</span><span class="pill opt">five-spice *</span><span class="pill opt">black pepper *</span><span class="pill opt">salt *</span></div>
+
+<h3>Remember</h3><ul><li>Beer soak 10 min. Don’t rinse after.</li><li>Cornstarch + oil seal before the pan.</li><li>Skin down. Don’t touch for 3–4 min.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Boneless skin-on thighs. Tap with knife back.</li><li>Cover with 330ml beer. 10 min. Drip off. No rinse.</li><li>Marinate 30 min: ginger, scallion whites, ½ onion, 1 tbsp light soy, 1 tbsp oyster, 1 tsp 椒盐 / salt-and-pepper mix.</li><li>Dump the aromatics. Toss chicken with 1 tbsp cornstarch + 1 tbsp oil.</li><li>Medium-low pan, 2 tbsp oil. Skin down. 3–4 min still. Flip. Cook through.</li><li>No 椒盐? 1 tsp salt + ½ tsp pepper + pinch five-spice.</li></ol>
+<h3>Watch</h3><ul><li>Moving the skin early tears it.</li><li>High heat burns the coat before the meat is done.</li><li>Rinsing after beer washes off the tenderizing.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>knife</li><li>skillet / pan</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 6 · Unique 7</strong></div>
+<p class="reaction">People argue about the beer. Then they make it again.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="05-one-pan-chicken-alfredo" data-num="5" data-title="One-Pan Chicken Alfredo" data-thin="false" data-req-ings="black pepper||butter||chicken||half-and-half / cream||nutmeg||oil||parmesan||pasta||salt" data-all-ings="black pepper||butter||chicken||half-and-half / cream||nutmeg||oil||parmesan||pasta||salt||water" data-tools="pot||skillet / pan">
+<div class="head"><div class="head-row"><h2>5. One-Pan Chicken Alfredo</h2></div>
+<p class="chef">Steel Pan Guy · ~20 min</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/BatIAXoxKhk" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">chicken</span><span class="pill req">salt</span><span class="pill req">black pepper</span><span class="pill req">oil</span><span class="pill req">half-and-half / cream</span><span class="pill req">nutmeg</span><span class="pill req">pasta</span><span class="pill req">butter</span><span class="pill req">parmesan</span><span class="pill opt">water *</span></div>
+<p class="extra">American fond Alfredo. Not Roman.</p>
+<h3>Remember</h3><ul><li>Chicken is for the brown bits. Sauce lives on those bits.</li><li>Cream on the fond. Cold butter + cheese off heat.</li><li>Pinch of nutmeg in every white sauce.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Preheat stainless. Water droplet should dance. Tiny bit of high-smoke oil on the chicken, not a slick in the pan.</li><li>Salt-and-pepper chicken breast. Sear ~2 min a side. Don’t rip it off early. Rest it out.</li><li>Pour cream (half-and-half or heavy) onto the fond. Scrape. Pinch nutmeg.</li><li>Cook fettuccine. Save a splash of pasta water.</li><li>Off heat: cold butter (~4 tbsp) then handfuls of Parmigiano (Romano if you have it). Toss pasta + sliced chicken. Loosen with pasta water if tight.</li></ol>
+<h3>Watch</h3><ul><li>Cheese on a raging burner = grainy sauce.</li><li>No fond = bland cream.</li><li>This is not authentic Alfredo. People in the comments will tell you.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>skillet / pan</li><li>pot</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 4 · Unique 4</strong></div>
+<p class="reaction">7.9 million views. Half the comments are “that’s not Alfredo.” The other half made it for dinner.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="06-fried-apple-hand-pies" data-num="6" data-title="Fried Apple Hand Pies" data-thin="false" data-req-ings="apple||baking powder||butter||cinnamon||cornstarch||egg||flour||half-and-half / cream||maple syrup||milk||oil||salt||sugar||vanilla" data-all-ings="apple||baking powder||butter||cinnamon||cornstarch||egg||flour||half-and-half / cream||maple syrup||milk||oil||salt||sugar||vanilla" data-tools="bowl||fork||oven||pot||rolling pin||round cutter||saucepan||thermometer">
+<div class="head"><div class="head-row"><h2>6. Fried Apple Hand Pies</h2></div>
+<p class="chef">Well Made by Kiley · ~2 hr 20 min · 11–13 pies</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/r5Tmse4kndw" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">butter</span><span class="pill req">apple</span><span class="pill req">sugar</span><span class="pill req">maple syrup</span><span class="pill req">cinnamon</span><span class="pill req">salt</span><span class="pill req">cornstarch</span><span class="pill req">vanilla</span><span class="pill req">flour</span><span class="pill req">sugar</span><span class="pill req">baking powder</span><span class="pill req">butter</span><span class="pill req">half-and-half / cream</span><span class="pill req">egg</span><span class="pill req">sugar</span><span class="pill req">butter</span><span class="pill req">milk</span><span class="pill req">oil</span></div>
+<p class="extra">https://www.wellmadebykiley.com/blog/fried-apple-hand-pies</p>
+<h3>Remember</h3><ul><li>Cool the filling all the way. Warm filling leaks.</li><li>Cold dough. Fork the seam, then fold the edge in.</li><li>Oil 360–370°F. Use a thermometer.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Filling: 58g butter, 4 diced apples, 110g brown sugar, 60g maple, cinnamon, pinch salt. ~10 min. Slurry 11g cornstarch + 1½ tbsp water, 1–2 min. Vanilla off heat. Cool.</li><li>Dough: 420g flour, 12g sugar, 8g baking powder (blog writes “2”), 6g salt. Cut in 170g cold butter. 7 oz cold half-and-half + 1 cold egg. Disc. Chill 30 min.</li><li>Roll. Cut ~4½&quot; rounds. Heaping tablespoon filling. Egg-wash the edge. Fold, fork, fold the edge in. Chill.</li><li>~2&quot; oil. Fry ~2 min a side. Glaze warm: 120g powdered sugar, 58g browned butter, 80g maple, 1 tbsp milk, vanilla, pinch salt.</li><li>Oven instead: 400°F, 22–25 min, egg wash, a vent slit.</li></ol>
+<h3>Watch</h3><ul><li>More than a heaping tablespoon will not seal.</li><li>Kneading makes a tough crust.</li><li>Once frying, hold about 350–365°F. Low = greasy. High = brown outside, raw inside.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>saucepan</li><li>bowl</li><li>rolling pin</li><li>round cutter</li><li>fork</li><li>pot</li><li>thermometer</li><li>oven</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 2 · Unique 5</strong></div>
+<p class="reaction">79k views. People call them a favorite. Fried, not baked, is the reason.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="07-air-fryer-vietnamese-lemongrass-chicken-noodle-bowl" data-num="7" data-title="Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl" data-thin="false" data-req-ings="carrot||chicken||chili||cilantro / coriander||cornstarch||cucumber||fish sauce||garlic||lemongrass||lettuce||lime||noodles||soy sauce||sugar||water" data-all-ings="carrot||chicken||chili||cilantro / coriander||cornstarch||cucumber||fish sauce||garlic||lemongrass||lettuce||lime||noodles||soy sauce||sugar||water" data-tools="air fryer||bowl||knife">
+<div class="head"><div class="head-row"><h2>7. Air Fryer Vietnamese Lemongrass Chicken Noodle Bowl</h2></div>
+<p class="chef">Karen Law · under 30 min · serves 2</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/oU4Hv2L-9r8" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag legume">Legume: soy sauce</span></div>
+<div class="ing-pills"><span class="pill req">chicken</span><span class="pill req">lemongrass</span><span class="pill req">fish sauce</span><span class="pill req">sugar</span><span class="pill req">soy sauce ⚠</span><span class="pill req">garlic</span><span class="pill req">cornstarch</span><span class="pill req">lime</span><span class="pill req">sugar</span><span class="pill req">chili</span><span class="pill req">water</span><span class="pill req">noodles</span><span class="pill req">cucumber</span><span class="pill req">carrot</span><span class="pill req">lettuce</span><span class="pill req">cilantro / coriander</span></div>
+<p class="extra">https://daigasikfaan.co/air-fryer-vietnamese-lemongrass-chicken/</p>
+<h3>Remember</h3><ul><li>Skin-on thighs. Breast dries in the air fryer.</li><li>Rinse the noodles cold so they stay bouncy.</li><li>Taste the nuoc cham before it hits the bowl.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Marinade on 4 deboned skin-on thighs: 1 minced lemongrass, 3 tbsp fish sauce, 2 tbsp sugar, 1 tbsp light soy, 1 tbsp garlic, ½ tbsp cornstarch, juice of ½ lime.</li><li>Nuoc cham: 4 tbsp fish sauce, 2 tbsp brown sugar, 1 tbsp garlic, 1 bird’s eye chili, juice of 1 lime, ⅓ cup warm water.</li><li>Rice vermicelli per the package, then rinse cold. Amount not listed. One nest a person.</li><li>Air fry skin down, 185°C (365°F), 13–15 min. Flip halfway.</li><li>Slice over noodles with julienned cucumber and carrot, gem lettuce, coriander. Drizzle sauce.</li></ol>
+<h3>Watch</h3><ul><li>Breast, same time, goes dry.</li><li>Skip the rinse and the noodles glue.</li><li>Don’t store it mixed. Chicken, noodles, and veg apart, up to 3 days. Fresh sauce when you eat.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>air fryer</li><li>bowl</li><li>knife</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 7 · Unique 6</strong></div>
+<p class="reaction">47k views. Quiet comments. A weeknight bowl people finish.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="08-vanilla-burnt-basque-cheesecake" data-num="8" data-title="Vanilla Burnt Basque Cheesecake" data-thin="true" data-req-ings="" data-all-ings="cream cheese||egg||half-and-half / cream||sugar||vanilla" data-tools="baking pan / tin||oven||parchment">
+<div class="head"><div class="head-row"><h2>8. Vanilla Burnt Basque Cheesecake</h2><span class="thin-badge">THIN CARD</span></div>
+<p class="chef">Notorious Foodie · time unknown · 8 slices, 9.5&quot; tin</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/_t8spHjFW9M" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag warn">Legumes incomplete / unknown</span></div>
+<div class="ing-pills"><span class="pill opt">cream cheese *</span><span class="pill opt">vanilla *</span><span class="pill opt">egg *</span><span class="pill opt">sugar *</span><span class="pill opt">half-and-half / cream *</span></div>
+<p class="extra">Paid recipe: https://notoriousfoodie.substack.com/p/burnt-basque-cheesecake-a-recipe</p><p class="extra">Thin card. Description empty. No captions. Weights are behind the paywall. Do not use his other Basque post. That one is an 8&quot; tin and a different recipe.</p>
+<h3>Remember</h3><ul><li>No biscuit base. High heat. The top should go dark.</li><li>Centre is still jiggly when it comes out.</li><li>It sinks in the middle. Rest it before you cut.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Room-temp ingredients so it blends smooth.</li><li>Parchment up the sides so it can rise and look rough.</li><li>Fresh vanilla beans if you have them. Amount not in the free text.</li><li>Bake hot until the top is charred, not tan. Temp and time: unknown.</li><li>Cool until it settles, then slice.</li></ol>
+<h3>Watch</h3><ul><li>Pale top plus a long bake kills the gooey middle.</li><li>Cutting hot and it slumps.</li><li>No parchment and it sticks and can’t rise.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>baking pan / tin</li><li>parchment</li><li>oven</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 3 · Unique 7</strong></div>
+<p class="reaction">About 2 million views on the Short. People want the dark top. The grams live on the paid post.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="09-smoked-chuck-roast" data-num="9" data-title="Smoked Chuck Roast" data-thin="false" data-req-ings="beef||beef stock / bone broth||oil||steak rub" data-all-ings="beef||beef stock / bone broth||oil||steak rub" data-tools="crockpot / slow cooker||smoker">
+<div class="head"><div class="head-row"><h2>9. Smoked Chuck Roast</h2></div>
+<p class="chef">jackieh · smoke 3 hr + crockpot 3–4 hr · 2–3 lb</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/1GNM2FCi02E" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">beef</span><span class="pill req">oil</span><span class="pill req">steak rub</span><span class="pill req">beef stock / bone broth</span></div>
+<p class="extra">Recipe is the video description. No blog.</p>
+<h3>Remember</h3><ul><li>Smoke at 225°F for 3 hours. Flip once.</li><li>Then broth halfway up the meat. Crockpot on high, 3–4 hours. Flip once.</li><li>Store it in some of the liquid or it dries.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Coat a 2–3 lb boneless chuck with oil and a steak rub. He uses Black &amp; Tan by Fire &amp; Smoke.</li><li>Smoke 225°F, 3 hours, flip halfway.</li><li>Crockpot on high. Add 1–2 cups bone broth or beef stock, about halfway up.</li><li>3–4 hours, flip halfway.</li><li>Cut big chunks, then split with a fork. Don’t shred the whole roast into strings.</li></ol>
+<h3>Watch</h3><ul><li>A full shred goes stringy.</li><li>A dry container tomorrow means you left the liquid behind.</li><li>Too little broth and it never half-covers.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>smoker</li><li>crockpot / slow cooker</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 6 · Unique 4</strong></div>
+<p class="reaction">2.8 million views. The method is the whole recipe. People make it because the steps are short.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="10-vietnamese-chicken-noodle-soup-ph-g" data-num="10" data-title="Vietnamese Chicken Noodle Soup (Phở Gà)" data-thin="false" data-req-ings="bay leaf||chicken||chicken bouillon||cilantro / coriander||cinnamon||cloves||fish sauce||garlic salt||ginger||lime||noodles||oil||onion||peppercorn||scallion||sesame oil||star anise||sugar||water" data-all-ings="bay leaf||chicken||chicken bouillon||cilantro / coriander||cinnamon||cloves||fish sauce||garlic salt||ginger||lime||noodles||oil||onion||peppercorn||scallion||sesame oil||star anise||sugar||water" data-tools="Instant Pot / pressure cooker||bowl">
+<div class="head"><div class="head-row"><h2>10. Vietnamese Chicken Noodle Soup (Phở Gà)</h2></div>
+<p class="chef">Julia Vuong · 20 min pressure + 10 min release · serves 4</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/4J4Pcd7mcX8" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">onion</span><span class="pill req">ginger</span><span class="pill req">star anise</span><span class="pill req">cloves</span><span class="pill req">bay leaf</span><span class="pill req">cinnamon</span><span class="pill req">peppercorn</span><span class="pill req">chicken</span><span class="pill req">water</span><span class="pill req">chicken bouillon</span><span class="pill req">sugar</span><span class="pill req">fish sauce</span><span class="pill req">oil</span><span class="pill req">scallion</span><span class="pill req">garlic salt</span><span class="pill req">sesame oil</span><span class="pill req">noodles</span><span class="pill req">cilantro / coriander</span><span class="pill req">lime</span></div>
+<p class="extra">YouTube description empty. Card from her Instant Pot post: https://instantpot.com/blogs/recipes/vietnamese-chicken-noodle-soup</p>
+<h3>Remember</h3><ul><li>Bone-in chicken. That’s the broth.</li><li>Char the onion and ginger. Toast the spices.</li><li>Go light on fish sauce. It darkens the soup. More bouillon if you want savor.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Char 1 large onion, quartered, and sliced ginger. Toast 5 star anise, 5 cloves, 2 bay leaves, 1 cinnamon stick, 5 peppercorns.</li><li>Instant Pot: those, a whole chicken, 8 cups water, 1½ tbsp chicken bouillon, 1½ tbsp rock sugar. High pressure 20 min. Natural release 10. Skim.</li><li>2 tbsp fish sauce, tasted, not dumped.</li><li>Sauce: 3 tbsp neutral oil, minced ginger and 2 tbsp scallion, 30 seconds. ½ tsp garlic salt. 1 tsp sesame oil.</li><li>24 oz rice noodles, cooked to the package. Bowl with broth, chicken, sliced onion, cilantro, lime, and the sauce.</li></ol>
+<h3>Watch</h3><ul><li>Too much fish sauce turns the broth dark.</li><li>Skip the char and the toast and it tastes like plain chicken water.</li><li>Leave the scum and the bowl looks gray.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>Instant Pot / pressure cooker</li><li>bowl</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 7 · Unique 6</strong></div>
+<p class="reaction">399k views. Fast phở, not a six-hour pot. The bones still did the work.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="11-1950s-minimum-wage-dinner" data-num="11" data-title="1950s Minimum Wage Dinner" data-thin="true" data-req-ings="" data-all-ings="bacon||bread||butter||carrot||ice cream||potato||steak" data-tools="skillet / pan">
+<div class="head"><div class="head-row"><h2>11. 1950s Minimum Wage Dinner</h2><span class="thin-badge">THIN CARD</span></div>
+<p class="chef">Joseph Franca · 57s video · serves unknown</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/1sdyoeQww-Q" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag warn">Legumes incomplete / unknown</span></div>
+<div class="ing-pills"><span class="pill opt">steak *</span><span class="pill opt">potato *</span><span class="pill opt">carrot *</span><span class="pill opt">bread *</span><span class="pill opt">butter *</span><span class="pill opt">ice cream *</span><span class="pill opt">bacon *</span></div>
+<p class="extra">Thin card. Empty description. No captions. Do not invent a method.</p>
+<h3>Remember</h3><ul><li>This is a cost bit, not a recipe.</li><li>Named foods: steak, potato, carrot, bread and butter, two scoops of ice cream. Amounts unknown.</li><li>Bacon is in the thumbnail only. Amount unknown.</li></ul>
+<h3>Do</h3><ol class='steps'><li>No usable steps.</li></ol>
+<h3>Watch</h3><ul><li>Treating the cent prices as quantities.</li><li>Filling in a steak method he never gave.</li><li>Counting bacon as required. It is only in the picture.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>skillet / pan</li></ul></details>
+<div class="scores"><strong>Taste — · Nutrition — · Unique 4</strong></div>
+<p class="reaction">11 million views. People argue about the wage, not the plate.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="12-egg-drop-soup" data-num="12" data-title="Egg Drop Soup" data-thin="false" data-req-ings="chicken||egg||fish sauce||ginger||mushroom||potato starch||radish||salt||scallion||sesame oil||shaoxing wine||soy sauce||sugar||water||white pepper" data-all-ings="chicken||dried scallops||egg||fish sauce||ginger||mushroom||potato starch||radish||salt||scallion||sesame oil||shaoxing wine||soy sauce||sugar||water||white pepper" data-tools="bowl||pot||strainer">
+<div class="head"><div class="head-row"><h2>12. Egg Drop Soup</h2></div>
+<p class="chef">Jujumao · stock 1–2 hr · serves unknown</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/tZoscy6Fc0M" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag legume">Legume: soy sauce</span></div>
+<div class="ing-pills"><span class="pill req">chicken</span><span class="pill req">chicken</span><span class="pill req">ginger</span><span class="pill req">shaoxing wine</span><span class="pill req">mushroom</span><span class="pill req">scallion</span><span class="pill req">radish</span><span class="pill req">water</span><span class="pill req">fish sauce</span><span class="pill req">white pepper</span><span class="pill req">sugar</span><span class="pill req">sesame oil</span><span class="pill req">soy sauce ⚠</span><span class="pill req">salt</span><span class="pill req">potato starch</span><span class="pill req">egg</span><span class="pill opt">dried scallops *</span></div>
+
+<h3>Remember</h3><ul><li>Blanch the chicken and the feet. Throw that water out.</li><li>Gentle simmer, then strain.</li><li>Flick the eggs forward. Do not dump them.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Blanch 1 kg chicken feet and 1 whole chicken with a thumb of sliced ginger and 2 tbsp Shaoxing, 5–10 min. Discard the liquid. Rinse the scum.</li><li>Soak 3/4 cup dried mushrooms, and 1/2 cup dried scallops if you want them, 15–30 min.</li><li>Clean pot: chicken, 3 smashed ginger pieces, 1 cup chopped green onion, 1 medium radish, the mushroom liquid, 1–2 tbsp Shaoxing, water to cover. Simmer 1–2 hr. Strain.</li><li>Season: fish sauce, 2 tsp white pepper, 1 tsp sugar, 2 tbsp sesame oil, 1/4 cup light soy, salt. Thicken with potato starch. Start at 1/2 cup starch in a little water.</li><li>Stream in 6 beaten eggs, flicking. Sliced scallions.</li></ol>
+<h3>Watch</h3><ul><li>Skip the blanch and the stock stays cloudy.</li><li>Too much slurry and it turns glue.</li><li>Eggs dumped in become clumps, not ribbons.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>pot</li><li>strainer</li><li>bowl</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 6 · Unique 7</strong></div>
+<p class="reaction">6.9 million views. People put it on when they feel sick. The stock is the point.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="13-easy-cr-me-caramel" data-num="13" data-title="Easy Crème Caramel" data-thin="true" data-req-ings="" data-all-ings="" data-tools="knife||plate">
+<div class="head"><div class="head-row"><h2>13. Easy Crème Caramel</h2><span class="thin-badge">THIN CARD</span></div>
+<p class="chef">Wild Cookbook · 53s video · serves unknown</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/888nCYgoZOg" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag warn">Legumes incomplete / unknown</span></div>
+<div class="ing-pills"><span class="pill opt">No confirmed ingredients</span></div>
+<p class="extra">Thin card. Empty description. No captions. No creator recipe. Do not borrow another flan.</p>
+<h3>Remember</h3><ul><li>It is crème caramel. That is all the text gives.</li><li>Weights, temperature, and time are unknown.</li><li>The thumbnail is a rectangular mold, sliced.</li></ul>
+<h3>Do</h3><ol class='steps'><li>No usable steps from this creator.</li></ol>
+<h3>Watch</h3><ul><li>Cooking a different site’s flan and calling it this video.</li><li>Guessing the caramel ratio.</li><li>Guessing a water bath. He never said one.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>plate</li><li>knife</li></ul></details>
+<div class="scores"><strong>Taste — · Nutrition — · Unique 3</strong></div>
+<p class="reaction">17.8 million views. The clip is the dessert. The recipe is not in the text.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="14-fried-cherry-hand-pies" data-num="14" data-title="Fried Cherry Hand Pies" data-thin="false" data-req-ings="baking powder||butter||cherry||cornstarch||egg||flour||half-and-half / cream||lemon||milk||oil||salt||sugar||vanilla" data-all-ings="baking powder||butter||cherry||cornstarch||egg||flour||half-and-half / cream||lemon||milk||oil||salt||sugar||vanilla" data-tools="cooling rack||fork||pot||rolling pin||round cutter||saucepan||slotted spoon||thermometer">
+<div class="head"><div class="head-row"><h2>14. Fried Cherry Hand Pies</h2></div>
+<p class="chef">Well Made by Kiley · ~2 hr 5 min · 11–13 pies</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/d-AnxjwbiFk" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">cherry</span><span class="pill req">sugar</span><span class="pill req">lemon</span><span class="pill req">salt</span><span class="pill req">cornstarch</span><span class="pill req">vanilla</span><span class="pill req">flour</span><span class="pill req">baking powder</span><span class="pill req">butter</span><span class="pill req">half-and-half / cream</span><span class="pill req">egg</span><span class="pill req">sugar</span><span class="pill req">milk</span><span class="pill req">oil</span></div>
+<p class="extra">Same dough family as her apple hand pies.</p>
+<h3>Remember</h3><ul><li>Filling thick and cold before it goes in.</li><li>Cold dough. Do not knead it.</li><li>Oil at 360–370°F.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Filling: 530g cherries, 100g sugar, juice of 1/2 lemon, pinch of salt, 6–8 min. Slurry 12g cornstarch plus 1½ tbsp water, 1–2 min. 1 tsp vanilla. Chill.</li><li>Dough: 420g flour, 12g sugar, 1 tsp baking powder, 6g salt, 170g cold salted butter, 7 oz cold half-and-half, 1 cold egg. Chill 30 min.</li><li>Cut 4½&quot; rounds. Heaping tablespoon. Egg-wash the edge. Fork. Fold the edge in.</li><li>Fry about 2 min a side. Glaze: 120g powdered sugar, 2 tbsp milk, 1 tsp vanilla, pinch of salt.</li><li>Oven instead: 400°F, 22–25 min, egg wash, a vent slit.</li></ol>
+<h3>Watch</h3><ul><li>Overfill and it leaks.</li><li>A weak fork seal leaks.</li><li>Oil too cool is greasy. Too hot browns before the middle cooks.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>saucepan</li><li>rolling pin</li><li>round cutter</li><li>fork</li><li>pot</li><li>thermometer</li><li>slotted spoon</li><li>cooling rack</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 2 · Unique 5</strong></div>
+<p class="reaction">108k views. Same crust as the apple pies. Cherries are the swap.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="15-italian-stromboli" data-num="15" data-title="Italian Stromboli" data-thin="false" data-req-ings="butter||ham||italian seasoning||mozzarella||pepperoni||pizza / marinara sauce||refrigerated pizza crust||salami" data-all-ings="butter||garlic powder||ham||italian seasoning||mozzarella||parsley||pepperoni||pizza / marinara sauce||refrigerated pizza crust||salami" data-tools="baking sheet||knife||oven||parchment||pastry brush">
+<div class="head"><div class="head-row"><h2>15. Italian Stromboli</h2></div>
+<p class="chef">Carman Wilken · ~30 min · serves 8</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/ziwKFRa3plc" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">refrigerated pizza crust</span><span class="pill req">pizza / marinara sauce</span><span class="pill req">ham</span><span class="pill req">salami</span><span class="pill req">pepperoni</span><span class="pill req">mozzarella</span><span class="pill req">italian seasoning</span><span class="pill req">butter</span><span class="pill opt">garlic powder *</span><span class="pill opt">parsley *</span></div>
+
+<h3>Remember</h3><ul><li>Leave a border. Pinch every seam. Seam side down.</li><li>Cut slits so steam can leave.</li><li>Rest 5 min or the cheese runs out.</li></ul>
+<h3>Do</h3><ol class='steps'><li>One refrigerated crust, about 13 oz. Spread 1/4 cup pizza sauce, not the whole jar.</li><li>Layer 1/4 lb ham, 1/4 lb salami, 1/4 lb pepperoni, 3 cups grated mozzarella, 1 tsp Italian seasoning.</li><li>Roll, pinch, seam down. Slits on top.</li><li>Brush 2 tbsp melted butter, garlic powder, dried parsley. The last two have no amount.</li><li>400°F, about 20 min. Rest 5. Rest of the sauce for dipping.</li></ol>
+<h3>Watch</h3><ul><li>Open seams and the filling escapes.</li><li>Cut it hot and it is a puddle.</li><li>Stretch the dough thin and it tears.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>baking sheet</li><li>parchment</li><li>pastry brush</li><li>knife</li><li>oven</li></ul></details>
+<div class="scores"><strong>Taste 7 · Nutrition 4 · Unique 3</strong></div>
+<p class="reaction">3.7 million views. The deli counter did the hard part.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="16-cheesy-baked-ziti" data-num="16" data-title="Cheesy Baked Ziti" data-thin="false" data-req-ings="basil||beef||black pepper||chili flake||egg||garlic||italian sausage||mozzarella||onion||parmesan||parsley||pasta||pizza / marinara sauce||ricotta||salt||water" data-all-ings="basil||beef||black pepper||chili flake||egg||garlic||italian sausage||mozzarella||onion||parmesan||parsley||pasta||pizza / marinara sauce||ricotta||salt||water" data-tools="baking pan / tin||bowl||oven||pot||skillet / pan">
+<div class="head"><div class="head-row"><h2>16. Cheesy Baked Ziti</h2></div>
+<p class="chef">Allrecipes · Nicole’s Best Baked Ziti · 1 hr 25 min + 10 min rest · serves 8</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/uV92qpSSY9Y" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">pasta</span><span class="pill req">salt</span><span class="pill req">italian sausage</span><span class="pill req">beef</span><span class="pill req">onion</span><span class="pill req">garlic</span><span class="pill req">black pepper</span><span class="pill req">chili flake</span><span class="pill req">pizza / marinara sauce</span><span class="pill req">water</span><span class="pill req">ricotta</span><span class="pill req">parmesan</span><span class="pill req">egg</span><span class="pill req">parsley</span><span class="pill req">basil</span><span class="pill req">mozzarella</span></div>
+
+<h3>Remember</h3><ul><li>Boil the pasta 1–2 min short of the package.</li><li>Ricotta is its own layer. Do not stir it through.</li><li>Stand 10 min before you scoop.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Oven 375°F. Grease a 9×13. Boil 16 oz ziti with 1 tbsp kosher salt, about 8 min.</li><li>Brown ¾ lb Italian sausage and ¾ lb ground sirloin. Add 1 small onion, 2 garlic cloves, salt, pepper, ¼ tsp chili flake, 3–5 min.</li><li>Two 24 oz jars marinara, plus ¼ cup water shaken in each jar. Simmer 10 min. Toss the pasta with a little sauce.</li><li>Ricotta mix: 15 oz whole-milk ricotta, ½ cup Parmesan, 1 egg, 1 tbsp parsley, 1 tbsp basil, remaining salt and pepper.</li><li>Layer sauce, pasta, sauce, ricotta, mozzarella, the rest of the pasta and sauce and cheese, last ¼ cup Parmesan. Bake 25–30 min. Rest 10.</li></ol>
+<h3>Watch</h3><ul><li>Pasta cooked all the way on the stove goes mushy in the oven.</li><li>Skip the jar rinse and the sauce comes up short.</li><li>Serve it straight from the oven and the layers fall apart.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>baking pan / tin</li><li>pot</li><li>skillet / pan</li><li>bowl</li><li>oven</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 5 · Unique 3</strong></div>
+<p class="reaction">292k views. A tray people already know. The layering is why this version.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="17-sticky-gochujang-chicken" data-num="17" data-title="Sticky Gochujang Chicken" data-thin="true" data-req-ings="" data-all-ings="chicken||gochujang||rice||scallion||sesame seeds" data-tools="">
+<div class="head"><div class="head-row"><h2>17. Sticky Gochujang Chicken</h2><span class="thin-badge">THIN CARD</span></div>
+<p class="chef">iamneverfull · 36s video · serves unknown</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/WzzAdXsCaKk" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag warn">Legumes incomplete / unknown</span></div>
+<div class="ing-pills"><span class="pill opt">gochujang *</span><span class="pill opt">chicken *</span><span class="pill opt">rice *</span><span class="pill opt">sesame seeds *</span><span class="pill opt">scallion *</span></div>
+<p class="extra">Thin card. Empty description. Captions blocked. His other gochujang posts are different recipes. Do not merge them.</p>
+<h3>Remember</h3><ul><li>Title and thumbnail: sticky gochujang chicken, rice, sesame, scallion. Amounts unknown.</li><li>Do not use the air-fryer post on his site. Not confirmed as this short.</li><li>Soy is likely in gochujang recipes. Not confirmed in this text.</li></ul>
+<h3>Do</h3><ol class='steps'><li>No usable steps from this video.</li></ol>
+<h3>Watch</h3><ul><li>Cooking a sibling recipe and calling it this clip.</li><li>Assuming an air fryer. Not confirmed.</li><li>Assuming it is soy-free. Unknown.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>Unknown / none named</li></ul></details>
+<div class="scores"><strong>Taste — · Nutrition — · Unique 5</strong></div>
+<p class="reaction">1.3 million views. The glaze is the hook. The grams are not on this clip.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="18-burnt-basque-cheesecake" data-num="18" data-title="Burnt Basque Cheesecake" data-thin="false" data-req-ings="cornstarch||cream cheese||egg||half-and-half / cream||sugar||vanilla" data-all-ings="cornstarch||cream cheese||egg||half-and-half / cream||sugar||vanilla" data-tools="baking pan / tin||bowl||oven||parchment||sieve">
+<div class="head"><div class="head-row"><h2>18. Burnt Basque Cheesecake</h2></div>
+<p class="chef">Mai Cookbook · 30 min bake + at least 2 hr rest · serves 6</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/jB32_Fy7l1Y" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">cream cheese</span><span class="pill req">sugar</span><span class="pill req">egg</span><span class="pill req">vanilla</span><span class="pill req">half-and-half / cream</span><span class="pill req">cornstarch</span></div>
+<p class="extra">Use her written recipe. She says the old video amounts differ.</p>
+<h3>Remember</h3><ul><li>6×3 inch tin. High heat. The top should darken.</li><li>Leave it in the tin at least 2 hours. A hot unmold collapses it.</li><li>Updated weights only.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Heat the oven to 240°C. Crumpled parchment in a 6×3&quot; tin.</li><li>400g cream cheese and 120g sugar, smooth. 3 eggs, one at a time. ½ tsp vanilla and 200ml heavy cream. Sift in 20g cornstarch.</li><li>Pour. Tap out bubbles. Bake 30 min at 220–240°C, lower rack.</li><li>Rest in the tin at least 2 hours. Fridge overnight if you want it firmer.</li></ol>
+<h3>Watch</h3><ul><li>The video’s old quantities do not match the post.</li><li>Unmold it hot and it slumps.</li><li>Too dark: drop toward 220°C. More cornstarch or 5 more minutes if you want it firmer.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>baking pan / tin</li><li>parchment</li><li>bowl</li><li>sieve</li><li>oven</li></ul></details>
+<div class="scores"><strong>Taste 8 · Nutrition 3 · Unique 6</strong></div>
+<p class="reaction">2.9 million views. Dark top, soft middle. This one has the grams. The earlier Notorious Foodie short does not.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="19-offensive-banana-bread" data-num="19" data-title="Offensive Banana Bread" data-thin="true" data-req-ings="banana" data-all-ings="banana||chocolate chips||greek yogurt||oil||sugar||water" data-tools="baking pan / tin||bowl||oven||toothpick">
+<div class="head"><div class="head-row"><h2>19. Offensive Banana Bread</h2><span class="thin-badge">THIN CARD</span></div>
+<p class="chef">Jose.elcook · 45–50 min bake · serves unknown</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/e2B1_DNpsV4" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag warn">Legumes incomplete / unknown</span></div>
+<div class="ing-pills"><span class="pill req">banana</span><span class="pill opt">sugar *</span><span class="pill opt">water *</span><span class="pill opt">sugar *</span><span class="pill opt">oil *</span><span class="pill opt">greek yogurt *</span><span class="pill opt">chocolate chips *</span></div>
+<p class="extra">Partial. Captions only. Most amounts are missing. The egg count in the audio is not trustworthy.</p>
+<h3>Remember</h3><ul><li>Sugar and water caramel under whole bananas, then batter on top.</li><li>3 mashed bananas in the batter. Other amounts unknown.</li><li>350°F, 45–50 min, until a toothpick is clean. Add the dry slowly.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Lay bananas flat in the pan. Caramelize sugar and water. Pour it over. Amounts unknown.</li><li>Batter: 3 mashed bananas, some brown sugar, some oil, Greek yogurt. Egg count unknown.</li><li>Dry ingredients are not named. Add them slowly.</li><li>Mini chocolate chips. He does not add nuts.</li><li>350°F, 45–50 min.</li></ol>
+<h3>Watch</h3><ul><li>Overmixing the dry makes it tough.</li><li>Pulling it before the toothpick is clean.</li><li>Adding nuts. He skips them.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>baking pan / tin</li><li>bowl</li><li>oven</li><li>toothpick</li></ul></details>
+<div class="scores"><strong>Taste 7 · Nutrition 3 · Unique 6</strong></div>
+<p class="reaction">6.6 million views. The title is the bait. The caramel layer is the idea.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p><article class="recipe" id="20-caramel-apple-pie-ice-cream" data-num="20" data-title="Caramel Apple Pie Ice Cream" data-thin="false" data-req-ings="apple||caramel syrup||cinnamon||half-and-half / cream||maple syrup||milk||nutmeg||vanilla" data-all-ings="apple||caramel syrup||cinnamon||half-and-half / cream||maple syrup||milk||nutmeg||vanilla" data-tools="Ninja Creami||Ninja Creami pint||knife">
+<div class="head"><div class="head-row"><h2>20. Caramel Apple Pie Ice Cream</h2></div>
+<p class="chef">Sara J Sweets · Ninja Creami · serves unknown</p>
+<p class="head-links"><a class="yt" href="https://youtu.be/IDDMCFMpugE" target="_blank" rel="noopener">Watch on YouTube</a></p></div>
+<div class="grid">
+<div class="flags"><span class="flag ok">No peanuts required</span><span class="flag ok">No legumes required</span></div>
+<div class="ing-pills"><span class="pill req">milk</span><span class="pill req">caramel syrup</span><span class="pill req">cinnamon</span><span class="pill req">nutmeg</span><span class="pill req">apple</span><span class="pill req">maple syrup</span><span class="pill req">vanilla</span><span class="pill req">half-and-half / cream</span></div>
+<p class="extra">Ingredients are in the description. Freeze time and which Creami cycle are not.</p>
+<h3>Remember</h3><ul><li>Fairlife is the protein trick. Regular milk works and drops the protein.</li><li>Caramel and spice go in the base. Apple is a mix-in.</li><li>Do not invent a spin setting. She did not write one.</li></ul>
+<h3>Do</h3><ol class='steps'><li>Base: 2½ cups Fairlife or regular milk, 3 tbsp Torani zero-calorie caramel, ¼ tsp cinnamon, ⅛ tsp nutmeg.</li><li>Mix-in: ¼ cup chopped apple, 1 tbsp maple syrup, ½ tsp vanilla, ½ tsp cinnamon, ¼ tsp nutmeg, 1 tbsp heavy cream.</li><li>Freeze in a Creami pint. Button and time: unknown.</li></ol>
+<h3>Watch</h3><ul><li>Swapping the milk and expecting the same protein.</li><li>Stirring the apple mix into the base. It is separate.</li><li>Guessing a respin. Not in the text.</li></ul>
+<details class="tools-hide" data-tools-block>
+<summary>Tools <span class="muted">(hidden by default — still searchable)</span></summary>
+<ul class="tool-list"><li>Ninja Creami</li><li>Ninja Creami pint</li><li>knife</li></ul></details>
+<div class="scores"><strong>Taste 6 · Nutrition 6 · Unique 5</strong></div>
+<p class="reaction">56k views. A pint, not a churn. The machine does the work.</p>
+</div></article>
+<p class="back-top"><a href="#top">↑ Back to top</a></p>
+
+<footer class="book">Julius · YouTube Recipes playlist digests · peanut allergy respected · generated from recipe-cards.md</footer>
+</div>
+<script>
+
+(function(){
+  function wireIng(rootId){
+    var root=document.getElementById(rootId); if(!root) return;
+    var search=root.querySelector('[data-ing-search]');
+    var chips=root.querySelectorAll('[data-ing-chip]');
+    var cards=root.querySelectorAll('.ing-card');
+    var countEl=root.querySelector('[data-ing-count]');
+    var activeCat='all';
+    function apply(){
+      var q=(search&&search.value||'').toLowerCase().trim(); var shown=0;
+      cards.forEach(function(c){
+        var cat=c.getAttribute('data-cat')||'';
+        var name=(c.getAttribute('data-name')||'').toLowerCase();
+        var note=(c.getAttribute('data-note')||'').toLowerCase();
+        var okCat=(activeCat==='all'||cat===activeCat);
+        var okQ=!q||name.indexOf(q)>=0||note.indexOf(q)>=0||cat.toLowerCase().indexOf(q)>=0;
+        var show=okCat&&okQ; c.classList.toggle('hidden',!show); if(show) shown++;
+      });
+      if(countEl) countEl.textContent=shown+' shown';
+    }
+    if(search) search.addEventListener('input',apply);
+    chips.forEach(function(ch){ ch.addEventListener('click',function(){
+      chips.forEach(function(x){x.classList.remove('active')}); ch.classList.add('active');
+      activeCat=ch.getAttribute('data-ing-chip')||'all'; apply();
+    });});
+    apply();
+  }
+  wireIng('ingredients-body'); wireIng('tools-db-body');
+  var modeSel=document.getElementById('filter-mode');
+  var ingSel=document.getElementById('filter-ing');
+  var toolSel=document.getElementById('filter-tool');
+  var textQ=document.getElementById('filter-text');
+  var status=document.getElementById('filter-status');
+  var recipes=document.querySelectorAll('article.recipe');
+  function applyRecipeFilter(){
+    var mode=modeSel.value, ing=ingSel.value, tool=toolSel.value, q=(textQ.value||'').toLowerCase().trim(), shown=0;
+    recipes.forEach(function(r){
+      var ok=true;
+      var reqIngs=(r.getAttribute('data-req-ings')||'').split('||').map(function(s){return s.trim()}).filter(Boolean);
+      var tools=(r.getAttribute('data-tools')||'').split('||').map(function(s){return s.trim()}).filter(Boolean);
+      if(ing){ var hasReq=reqIngs.indexOf(ing)>=0; ok=ok&&(mode==='require'?hasReq:!hasReq); }
+      if(tool){ var hasTool=tools.indexOf(tool)>=0; ok=ok&&(mode==='require'?hasTool:!hasTool); }
+      if(q){ var hay=((r.getAttribute('data-title')||'')+' '+r.textContent).toLowerCase(); ok=ok&&hay.indexOf(q)>=0; }
+      r.classList.toggle('hidden',!ok);
+      var back=r.nextElementSibling; if(back&&back.classList.contains('back-top')) back.style.display=ok?'':'none';
+      if(ok) shown++;
+    });
+    var bits=[shown+' / '+recipes.length+' recipes shown'];
+    if(ing) bits.push((mode==='require'?'requires':'does not require')+' ingredient: '+ing);
+    if(tool) bits.push((mode==='require'?'uses':'does not use')+' tool: '+tool);
+    if(q) bits.push('text: "'+q+'"');
+    status.textContent=bits.join(' · ');
+  }
+  document.getElementById('filter-apply').addEventListener('click',applyRecipeFilter);
+  document.getElementById('filter-clear').addEventListener('click',function(){
+    modeSel.value='require'; ingSel.value=''; toolSel.value=''; textQ.value=''; applyRecipeFilter();
+  });
+  ingSel.addEventListener('change',function(){ toolSel.value=''; applyRecipeFilter(); });
+  toolSel.addEventListener('change',function(){ ingSel.value=''; applyRecipeFilter(); });
+  modeSel.addEventListener('change',applyRecipeFilter);
+  textQ.addEventListener('input',applyRecipeFilter);
+  document.body.addEventListener('click',function(ev){
+    var t=ev.target;
+    if(t.matches('[data-filter-req]')){ ingSel.value=t.getAttribute('data-filter-req'); toolSel.value=''; modeSel.value='require'; applyRecipeFilter(); document.getElementById('recipes-part').scrollIntoView({behavior:'smooth'}); }
+    if(t.matches('[data-filter-not]')){ ingSel.value=t.getAttribute('data-filter-not'); toolSel.value=''; modeSel.value='not'; applyRecipeFilter(); document.getElementById('recipes-part').scrollIntoView({behavior:'smooth'}); }
+    if(t.matches('[data-filter-tool-req]')){ toolSel.value=t.getAttribute('data-filter-tool-req'); ingSel.value=''; modeSel.value='require'; applyRecipeFilter(); document.getElementById('recipes-part').scrollIntoView({behavior:'smooth'}); }
+    if(t.matches('[data-filter-tool-not]')){ toolSel.value=t.getAttribute('data-filter-tool-not'); ingSel.value=''; modeSel.value='not'; applyRecipeFilter(); document.getElementById('recipes-part').scrollIntoView({behavior:'smooth'}); }
+  });
+  applyRecipeFilter();
+})();
+
+</script>
+</body>
+</html>
