@@ -11210,5 +11210,2575 @@ Taste 8 · Nutrition 6 · Unique 5
 No peanuts. Legume: soy sauce.
 
 ---
+
+---
+
+## 375. Easy chicken stock | Jamie Oliver's food team
+Jamie Oliver · about 4 hr simmer · makes ~4 litres
+https://youtu.be/bOTUU9S_pXc
+https://www.jamieoliver.com/recipes/chicken/easy-chicken-stock/
+
+**Remember**
+- Raw carcasses give a cleaner stock than roast leftovers.
+- Cold water in, boil, skim, then gentle simmer only.
+- Freeze in small tubs after it goes clear amber cold.
+
+**Do**
+1. Rough-chop celery, leeks, onions, carrots; bash 1/2 garlic bulb unpeeled.
+2. Pot: 2 kg chicken bones + veg + herbs + 5 peppercorns + 6 L cold water.
+3. Boil, skim, simmer gently 3–4 hr; fine-sieve; cool ~30 min; fridge or freeze.
+
+**Watch**
+- Don’t invent salt here — season when you use the stock.
+- Skim foam or stock stays cloudy.
+- Fridge ~4 days; freezer 2–3 months per Jamie.
+
+**Tools** (hide)
+- pot, sieve, knife, spoon.
+
+Taste 7 · Nutrition 7 · Unique 3
+321.6k views. Food Tube stock baseline with Christina.
+
+No peanuts. No legumes.
+
+---
+
+## 376. 3 Dollar Homemade Ramen | But Cheaper
+Joshua Weissman · about 30–40 min · serves 2
+https://youtu.be/vHvwUEHcyvA
+https://www.joshuaweissman.com/post/3-dollar-ramen-but-cheaper
+
+**Remember**
+- Sear pork flat first, then mash to render fat.
+- Miso in after aromatics; don’t hard-boil the broth.
+- Eggs: 7 min boil → ice bath.
+
+**Do**
+1. Dry-sear 1/2 lb pork 2–3 min/side; mash/cook; remove.
+2. Sweat shallot/garlic/ginger 3 min; dissolve sugar 1 min; return pork + ground sesame; stir in 4 Tbsp miso.
+3. Add 5.5 cups stock (+ optional dashi); light simmer, cover warm.
+4. Brown-butter corn; soft-boil eggs 7 min; cook noodles; bowl with scallion/nori.
+
+**Watch**
+- Miso is soy — required legume.
+- Hon dashi optional; skip if you don’t have it.
+- Chili oil optional heat only.
+
+**Tools** (hide)
+- pot, masher / ricer (optional), saucepan, bowl, strainer.
+
+Taste 8 · Nutrition 5 · Unique 5
+2.8M views. Budget miso ramen people remake.
+
+No peanuts. Legume: miso.
+
+---
+
+## 377. Vegetable stir fry – How to prepare in four easy steps (with in-depth explanation)
+Taste of Asian Food · about 20 min · serves 2
+https://youtu.be/k3_rRmeDJW0
+https://tasteasianfood.com/vegetable-stir-fry/
+
+**Remember**
+- Blanch hard veg first so the fry stays short and bright.
+- Cook cornstarch in the sauce until translucent before veg.
+- High heat only after sauce is ready — chase wok hei.
+
+**Do**
+1. Cut 100 g each broccoli, cauliflower, carrot, snow peas, capsicum; blanch; drain.
+2. Wok: 1 Tbsp oil; low-heat garlic until fragrant.
+3. Add salt, sugar, white pepper, oyster sauce, cornflour, 2 Tbsp water; cook translucent.
+4. Add blanched veg; high-heat toss until fragrant; plate.
+
+**Watch**
+- Snow peas = peas/legume flag.
+- Oyster sauce can hide soy — not labeled soy here.
+- Blog sauce batch sizes differ; card follows video/description amounts.
+
+**Tools** (hide)
+- wok, pot, strainer, bowl, knife.
+
+Taste 7 · Nutrition 8 · Unique 4
+5.4M views. Restaurant-style mixed veg primer.
+
+No peanuts. Legume: peas.
+
+---
+
+## 378. How to Stir Fry Any Vegetable - Three Basic Flavors and Recipes (蒜蓉炒西兰花/姜汁炒芥兰/虾酱炒通心菜)
+Chinese Cooking Demystified · about 10–15 min each · side dish
+https://youtu.be/a-Yu8qOAEYQ
+https://www.reddit.com/r/Cooking/comments/6wqmkd/recipes_how_to_stirfry_basically_any_vegetable/
+
+**Remember**
+- Blanch briefly, shock, then long-yow wok + oil.
+- Sauce is a thin coat: salt/sugar/starch + 1 Tbsp liquid.
+- Three profiles: garlic, pounded ginger, shrimp paste.
+
+**Do**
+1. Garlic broccoli: mince ~3 garlic + little ginger; sauce 1/4 tsp salt, 1/4 tsp sugar, 1/2 tsp starch, 1 Tbsp water (± msg).
+2. Blanch broccoli ~20 sec; cool. Hot wok, oil, aromatics ~15 sec; veg + sauce ~15 sec; out.
+3. Ginger gai lan: pound ginger; sauce 1/4 tsp salt, 1/2 tsp sugar, 1/2 tsp starch, 1 Tbsp half water/half shaoxing ± white pepper; blanch ~30 sec; fry.
+4. Shrimp-paste morning glory: 1/2 Tbsp shrimp paste + garlic/ginger/chili; same veg sauce + sugar in blanch water; quick fry.
+
+**Watch**
+- Reddit write-up linked; quantities taken from creator captions.
+- Shrimp paste is salty — half tablespoon is plenty.
+- Don’t invent peanut oil; use neutral oil as shown.
+
+**Tools** (hide)
+- wok, pot, bowl, knife.
+
+Taste 8 · Nutrition 8 · Unique 7
+2.8M views. Technique video for any greens.
+
+No peanuts. No legumes.
+
+---
+
+## 379. How to make the Best Authentic Flour Tortillas | 4 Ingredient Tortillas
+Ethan Chlebowski · about 45 min · 10 large or ~30 small
+https://youtu.be/9gaQfu_wPGw
+https://www.ethanchlebowski.com/cooking-techniques-recipes/authentic-4-ingredient-flour-tortillas
+
+**Remember**
+- Rub fat into flour before adding salted water.
+- Rest balls ≥20 min so they roll thin.
+- Stack in a cloth right off the griddle to steam-soften.
+
+**Do**
+1. Rub 80 g lard into 450 g bread flour. Dissolve 5 g salt in 250 g warm water; add gradually.
+2. Knead ~5 min smooth; divide 10×~80 g (or ~25 g taco balls); rest 20 min–2 hr covered.
+3. Roll thin; medium griddle 10–20 sec/side; towel-stack.
+
+**Watch**
+- Overcook = hard tortillas.
+- Butter/oil swap is his note; lard is the classic fat.
+- You may not need all the water.
+
+**Tools** (hide)
+- bowl, rolling pin, skillet / pan, cloth, scale (optional).
+
+Taste 8 · Nutrition 4 · Unique 5
+561.1k views. Diana Kennedy–inspired four-ingredient dough.
+
+No peanuts. No legumes.
+
+---
+
+## 380. Why Every Cook should have Creamy Buffalo Sauce in their fridge
+Ethan Chlebowski · about 20 min · 1 bottle
+https://youtu.be/p-K8GDiTjqQ
+https://www.ethanchlebowski.com/cooking-techniques-recipes/creamy-buffalo-sauce
+
+**Remember**
+- Ratio: 2 parts hot sauce : 1 butter : 1 yogurt.
+- Cool butter-hot sauce 2–3 min before yogurt.
+- Fridge squeeze bottle up to ~2 weeks.
+
+**Do**
+1. Melt 60 g butter medium; add 120 g hot sauce; stir to emulsify; off heat cool 2–3 min.
+2. Mix in 60 g plain yogurt + pepper, garlic powder, lemon zest, pinch msg.
+3. Bottle; use as dip, marinade, or dressing.
+
+**Watch**
+- Yogurt must go in off the hard heat or it can split.
+- Hot sauce brand changes heat — taste before bottling.
+- No peanut items here.
+
+**Tools** (hide)
+- skillet / pan, spoon, jar (optional).
+
+Taste 8 · Nutrition 4 · Unique 6
+1.2M views. Fridge sauce for dip/marinade/dressing.
+
+No peanuts. No legumes.
+
+---
+
+## 381. How To Cook Beef Stir-Fry Broccoli
+Fortunecooking · about 15–20 min · serves unknown
+https://youtu.be/l1y7ZSBCpdo
+
+**Remember**
+- Velvet beef: egg + cornstarch before the hot pan.
+- Keep the pan hot; sauce goes in after aromatics.
+- Finish sesame oil; serve with rice.
+
+**Do**
+1. Marinate 12 oz sliced beef with 2 tsp beaten egg + 2 tsp cornstarch.
+2. Hot pan 2 tsp oil; sear beef; add 1 tsp ginger + 1 tsp garlic.
+3. Add 2 cups broccoli; 2 tsp sake, 2 tsp hoisin, 2 tsp oyster, 2 tsp soy; 2–3 oz water; sesame drizzle.
+
+**Watch**
+- Soy + hoisin are legumes; oyster can hide soy.
+- Description is the recipe source; subs 429-blocked.
+- No invented chili heat.
+
+**Tools** (hide)
+- skillet / pan, bowl, spatula.
+
+Taste 7 · Nutrition 6 · Unique 3
+4.2k views. Short takeout-style beef and broccoli.
+
+No peanuts. Legume: hoisin, soy sauce.
+
+---
+
+## 382. How To Make Simple Chinese Cold Sesame Noodles With Roasted vegetables
+Fortunecooking · about 25 min · serves unknown
+https://youtu.be/qbTNAlmVUuA
+http://www.fortunecookingcheftom.com
+
+**Remember**
+- Roast mixed veg 450°F / 15 min first.
+- Sauce is oil + sweet chili + vinegar + soy — not sesame paste.
+- Toss with cold cooked linguine; sesame seed finish.
+
+**Do**
+1. Toss 6 cups mixed veg with olive oil; roast 450°F 15 min.
+2. Dress 4 cups cold linguine with 1/3 cup EVOO, 1/3 cup sweet chili, 1–2 Tbsp sriracha, 2 Tbsp black/balsamic vinegar, 3–4 tsp soy, 1/3 tsp each ginger/garlic, pepper.
+3. Add roasted veg; sprinkle sesame seeds.
+
+**Watch**
+- Title says sesame; paste is not listed — only seeds.
+- Soy required; sriracha/sweet chili may hide soy.
+- Snow peas in the mix → peas/legume.
+
+**Tools** (hide)
+- baking sheet, oven, bowl, spoon.
+
+Taste 6 · Nutrition 6 · Unique 5
+13.4k views. Cold noodle salad with roasted veg.
+
+No peanuts. Legume: peas, soy sauce.
+
+---
+
+## 383. Chinese Spicy Beef And Broccoli-Brown Sauce
+Fortunecooking · about 1 hr incl marinade · family meal
+https://youtu.be/4llfxp8w7hA
+http://www.fortunecookingcheftom.com
+
+**Remember**
+- Marinate flank 1 hr: egg, cornstarch, little oil.
+- Brown sauce = sherry + oyster + soy + chili + stock + slurry.
+- Sesame oil at the end.
+
+**Do**
+1. Marinate 12 oz flank with 2 Tbsp egg, 2 Tbsp cornstarch, 1 tsp oil — 1 hr.
+2. Sear in oil; add ginger/garlic; 2 cups broccoli.
+3. Deglaze 2 tsp sherry; 2 tsp oyster, 1 Tbsp soy, 2 tsp hot chili, 2–3 oz stock; thicken 1 Tbsp cornstarch + 2 oz water; 1 tsp sesame oil.
+
+**Watch**
+- Soy required; oyster/chili sauce can hide soy.
+- Hot chili sauce ≠ peanut.
+- Description cut off mid-word; amounts above are complete.
+
+**Tools** (hide)
+- skillet / pan, bowl, spatula.
+
+Taste 7 · Nutrition 6 · Unique 4
+16.5k views. Spicy brown-sauce beef and broccoli.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 384. Chinese Cashew Chicken- Asian Cuisine
+Fortunecooking · about 20 min · serves unknown
+https://youtu.be/rOb_xtH40So
+http://www.fortunecookingcheftom.com
+
+**Remember**
+- Thin card: description lists sauce + velveted chicken, no cashews.
+- Did not invent cashew amounts or full wok steps.
+- Thai soybean paste + hoisin + soy are legumes.
+
+**Do**
+1. Marinate 7 oz chicken: 2 tsp egg white, 2 tsp cornstarch, 1/2 tsp sesame oil.
+2. Listed aromatics/sauce: chili paste, soybean paste, ginger, garlic, 2 cups mixed veg, sherry, oyster, hoisin, soy, sesame.
+3. Cook in vegetable oil — exact order/timings not in description.
+
+**Watch**
+- Title promises cashews; none listed — don’t borrow another recipe.
+- Cashews ≠ peanuts if you add your own later.
+- Oyster sauce may hide soy.
+
+**Tools** (hide)
+- skillet / pan, bowl.
+
+Taste — · Nutrition — · Unique —
+16k views. Ingredient dump without cashews or full method.
+
+No peanuts. Legume: hoisin, soy sauce, sweet bean paste.
+
+---
+
+## 385. Orange Flavor Chicken-Chinese Food
+Fortunecooking · about 7 min video · serves unknown
+https://youtu.be/pPinvT0ndWE
+
+**Remember**
+- Thin card: YouTube bot-blocked twice; no creator description recipe found.
+- Web search only hit other people’s orange chicken — not used.
+- No invented fry batter, sauce ratios, or times.
+
+**Do**
+1. Video title is orange-flavor Chinese chicken on Fortunecooking.
+2. Playlist length ~6.7 min; no linked printable recipe.
+3. Revisit when a creator-sourced method is available.
+
+**Watch**
+- Borrowing a random orange-chicken blog.
+- Assuming peanut oil or soy without source.
+- Allergy incomplete until ingredients are known.
+
+Taste — · Nutrition — · Unique —
+16k views. Blocked fetch; no usable Fortunecooking formula.
+
+No peanuts. No legumes.
+
+---
+
+## 386. How To Make Mongolian Beef With Scallion Sauce
+Fortunecooking · about 25 min incl marinade · serves unknown
+https://youtu.be/tMP60tlfhRE
+
+**Remember**
+- Marinate ~15 min; no cornstarch in the marinade (his tip).
+- Sear beef hot first; onions/scallions after color.
+- Slurry thickens stock/soy/oyster at the end.
+
+**Do**
+1. Marinate 8–10 oz beef: 2 tsp soy, 1 tsp wine, 1 tsp sesame oil, pinch five-spice ~15 min room temp.
+2. 1 Tbsp oil, high heat sear beef; add 3/4 cup onion + 3/4 cup scallion; ginger/garlic; splash wine.
+3. Add 2–3 tsp soy, 1 tsp oyster, 2–3 oz beef stock; thicken 1 Tbsp cornstarch + 3 oz water; 1/2 tsp sesame oil.
+
+**Watch**
+- Soy required; oyster can hide soy.
+- Transcript confirms no cornstarch in marinade.
+- Don’t invent brown sugar — not in his list.
+
+**Tools** (hide)
+- skillet / pan, bowl, lid (optional), spatula.
+
+Taste 7 · Nutrition 5 · Unique 4
+17.2k views. Scallion-heavy Mongolian stir-fry.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 387. Quick n Simple Chicken n Broccoli
+Fortunecooking · about 4 min video · serves unknown
+https://youtu.be/6lDu7lY4D-k
+
+**Remember**
+- Thin card: description is only a short ingredient list.
+- No step order, heat, or slurry amounts given.
+- Soy is the clear legume.
+
+**Do**
+1. Listed: 8 oz chicken, 2 cups broccoli, 2 Tbsp minced garlic/ginger, 2 Tbsp soy.
+2. Pepper and sesame oil noted without amounts.
+3. Watch the video for timing — not inventing a method.
+
+**Watch**
+- Incomplete method — don’t scale from another channel.
+- Soy required.
+- Sesame oil amount unknown.
+
+**Tools** (hide)
+- skillet / pan.
+
+Taste — · Nutrition — · Unique —
+52.7k views. Ultra-short chicken broccoli note.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 388. Homemade Chicken Pad Thai(simple and easy)
+Fortunecooking · about 30 min incl soak · serves unknown
+https://youtu.be/vp_dOhmfGcs
+http://fortunecookingcheftom.com
+
+**Remember**
+- Soak rice noodles in hot water 15 min.
+- Sauce: vinegar, sugar, fish sauce, chili sauces, tamarind.
+- Roasted peanuts listed — keep optional for allergy.
+
+**Do**
+1. Soak 2 cups dry pad thai noodles 15 min hot water.
+2. Stir-fry with 1/3 cup cooked chicken, carrot, scallion, 1 egg, bean sprouts in 1 Tbsp oil.
+3. Sauce: 3 Tbsp ACV, 2–3 Tbsp sugar, 1 tsp fish sauce, 1 Tbsp sweet chili, 1 tsp chili flake, 1 tsp sriracha, 2 tsp tamarind; lime; optional roasted peanuts.
+
+**Watch**
+- PEANUT optional topping — never required.
+- Bean sprouts are legumes.
+- Sriracha/sweet chili can hide soy.
+
+**Tools** (hide)
+- wok, bowl, spatula.
+
+Taste 7 · Nutrition 5 · Unique 4
+19.1k views. Home pad thai with peanut garnish.
+
+Peanut optional: peanuts (roasted; amount unstated). Skip if allergic. Legume: bean sprouts.
+
+---
+
+## 389. Chinese Vegetable Stir-Fry Simple And Easy!!
+Fortunecooking · about 4 min video · side dish
+https://youtu.be/h-qqXKA686E
+
+**Remember**
+- Thin card: bot-blocked; method from creator captions via search.
+- Cook tough stems first, then leaves + 1–2 tsp water.
+- Finish salt, pepper, sesame oil — amounts mostly unstated.
+
+**Do**
+1. Rinse Chinese greens; cut tougher stems smaller.
+2. Medium-high: little oil + garlic/ginger until aromatic; stir stems 1–2 min.
+3. Add leaves + 1–2 tsp water; when leaves translucent, salt, pepper, sesame oil; toss off.
+
+**Watch**
+- No soy listed — don’t assume oyster/soy.
+- Works for gai lan / similar greens per his note.
+- Incomplete amounts — scale by eye.
+
+**Tools** (hide)
+- skillet / pan, spatula.
+
+Taste — · Nutrition — · Unique —
+23k views. Minimal garlic-ginger greens stir-fry.
+
+No peanuts. No legumes.
+
+---
+
+## 390. How To Make Mango Sticky Rice
+Fortunecooking · about 2+ hr incl soak · serves unknown
+https://youtu.be/yV2e7YH5Gn0
+
+**Remember**
+- Thin method: description only wash/soak rice 1–2 hr.
+- Ingredients listed: mango, rice, sugar, salt, coconut milk, pandan.
+- Did not invent steam time or sauce simmer steps.
+
+**Do**
+1. Wash rice 2–3 times; rinse; drain; soak 1–2 hr.
+2. Listed finish components: 1 mango, 5–6 Tbsp sugar, pinch salt, 1 cup coconut milk, 1/4 cup pandan extract.
+3. Steam/sauce assembly only on video — amounts above are description-only.
+
+**Watch**
+- Sticky rice type not named beyond “rice.”
+- No peanut here.
+- Incomplete cook steps.
+
+**Tools** (hide)
+- bowl, pot (optional).
+
+Taste — · Nutrition — · Unique —
+26.5k views. Ingredient list without full method.
+
+No peanuts. No legumes.
+
+---
+
+## 391. Home Made Minced Garlic and Ginger
+Fortunecooking · about 15–20 min prep · fridge/freezer batch
+https://youtu.be/FVxcUKyxcUw
+http://www.fortunecookingcheftom.com
+
+**Remember**
+- Jar-shake garlic to loosen skins; smash-peel rest.
+- Mince garlic and ginger; cover with oil.
+- Fridge 1–2 weeks; freezer 2–3 months.
+
+**Do**
+1. Peel ginger; peel garlic (jar shake + smash).
+2. Mince/chop (cleaver, mini processor, or grater).
+3. Pack with vegetable oil to cover; store fridge or freezer.
+
+**Watch**
+- Oil is storage medium — keep covered.
+- No salt/acid in his formula.
+- Not a plated dish; stir-fry base prep.
+
+**Tools** (hide)
+- knife, jar, food processor (optional), grater (optional).
+
+Taste 6 · Nutrition 5 · Unique 4
+48.8k views. Oil-packed garlic-ginger paste prep.
+
+No peanuts. No legumes.
+
+---
+
+## 392. How To Make Teriyaki Chicken Stir Fry With Yaki Udon Noodle
+Fortunecooking · about 20–25 min · serves unknown
+https://youtu.be/FrvCVrMHm7w
+
+**Remember**
+- Udon + chicken + onion + mushrooms + scallion.
+- Sauce: teriyaki soy, rice vinegar, sugar, sesame oil.
+- Sesame seed sprinkle at the end.
+
+**Do**
+1. Stir-fry 6–8 oz chicken in 2 Tbsp oil with 2 tsp ginger + 2 tsp garlic.
+2. Add 3/4 cup onion, 3/4 cup baby bella, 1/3 cup scallion; 10 oz udon.
+3. Season 1.5–2 Tbsp teriyaki soy, 1 Tbsp rice vinegar, 1.5 Tbsp sugar, 1 tsp sesame oil; sesame seeds.
+
+**Watch**
+- Teriyaki soy flagged legume (soy-based).
+- Subs file was empty music only — description is source.
+- No peanut.
+
+**Tools** (hide)
+- wok, spatula.
+
+Taste 7 · Nutrition 5 · Unique 4
+28.3k views. Weeknight teriyaki udon stir-fry.
+
+No peanuts. Legume: teriyaki sauce.
+
+---
+
+## 393. How To Make GIANT FORTUNE COOKIE 2013(1/2)
+Fortunecooking · about 20 min active + bake · giant cookies
+https://youtu.be/TdCNBYFuxQY
+
+**Remember**
+- Part 1/2 but batter amounts are in the description.
+- Bake thin 5–6 in circles until golden ~8 min at 400°F.
+- Fold fast while hot or it hardens.
+
+**Do**
+1. Mix 5 Tbsp butter, 4 egg whites, 1 cup superfine sugar, 1 cup sifted flour, pinch salt, 3–4 Tbsp cream, 1–2 tsp almond extract.
+2. Preheat 400°F; spray pan; spoon 1–1.5 Tbsp into thin 5–6 in circles.
+3. Bake ~8 min golden; fold immediately into fortune-cookie shape.
+
+**Watch**
+- Almond extract ≠ peanut.
+- Part 2 may cover filling/notes — not fetched here.
+- Hot cookie burns — work quick with towels.
+
+**Tools** (hide)
+- bowl, baking sheet, oven, oil spray, spoon.
+
+Taste 6 · Nutrition 2 · Unique 7
+32.2k views. Oversized fortune-cookie batter demo.
+
+No peanuts. No legumes.
+
+---
+
+## 394. Family Dinner Rolls-Chef Tom
+Fortunecooking · about dough rise + 12–14 min bake · family batch
+https://youtu.be/jUX365B0GII
+http://www.fortunecookingcheftom.com
+
+**Remember**
+- Water at 120°F for the yeast.
+- Bake 425°F for 12–14 min until golden.
+- Brush honey after baking.
+
+**Do**
+1. Combine 1 cup 120°F water, 2.5 tsp yeast, 1 egg, 1/2 cup sugar, 2 tsp salt, 1 cup warm milk, 6 oz melted butter.
+2. Work in ~5 cups flour as needed; shape rolls (rise per video).
+3. Bake 425°F 12–14 min golden; brush honey.
+
+**Watch**
+- Rise time not stated in description — watch the video.
+- Flour “add as needed” — dough feel matters.
+- No peanut.
+
+**Tools** (hide)
+- bowl, baking sheet, oven, pastry brush (optional).
+
+Taste 7 · Nutrition 3 · Unique 3
+39.7k views. Soft family dinner rolls with honey brush.
+
+No peanuts. No legumes.
+
+---
+
+## 395. How to make vegetables chow mein with crispy noodles.
+Fortunecooking · about 20–25 min · serves unknown
+https://youtu.be/iANkA-lK58A
+
+**Remember**
+- Veg stew over crispy noodles — not soft chow mein.
+- Slurry: 2 tsp cornstarch + 2 oz cold water.
+- Snow peas flagged as peas/legume.
+
+**Do**
+1. Stir aromatics 1 tsp garlic + 1 tsp shallot; add napa, carrot, onion, celery, snow peas, bamboo.
+2. Season 1 tsp sherry, 3/4 tsp salt, pepper, 1/3 tsp sesame oil; add 3/4 cup water.
+3. Thicken slurry; pour over 1 cup crispy noodles.
+
+**Watch**
+- No soy listed in description — don’t assume.
+- Snow peas = legume.
+- Crispy noodle type is “crispy noodle” as sold.
+
+**Tools** (hide)
+- skillet / pan, bowl, spatula.
+
+Taste 7 · Nutrition 7 · Unique 5
+105.6k views. Saucy veg over crispy noodles.
+
+No peanuts. Legume: peas.
+
+---
+
+## 396. How To Made Szechuan Hot Chili Sauce and Chili Oil
+Fortunecooking · about 4 min video · serves unknown
+https://youtu.be/GOperxkICWA
+https://www.fortunecookingcheftom.com
+
+**Remember**
+- Thin card: description only teases hot chili sauce and chili oil.
+- No amounts, temps, or steps from this creator’s sources.
+- Did not borrow another channel’s chili oil formula.
+
+**Do**
+1. Video shows making Szechuan-style chili sauce and chili oil.
+2. Site/Facebook links only — no printable recipe in the description.
+3. Retry later with a measured Fortunecooking card if one appears.
+
+**Watch**
+- No peanut/soy flag possible — ingredients unknown.
+- Other sites’ chili oil recipes are not this video.
+- Mark incomplete until creator amounts exist.
+
+Taste — · Nutrition — · Unique —
+95K views. Chili oil demo without usable amounts.
+
+No peanuts. No legumes.
+
+---
+
+## 397. How To Marinate Meat For Stir Fried
+Fortunecooking · about 15 min · about 12 oz beef
+https://youtu.be/S3U4E44m_8A
+https://www.fortunecookingcheftom.com
+
+**Remember**
+- Thin-slice ~12 oz flank; pinch salt + black pepper.
+- 2–3 tsp egg white (or egg) to tenderize — not a batter.
+- Light cornstarch coat + few drops oil so pieces don’t stick.
+
+**Do**
+1. Slice ~12 oz flank thin; mix pinch salt and black pepper.
+2. Add 2–3 tsp egg white; mix 10–15 min rest.
+3. Dust a couple Tbsp cornstarch (or less) to coat evenly.
+4. Add a few drops vegetable oil; separate pieces; stir-fry when ready.
+
+**Watch**
+- Too much egg turns it into deep-fry batter.
+- Eyeball cornstarch — thin coat, not paste.
+- Technique card for many Fortunecooking stir-fries.
+
+**Tools** (hide)
+- bowl, knife, wok (optional).
+
+Taste 7 · Nutrition 6 · Unique 4
+134K views. Classic velvet marinade for home stir-fry beef.
+
+No peanuts. No legumes.
+
+---
+
+## 398. How to make teriyaki chicken
+Fortunecooking · about 20 min · about 1 lb chicken
+https://youtu.be/RfF9aZSv00Y
+https://www.facebook.com/fortunecooking
+
+**Remember**
+- Sauce: equal 1/3 cup mirin, sake, soy, water.
+- Ginger, brown sugar, sesame oil, rice vinegar in the mix.
+- Cornstarch slurry (2 tsp + 2 oz water) to finish.
+
+**Do**
+1. Use 1 lb chicken with sauce: 1/3 cup each mirin, sake, soy sauce, water.
+2. Add 1 Tbsp ginger, 1–2 Tbsp brown sugar, 1/3 tsp sesame oil, 1 Tbsp rice vinegar.
+3. Thicken with 2 tsp cornstarch mixed with 2 oz water.
+4. Good on seafood or meat per description.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Sesame oil is not peanut.
+- Description is sauce-forward; cook chicken to done.
+
+**Tools** (hide)
+- skillet / pan, bowl, whisk (optional).
+
+Taste 8 · Nutrition 5 · Unique 3
+122K views. Pantry teriyaki sauce for chicken or seafood.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 399. Kung Pao Chicken Recipe-Chinese Cooking-Dinner for 2
+Fortunecooking · about 25 min · dinner for 2
+https://youtu.be/ntiGX3X-spA
+https://www.fortunecookingcheftom.com
+https://www.facebook.com/fortunecooking
+
+**Remember**
+- Velvet chicken: 10 oz breast + egg white + 2 Tbsp cornstarch.
+- Peanuts optional for Julius — keep out or swap.
+- Sauce finish: sherry, oyster, soy, stock, cornstarch slurry, sesame oil.
+
+**Do**
+1. Marinate 10 oz chicken breast with 1 egg white + 2 Tbsp cornstarch.
+2. Stir-fry in 3 tsp oil with 1 tsp ginger + 1 tsp garlic; add dried chilies, bell pepper, green onion.
+3. Season 4 tsp sherry, 1 1/2 tsp oyster, 1–1 1/2 Tbsp soy, 2 oz stock; thicken with 1 Tbsp cornstarch in 2 oz water.
+4. Finish 1 tsp sesame oil; add 1/4 cup roasted peanuts only if safe.
+
+**Watch**
+- PEANUT: roasted salted peanuts listed — skip for Julius.
+- Soy sauce required — soy/legume.
+- Oyster sauce can hide soy — noted only.
+
+**Tools** (hide)
+- wok, bowl, knife.
+
+Taste 8 · Nutrition 5 · Unique 5
+652K views. Home kung pao dinner for two.
+
+Peanut optional: peanuts (roasted salted, 1/4 cup). Skip if allergic. Legume: soy sauce.
+
+---
+
+## 400. ROASTED CHICKEN WITH EASY PAN GRAVY
+NOT ANOTHER COOKING SHOW · about 9 min video · serves unknown
+https://youtu.be/84Ma7gP0aCk
+https://www.notanothercookingshow.tv/post/roasted-chicken-with-easy-pan-gravy
+
+**Remember**
+- Thin card: site post has no ingredient list or amounts.
+- Video covers whole-chicken roast, carve, and pan gravy.
+- Did not invent stock/flour/butter quantities.
+
+**Do**
+1. Prep a whole chicken for roasting (method on video).
+2. Roast, rest, carve as shown.
+3. Build easy pan gravy from drippings — amounts not printed.
+
+**Watch**
+- Creator page is blurb-only for this episode.
+- No peanut/soy flags without a measured list.
+- Mark incomplete until a full NACS card is posted.
+
+Taste — · Nutrition — · Unique —
+467K views. Roast-chicken demo without printable amounts.
+
+No peanuts. No legumes.
+
+---
+
+## 401. 7 Ingredient Restaurant Style Ramen (Amazing Recipe)
+LifebyMikeG · about 45 min · about 2 bowls
+https://youtu.be/9gNIqtmYg5o
+https://lifebymikeg.com/blogs/all/make-restaurant-ramen-noodles-with-7-common-ingredients
+https://prohomecooks.com/post/make-restaurant-ramen-noodles-with-7-common-ingredients
+
+**Remember**
+- 45-min stock: chicken bones + bok choy ends + scallion + ginger + 4 cups water.
+- Render thigh skin fat; bloom minced ginger; caramelize 3 Tbsp miso in the oil.
+- Slowly whisk stock into miso; top with egg, bok choy, scallion greens, crispy bits.
+
+**Do**
+1. Debone 2 skin-on bone-in thighs; simmer bones, bok choy ends, scallion whites, ginger slices, 4 cups water, pinch salt ~45 min.
+2. Salt thighs; render skin-side down; mince more ginger and crisp in the chicken fat; remove ginger, keep oil.
+3. Caramelize 3 Tbsp miso in that oil 1–2 min; slowly stir in stock to emulsify.
+4. Boil eggs 6–12 min; cook 2 packs noodles; wilt bok choy; assemble with scallion greens and crispy chicken/ginger.
+
+**Watch**
+- Miso required — soy/legume.
+- Noodles brand flexible (Sun Ramen or instant).
+- Air-fryer noodle note on the page is optional spin.
+
+**Tools** (hide)
+- pot, skillet / pan, knife, bowl.
+
+Taste 9 · Nutrition 6 · Unique 7
+2.2M views. Seven-ingredient miso ramen under 45 minutes.
+
+No peanuts. Legume: miso.
+
+---
+
+## 402. BETTER THAN TAKEOUT – Beef and Broccoli Recipe
+Souped Up Recipes · about 20 min · about 8 oz beef
+https://youtu.be/9nzlWBw6HyQ
+https://www.curatedkitchenware.com
+
+**Remember**
+- Marinate chuck with wine, light soy, cornstarch, pepper, baking soda, oil.
+- Blanch broccoli 1–2 min uncovered; ice 3–5 min.
+- Flash-fry beef; garlic + sauce; toss broccoli back.
+
+**Do**
+1. Slice 8 oz chuck against grain. Marinate: 1 Tbsp Chinese cooking wine, 2 tsp light soy, 1 tsp cornstarch, 1/2 tsp black pepper, 1/4 tsp baking soda, 1 tsp oil.
+2. Sauce: 1 Tbsp oyster, 1 Tbsp light soy, 1 tsp dark soy, 2–3 Tbsp water, 2 tsp cornstarch, 1 tsp sugar, 1 tsp black pepper.
+3. Blanch 1 cup broccoli 1–2 min (no lid); ice bath 3–5 min; drain.
+4. Hot wok ~1 Tbsp oil; sear beef 15–20 sec/side; remove. Garlic, pour sauce to thicken, add broccoli + beef; coat.
+
+**Watch**
+- Soy sauce required (light + dark) — soy/legume.
+- Oyster sauce can hide soy — noted only.
+- Baking soda tenderizes tough cuts — skip on tender beef.
+
+**Tools** (hide)
+- wok, bowl, pot, knife.
+
+Taste 9 · Nutrition 6 · Unique 4
+1.4M views. Takeout beef and broccoli with velvet beef.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 403. BETTER THAN TAKEOUT - Mongolian Beef Recipe
+Souped Up Recipes · about 40 min · about 14 oz beef
+https://youtu.be/noHyHzFUC0A
+https://soupeduprecipes.com/mongolian-beef/
+
+**Remember**
+- Slice beef 5 mm; wine/beer + salt/pepper; rest 30 min.
+- Coat cornstarch + 1.5 egg white; massage 5 min.
+- Fry 370°F 1–2 min; sauce with oyster, soy, brown sugar, dark soy.
+
+**Do**
+1. 14 oz beef, 5 mm slices. Season 2 Tbsp Chinese cooking wine (or light beer), 1/3 tsp salt, 1/2 tsp black pepper; rest 30 min. Optional 1/4 tsp baking soda if tough.
+2. Coat ~1/4 cup cornstarch; mix egg white from 1.5 eggs; massage 5 min.
+3. Fry in oil at 370°F in batches 1–2 min to light gold; drain.
+4. Sauce: 2 tsp cornstarch, 1 Tbsp oyster, 3 Tbsp soy, 3 Tbsp brown sugar, 2/3 cup water, 1 tsp dark soy.
+5. Stir-fry ginger 1 Tbsp, garlic 1.5 Tbsp, spring onion whites in 1.5 Tbsp oil; thicken sauce; toss beef; finish green onion.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Oyster sauce can hide soy — noted only.
+- Dark beer substitute turns bitter — use pale beer if swapping wine.
+
+**Tools** (hide)
+- wok, bowl, thermometer (optional), sieve (optional).
+
+Taste 9 · Nutrition 4 · Unique 5
+2.0M views. American-Chinese Mongolian beef with velvet fry.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 404. Making the KFC Double Down Sandwich at Home
+Ethan Chlebowski · about 1 hr · about 4 thighs / sandwiches
+https://youtu.be/CNHEQg_PDmM
+https://www.ethanchlebowski.com/cooking-techniques-recipes/kfc-double-down-sandwich
+
+**Remember**
+- 5% brine: 500 ml water + 50 g salt + bay + spice + ice cool.
+- Dredge flour/cornstarch/baking powder/spice; fry ~375°F to 160°F.
+- Stack: chicken + special sauce + cheese + bacon + chicken.
+
+**Do**
+1. Spice mix: 2 spoon smoked paprika, 1 each black pepper/chili powder/oregano, 1/2 each garlic powder/cayenne/ginger powder.
+2. Brine: boil 500 ml water + 50 g kosher salt + 2 bay + 2 spoon spice; pour over 500 g ice; brine 4 boneless thighs 30–60 min.
+3. Dredge: 100 g flour, 25 g cornstarch, 5 g baking powder, 5 g salt, 2 spoon spice; coat thighs.
+4. Deep-fry in oil (creator prefers peanut oil) ~375°F, 8–10 min to ~160°F; rest on rack.
+5. Sauce: 4 parts mayo, 1 each Dijon/sriracha/horseradish/honey; salt/pepper/paprika to taste. Assemble with cheese + bacon.
+
+**Watch**
+- PEANUT: peanut oil preferred for fry — use neutral oil instead.
+- Mayo and sriracha can hide soy — noted only.
+- Bacon/cheese amounts left to build preference.
+
+**Tools** (hide)
+- wok, bowl, thermometer, wire rack, baking sheet, saucepan.
+
+Taste 8 · Nutrition 2 · Unique 6
+215K views. Homemade Double Down with brine and spice mix.
+
+Peanut optional: oil (peanut oil preferred by creator — skip for Julius). Skip if allergic. No legumes.
+
+---
+
+## 405. Beginner's guide to STOVETOP MAC AND CHEESE
+Ethan Chlebowski · about 15 min · about 8 oz pasta
+https://youtu.be/GGsf51oW7V8
+https://www.ethanchlebowski.com/cooking-techniques-recipes/3-ingredient-stovetop-mac-amp-cheese
+
+**Remember**
+- Evaporated-milk path: just-cover mac with water; cook ~7 min.
+- Stir in 6 oz evaporated milk + 8 oz melting cheese on low.
+- No-strain starch water is the sauce glue.
+
+**Do**
+1. Evaporated milk method: 8 oz macaroni in pan, water just to cover, pinch salt; medium-high ~7 min almost al dente, water mostly gone.
+2. Add 6 oz evaporated milk; low heat; stir in 8 oz cheese (4 oz Gruyere + 4 oz mild cheddar) until creamy; salt to taste.
+3. Alt milk method: 8 oz mac + 20 oz milk + salt; boil then medium-low ~15 min stirring; low heat; melt same cheeses 1–2 min.
+4. Reheat leftover: 1 Tbsp milk per cup mac; microwave 45–60 sec.
+
+**Watch**
+- Stir often so pasta doesn’t stick.
+- If milk method reduces early, splash more milk.
+- Add leftover meats/veg only after cheese melts.
+
+**Tools** (hide)
+- saucepan, spoon, skillet / pan (optional).
+
+Taste 8 · Nutrition 4 · Unique 4
+312K views. Three-ingredient stovetop mac, no colander.
+
+No peanuts. No legumes.
+
+---
+
+## 406. The Indian flatbread that everyone should know how to make
+Ethan Chlebowski · about 1 hr · makes 10 rotis
+https://youtu.be/tncD8p5P84I
+https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-roti-chapati
+
+**Remember**
+- Dough: 100 g whole wheat + 75 g bread/AP + 130 g boiling water + 3 g salt.
+- Knead 6–8 min; portion 10×30 g; roll 6–7 inch rounds.
+- Cast iron hot; 40–50 sec, flip 15 sec, then flame puff (or pan finish).
+
+**Do**
+1. Mix 100 g whole wheat flour, 75 g bread flour (or AP), 3 g salt, 130 g boiling water; knead 6–8 min; ball.
+2. Rest optional 0.5–3 hr room temp or fridge; portion ten 30 g balls; roll 6–7 in circles with dusting flour.
+3. Preheat cast iron medium-high (~450–475°F surface). Dust off flour; cook 40–50 sec; flip 15 sec; finish on flame to puff (or 30–45 sec more in pan).
+4. Keep warm in towel; optional ghee/butter to finish.
+
+**Watch**
+- Dip hand in water while kneading if sticky.
+- No open flame: keep cooking in pan until some puff.
+- Freeze cooked roti; microwave ~20 sec from frozen.
+
+**Tools** (hide)
+- bowl, rolling pin, skillet / pan, knife (optional).
+
+Taste 8 · Nutrition 6 · Unique 5
+741K views. Two-flour roti/chapati everyone can learn.
+
+No peanuts. No legumes.
+
+---
+
+## 407. How to make the SIMPLEST ITALIAN PASTA SAUCE at home
+Ethan Chlebowski · about 45 min · 1–2 servings sauce
+https://youtu.be/GUKK8mKPcMY
+https://www.ethanchlebowski.com/cooking-techniques-recipes/marcella-hazans-3-ingredient-tomato-sauce
+
+**Remember**
+- Only tomatoes, butter, onion, salt.
+- Wide skillet reduces better than a deep pot.
+- Simmer ~30 min; fish out onion halves.
+
+**Do**
+1. Crush 800 g / 28 oz whole peeled tomatoes (mill/processor/blender) or leave chunky.
+2. Peel 1 onion; cut in half; leave root attached.
+3. Skillet medium-low: tomatoes + 70 g (~5 Tbsp) unsalted butter + onion halves + pinch salt; simmer ~30 min stirring.
+4. Remove onion; salt to taste; use or fridge ~1 week.
+
+**Watch**
+- Marcella Hazan classic — don’t invent garlic/herbs into the base.
+- Butter is the fat, not olive oil, in this formula.
+- Serve over pasta of choice (not listed as sauce ingredient).
+
+**Tools** (hide)
+- skillet / pan, knife, spoon, blender (optional).
+
+Taste 9 · Nutrition 5 · Unique 4
+501K views. Marcella’s three-ingredient red sauce.
+
+No peanuts. No legumes.
+
+---
+
+## 408. Seared SEA BASS in 15 minutes - How to cook SEA BASS demonstration
+Foods101withDeronda · about 15 min · 1 fillet (8 oz)
+https://youtu.be/gzC-YYdNgwc
+
+**Remember**
+- 5-5-5: heat skillet 5, sear 5, flip 5, then oven 5 at 450°F.
+- Oil-salt-pepper rub; don’t move the fillet while searing.
+- Lemon squeeze at the end.
+
+**Do**
+1. Rinse 8 oz sea bass; pat dry. Coat 1 Tbsp olive oil; 1/2 tsp kosher salt; 1/4 tsp cracked black pepper; rub all sides; rest.
+2. Preheat skillet medium-high 5 min. Sear fish 5 min without moving; flip; sear 5 min.
+3. Same skillet into 450°F oven 5 min (15 min total cook).
+4. Plate; squeeze 1/2 lemon over; serve immediately.
+
+**Watch**
+- Don’t move the fillet during each sear window.
+- Oven finish is part of the 5-5-5 timing.
+- One fillet portions — scale carefully.
+
+**Tools** (hide)
+- skillet / pan, oven, paper towels, knife (optional).
+
+Taste 8 · Nutrition 8 · Unique 4
+568K views. Deronda’s 5-5-5 sea bass sear.
+
+No peanuts. No legumes.
+
+---
+
+## 409. Why I stopped boiling my pasta water.
+Ethan Chlebowski · about 15 min · about 1/2 lb pasta
+https://youtu.be/259MXuK62gU
+
+**Remember**
+- Cover pasta with water only — no giant boil pot.
+- Start timer at ≥180°F; cook to package time (stir).
+- 15-min Alfredo: underdone pasta + butter + parm emulsion.
+
+**Do**
+1. Add 227 g (1/2 lb) pasta to skillet/pot; cover with water; pinch salt; high heat; stir.
+2. At ≥180°F set timer (penne example 8 min); stir; stop slightly underdone; pour off some water, keep some starchy liquid.
+3. Add 56 g / 4 Tbsp butter; melt and emulsify with pasta water.
+4. Stir in Parmesan vigorously; add garlic, peas, basil; black pepper; serve (~15 min total).
+
+**Watch**
+- Peas required in the demo Alfredo — legume.
+- Parm can go stringy if heat too low — raise heat and stir.
+- Technique video first; Alfredo is the practice recipe.
+
+**Tools** (hide)
+- skillet / pan, thermometer (optional), spoon.
+
+Taste 8 · Nutrition 5 · Unique 6
+2.2M views. Low-water pasta method + 15-minute Alfredo.
+
+No peanuts. Legume: peas.
+
+---
+
+## 410. Salsa Cruda - Tomato Salsa Recipe for Cinco de Mayo
+Food Wishes · about 15 min · about 1.5 lb tomatoes
+https://youtu.be/YYnK8H1NVvk
+http://foodwishes.blogspot.com/2012/05/almost-cinco-de-mayo-salsa-cruda.html
+
+**Remember**
+- Cherry/grape tomatoes beat pale winter slicers.
+- Mint + cilantro for a fresh twist.
+- Make double — Chef John says it disappears.
+
+**Do**
+1. Dice 1 1/2 lb cherry or grape tomatoes; 1/2 cup fine white onion; mince 1–2 jalapeños + 1 serrano (seeded); 2 garlic cloves.
+2. Add ~2 Tbsp lime juice, 2 Tbsp minced mint, 1/4 tsp dry oregano, 1/2 bunch cilantro chopped.
+3. Pinch sugar, pinch cayenne, 1 tsp salt or to taste; mix; serve with chips.
+
+**Watch**
+- Seed chiles for less heat if needed.
+- Fridge softens tomatoes — serve soon if you care about crunch.
+- Raw salsa — no cook step.
+
+**Tools** (hide)
+- bowl, knife, cutting board.
+
+Taste 8 · Nutrition 8 · Unique 5
+796K views. Chef John salsa cruda with mint.
+
+No peanuts. No legumes.
+
+---
+
+## 411. 🍜 Dad's Cantonese Chow Mein (豉油王炒面)
+Made With Lau · about 30 min · about 12 oz noodles
+https://youtu.be/7HYlk2I9OD8
+https://madewithlau.com/recipes/cantonese-chow-mein
+
+**Remember**
+- Steam fresh unsteamed HK noodles 10 min; dunk 15–30 sec; fluff cool.
+- Sauce: dark soy + light soy + oyster + sugar + water; sesame oil later.
+- Crisp noodles gently — don’t flip early; oil around edges.
+
+**Do**
+1. Steam 12 oz HK pan-fried noodles on rack 10 min (high); dunk boiling water 15–30 sec; drain; fluff 1–2 min; cool 3–5 min.
+2. Cut 5 scallions (whites/greens), julienne 1/2 onion; ready 4 oz bean sprouts.
+3. Sauce: 1 Tbsp dark soy, 1 Tbsp light soy, 1 Tbsp oyster, 2 tsp sugar, 1 Tbsp water.
+4. Wok ~350–400°F; ~1 Tbsp corn oil; cook scallion whites + onion ~1 min; set aside. More oil; noodles ~3 min/side without rough flipping; oil perimeter.
+5. Add sauce, veg, bean sprouts, 1 tsp sesame oil; toss gently; plate.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Bean sprouts required — legume.
+- Oyster sauce can hide soy — noted only.
+
+**Tools** (hide)
+- wok, pot, strainer, chopsticks (optional), spatula.
+
+Taste 9 · Nutrition 5 · Unique 6
+3.5M views. Daddy Lau supreme soy sauce chow mein.
+
+No peanuts. Legume: bean sprouts, soy sauce.
+
+---
+
+## 412. 😋 Char Siu (叉燒) - My dad's recipe for Chinese BBQ Pork!
+Made With Lau · overnight + about 50 min oven · serves 6
+https://youtu.be/zkCoAKTbHpQ
+https://madewithlau.com/recipes/char-siu-chinese-bbq-pork
+
+**Remember**
+- Poke 1-inch pork shoulder slices; marinate 6–8 hr (not over 24).
+- Oven 425°F baste cycles; finish 450°F with honey.
+- Red fermented bean curd + hoisin + soy color and savor.
+
+**Do**
+1. Cut 2 lb pork shoulder into ~1-inch thick long slices; fork-poke both sides.
+2. Marinade: 1 Tbsp garlic salt, 4 Tbsp brown sugar, 2 Tbsp oyster, 2 Tbsp light soy, 1 Tbsp hoisin, 2 Tbsp red wine, 1 Tbsp Shaoxing, 1 cube red fermented bean curd, 1 tsp five-spice; optional 1/4 tsp red food coloring. Bag; massage 2 min; fridge overnight/6–8 hr.
+3. Preheat 425°F; rack over foiled pan + 1–2 Tbsp water. Roast 15 min; baste marinade both sides; 15 min baste again; 10 min baste honey (2 Tbsp + 2 tsp water); raise 450°F 5 min; final honey baste; cool ~5 min; slice.
+
+**Watch**
+- Soy sauce + hoisin + fermented bean curd — soy/legumes.
+- Oyster sauce can hide soy — noted only.
+- Dad: don’t marinate past 24 hr or texture suffers.
+
+**Tools** (hide)
+- bowl, oven, baking sheet, foil, wire rack, tongs.
+
+Taste 10 · Nutrition 4 · Unique 7
+5.3M views. Daddy Lau char siu for Lunar New Year and beyond.
+
+No peanuts. Legume: fermented bean curd, hoisin, soy sauce.
+
+---
+
+## 413. How to Make Chinese Brown Sauce, Base Sauce, Mother Sauce.
+The Art Of Cooking · about 1 hr cool · about 2.2 cups / 517 mL
+https://youtu.be/zsHAix_kBrg
+
+**Remember**
+- Combine all into heated unsalted stock; cool ~1 hr.
+- Drain discard green onion roots after steep.
+- Fridge/freeze; without stock keeps ~1 month.
+
+**Do**
+1. Mix into 1.5 cups / 355 mL unsalted heated chicken or veg stock: 3 Tbsp soy, 2.5 Tbsp / 30 g sugar, 2 Tbsp wine, 2 Tbsp oyster, 1 Tbsp hoisin, 1 Tbsp dark mushroom soy, 1 tsp sesame oil, 1 green onion root (or 2 tsp cut), 1–2 tsp minced ginger, 1–2 tsp minced garlic, sprinkle white pepper.
+2. Cool ~1 hr for flavors to marry.
+3. Drain/discard roots; store fridge or freeze.
+
+**Watch**
+- Soy sauce + hoisin required — soy/legumes.
+- Oyster sauce can hide soy — noted only.
+- Mother sauce base — season again in each dish.
+
+**Tools** (hide)
+- bowl, jar, fridge, strainer (optional).
+
+Taste 8 · Nutrition 4 · Unique 6
+1.5M views. Short mother brown sauce, big batch utility.
+
+No peanuts. Legume: hoisin, soy sauce.
+
+---
+
+## 414. Why Every Cook Should Master Chicken Teriyaki
+LifebyMikeG · about 45 min · about 1 lb chicken
+https://youtu.be/t-Hj2pILMz4
+https://prohomecooks.com/blogs/recipes/why-every-cook-should-master-chicken-teriyaki
+
+**Remember**
+- Sauce: equal cups sake, mirin, soy; ginger-garlic bloom first.
+- Reduce ~1/3; cornstarch slurry (2 Tbsp + 4 Tbsp water); sesame seeds.
+- Chicken thighs cold-pan skin-side down; dunk in sauce to serve.
+
+**Do**
+1. Sauce: mince ginger knob + 2 garlic; 1 Tbsp oil bloom low ~3 min; add 1 cup each sake, mirin, soy; boil ~5 min; reduce ~1/3; slurry 2 Tbsp cornstarch + 4 Tbsp water; thicken; stir 1 Tbsp sesame seeds; jar fridge.
+2. Chicken: 1 lb boneless skin-on thighs; salt/pepper 30 min (or overnight). Cold pan skin-down medium; crisp; flip; set aside.
+3. Sear 1 head broccolini in chicken fat; dunk chicken in sauce; slice; serve with rice + broccolini.
+4. Optional tofu path: firm tofu rectangles, salt/pepper, sear; veg onion/pepper; dunk sauce — tofu is soy/legume if used.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Optional tofu path flags tofu if you cook that version.
+- Rice formula on page: 1 cup rice + 1 cup water, 15 min low + 5 steam.
+
+**Tools** (hide)
+- saucepan, skillet / pan, jar, knife.
+
+Taste 9 · Nutrition 6 · Unique 4
+8.7M views. Master jarred teriyaki + weeknight chicken.
+
+No peanuts. Legume: soy sauce, tofu.
+
+---
+
+## 415. Only 3 Ingredient Chocolate Mousse Trifle
+Spice Bangla · about 27 min + chill · makes 2 glasses
+https://youtu.be/AxEs9iK4kws
+https://www.spicebangla.com/chocolate-mousse-trifle/
+
+**Remember**
+- Only Oreo (or cookies), semisweet chocolate, chilled cream.
+- Melt chocolate with 50 ml cream; whip remaining 250 ml.
+- Layer cookie → mousse → cream; repeat.
+
+**Do**
+1. Crush 8–10 Oreos (bag + rolling pin or processor).
+2. Chop 100 g semisweet chocolate; melt with 50 ml of the cream over double boiler; cool 5–6 min.
+3. Whip remaining 250 ml heavy whipping cream to soft peaks; fold half into chocolate for mousse.
+4. Pipe/spoon layers: crushed cookies, mousse, whipped cream; repeat. Serve now or chill 2–3 hr; garnish cookie bits.
+
+**Watch**
+- Use chilled heavy cream — low-fat won’t whip.
+- FAQ mentions peanut butter cookies as a swap — skip those for Julius.
+- No peanut in the base Oreo/chocolate/cream formula.
+
+**Tools** (hide)
+- bowl, rolling pin, piping bag (optional), whisk, pot.
+
+Taste 8 · Nutrition 2 · Unique 3
+5.1M views. Three-ingredient no-bake chocolate trifle.
+
+No peanuts. No legumes.
+
+---
+
+## 416. The 2 Dollar All American Breakfast | But Cheaper
+Joshua Weissman · about 1 hr · serves 2
+https://youtu.be/XOe_FqLwLu4
+https://www.joshuaweissman.com/post/2-dollar-all-american-breakfast-but-cheaper
+
+**Remember**
+- Parboil Yukon golds; smash in oiled pan; roast 425°F ~30 min.
+- Pancake batter: dry whisk then wet; 1/4 cup scoops.
+- Season ground pork sage/garlic/allspice; sear patties; basted eggs.
+
+**Do**
+1. Potatoes: peel/quarter 2 lb Yukon golds; salted water 8–10 min soft; drain dry. Oil baking dish; smash; more oil; salt/pepper; 425°F ~30 min, tossing.
+2. Pancakes: whisk 1.75 cups AP flour, 1 tsp salt, 1 Tbsp sugar, 1 Tbsp baking powder. Wet: 1 egg, 1.25 cups milk, 1 Tbsp oil. Combine. Griddle medium; 1/4 cup scoops ~2 min/side.
+3. Sausage: 1 lb ground pork + 2 tsp salt, 1 tsp garlic powder, 2 tsp sage, 0.5 tsp red pepper flakes, 0.5 tsp allspice; 2.5-in × 1/2-in patties; medium-high 2–3 min/side.
+4. Eggs: nonstick medium, thin oil; cook 2 eggs; spoon hot oil over whites; salt/pepper; chives. Plate all.
+
+**Watch**
+- Butter pattie listed for pancakes — use as griddle fat if desired.
+- No peanut/soy in this breakfast set.
+- Assemble any orientation — full diner plate.
+
+**Tools** (hide)
+- pot, oven, baking pan / tin, bowl, skillet / pan, whisk, spatula.
+
+Taste 8 · Nutrition 4 · Unique 4
+2.1M views. Sub-$2 diner breakfast from scratch.
+
+No peanuts. No legumes.
+
+---
+
+## 417. The two ingredient taco filling everyone should know how to make.
+Ethan Chlebowski · about 25 min · serves 2–3
+https://youtu.be/YtkyC2Ctz6E
+https://www.ethanchlebowski.com/cooking-techniques-recipes/poblano-con-queso-tacos
+
+**Remember**
+- Stuff poblano with manchego; char until soft.
+- Dice charred pepper + cheese; melt in a pan.
+- Two-ingredient filling; toppings optional.
+
+**Do**
+1. Cut top off poblano; remove stem/insides; stuff with manchego block/slices.
+2. Char over grill, gas flame, or broiler, rotating, until blistered and soft.
+3. Dice pepper + cheese; medium nonstick/griddle until cheese fully melts and stretches.
+4. Spoon onto warm corn tortillas; salsa + pickled onions if you want.
+
+**Watch**
+- Acidic/spicy toppings cut the cheese fat.
+- Don’t skimp cheese — fill the cavity.
+- Optional steak/chicken is add-on, not in the base formula.
+
+**Tools** (hide)
+- skillet / pan, knife, grill (optional), oven (optional).
+
+Taste 8 · Nutrition 4 · Unique 7
+2.6M views. Ethan’s Mexico City-style poblano melt taco.
+
+No peanuts. No legumes.
+
+---
+
+## 418. Why I always have Pickled Onions in my fridge.
+Ethan Chlebowski · about 15 min + fridge · 1 jar
+https://youtu.be/K4HbmPu_M_4
+https://www.ethanchlebowski.com/cooking-techniques-recipes/pickled-onions-forever
+
+**Remember**
+- Equal parts vinegar + water; big pinch salt.
+- Slice red onion root-to-stem; hot liquid over.
+- Fridge ≥2 hr before serving; pink deepens over days.
+
+**Do**
+1. Thinly slice red onions root to stem; pack into a jar.
+2. Boil equal parts vinegar and water with a big pinch of salt (enough to cover onions).
+3. Pour hot liquid over onions to submerge; cool; fridge ≥2 hours.
+
+**Watch**
+- Optional cumin/mustard seeds or serranos are extras, not required.
+- Peanut-butter sandwich joke is optional eat — not the pickle formula.
+- Keep refrigerated; top up liquid if onions peek out.
+
+**Tools** (hide)
+- jar, pot, knife.
+
+Taste 7 · Nutrition 6 · Unique 5
+3.4M views. Ethan fridge staple acid crunch.
+
+No peanuts. No legumes.
+
+---
+
+## 419. HOW TO MAKE BROCCOLI WITH GINGER AND GARLIC SAUCE
+Fortunecooking · about 4 min video · serves unknown
+https://youtu.be/bK7_W5dWZcM
+
+**Remember**
+- Steam broccoli first; sauce in the pan after.
+- Soy + stock/water + cornstarch slurry thickens.
+- Wine and brown sugar are skippable to taste.
+
+**Do**
+1. Steam 2–3 cups broccoli until tender-crisp.
+2. Sauce pan: scallion, 1 Tbsp garlic, 1 Tbsp ginger; 1 tsp cooking wine (optional), 1 1/2–2 Tbsp soy, 1 tsp lemon juice, 1 tsp brown sugar (optional), 1/2 cup stock or water.
+3. Stir in 1 Tbsp cornstarch mixed with 2–3 oz cold water; thicken; finish 1/2 tsp sesame oil; pour over broccoli.
+
+**Watch**
+- Soy is listed — legume flag.
+- Skip wine or sugar if you want; amounts are in the description.
+- Don’t invent oyster sauce or extras not listed.
+
+**Tools** (hide)
+- pot, skillet / pan, bowl.
+
+Taste 7 · Nutrition 7 · Unique 4
+4.3M views. Fast steamed broccoli with ginger-garlic brown sauce.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 420. Making Hollandaise Without Any Fancy Tools
+Joshua Weissman · about 10–13 min · serves 2
+https://youtu.be/5GEMDEAK0G4
+https://www.joshuaweissman.com/post/hollandaise
+
+**Remember**
+- Bowl + pot of simmering water + whisk only.
+- Cold butter cubes in bit by bit off/on heat.
+- Hold in a thermos; serve within ~1 hour.
+
+**Do**
+1. Simmer 1" water in a small pot. Yolks in a bowl that sits over (not in) the water.
+2. Add water, sugar, salt, lemon; whisk 30 sec on heat, off heat until lighter; back on until slightly thick.
+3. Whisk in cold butter cubes gradually until emulsified; brief heat if thin.
+4. Pour into thermos; serve soon. Eggs Benedict is the plate idea on the site.
+
+**Watch**
+- Bowl must not touch simmering water — scrambled yolks.
+- Cold butter controls the emulsion; don’t dump it all at once.
+- Site also shows quick eggs benedict — sauce card is the hollandaise.
+
+**Tools** (hide)
+- bowl, pot, whisk.
+
+Taste 9 · Nutrition 3 · Unique 5
+1.6M views. Weissman bowl-and-whisk hollandaise.
+
+No peanuts. No legumes.
+
+---
+
+## 421. 15 Mistakes Beginners Make Cooking Food For the Week
+**SET ASIDE — not a recipe.** Meal-prep tips list
+
+LifebyMikeG · about 19 min video · serves n/a
+https://youtu.be/ghsw19qAG1g
+https://prohomecooksu.com/15-minute-meals/
+
+Thin card.
+
+**Remember**
+- Not a recipe. Meal-prep tips list.
+- Timestamps cover variety, containers, spices, sauces.
+- No single dish formula in the description.
+
+**Do**
+1. What it is: 15 beginner meal-prep mistakes + habits.
+2. Cookbook/course links in the description, not one cook-along.
+3. Use a dedicated recipe video when you want measured steps.
+
+**Watch**
+- Treating tip timestamps as a recipe card.
+- Inventing quantities from the montage.
+- Skipping allergy checks on real recipes elsewhere.
+
+Taste — · Nutrition — · Unique 4
+4.1M views. Mike G meal-prep mistakes talk, not a dish.
+
+No peanuts. No legumes.
+
+---
+
+## 422. Fried Egg Stack With Bacon, Baby Spinach & Tomato
+CrossFit · about 1 min video · 1 stack
+https://youtu.be/yqeOf1jRbGw
+
+**Remember**
+- Bacon first in butter; eggs in same pan.
+- Stack: spinach → bacon → tomato → onion → eggs.
+- Finish salt/pepper, chili flake, scallion.
+
+**Do**
+1. Medium pan; melt 1 Tbsp butter; fry 2 bacon slices almost crisp; halve; set aside.
+2. Same pan: fry 2 eggs to preference.
+3. Plate half the baby spinach; bacon; tomato; red onion; eggs; season; chili flake + scallion.
+
+**Watch**
+- Macros in description are info only — not cook steps.
+- Short CrossFit recipe card; no hidden soy called out.
+- Don’t invent cheese or toast not listed.
+
+**Tools** (hide)
+- skillet / pan, knife, plate.
+
+Taste 7 · Nutrition 6 · Unique 3
+5.8k views. Tiny CrossFit breakfast stack.
+
+No peanuts. No legumes.
+
+---
+
+## 423. How to Make the Perfect MENEMEN? 🥘 Best Turkish Egg Recipe for Breakfast with Sausage and Cheese!
+Refika's Kitchen · about 19 min (7 prep + 12 cook) · serves 2–3
+https://youtu.be/7fUI-nbEbN4
+https://www.refikaninmutfagi.com
+
+**Remember**
+- Peppers in barely browned butter before tomatoes.
+- Lid-simmer tomatoes 7–8 min; mash; then meats + cheese.
+- Eggs in; rest of cheese + chili flake ~1 min.
+
+**Do**
+1. Low heat small pan; 2 Tbsp butter; add sliced green peppers when butter barely browned; fry ~2 min.
+2. Add diced tomatoes; lid simmer 7–8 min until soft; mash.
+3. Stir in sucuk, pastırma, 1 Tbsp grated kaşar; salt if meats aren’t salty.
+4. Mix in eggs; top with remaining cheese + chili flake; cook ~1 min until cheese melts. Bread + tea to serve.
+
+**Watch**
+- Sucuk/pastırma are salty — taste before adding salt.
+- Chorizo/bacon/prosciutto are listed swaps, not required brands.
+- Don’t invent spice blends beyond the chili flake.
+
+**Tools** (hide)
+- skillet / pan, lid, knife, masher / ricer (optional).
+
+Taste 8 · Nutrition 5 · Unique 7
+1.6M views. Refika’s cheesy menemen with Turkish cured meats.
+
+No peanuts. No legumes.
+
+---
+
+## 424. How to make Perfect HASH BROWNS at home
+TheCooknShare · about 25 min · serves 5
+https://youtu.be/9UM5Iup_2Fs
+https://cooknshare.com/recipe/homemade-crispy-hash-browns/
+
+**Remember**
+- Soak grated potato ~5 min; squeeze bone-dry.
+- Par-fry 4–5 min; cool; mix flour/cheese/seasoning.
+- Shape; fry again to golden (or freeze).
+
+**Do**
+1. Peel/grate potatoes into cold water; soak ~5 min; squeeze dry in cloth/strainer.
+2. Medium oil fry shredded potato 4–5 min; cool a few minutes.
+3. Mix flour, cheddar, garlic powder, onion powder, salt, pepper.
+4. Oil hands; golf-ball scoops; flatten; fry batches golden (or freeze).
+
+**Watch**
+- Par-cook softens shreds — site method, not optional invent.
+- Cooling rack tip keeps them crisp after fry.
+- Any potato type OK per site; russet is what they used.
+
+**Tools** (hide)
+- grater, bowl, skillet / pan, strainer (optional), cloth (optional).
+
+Taste 8 · Nutrition 3 · Unique 5
+4.7M views. Cook n’ Share double-fry cheese hash browns.
+
+No peanuts. No legumes.
+
+---
+
+## 425. How to Make Hash Browns - Diner Style Restaurant Hashbrown Recipe
+Crouton Crackerjacks · about 5+ min cook · 1 serving
+https://youtu.be/7xDmCLP5mhY
+
+**Remember**
+- Grate into water; rinse clear; towel-dry 5–10 min.
+- Oil + butter; lid 5 min first side — don’t peek.
+- Flip; salt/pepper; 1–2 min more.
+
+**Do**
+1. Wash/peel potato; grate into water; drain/rinse until clear; spread on towels; dry 5–10 min.
+2. Small pan: 2 Tbsp oil + 1/2 Tbsp butter over medium–medium-high; when butter solids brown, add shreds.
+3. Lid 5 min untouched; remove lid; salt/pepper; flip; cook 1–2 min more.
+
+**Watch**
+- Lid steam then crisp is the diner move — don’t lift early.
+- One potato = one serving per description.
+- No flour/cheese in this version — keep it potato-only.
+
+**Tools** (hide)
+- grater, skillet / pan, lid, paper towels, bowl.
+
+Taste 8 · Nutrition 4 · Unique 4
+9.7M views. Simple diner lid-and-flip hash browns.
+
+No peanuts. No legumes.
+
+---
+
+## 426. How to Make "Waffle House Style Hashbrowns!
+Mo’s Kitchen & Home · about 8 min video · serves unknown
+https://youtu.be/rKEVvOkl5XM
+
+**Remember**
+- Thin card: description has no amounts or steps.
+- Subs blocked after retry; web search only found other creators.
+- Did not borrow another site’s Waffle House copycat.
+
+**Do**
+1. Visible premise: home take on Waffle House hash browns.
+2. No printable ingredient list or timed method from this channel.
+3. Mark incomplete until Mo’s own measured recipe is used.
+
+**Watch**
+- Copying Allrecipes/Kimbrough Daniels formulas into this card.
+- Inventing oil/butter times from memory.
+- Allergy incomplete — ingredients unknown.
+
+Taste — · Nutrition — · Unique —
+16k views. Waffle House-style demo without a usable formula.
+
+No peanuts. No legumes.
+
+---
+
+## 427. You Need This Pizza Dip In Your Life
+BuzzFeed Multiplayer · about 1 min video · serves unknown
+https://youtu.be/lrIRTs-K0Jg
+https://sweetnicks.com/2015/07/recipe-pizza-dip/
+
+**Remember**
+- Melt milk + cream cheese + mozzarella + parm on stove.
+- Pie dish; sauce + more mozzarella; bake 450°F bubbly.
+- Pepperoni (and friends) are optional toppings.
+
+**Do**
+1. Medium pan: 1/2 cup milk, 6 oz cream cheese, 1/2 cup mozzarella, 1/2 cup Parmesan; medium heat, stir until melted.
+2. Pour into greased pie plate; top with tomato/marinara sauce and more mozzarella.
+3. Bake at 450°F until bubbly; pepperoni optional as in the video.
+
+**Watch**
+- Amounts from BuzzFeed Food write-up credited on SweetNicks — YT description had none.
+- Bake time not exact (“until bubbly”); watch the cheese.
+- Don’t invent sausage amounts not in the base list.
+
+**Tools** (hide)
+- skillet / pan, baking pan / tin, oven, spatula.
+
+Taste 8 · Nutrition 2 · Unique 5
+4.4M views. BuzzFeed cheese-on-cheese pizza dip short.
+
+No peanuts. No legumes.
+
+---
+
+## 428. Creamy Garlic Mushroom Sauce | How To Make Recipe
+Chef Jack Ovens · about 7 min video · 2 1/2 cups; serves 4–6
+https://youtu.be/parxjvYexCM
+
+**Remember**
+- Clarified butter → garlic → shallot → mushrooms.
+- Deglaze wine (or stock); herbs; cream.
+- Makes ~2 1/2 cups for steak/chicken/veg.
+
+**Do**
+1. 2 Tbsp clarified butter; cook 4 sliced garlic cloves; add diced shallot.
+2. Add 300 g sliced Swiss brown mushrooms; cook down.
+3. 2 Tbsp white wine (or stock); 2 Tbsp parsley + 1 tsp thyme; stir in 400 ml cream; simmer to sauce.
+
+**Watch**
+- Wine swap is stock — don’t invent extra thickeners.
+- Full-fat cream as written; thinning not specified.
+- No soy in this formula; watch store stock labels if swapped.
+
+**Tools** (hide)
+- skillet / pan, knife.
+
+Taste 8 · Nutrition 3 · Unique 4
+8.7M views. Jack Ovens creamy garlic mushroom pour-over.
+
+No peanuts. No legumes.
+
+---
+
+## 429. Here’s Why I Buy Whole Chicken (and you should too!)
+**SET ASIDE — not a recipe.** Not a single recipe. Whole-chicken series intro.
+
+LifebyMikeG · about 14 min video · serves n/a
+https://youtu.be/iTNEjPOixKY
+https://prohomecooks.com/recipes/heres-why-i-buy-whole-chicken-and-you-should-too/
+
+Thin card.
+
+**Remember**
+- Not a single recipe. Whole-chicken series intro.
+- Butchery, stock, schmaltz, dressing, crispy bits montage.
+- Blog link didn’t yield one printable card here.
+
+**Do**
+1. What it is: why buy whole birds + breakdown demo.
+2. Timestamps jump stock → schmaltz → dressing → salad.
+3. Use a dedicated roast/stock recipe video for amounts.
+
+**Watch**
+- Treating the series overview as one dinner formula.
+- Inventing stock ratios from the montage.
+- Allergy incomplete across multiple mini dishes.
+
+Taste — · Nutrition — · Unique 5
+1.4M views. Mike G whole-chicken butchery talk, not one plate.
+
+No peanuts. No legumes.
+
+---
+
+## 430. Cheap, Quick and Easy Shoyu Ramen Recipe
+Way of Ramen · about 4–5 min once water boils · 1 serving
+https://youtu.be/r3_tcQiyGG8
+
+**Remember**
+- Bowl tare: soy, stock powder, ginger, scallion, lard; then hot water.
+- Strain noodles hard so leftover water doesn’t dilute.
+- Quick ajitama: 6–7 min egg; roll in soy-sake-sugar ~4–5 min.
+
+**Do**
+1. Optional egg: poke shell; boil 6–7 min; ice; peel. Tare: 1 Tbsp soy, 1 Tbsp sake, 1 tsp sugar low heat; roll egg 4–5 min.
+2. Serving bowl: 1 Tbsp soy, 1 tsp chicken stock powder, grated ginger pinch, scallion, 1–1 1/2 tsp lard.
+3. When noodles nearly done, add 300 ml hot water to bowl; stir; add well-drained noodles; top egg/nori/scallion.
+
+**Watch**
+- Soy twice (soup + egg tare) — legume.
+- Lard (or chicken fat) is called key — don’t skip fat.
+- Saltiness varies by soy brand; adjust Tbsp to taste.
+
+**Tools** (hide)
+- pot, bowl, saucepan (optional), strainer.
+
+Taste 8 · Nutrition 4 · Unique 6
+5.0M views. Way of Ramen weeknight shoyu bowl.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 431. Teriyaki Sauce and Thick Teriyaki Glaze  Recipe
+Make Sushi 1 · about 20–25 min reduce · thin sauce + thick glaze batch
+https://youtu.be/bKnWeNVQ04M
+http://www.makesushi.com/teriyaki-sauce-glaze/
+
+**Remember**
+- Whole ginger/garlic pieces — don’t mince.
+- Caramelize brown sugar gently; then soy/mirin/sake.
+- Pull half early for thin; reduce rest for glaze.
+
+**Do**
+1. Medium pan: 1 tsp sesame oil + 2 tsp olive oil; simmer whole ginger + garlic until lightly brown.
+2. Add 50 g brown sugar; stir until lightly caramelized (don’t burn).
+3. Add 150 ml soy, 150 ml mirin, 50 ml sake; dissolve sugar lumps; reduce 15–20 min, stirring.
+4. For both textures: ladle half off early (thin). Keep reducing; optional toasted sesame; cool — thickens further.
+
+**Watch**
+- Soy is the legume flag.
+- Too much sesame oil or minced aromatics overpowers — keep pieces whole and small.
+- Glaze looks thin hot; thickens as it cools.
+
+**Tools** (hide)
+- saucepan, knife, bowl.
+
+Taste 8 · Nutrition 2 · Unique 5
+3.2M views. Make Sushi thin sauce + sticky glaze pair.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 432. 9 New Ways To Enjoy Korean Ramyun Ramen Recipes hack
+Aaron and Claire · about 14 min video · 1 pack per hack
+https://youtu.be/8krT-dli1-A
+https://aaronandclaire.com/9-new-ways-to-cook-instant-ramen/
+
+**Remember**
+- Nine written hacks; one Shin-style pack each.
+- Soy shows in stir-fry + cold broth versions.
+- Pick one hack per bowl — don’t mix all nine.
+
+**Do**
+1. Ketchup: boil pack + flakes; stir in 1 Tbsp ketchup.
+2. Milk: boil noodles/flakes (no powder); drain; reboil 350 ml milk + powder; optional gochugaru + scallion.
+3. Cheese egg: 350 ml water + noodles/flakes + 1/2 powder; egg + American cheese + scallion; lid 30–40 sec.
+4. Stir-fry: boil noodles; wok oil + scallion + pork + onion/cabbage + 1 Tbsp soy + 1/2 powder; toss drained noodles.
+5. Cold: cook noodles/flakes; rinse cold; broth = powder + 1.5 Tbsp each sugar/vinegar/soy + 200 ml water + ice; cucumber + egg.
+
+**Watch**
+- Oyster sauce appears in pantry affiliate list — not required in these 9; still can hide soy if you add it.
+- Gochujang/soybean pantry links aren’t every hack — flag soy only where listed.
+- Tsuyu and chili brands vary; check labels if sensitive.
+
+**Tools** (hide)
+- pot, wok (optional), bowl, lid (optional).
+
+Taste 8 · Nutrition 3 · Unique 7
+10.3M views. Aaron & Claire nine instant-ramyeon riffs.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 433. How To Make Butter Chicken At Home | Restaurant Style Recipe | The Bombay Chef – Varun Inamdar
+Get Curried · about 5–6 min video · serves 4–5
+https://youtu.be/a03U45jFxOI
+
+**Remember**
+- Marinate chicken 15–20 min; pan-fry; set aside.
+- Onion → tomato + cashew → spices; simmer 15–20; blend; strain.
+- Finish butter, cream, chicken, kasoori methi 5–7 min.
+
+**Do**
+1. Marinate 300 g chicken with ginger-garlic paste, 1 Tbsp red chili powder, salt 15–20 min; oil-fry; hold.
+2. Same pan: onion + oil + spoon butter; add tomatoes + 50 g cashew; water + garlic paste, salt, vinegar, sugar, garam masala, Kashmiri chili; simmer 15–20 min.
+3. Blend fine; strain back; add butter, cream, chicken, kasoori methi; simmer 5–7 min; garnish cream + methi.
+
+**Watch**
+- Cashew is a tree nut — not peanut; still allergen for some.
+- Malt vinegar swap is white vinegar at 1.5 Tbsp.
+- Don’t invent yogurt marinade not in this Varun formula.
+
+**Tools** (hide)
+- skillet / pan, blender, strainer, bowl.
+
+Taste 9 · Nutrition 5 · Unique 5
+56.1M views. Get Curried restaurant-style butter chicken.
+
+No peanuts. No legumes.
+
+---
+
+## 434. The best cajun jambalaya in the world! Me-Maw Hantz at her best!
+THE RUSSELL HANTZ SHOW · about 11 min video · serves unknown
+https://youtu.be/8eLvq0dsET4
+
+**Remember**
+- Thin card: empty YouTube description.
+- Retry + web search found no Me-Maw Hantz formula.
+- Did not borrow other Meemaw/Captain Russell jambalayas.
+
+**Do**
+1. Premise: family Cajun jambalaya with Me-Maw Hantz.
+2. No ingredients, times, or linked recipe page from this upload.
+3. Mark incomplete until a measured Hantz recipe is published.
+
+**Watch**
+- Copying unrelated jambalaya blogs into this card.
+- Inventing trinity/rice ratios from memory.
+- Allergy incomplete — sausage/seafood unknown.
+
+Taste — · Nutrition — · Unique —
+2.3k views. Family jambalaya video with no usable write-up.
+
+No peanuts. No legumes.
+
+---
+
+## 435. How To Make Perfect Chocolate Chip Cookies
+Tasty · about 12–14 min bake + chill · 18 cookies
+https://youtu.be/rEdl2Uetpvo
+https://www.buzzfeed.com/marietelling/brown-butter-chocolate-chip-cookies
+
+**Remember**
+- Brown butter; add cold water back to 1 cup liquid.
+- Bread + AP flour; dark brown + white sugar; espresso.
+- Chips + dark chunks; chill ≥1 hr (overnight better).
+
+**Do**
+1. Sift 1 cup bread flour, 3/4 cup AP, salt, 1 tsp baking soda.
+2. Brown 1 cup butter; pour to cup; stir in 2–3 Tbsp cold water to 1 cup; cool still liquid.
+3. Cream sugars + vanilla + espresso + brown butter 1–2 min; beat in egg + yolk; mix dry in thirds; fold chips + 5 oz chopped dark chocolate.
+4. Scoop 3-Tbsp mounds; chill ≥1 hr; bake 350°F / 180°C 12–14 min on parchment; rest 2–3 min; rack.
+
+**Watch**
+- Espresso is powder, not a full shot — subtle.
+- Butter must stay pourable when mixed — don’t fully solidify.
+- No peanut in this formula; tree-nut-free as written.
+
+**Tools** (hide)
+- bowl, saucepan, whisk, baking sheet, parchment, oven, fridge, cooling rack.
+
+Taste 9 · Nutrition 2 · Unique 6
+37.0M views. Tasty 101 ultimate brown-butter cookies.
+
+No peanuts. No legumes.
+
+---
+
+## 436. Lemon Pepper Chicken Breast Recipe
+ButcherBox · about 25 min · serves 2
+https://youtu.be/13whZbcY3gA
+https://justcook.butcherbox.com/garlic-and-lemon-marinated-chicken-breast-with-brown-sage-butter/
+
+**Remember**
+- Oven 375°F; marinate only 5 minutes.
+- Sear 2 min/side; brown butter + sage; stock; oven to 165°F.
+- Reduce pan sauce by half; lemon juice 1 min; pour.
+
+**Do**
+1. Mix garlic, lemon zest, parsley, 4 Tbsp olive oil, salt, pepper; marinate 2 breasts 5 min.
+2. Hot skillet + 2 Tbsp avocado oil; sear 2 min/side; add 4 Tbsp butter + 12 sage leaves; brown butter.
+3. Add 1/2 cup chicken stock; oven 5–10 min to 165°F thickest point.
+4. Rest chicken; reduce liquid by half on stove; add lemon juice; simmer 1 min; pour over.
+
+**Watch**
+- Title says lemon pepper; site formula is garlic-lemon + sage brown butter.
+- Thermometer to 165°F — don’t invent longer times.
+- No soy/peanut in this write-up.
+
+**Tools** (hide)
+- skillet / pan, oven, thermometer, bowl, knife.
+
+Taste 8 · Nutrition 7 · Unique 5
+1.4M views. ButcherBox lemon-garlic chicken with sage butter.
+
+No peanuts. No legumes.
+
+---
+
+## 437. HOW TO MAKE JAMAICAN BEEF PATTIES | Meat Pie | Street Food | Jamaican Beef Patty Recipe  | Hawt Chef
+Morris Time Cooking · about 25 min video · serves unknown
+https://youtu.be/J3OU8L-s7IY
+https://payhip.com/b/nz2R
+
+**Remember**
+- Thin card: full recipe is a $1.99 Payhip download.
+- Description has no free ingredients or steps.
+- Did not borrow NYT/KAF/other patty formulas.
+
+**Do**
+1. Premise: Morris Time / Hawt Chef Jamaican beef patties.
+2. Paid PDF linked; free transcript/subs blocked after retry.
+3. Mark incomplete until a free creator write-up is used.
+
+**Watch**
+- Paying/pasting another site’s patty dough into this card.
+- Inventing turmeric crust or filling spice ratios.
+- Allergy incomplete — dough fat and soy in filling unknown.
+
+Taste — · Nutrition — · Unique —
+3.8M views. Patty tutorial locked behind Payhip.
+
+No peanuts. No legumes.
+
+---
+
+## 438. The Surprising Solution for Making Döner Kebab Meat at Home
+My Name Is Andong · about 2 hr loaf / ~30 min chicken · marinade ~700 g meat
+https://youtu.be/TNChsYNpV0U
+
+**Remember**
+- Yogurt + paprika/oregano herb mix is the marinade.
+- Food-processor emulsify mince to a paste (milk splash helps).
+- Bake loaf 200°C ~90 min, chill, shave thin, sear; add baking juices back.
+
+**Do**
+1. Marinade (desc, ~700 g meat): 400 g yogurt, 1 Tbsp paprika powder, 1 Tbsp paprika flakes, 1.5 Tbsp oregano, 2 tsp thyme, 2 tsp basil, 1 tsp rosemary, 1 tsp marjoram, ~1 Tbsp salt; MSG optional.
+2. Mince loaf: process mince + marinade (+ milk) to paste; pack shallow mold; bake 200°C ~90 min; chill hard; slice very thin; sear flakes in a skillet; spoon reserved baking fat/juice over.
+3. Chicken path: thighs + spice mix + yogurt + salt; roast 220°C ~30 min; slice; roast again with red bell pepper until colored.
+
+**Watch**
+- Mini home rotisserie is slow and low-yield — he drops it.
+- Oven-broiling cold slices dried them; skillet sear worked.
+- Assembly/sauce is a later video in the series.
+
+**Tools** (hide)
+- food processor, baking pan / tin, oven, skillet / pan, knife.
+
+Taste 8 · Nutrition 4 · Unique 8
+1.3M views. Home döner without a shop spit.
+
+No peanuts. No legumes.
+
+---
+
+## 439. Adam's diet food
+**SET ASIDE — not a recipe.** Not one recipe — cut-diet montage.
+
+Adam Ragusea · about 9 min video · n/a
+https://youtu.be/BD3sVIWnnZo
+https://youtu.be/21ofoREnXbM
+
+Thin card.
+
+**Remember**
+- Not one recipe — cut-diet montage.
+- Salmon with oil/salt/pepper; cauli rice from florets or frozen bags.
+- Veggie soup is a separate linked video.
+
+**Do**
+1. Day-of-eating: lean seafood, cauliflower rice, whey/creatine notes, leftover soup.
+2. Description has no measured single dish.
+3. Do not invent a full meal plan from the montage.
+
+**Watch**
+- Calling this a complete cook recipe.
+- Some protein powders flagged for metals — he links a study.
+- Allergy incomplete for a diet montage.
+
+Taste — · Nutrition 7 · Unique 2
+2.9M views. Cut-diet talk, not a cook-along.
+
+No peanuts. No legumes.
+
+---
+
+## 440. Roasted Tomato Sauce
+Adam Ragusea · about 45–60 min · batch sauce
+https://youtu.be/KhlquGe54bQ
+
+**Remember**
+- 450°F; tomatoes halved skin-up in one layer with olive oil.
+- Roast until skins char and pan juices just brown.
+- Shallot + garlic last minutes; peel skins; mash to deglaze.
+
+**Do**
+1. Oven 450°F. Halve tomatoes; one layer only. Coat olive oil, skin-side up.
+2. Roast until skins burned and juices reduced/just browning. Add chopped shallot + garlic; roast a few more minutes without burning the pan.
+3. Lift skins. Mash with wooden spoon to deglaze. Optional butter + fresh basil before serving.
+
+**Watch**
+- Stacking steams instead of roasting.
+- No tomato count — fill the pan in one layer.
+- Butter and basil are optional finish.
+
+**Tools** (hide)
+- oven, baking sheet, knife.
+
+Taste 8 · Nutrition 7 · Unique 5
+2.2M views. Homegrown-tomato sauce that earns the oven.
+
+No peanuts. No legumes.
+
+---
+
+## 441. Legit Vietnamese Pho At Home
+Joshua Weissman · about 5.5–6 hr · serves 4
+https://youtu.be/WlosNFMCnE4
+https://www.joshuaweissman.com/post/vietnamese-pho
+
+**Remember**
+- Roast bones 475°F 30–45 min; broil ginger/onion 10–12 min.
+- Simmer ~2 hr with chuck in, then ~2 hr more after removing chuck.
+- Steep cilantro stems ~15 min in hot strained broth; raw flank in the bowl.
+
+**Do**
+1. Broth: roast 5–6 lb beef bones; broil 1 large ginger + 2 onions; sear 1 lb chuck. Cover bones cold water 5 min, simmer, skim. Add aromatics, toasted cloves/star anise/optional black cardamom/coriander seeds/cinnamon, 1/4 cup fish sauce, 1.5 Tbsp rock sugar. Simmer 2 hr; remove chuck; simmer 2 hr; strain; season; steep cilantro stems 15 min.
+2. Bowls: cook rice noodles; slice raw flank + cooked chuck; noodles → meat → boiling broth; white onion, Thai chile, herbs, lime.
+3. Optional dipping: chili sauce or hoisin.
+
+**Watch**
+- Optional hoisin is soy/legume.
+- Bottled chili sauce can hide soy — watch only.
+- Toast spices before the pot.
+
+**Tools** (hide)
+- oven, pot, skillet / pan, strainer, baking sheet.
+
+Taste 9 · Nutrition 6 · Unique 6
+4.6M views. Restaurant-level pho broth at home.
+
+No peanuts. Legume: hoisin.
+
+---
+
+## 442. 10 Simple Sauce Recipes for Everything
+LifebyMikeG · about 14 min video · sauce batches
+https://youtu.be/aYEtBcxmj7c
+https://prohomecooks.com/
+
+**Remember**
+- Ten fridge sauces from the description — pick one, don’t invent amounts.
+- Coconut peanut sauce uses peanut butter + soy — optional path.
+- Ginger carrot dressing uses miso (optional soy/legume path).
+
+**Do**
+1. Spicy ketchup: hot sauce + ketchup, shake. Chipotle mayo: blend 2 eggs, stream oil; add lime, salt, chipotles. Mango hot sauce: soften onion/jalapeño/garlic; blend with mango, cilantro, tomato, vinegar, salt/pepper.
+2. BBQ: ketchup, mustard, ACV, brown sugar, cayenne, paprika, garlic powder, salt/pepper — light boil. Cilantro cream: blend cilantro/garlic/lime/oil/half sour cream; fold rest. White sauce: mayo, white vinegar, dried parsley, garlic powder, salt/pepper, water — blend. Herb honey citrus: blend cilantro/lime/honey/salt/pepper; stream oil.
+3. Ginger carrot: blend carrots, ginger, scallion, lime, miso, rice vinegar, sesame oil, water. Coconut peanut: blend peanut butter, soy, garlic, cilantro, coconut milk, lime, honey. Sweet chili: blend chilies/garlic/vinegar/sugar; simmer with more vinegar/sugar; thicken with 2 Tbsp cornstarch + water.
+
+**Watch**
+- Skip coconut peanut sauce if avoiding peanut — peanut_optional.
+- Optional soy in peanut sauce and optional miso in carrot dressing are legumes.
+- Mayo/BBQ can hide soy — watch only.
+
+**Tools** (hide)
+- blender, food processor, saucepan, skillet / pan.
+
+Taste 7 · Nutrition 4 · Unique 5
+1.2M views. Fridge-door sauce toolkit.
+
+Peanut optional: peanut butter (coconut peanut sauce — skip if allergic). Skip if allergic. Legume: miso, soy sauce.
+
+---
+
+## 443. Putting the Air Fryer to the ULTIMATE Test
+LifebyMikeG · about 18 min video · multi tests
+https://youtu.be/OtGBQw_UIQg
+https://prohomecooksu.com/airfyer-cookbook/
+
+**Remember**
+- Eight air-fryer tests, not one full printable recipe.
+- Wings ~350°F 15+15 min; jerky ~180°F hour-ish; broccoli ~350°F ~8–10 min.
+- Soy shows up in wing sauce and jerky marinade — optional paths.
+
+**Do**
+1. Wings: salt, pepper, baking soda; Korean-ish jar sauce (soy, sesame oil, honey, garlic spoken); air fry ~350°F 15 min, flip, ~15 min more; sauce.
+2. Jerky: soy + smoked paprika + salt + garlic powder on strips; ~180°F ~30–60 min. Patatas: soak potatoes ~30 min; oil + salt; ~15+ min. Apple pies: cook apples ~5 min; pie dough; ~320°F ~10+ min (not full 30). Milk bread: proofed dough, milk wash — times vague. Broccoli: oil + salt ~350°F ~8–10 min. Plantains: oil ~350°F, smash, finish. Kale chips: oil/salt/pepper massage; low/long ~20 min spoken.
+3. Cookbook link is his paid air-fryer book — not transcribed here.
+
+**Watch**
+- Soy in wings/jerky — legume if you make those.
+- Thin across eight dishes — amounts incomplete.
+- Do not invent full bakery formulas for milk bread.
+
+**Tools** (hide)
+- air fryer, bowl.
+
+Taste 6 · Nutrition 5 · Unique 4
+4.4M views. Air-fryer stress test montage.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 444. How to Make Instant Pot Chili w/ DRY beans & NO Soaking!
+The Typical Mom · about 45 min · family pot
+https://youtu.be/rHE8nPKeeaM
+https://temeculablogs.com/pressure-cooker-chili-with-dry-beans/
+
+**Remember**
+- No soak: pressure dry beans 30 min, then chili 5 min.
+- 1.5 cups dry 13-bean mix + 4 cups water first stage.
+- Beans are required legumes.
+
+**Do**
+1. Beans: 4 cups water + 1.5 cups dry beans in Instant Pot; bean/high ~30 min; quick release; drain; set aside. (Soaked beans: first stage ~10 min.)
+2. Sauté olive oil + 1 lb ground beef; halfway add diced onion, green onion, spices (or spice after drain). Cook until no pink; cancel sauté.
+3. Add diced tomatoes 14.5 oz, tomato sauce 14.5 oz, cooked beans, 1/2 tomato-sauce can water, diced chiles 4 oz. High pressure 5 min; quick release. Top cheese/chives optional.
+
+**Watch**
+- Rinse dry beans for debris/rocks.
+- Seasoned salt is Lawry’s 3 tsp in her card — salty; taste.
+- Chili powder 1.5 Tbsp — adjust heat.
+
+**Tools** (hide)
+- Instant Pot / pressure cooker.
+
+Taste 7 · Nutrition 7 · Unique 4
+15k views. Dry-bean chili without an overnight soak.
+
+No peanuts. Legume: beans.
+
+---
+
+## 445. How to Cook Chicken Breast & Brown Rice Every Day Until You Die
+Internet Shaquille · about 3 min video · meal prep
+https://youtu.be/gYy9Qj3HJls
+
+**Remember**
+- Thin method: sous-vide chicken breast + brown rice meal prep.
+- Description plugs Anova/Joule — no temps or rice ratios printed.
+- Subs 429 after retry; no usable measured recipe found.
+
+**Do**
+1. Concept: immersion-circulate chicken breast for repeatable meal prep; cook brown rice alongside.
+2. No verified temperature, time, or seasoning list from creator text.
+3. Do not invent sous-vide numbers from other channels.
+
+**Watch**
+- Borrowing another creator’s sous-vide chart.
+- Allergy incomplete — seasonings unknown.
+- Affiliate circulator links only.
+
+**Tools** (hide)
+- sous vide / immersion circulator, pot.
+
+Taste — · Nutrition 7 · Unique 3
+1.7M views. Meal-prep pitch without a printable card.
+
+No peanuts. No legumes.
+
+---
+
+## 446. Cast Iron Pan Pizza
+Adam Ragusea · about 1–2 hr same day (or overnight dough) · serves 2 per 10-inch pan
+https://youtu.be/uYxB4QBlrx4
+
+**Remember**
+- Wet sticky dough; 24 hr fridge or 1–2 hr room rise.
+- Season oil in the 10-inch cast iron before the dough.
+- Stovetop medium ~7–8 min then high broiler 4–5 min.
+
+**Do**
+1. Dough: 1/4 tsp yeast + 1 tsp sugar + 1/2 cup warm water 5 min; mix 1 cup flour + 1/2 tsp salt; knead, add flour to ~1–1.5 cups total until stretchy but sticky; oil ball/bowl; rise until doubled.
+2. Pan: coat 10-inch cast iron with olive oil; pinch cornmeal, oregano, lots black pepper, pinch salt; stretch dough wider than pan; proof in pan ~30 min. Sauce: 1/3 cup pureed tomato + olive oil + pinch sugar + torn basil.
+3. Burner medium + broiler high. Sauce edge-to-edge; after ~5 min heat, Parmesan then 4 oz cold grated low-moisture mozzarella edge-to-edge; optional jalapeño. Move to broiler when you smell browning (~7–8 min stove for him); broil high rack 4–5 min. Cool in pan; free rim; lift out.
+
+**Watch**
+- Cheese must stay cold until topping.
+- Move at first burn smell — pans vary.
+- One pan feeds two; more people need more pans.
+
+**Tools** (hide)
+- skillet / pan, oven, bowl.
+
+Taste 9 · Nutrition 3 · Unique 6
+4.7M views. Caramelized-rim pan pizza people copy.
+
+No peanuts. No legumes.
+
+---
+
+## 447. Chicken Tikka Masala — the ONLY easy way to make it at home
+Adam Ragusea · about 45–60 min (uses leftover tandoori) · serves at least 4
+https://youtu.be/gstyp2ZgZ1s
+https://youtu.be/GcWYXQ5vILs
+
+**Remember**
+- Needs leftover tandoori chicken (his linked recipe).
+- Fry onion → spices/pastes → crush tomatoes → reduce hard → cream.
+- Rice: 2 cups basmati + 3.5 cups water + 1 tsp salt; soak then cook ~15 min.
+
+**Do**
+1. Rice: rinse basmati; 2 cups rice + 3.5 cups water + 1 tsp salt; cover soak; boil then low ~15 min; rest off heat. Cut leftover tandoori (2–3 lb raw-weight cooked) boneless bite-size; chop 1 large onion.
+2. Hot pan: oil/ghee; brown onion; medium; fry 2 Tbsp garam masala (or leftover), 1 Tbsp Kashmiri chili, 2–3 Tbsp tomato paste, 2–3 Tbsp ginger-garlic paste until nearly burning. Add 28 oz crushed tomatoes; reduce thick/caramelizing.
+3. Stir 1/2–1 cup cream + water (~2 cups) to silky; 1–2 Tbsp sugar; salt. Optional strain. Add chicken to heat; plate with rice; cilantro.
+
+**Watch**
+- Not a from-scratch tikka — leftover tandoori required.
+- Kashmiri chili heat is adjustable.
+- Straining sauce is optional.
+
+**Tools** (hide)
+- skillet / pan, pot, knife.
+
+Taste 9 · Nutrition 5 · Unique 5
+1.9M views. Leftover-tandoori masala shortcut.
+
+No peanuts. No legumes.
+
+---
+
+## 448. Yangzhou Fried Rice | The Original Fried Rice | 扬州炒饭 | Easy Asian Recipe
+Adam Liaw · about 20 min · about 5 cups rice
+https://youtu.be/slCxLUgkrmw
+http://adamliaw.com/recipe/yangzhou-fried-rice/
+
+**Remember**
+- Day-old jasmine rice; enough oil to separate grains.
+- Fry aromatics/veg/meats first; egg + rice second; combine.
+- Peas are legumes (required).
+
+**Do**
+1. Soak 3 dried shiitake in 2 cups hot water 20 min; stem; 1/2 cm dice. Prep: spring onion, garlic, 50 g cured Chinese-style ham, carrot, 2 Tbsp bamboo shoot, 1/4 cup peas, 1/4 cup cooked chicken thigh, 2 Tbsp cooked gizzard, 1/4 cup small prawns, 3 beaten eggs, 5 cups day-old rice.
+2. Wok high: half of 1/3 cup canola oil; fry spring onion + garlic 30 sec; shiitake/carrot/bamboo 1 min; add chicken/gizzard/peas/prawns; salt; cook until prawns just done; remove.
+3. Rest oil; scramble egg nearly set; add rice; press clumps; salt; more oil if needed; return mix; toss.
+
+**Watch**
+- Peas required — legume.
+- Ham/gizzard optional swaps exist but listed as his build.
+- No soy in his printed method — salt seasons.
+
+**Tools** (hide)
+- wok, knife, bowl.
+
+Taste 8 · Nutrition 5 · Unique 6
+406k views. Classic special/house fried rice template.
+
+No peanuts. Legume: peas.
+
+---
+
+## 449. Homestyle Japanese Omurice | オムライス | Fried Rice Friday #4
+Adam Liaw · about 25 min · serves 2
+https://youtu.be/obwkhqu2-mc
+http://adamliaw.com/recipe/homestyle-omurice/
+
+**Remember**
+- Chicken rice with ketchup + soy, soft omelette draped on top.
+- Shape rice in bowls at 45° for torpedo mounds.
+- Peas + soy are legumes.
+
+**Do**
+1. Medium pan 1 Tbsp oil: onion ~1 min; mushrooms + optional carrot ~2 min; chicken cubes + 1/4 cup peas; salt; cook through.
+2. Add 4 cups chilled koshihikari rice, 1 tsp soy, 1–2 Tbsp ketchup; fry ~3 min. Pack into 2 bowls at 45°; unmold onto plates.
+3. Demiglace: warm 1/4 cup demiglace + 2 Tbsp stock. Clean pan 1 Tbsp oil; soft-set 2–3 eggs; drape over rice; sauce; parsley. Repeat for second plate.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Peas required — legume.
+- Skip demiglace and ketchup-only is allowed per tips.
+
+**Tools** (hide)
+- skillet / pan, saucepan, bowl.
+
+Taste 8 · Nutrition 5 · Unique 6
+646k views. Homestyle omurice, soft egg drape.
+
+No peanuts. Legume: peas, soy sauce.
+
+---
+
+## 450. Taiwanese Beef Noodle Soup Recipe [红烧牛肉麺]
+Souped Up Recipes · about 3–4 hr simmer · serves 3–4
+https://youtu.be/I7gAOx0NWZk
+https://soupeduprecipes.com/taiwanese-beef-noodle-soup/
+
+**Remember**
+- Blanch beef with ginger + Shaoxing; rinse scum.
+- Caramel sugar then aromatics + doubanjiang before soy.
+- Simmer covered 3–4 hr; bowl = stock + braising liquid + noodles + bok choy.
+
+**Do**
+1. Cut 1 kg brisket/shank/chuck 1-inch. Blanch in cold water + 2 Tbsp Shaoxing + 3 ginger slices; boil; discard water; rinse; drain.
+2. Wok oil; brown beef; push aside; 1.5 Tbsp sugar to caramel; coat beef. Add ginger 4 slices, 4 garlic, spring-onion whites, 1/2 onion chunks, cinnamon, 2 bay, 3 chili (optional), 2 star anise, 2 dried orange peel, 1.5 Tbsp doubanjiang, 1 Tbsp tomato paste. Season 1.5 Tbsp soy, 1 tsp dark soy, 2 Tbsp Shaoxing. Transfer pot; cover with ~1.2 L water (rinse wok); boil; salt 1/2 Tbsp adjust; low simmer 3–4 hr.
+3. Bowl: unsalted beef stock + pinch salt + cooked noodles + braising soup + beef + blanched bok choy; optional egg.
+
+**Watch**
+- Doubanjiang + soy (light/dark) are soy/legumes.
+- Oyster not in this card — skip inventing it.
+- Chili optional for heat.
+
+**Tools** (hide)
+- wok, pot, knife.
+
+Taste 9 · Nutrition 6 · Unique 7
+1.1M views. Big-bowl Taiwanese beef noodles at home.
+
+No peanuts. Legume: doubanjiang, soy sauce.
+
+---
+
+## 451. Shrimp and Broccoli in Garlic Sauce, one sauce for many dishes |蒜香西兰花炒虾，一调料多用
+ChineseHealthyCook · about 15–20 min · 2-ish
+https://youtu.be/_WVNMDAJBJ0
+
+**Remember**
+- One garlic slurry: scallion white, garlic, salt, light soy, sesame oil, cornstarch, water.
+- Blanch broccoli ~2 min; shrimp ~3 min; sauce ~30 sec to thicken.
+- Light soy is required legume.
+
+**Do**
+1. Sauce bowl: white green-onion parts, 5 cloves minced garlic, salt, 1 Tbsp light soy, sesame oil drizzle, 1 tsp cornstarch, 1/4 cup water; dissolve starch.
+2. Boil broccoli 1/2 lb ~2 min bright; drain. Wok medium-high oil; garlic fragrant; 8 shrimp ~3 min pink. Add broccoli; high 1 min.
+3. Restir sauce; pour; stir ~30 sec until thick; serve.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Salt amount in sauce spoken but not numbered — taste.
+- Same sauce claimed for other stir-fries.
+
+**Tools** (hide)
+- wok, pot, bowl.
+
+Taste 8 · Nutrition 7 · Unique 4
+8.5M views. Takeout-style garlic shrimp broccoli.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 452. Korean Ground Beef And Rice Recipe | Ep. 1330
+Laura in the Kitchen · about 20 min · serves 4
+https://youtu.be/gDlgxCDAiZM
+https://www.laurainthekitchen.com/recipes/korean-ground-beef-and-rice/
+
+**Remember**
+- Crispy edges on the beef before the sauce.
+- Sauce: soy, brown sugar, ginger, garlic, sesame oil.
+- Soy required — legume.
+
+**Do**
+1. Medium-high skillet: 1 Tbsp oil hot; 1.5 lb ground beef; break up; cook until crispy edges. Whisk 1/2 cup soy, 3 Tbsp brown sugar, 2 tsp grated ginger, 3 garlic minced, 1 tsp sesame oil (pinch chili flake).
+2. Drain fat; add sauce; medium a couple minutes.
+3. Serve over jasmine rice; scallions + sesame seeds.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Sauce is salty — some viewers cut soy with water.
+- Not authentic Korean naming — Laura’s weeknight version.
+
+**Tools** (hide)
+- skillet / pan, bowl.
+
+Taste 8 · Nutrition 5 · Unique 3
+418k views. Fast Korean-inspired beef bowls.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 453. 43 Easy 3-Ingredient Recipes
+Tasty · about 20 min video · compilation
+https://youtu.be/IFe6ag34eMg
+https://tasty.co/compilation/44-easy-3-ingredient-recipes
+
+**Remember**
+- Compilation of dozens of 3-ingredient ideas — not one dish.
+- YouTube desc only links the Tasty compilation URL.
+- Compilation page returned no usable measurable recipes here.
+
+**Do**
+1. Long montage of 3-ingredient recipes.
+2. Do not invent the 43 formulas from memory.
+3. Open the linked Tasty compilation if you need a specific dish later.
+
+**Watch**
+- Peanut/legume risk unknown across dozens of ideas — incomplete.
+- Borrowing other creators’ 3-ingredient cards.
+- Treating the montage as a single cook-along.
+
+Taste — · Nutrition — · Unique 3
+31M views. Compilation teaser, not a printable card.
+
+No peanuts. No legumes.
+
+---
+
+## 454. Crispy Fried Noodles, Liangmianhuang a.k.a. "Hong Kong Chow Mein" (两面黄)
+Chinese Cooking Demystified · about 30–40 min · 1 noodle nest + topping
+https://youtu.be/wc-2j_F2p90
+https://www.reddit.com/r/Cooking/comments/9woiil/recipe_crispy_fried_noodles_aka_hong_kong_chow/
+
+**Remember**
+- 70 g thin noodles; boil just past al dente; fan-cool; nest.
+- Deep-fry (yin) ~185°C or pan-fry (ran) with swirl flips.
+- Cantonese topping: pork + shiitake + yellow chives; soy/oyster sauce.
+
+**Do**
+1. Noodles: boil 70 g thin egg/niigata-style ~45 sec past al dente; cool pulling in front of fan ~2 min; form circle. Yin Wong: 2 cups oil ~185°C; fry ~1 min, flip, ~2 min, high ~2 min to ~180°C; drain. Ran Wong: hot wok; 3 Tbsp oil; fry nest 1 min; swirl ~1 min; flip + 1 Tbsp oil; ~10 min motion; flip 2+2 min.
+2. Cantonese topping: toast 2-inch yellow chives (or scallion) 1 min dry. 80 g pork loin slivers marinated 1/8 tsp salt, 1/4 tsp sugar, 1/4 tsp cornstarch, 1/8 tsp light soy, 1/4 tsp Shaoxing, 1/4 tsp oil. 5 shiitake soaked 1 cup water 90 min; julienne; same marinade + white pepper; 15 min. Stir-fry pork ~1 min; shiitake 15 sec; 1/2 Tbsp wine; 30 sec; add soaking liquid; 1/4 tsp salt, 1 tsp sugar, 1/2 tsp light soy, 1/2 tsp dark soy, 1 Tbsp oyster; boil; chives; slurry 1 Tbsp cornstarch + 3 Tbsp water ~15 sec; off.
+3. Suzhou-ish: 50 g pork same marinade + 100 g shrimp (1/8 tsp salt, 1/4 tsp sugar, 1 tsp cornstarch, 1/4 tsp white pepper); fry pork 1 min, shrimp 15 sec; 1 cup water + 1 tsp stock concentrate; 1/4 tsp salt 1/2 tsp sugar; same slurry. Spoon hot topping over crispy nest.
+
+**Watch**
+- Light + dark soy required in Cantonese topping — soy/legume.
+- Oyster sauce can hide soy — watch only.
+- Reddit write-up was blocked here; quantities from transcript.
+
+**Tools** (hide)
+- wok, pot, strainer, chopsticks.
+
+Taste 8 · Nutrition 4 · Unique 8
+238k views. Double-golden crispy noodle nest.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 455. Chicken Fettuccine Alfredo Recipe - Easy Dinner
+Natashas Kitchen · about 30–40 min · family pasta
+https://youtu.be/LPPcNPdq_j4
+https://natashaskitchen.com/moms-chicken-fettuccine-alfredo/
+
+**Remember**
+- No jar cheese dump — half-and-half reduces with mushrooms/onion.
+- Rest covered 10–15 min after tossing pasta so sauce thickens.
+- Cook pasta in 4 qt water + 1 Tbsp salt.
+
+**Do**
+1. Boil 3/4 lb fettuccine in salted water; drain. Slice 2 lb chicken; salt/pepper; 2 Tbsp olive oil medium-high ~5 min golden; remove.
+2. Same pan: 1 Tbsp oil + 1 Tbsp butter; onion ~3 min; 1 lb thick-sliced mushrooms 5–7 min; 3 garlic 30 sec. Add 3.5 cups half-and-half; simmer 8–10 min to thicken. Return chicken, 1/4 cup parsley; salt/pepper to taste.
+3. Toss pasta 1 min; cover rest 10–15 min; garnish parsley.
+
+**Watch**
+- Half-and-half can be milk + cream equal parts.
+- Heavy cream makes it thicker if you want.
+- Angel hair/vermicelli are stated swaps.
+
+**Tools** (hide)
+- pot, skillet / pan, knife.
+
+Taste 9 · Nutrition 4 · Unique 3
+24.8M views. Mom’s creamy chicken Alfredo staple.
+
+No peanuts. No legumes.
+
+---
+
+## 456. The Original Orange Chicken by Panda Express
+Tasty · about 1 hr incl. batter rest · serves 8
+https://youtu.be/5Sa9nYKiYg0
+https://tasty.co/recipe/original-orange-chicken-by-panda-express
+
+**Remember**
+- Batter chicken ≥30 min cold before 350°F fry.
+- Sauce: chili flake/garlic/ginger → sugars → OJ/vinegar/soy → starch slurry to maple thickness.
+- Soy in sauce — required legume.
+
+**Do**
+1. Cube 2 lb boneless thighs. Dry mix: 1 Tbsp salt, 1 tsp white pepper, 1 cup cornstarch, 3 cups flour; whisk in 1 egg, 1.5 cups water, 2 Tbsp oil to pancake batter; coat chicken; fridge ≥30 min.
+2. Fry in 6 cups oil at 350°F / 180°C 5–6 min light gold; drain.
+3. Sauce pot: 1 Tbsp oil; 1/4 tsp chili flake, 1 Tbsp garlic, 1/2 tsp ginger 30 sec; 1/4 cup sugar + 1/4 cup brown sugar; 1/4 cup orange juice; 1/4 cup white vinegar + 2 Tbsp soy; slurry 2 Tbsp cornstarch + 2 Tbsp water; cook to maple; toss chicken; finish 1 tsp sesame oil.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Huge oil volume for fry — deep pot/wok.
+- Page says ~1 hr 5 min total.
+
+**Tools** (hide)
+- wok, pot, bowl, thermometer.
+
+Taste 8 · Nutrition 2 · Unique 4
+17.5M views. Panda Express orange chicken at home.
+
+No peanuts. Legume: soy sauce.
+
+---
+
+## 457. Rolled Chicken Parma
+Tasty · about 1 hr 40 min · serves 4
+https://youtu.be/ZTU2IZxOv98
+https://tasty.co/recipe/crispy-rolled-chicken-parma
+
+**Remember**
+- Butterfly, pound, ham + mozzarella roll; chill 30 min wrapped.
+- Dredge flour → egg → panko/parm/oregano; fry 325°F; finish broil with sauce + fresh mozzarella.
+- Page lists ham (not prosciutto) in the ingredient block.
+
+**Do**
+1. Sauce: medium sauté 2 Tbsp olive oil, 3 garlic sliced, 1/2 tsp chili flake 2–3 min; 28 oz crushed tomato; salt/pepper; 1/4 cup basil; simmer 10 min.
+2. Butterfly 4 breasts; pound 1/4 inch; salt/pepper. Layer 4 half-slices ham + 4 half-slices mozzarella each; roll; wrap plastic; chill 30 min. Mix 1 cup panko + 1/2 cup parm + 2 tsp oregano; dredge flour → 4 beaten eggs → crumbs.
+3. Fry oil 325°F / 170°C ~5 min/side to gold; oven 325°F if center <165°F. Ovenproof dish: sauce on rolls; fresh mozzarella slices; broil center 8–10 min; basil; reserved sauce.
+
+**Watch**
+- Title says Parma; Tasty ingredients say ham halves — follow the page list.
+- Big oil fry — thermometer helps.
+- No peanut/legume flags in this card.
+
+**Tools** (hide)
+- skillet / pan, pot, oven, baking pan / tin, thermometer.
+
+Taste 8 · Nutrition 4 · Unique 6
+427k views. Crispy rolled chicken parm bake-finish.
+
+No peanuts. No legumes.
+
+---
+
+## 458. Personal Protein Pot
+Tasty · about 45 min · serves 1
+https://youtu.be/cpdEt4bjvkU
+https://tasty.co/recipe/personal-protein-pot
+
+**Remember**
+- One saucepan: sauce, chicken, quinoa, steamer basket veg + egg.
+- Soy in the garlic-ginger sauce — required legume.
+- Snap peas are legumes.
+
+**Do**
+1. Whisk 2 garlic, 1 Tbsp ginger, 1 Tbsp sesame oil, 1 Tbsp honey, 1/4 cup soy. Coat chicken breast with ~2 Tbsp sauce; reserve rest. Medium nonstick saucepan: cook chicken ~10 min to 165°F; rest 5 min; slice.
+2. Same pot: 1/2 cup rinsed quinoa + 1.5 cups chicken stock; boil then low. Metal strainer over quinoa: carrot, snap peas, red cabbage, bell pepper, broccoli, egg; salt; cover 20 min.
+3. Fluff quinoa; peel/halve egg; arrange chicken + veg + avocado; reserved sauce; scallion + sesame seeds.
+
+**Watch**
+- Soy sauce required — soy/legume.
+- Snap peas required — legume.
+- Strainer steaming is the trick — need a fitting steamer/strainer.
+
+**Tools** (hide)
+- saucepan, strainer, bowl.
+
+Taste 7 · Nutrition 8 · Unique 6
+287k views. One-pot protein bowl with steamer lid trick.
+
+No peanuts. Legume: peas, soy sauce.
+
+---
+
+## 459. 6 Keto-Friendly Meals
+Tasty · about 4 min video · compilation
+https://youtu.be/eTUU8TU8GdY
+https://tasty.co/compilation/6-keto-friendly-meals
+
+**Remember**
+- Six keto meal ideas in one short montage.
+- Desc only links the compilation; page had no measurable recipes here.
+- No subs available for this video.
+
+**Do**
+1. Compilation teaser (blurb mentions beef/veg stir-fry and baked avocado eggs among others).
+2. Do not invent the six recipes from memory.
+3. Open individual Tasty recipe pages if you need full cards later.
+
+**Watch**
+- Allergy incomplete across six unknown builds.
+- Borrowing other keto creators’ macros.
+- Treating the montage as one dish.
+
+Taste — · Nutrition — · Unique 3
+4.5M views. Keto compilation without printable steps here.
+
+No peanuts. No legumes.
+
+---
+
+## 460. Broccoli Cheddar Soup
+Tasty · about 45 min · serves 4–6
+https://youtu.be/z8t91mzdeb4
+https://tasty.co/recipe/one-pot-broccoli-cheddar-soup
+
+**Remember**
+- Butter + onion, then flour roux, then dairy/stock.
+- Broccoli + carrot simmer 10–15 min before cheese.
+- Cheese last — melt off a hard boil.
+
+**Do**
+1. Chop 2 heads broccoli florets. Pot: 1/4 cup butter + 1/2 onion until translucent. Stir 1/4 cup flour medium until lightly brown.
+2. Stir in 2 cups half-and-half to simmer; add 2 cups veggie or chicken stock; simmer low 5–10 min.
+3. Add broccoli, 1/2 cup shredded carrot, 2 tsp salt, 1 tsp pepper, 1/4 tsp nutmeg; simmer low 10–15 min. Stir in 2 cups / 8 oz cheddar until melted.
+
+**Watch**
+- Desc says serves 4–6; page header says 4 — batch is flexible.
+- Pre-shredded cheddar can go grainy — block better.
+- No peanut/legume in this soup.
+
+**Tools** (hide)
+- pot, knife, whisk.
+
+Taste 8 · Nutrition 5 · Unique 3
+1.7M views. One-pot broccoli cheddar comfort.
+
+No peanuts. No legumes.
+
+---
+
 ## Queue (next)
-Next card is 375. Unavailable still 9, 11, 22, 28, 32.
+Playlist complete through card 460. Unavailable still 9, 11, 22, 28, 32.
