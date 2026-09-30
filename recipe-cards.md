@@ -10075,7 +10075,7 @@ No peanuts. Legume: soy sauce.
 
 ---
 ## 337. Chicken Salad | Yan Can Cook | KQED
-**SET ASIDE — not a recipe.** Yan Can Cook S4E25 “Dreamy Salads” compilation.
+Yan Can Cook S4E25 “Dreamy Salads” compilation.
 
 KQED · about 24 min episode · serves unknown
 https://youtu.be/MgVNFzqLs9U

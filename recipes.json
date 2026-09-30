@@ -42269,7 +42269,7 @@
           "name": "long beans",
           "variant": "or green beans; optional crunch",
           "required": false,
-          "legume": false,
+          "legume": true,
           "peanut": false
         },
         {
@@ -42356,7 +42356,9 @@
         "legumes_required": [
           "soy sauce"
         ],
-        "legumes_optional": [],
+        "legumes_optional": [
+          "long beans"
+        ],
         "incomplete": false
       }
     },
@@ -44050,7 +44052,7 @@
           "name": "long beans",
           "variant": "string beans 10 pods",
           "required": true,
-          "legume": false,
+          "legume": true,
           "peanut": false
         },
         {
@@ -44100,7 +44102,9 @@
       "allergy": {
         "peanut_required": false,
         "peanut_optional": false,
-        "legumes_required": [],
+        "legumes_required": [
+          "long beans"
+        ],
         "legumes_optional": [],
         "incomplete": false
       }
@@ -47634,7 +47638,7 @@
       },
       "reaction": "10.7k views. Classic PBS salad montage, not a single card.",
       "thin": true,
-      "not_recipe": true,
+      "not_recipe": false,
       "ingredients": [],
       "tools": [],
       "allergy": {
@@ -51316,7 +51320,7 @@
           "name": "bean sprouts",
           "variant": "4 oz + garnish",
           "required": true,
-          "legume": false,
+          "legume": true,
           "peanut": false
         },
         {
@@ -51401,6 +51405,7 @@
         "peanut_required": false,
         "peanut_optional": true,
         "legumes_required": [
+          "bean sprouts",
           "tofu"
         ],
         "legumes_optional": [],
@@ -51853,7 +51858,7 @@
           "name": "long beans",
           "variant": "or green beans/snap beans, 400 g",
           "required": true,
-          "legume": false,
+          "legume": true,
           "peanut": false
         },
         {
@@ -51938,6 +51943,7 @@
         "peanut_required": false,
         "peanut_optional": false,
         "legumes_required": [
+          "long beans",
           "soy sauce"
         ],
         "legumes_optional": [],
@@ -77366,7 +77372,7 @@
         }
       ],
       "recipes_optional": [],
-      "legume": false,
+      "legume": true,
       "peanut": false,
       "category": "Legumes",
       "count": 2
