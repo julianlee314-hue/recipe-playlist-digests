@@ -529,7 +529,7 @@ def build_html(data: dict) -> str:
 
 <nav class="toc">
 <h2>Table of contents</h2>
-<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#recipes-part">Recipes</a> · <a href="#not-recipes">Tutorials</a> · <a href="#ingredients">Ingredient glossary</a> · <a href="#tools-db">All tools</a></p>
+<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#recipes-part">Recipes</a> · <a href="#not-recipes">Tutorials</a> · <a href="#ingredients">Ingredient glossary</a> · <a href="#tools-db">Tool Glossary</a></p>
 <ul class="toc-list">{toc}</ul>
 </nav>
 
@@ -591,7 +591,7 @@ def build_html(data: dict) -> str:
 </div>
 
 <section class="part" id="tools-db">
-<h2>All tools</h2>
+<h2>Tool Glossary</h2>
 <p>Every tool named on the cards, with counts.</p>
 </section>
 <div class="ency-tools-db" id="tools-db-body">
