@@ -242,6 +242,15 @@ def score_line(scores: dict) -> str:
     return f"Taste {fmt('taste')} · Nutrition {fmt('nutrition')} · Unique {fmt('unique')}"
 
 
+
+_STEP_PREFIX = re.compile(r"^\s*\d+[\.\)\:]\s+")
+
+
+def strip_step_prefix(s: str) -> str:
+    """Drop a redundant leading list marker if Do prose already includes one."""
+    return _STEP_PREFIX.sub("", s, count=1)
+
+
 def allergy_flags(r: dict) -> str:
     a = r["allergy"]
     bits = []
@@ -285,7 +294,7 @@ def render_recipe(r: dict) -> str:
     thin_badge = '<span class="thin-badge">THIN CARD</span>' if r["thin"] else ""
     extras = "".join(f'<p class="extra">{E(x)}</p>' for x in r.get("extras") or [])
     remember = "".join(f"<li>{E(x)}</li>" for x in r["remember"])
-    do = "".join(f"<li>{E(x)}</li>" for x in r["do"])
+    do = "".join(f"<li>{E(strip_step_prefix(x))}</li>" for x in r["do"])
     watch = "".join(f"<li>{E(x)}</li>" for x in r["watch"])
     tool_lis = "".join(f"<li>{E(t['name'])}</li>" for t in r["tools"])
     tools_block = ""
@@ -413,9 +422,10 @@ def build_html(data: dict) -> str:
     n = data["recipe_count"]
 
     toc = "".join(
-        f'<li><a href="#{E(r["id"])}">{r["num"]}. {E(r["title"])}'
+        f'<li><a href="#{E(r["id"])}"><span class="toc-num">{r["num"]}</span>'
+        f'<span class="toc-title">{E(r["title"])}'
         + (" <em>(thin)</em>" if r["thin"] else "")
-        + "</a></li>"
+        + "</span></a></li>"
         for r in recipes
     )
 
@@ -484,58 +494,60 @@ def build_html(data: dict) -> str:
 <body>
 <div class="wrap" id="top">
 <header class="cover">
-<svg class="mono" viewBox="0 0 120 120" aria-hidden="true" width="72" height="72">
-<circle cx="60" cy="60" r="56" fill="#0f3f38"/>
-<circle cx="60" cy="60" r="50" fill="none" stroke="#c9a227" stroke-width="3"/>
-<text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#fbf3e6" font-weight="700">JL</text>
+<svg class="hero-cook" viewBox="0 0 120 120" aria-hidden="true" width="108" height="108">
+  <circle cx="60" cy="60" r="56" fill="#0f3f38"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#c9a227" stroke-width="3"/>
+  <ellipse cx="60" cy="98" rx="18" ry="5" fill="#1a2a28" opacity=".45"/>
+  <g class="hc-flame">
+    <path d="M46 96 C48 84 54 76 60 68 C66 76 72 84 74 96 Z" fill="#e87a20"/>
+    <path d="M53 96 C55 88 58 82 60 76 C62 82 65 88 67 96 Z" fill="#f5d060"/>
+  </g>
+  <g class="hc-pot">
+    <path d="M34 54 Q24 54 24 60 Q24 66 34 66" fill="none" stroke="#c9a227" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M86 54 Q96 54 96 60 Q96 66 86 66" fill="none" stroke="#c9a227" stroke-width="3.2" stroke-linecap="round"/>
+    <rect x="36" y="50" width="48" height="34" rx="6" fill="#1f7a6a" stroke="#c9a227" stroke-width="2"/>
+    <rect x="32" y="46" width="56" height="9" rx="3.5" fill="#0f3f38" stroke="#c9a227" stroke-width="1.8"/>
+    <ellipse cx="60" cy="50" rx="20" ry="4" fill="#2a9a86" opacity=".55"/>
+  </g>
+  <g class="hc-steam" fill="none" stroke="#fbf3e6" stroke-width="2.4" stroke-linecap="round">
+    <path class="hc-s1" d="M48 42 C46 34 50 28 48 22"/>
+    <path class="hc-s2" d="M60 40 C58 32 62 26 60 18"/>
+    <path class="hc-s3" d="M72 42 C70 34 74 28 72 22"/>
+  </g>
+  <circle class="hc-bubble hc-b1" cx="50" cy="62" r="2.2" fill="#fbf3e6" opacity=".55"/>
+  <circle class="hc-bubble hc-b2" cx="66" cy="58" r="1.7" fill="#fbf3e6" opacity=".45"/>
+  <circle class="hc-bubble hc-b3" cx="58" cy="68" r="1.4" fill="#fbf3e6" opacity=".4"/>
 </svg>
 <div class="badge">Playlist Digests · Cards 1–{n_total}</div>
 <h1>YouTube Recipes</h1>
 <p class="sub">Searchable ingredients &amp; tools · peanut-aware · printed-cookbook warm</p>
 <div class="sermon">
-<p>Station map first: tools, then pantry. Every card keeps Remember / Do / Watch,
-taste scores, and a reaction line. Tools stay in the DOM but collapse by default.
-Peanuts are never marked required. Soy sauce counts as soy (legume flag).
-Tutorials and non-recipes are set aside below the recipe cards for review.</p>
+<p>Every card keeps Remember / Do / Watch, taste scores, and a reaction line. Peanuts are never required; soy sauce counts as soy. Tutorials follow the recipes; the full tools glossary is at the back.</p>
 </div>
 <p class="legal">YouTube Recipes playlist cards — searchable ingredients and tools. · {n_recipes} recipes · {n_aside} set aside · {n_ing} ingredients · {n_tool} tools</p>
 </header>
 
 <nav class="toc">
 <h2>Table of contents</h2>
-<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#tools-db">All tools</a> · <a href="#recipes-part">Recipes</a> · <a href="#not-recipes">Tutorials &amp; other</a> · <a href="#ingredients">Ingredient glossary</a></p>
-<ol>{toc}</ol>
+<p class="toc-jumps"><a href="#equipment">Tools &amp; pantry</a> · <a href="#recipes-part">Recipes</a> · <a href="#not-recipes">Tutorials</a> · <a href="#ingredients">Ingredient glossary</a> · <a href="#tools-db">All tools</a></p>
+<ul class="toc-list">{toc}</ul>
 </nav>
 
 <section class="part" id="equipment">
-<h2>Part 0a — Station Map</h2>
-<p>Full station map — tools first, then the pantry heroes that show up again and again.</p>
+<h2>Tools &amp; pantry</h2>
+<p>Frequent tools and pantry heroes from the playlist cards.</p>
 </section>
 <div class="ency-equip" id="equipment-body">
-<p class="ency-intro">No fake food photos. Monogram marks the book; encyclopedia cards track gear and staples from the playlist cards.</p>
+<p class="ency-intro">No fake food photos. Encyclopedia cards track gear and staples from the playlist cards.</p>
 <h3 class="ency-sub">Equipment</h3>
 <div class="ency-grid">{ency_equip}</div>
 <h3 class="ency-sub">Pantry Heroes</h3>
 <div class="ency-grid">{ency_pantry}</div>
 </div>
 
-<section class="part" id="tools-db">
-<h2>Part 0b — Tools</h2>
-<p>Every tool named on the cards, with counts.</p>
-</section>
-<div class="ency-tools-db" id="tools-db-body">
-<p class="ency-intro">Filter recipes by gear you have — or skip recipes that need a smoker, Creami, or Instant Pot.</p>
-<div class="ing-controls">
-<input type="search" placeholder="Search tools…" data-ing-search aria-label="Search tools"/>
-<div class="ing-chips"><button type="button" class="ing-chip active" data-ing-chip="all">All</button></div>
-</div>
-<div class="ing-stats"><span data-ing-count>{n_tool} tools shown</span></div>
-<div class="ing-db">{tool_cards}</div>
-</div>
-
 <section class="part" id="recipes-part">
-<h2>Part 1 — Recipe Cards</h2>
-<p>Thin cards stay visible and labeled. Quantities are never invented. {n_recipes} cooking recipes below ({n_aside} tutorials and non-recipes are set aside).</p>
+<h2>Recipes</h2>
+<p>Thin cards stay visible and labeled. Quantities are never invented. {n_recipes} cooking recipes ({n_aside} tutorials set aside after this section).</p>
 </section>
 
 <div class="filter-bar" id="recipe-filter">
@@ -557,16 +569,16 @@ Tutorials and non-recipes are set aside below the recipe cards for review.</p>
 {recipes_html}
 
 <section class="part" id="not-recipes">
-<h2>Tutorials &amp; other</h2>
-<p>Not cooking recipes — kept on the page with their card numbers for review. They do not count in recipe search.</p>
+<h2>Tutorials</h2>
+<p>Not cooking recipes — kept with their original card numbers for review. They do not count in recipe search.</p>
 </section>
 <div class="not-recipes-body" id="not-recipes-body">
 {not_recipes_html}
 </div>
 
 <section class="part" id="ingredients">
-<h2>Glossary — Ingredients</h2>
-<p>Every ingredient, at the back of the book. Counts, required versus optional, and the recipes that use each one.</p>
+<h2>Ingredient glossary</h2>
+<p>Every ingredient. Counts, required versus optional, and the recipes that use each one.</p>
 </section>
 <div class="ency-ings" id="ingredients-body">
 <p class="ency-intro">One entry per ingredient. Salted butter folds under butter; light soy under soy sauce. The number is how many cards use it.</p>
@@ -578,6 +590,20 @@ Tutorials and non-recipes are set aside below the recipe cards for review.</p>
 <div class="ing-db">{ing_cards}</div>
 </div>
 
+<section class="part" id="tools-db">
+<h2>All tools</h2>
+<p>Every tool named on the cards, with counts.</p>
+</section>
+<div class="ency-tools-db" id="tools-db-body">
+<p class="ency-intro">Filter recipes by gear you have — or skip recipes that need a smoker, Creami, or Instant Pot.</p>
+<div class="ing-controls">
+<input type="search" placeholder="Search tools…" data-ing-search aria-label="Search tools"/>
+<div class="ing-chips"><button type="button" class="ing-chip active" data-ing-chip="all">All</button></div>
+</div>
+<div class="ing-stats"><span data-ing-count>{n_tool} tools shown</span></div>
+<div class="ing-db">{tool_cards}</div>
+</div>
+
 </div>
 <script>
 {js}
@@ -585,7 +611,6 @@ Tutorials and non-recipes are set aside below the recipe cards for review.</p>
 </body>
 </html>
 """
-
 
 
 def main():
